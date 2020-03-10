@@ -1,0 +1,154 @@
+@mixin navbar() {
+    .navbar {
+        @include navbar-theme($color-light, $color-dark);
+        &.navbar-light {
+            @include navbar-theme($color-light, $color-dark);
+        }
+
+        &.navbar-dark {
+            @include navbar-theme($color-dark, $color-light);
+        }
+    }
+}
+
+@mixin navbar-side() {
+    .navbar-side {
+        @include navbar-side-theme($color-light, $color-light-highlight, $color-dark, $color-dark-highlight , #00cec9);
+        &.navbar-side-light {
+            @include navbar-side-theme($color-light, $color-light-highlight, $color-dark, $color-dark-highlight, #00cec9);
+        }
+        &.navbar-side-dark {
+            @include navbar-side-theme($color-dark, $color-dark-highlight, $color-light, $color-light-highlight, #00cec9);
+        }
+    }
+}
+
+@mixin navbar-theme($background-color, $color) {
+    background-color: $background-color;
+    .navbar-header {
+        a {
+            text-decoration: none;
+
+            h1 {
+                color: $color;
+
+                span {
+                    color: #00cec9;
+                }
+            }
+        }
+    }
+}
+
+@mixin navbar-side-theme($background-color, $background-color-highlight, $color, $color-highlight, $label-color) {
+    background-color: $background-color;
+    overflow-y: scroll;
+    padding: .5rem 0;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    ul {
+        &.horizontal {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: $background-color;
+
+            li {
+                position: relative;
+
+                &.label {
+                    background-color: $background-color;
+                    margin: 15px 0px 10px 0px;
+                    color: $label-color;
+                    font-size: 0.7rem;
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    padding-left: 1rem;
+                }
+
+                a {
+                    display: block;
+                    text-decoration: none;
+                    color: $color;
+                    text-align: left;
+                    position: relative;
+                    margin-block-start: 0px !important;
+                    margin-block-end: 0px !important;
+
+                    p {
+                        display: block;
+                        font-size: 0.9rem;
+                        padding: 15px 0px 15px 2rem;
+                        margin-block-start: 0em !important;
+                        margin-block-end: 0em !important;
+                        transition: all 0.2s ease-in-out;
+                    }
+                }
+
+                &:hover > a p {
+                    background-color: $background-color-highlight;
+                    color: $color-highlight;
+                    transition: all 0.3s ease-in-out;
+                }
+
+                & a.active {
+                    p {
+                        background-color: $background-color-highlight;
+                    }
+                }
+            }
+
+            li ul,
+            li ul li ul {
+                position: relative;
+                height: auto;
+                min-width: 200px;
+                padding: 0;
+                margin: 0;
+                background-color: $background-color;
+                display: none;
+                z-index: 1000;
+                list-style: none;
+
+                a {
+                    p {
+                        padding-left: 3rem;
+                    }
+                }
+            }
+
+            li:hover > ul,
+            li ul li:hover > ul {
+                display: block;
+                display: block;
+            }
+        }
+
+        &.vertical {
+
+        }
+    }
+}
+
+
+@keyframes moveFromLeft {
+    from {
+        opacity: 0;
+        -webkit-transform: translateX(200%);
+        -moz-transform: translateX(200%);
+        -ms-transform: translateX(200%);
+        -o-transform: translateX(200%);
+        transform: translateX(200%);
+    }
+    to {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+}
