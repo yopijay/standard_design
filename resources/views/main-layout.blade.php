@@ -27,31 +27,43 @@
             <div class= "row mx-0">
                 <div class= "col-md-3 vw-100 vh-100 px-0">
                     <div class= "navbar-side navbar-side-dark h-75 w-75 border rounded my-5 mx-5 shadow-sm">
-                        <ul class= "horizontal">
+                        <ul>
                             <li class= "label"><p>Menu</p></li>
-                            <li><a href= "#" class= "active"><p>Dashboard</p></a></li>
+                            <li><a href= "#" class= "navbar-link" content= "dashboard-page"><p>Dashboard</p></a></li>
                             <li class= "label"><p>Themes</p></li>
-                            <li><a href= "#"><p>Colors</p></a></li>
-                            <li><a href= "#"><p>Typography</p></a></li>
+                            <li><a href= "#" class= "navbar-link" content= "colors-page"><p>Colors</p></a></li>
+                            <li><a href= "#" class= "navbar-link" content= "typography-page"><p>Typography</p></a></li>
                             <li class= "label"><p>Components</p></li>
-                            <li class= "list">
-                                <a href= "#"><p>Buttons</p></a>
+                            <li><a href= "#" class= "navbar-link" content= "buttons-page"><p>Buttons</p></a></li>
+                            <li><a href= "#" class= "navbar-link" content= "cards-page"><p>Cards</p></a></li>
+                            <li><a href= "#" class= "navbar-link" content= "toasters-page"><p>Toasters</p></a></li>
+                            <li><a href= "#" class= "navbar-link" content= "toggles-page"><p>Switch Toggles</p></a></li>
+                            <!-- <li class= "list">
+                                <a href= "#"><p>Buttons <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li><a href= "#"><p>Normal Button</p></a></li>
-                                    <li><a href= "#"><p>Rounded Button</p></a></li>
-                                    <li><a href= "#"><p>Icon Button</p></a></li>
+                                    <li><a href= "#" class= "navbar-link" content= "normal-button-page"><p>Normal Button</p></a></li>
+                                    <li><a href= "#" class= "navbar-link" content= "rounded-button-page"><p>Rounded Button</p></a></li>
+                                    <li><a href= "#" class= "navbar-link" content= "icon-button-page"><p>Icon Button</p></a></li>
                                 </ul>
                             </li>
+                            <li class= "list">
+                                <a href= "#"><p>Cards <i class="fas fa-caret-right"></i></p></a>
+                                <ul class= "items">
+                                    <li><a href= "#" class= "navbar-link" content= "normal-button-page"><p>Outline Card</p></a></li>
+                                    <li><a href= "#" class= "navbar-link" content= "rounded-button-page"><p>Rounded Button</p></a></li>
+                                    <li><a href= "#" class= "navbar-link" content= "icon-button-page"><p>Icon Button</p></a></li>
+                                </ul>
+                            </li> -->
                             <li class= "label"><p>Pages</p></li>
-                            <li><a href= "#"><p>Login Page</p></a></li>
-                            <li><a href= "#"><p>404 Page</p></a></li>
+                            <li><a href= "#" class= "navbar-link" content= "login-page"><p>Login Page</p></a></li>
+                            <li><a href= "#" class= "navbar-link" content= "404-page"><p>404 Page</p></a></li>
                         </ul>
                     </div>
                 </div>
                 <div class= "col-md-9">
-                    <div class= "p-5 my-5 mr-4 border rounded shadow-sm">
-
-                    </div>
+                    @include('layout.dashboard')
+                    @include('layout.color')
+                    @include('layout.card')
                 </div>
             </div>
         </div>

@@ -1,0 +1,29 @@
+@mixin card-default() {
+    .card {
+        &-body {
+            color: $color-dark;
+            padding: .9rem;
+            font-size: .8rem;
+
+            .card-title {
+                text-transform: uppercase;
+                font-size: 1rem;
+                font-family: 'Cocogoose';
+            }
+
+            .card-subtitle {
+                margin-top: -10px;
+            }
+
+            .card-text {
+                margin: 0 0 1.5rem 0;
+            }
+        }
+
+        &-header {
+            text-transform: uppercase;
+            font-size: 1.1rem;
+            font-family: 'Cocogoose';
+        }
+    }
+}

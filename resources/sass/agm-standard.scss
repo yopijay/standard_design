@@ -1,8 +1,9 @@
 // IMPORTS
 @import 'colors';
 @import 'fonts';
-@import 'texts';
 @import 'navbar';
+@import 'texts';
+@import 'card';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -16,7 +17,8 @@ body.agm-standard {
         display: none;
     }
 
-    @include header-text;
     @include navbar;
     @include navbar-side;
+    @include text-default;
+    @include card-default;
 }

@@ -10926,35 +10926,6 @@ body.agm-standard::-webkit-scrollbar {
   display: none;
 }
 
-body.agm-standard h1,
-body.agm-standard h2,
-body.agm-standard h3,
-body.agm-standard h4,
-body.agm-standard h5 {
-  font-family: "Cocogoose";
-  color: #353b48;
-}
-
-body.agm-standard h1 {
-  font-size: 2rem;
-}
-
-body.agm-standard h2 {
-  font-size: 1.8rem;
-}
-
-body.agm-standard h3 {
-  font-size: 1.6rem;
-}
-
-body.agm-standard h4 {
-  font-size: 1.4rem;
-}
-
-body.agm-standard h5 {
-  font-size: 1.2rem;
-}
-
 body.agm-standard .navbar {
   background-color: #f5f6fa;
 }
@@ -11013,18 +10984,18 @@ body.agm-standard .navbar-side::-webkit-scrollbar {
   display: none;
 }
 
-body.agm-standard .navbar-side ul.horizontal {
+body.agm-standard .navbar-side ul {
   list-style: none;
   padding: 0;
   margin: 0;
   background-color: #f5f6fa;
 }
 
-body.agm-standard .navbar-side ul.horizontal li {
+body.agm-standard .navbar-side ul li {
   position: relative;
 }
 
-body.agm-standard .navbar-side ul.horizontal li.label {
+body.agm-standard .navbar-side ul li.label {
   background-color: #f5f6fa;
   margin: 15px 0px 10px 0px;
   color: #00cec9;
@@ -11034,7 +11005,7 @@ body.agm-standard .navbar-side ul.horizontal li.label {
   padding-left: 1rem;
 }
 
-body.agm-standard .navbar-side ul.horizontal li a {
+body.agm-standard .navbar-side ul li a {
   display: block;
   text-decoration: none;
   color: #353b48;
@@ -11046,9 +11017,9 @@ body.agm-standard .navbar-side ul.horizontal li a {
           margin-block-end: 0px !important;
 }
 
-body.agm-standard .navbar-side ul.horizontal li a p {
+body.agm-standard .navbar-side ul li a p {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 15px 0px 15px 2rem;
   -webkit-margin-before: 0em !important;
           margin-block-start: 0em !important;
@@ -11057,18 +11028,43 @@ body.agm-standard .navbar-side ul.horizontal li a p {
   transition: all 0.2s ease-in-out;
 }
 
-body.agm-standard .navbar-side ul.horizontal li:hover > a p {
+body.agm-standard .navbar-side ul li a p i {
+  float: right;
+  margin: 0.3rem 1.5rem 0 0;
+  color: #353b48;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side ul li:hover > a p {
   background-color: #dcdde1;
   color: #2f3640;
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side ul.horizontal li a.active p {
+body.agm-standard .navbar-side ul li.active {
   background-color: #dcdde1;
 }
 
-body.agm-standard .navbar-side ul.horizontal li ul,
-body.agm-standard .navbar-side ul.horizontal li ul li ul {
+body.agm-standard .navbar-side ul li.active a p {
+  color: #353b48;
+}
+
+body.agm-standard .navbar-side ul li.active a p i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side ul li.active > .items {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side ul li.active > .items li {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side ul li ul {
   position: relative;
   height: auto;
   min-width: 200px;
@@ -11076,19 +11072,29 @@ body.agm-standard .navbar-side ul.horizontal li ul li ul {
   margin: 0;
   background-color: #f5f6fa;
   display: none;
-  z-index: 1000;
   list-style: none;
+  transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side ul.horizontal li ul a p,
-body.agm-standard .navbar-side ul.horizontal li ul li ul a p {
+body.agm-standard .navbar-side ul li ul a p {
   padding-left: 3rem;
+  background-color: #f5f6fa;
 }
 
-body.agm-standard .navbar-side ul.horizontal li:hover > ul,
-body.agm-standard .navbar-side ul.horizontal li ul li:hover > ul {
-  display: block;
-  display: block;
+body.agm-standard .navbar-side ul li ul li ul {
+  position: relative;
+  height: auto;
+  min-width: 200px;
+  padding: 0;
+  margin: 0;
+  background-color: #f5f6fa;
+  display: none;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side ul li ul li ul a p {
+  padding-left: 5rem;
 }
 
 body.agm-standard .navbar-side.navbar-side-light {
@@ -11101,18 +11107,18 @@ body.agm-standard .navbar-side.navbar-side-light::-webkit-scrollbar {
   display: none;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal {
+body.agm-standard .navbar-side.navbar-side-light ul {
   list-style: none;
   padding: 0;
   margin: 0;
   background-color: #f5f6fa;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li {
+body.agm-standard .navbar-side.navbar-side-light ul li {
   position: relative;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li.label {
+body.agm-standard .navbar-side.navbar-side-light ul li.label {
   background-color: #f5f6fa;
   margin: 15px 0px 10px 0px;
   color: #00cec9;
@@ -11122,7 +11128,7 @@ body.agm-standard .navbar-side.navbar-side-light ul.horizontal li.label {
   padding-left: 1rem;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li a {
+body.agm-standard .navbar-side.navbar-side-light ul li a {
   display: block;
   text-decoration: none;
   color: #353b48;
@@ -11134,9 +11140,9 @@ body.agm-standard .navbar-side.navbar-side-light ul.horizontal li a {
           margin-block-end: 0px !important;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li a p {
+body.agm-standard .navbar-side.navbar-side-light ul li a p {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 15px 0px 15px 2rem;
   -webkit-margin-before: 0em !important;
           margin-block-start: 0em !important;
@@ -11145,18 +11151,43 @@ body.agm-standard .navbar-side.navbar-side-light ul.horizontal li a p {
   transition: all 0.2s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li:hover > a p {
+body.agm-standard .navbar-side.navbar-side-light ul li a p i {
+  float: right;
+  margin: 0.3rem 1.5rem 0 0;
+  color: #353b48;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li:hover > a p {
   background-color: #dcdde1;
   color: #2f3640;
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li a.active p {
+body.agm-standard .navbar-side.navbar-side-light ul li.active {
   background-color: #dcdde1;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li ul,
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li ul li ul {
+body.agm-standard .navbar-side.navbar-side-light ul li.active a p {
+  color: #353b48;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li.active a p i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li.active > .items {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li.active > .items li {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li ul {
   position: relative;
   height: auto;
   min-width: 200px;
@@ -11164,19 +11195,29 @@ body.agm-standard .navbar-side.navbar-side-light ul.horizontal li ul li ul {
   margin: 0;
   background-color: #f5f6fa;
   display: none;
-  z-index: 1000;
   list-style: none;
+  transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li ul a p,
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li ul li ul a p {
+body.agm-standard .navbar-side.navbar-side-light ul li ul a p {
   padding-left: 3rem;
+  background-color: #f5f6fa;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li:hover > ul,
-body.agm-standard .navbar-side.navbar-side-light ul.horizontal li ul li:hover > ul {
-  display: block;
-  display: block;
+body.agm-standard .navbar-side.navbar-side-light ul li ul li ul {
+  position: relative;
+  height: auto;
+  min-width: 200px;
+  padding: 0;
+  margin: 0;
+  background-color: #f5f6fa;
+  display: none;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li ul li ul a p {
+  padding-left: 5rem;
 }
 
 body.agm-standard .navbar-side.navbar-side-dark {
@@ -11189,18 +11230,18 @@ body.agm-standard .navbar-side.navbar-side-dark::-webkit-scrollbar {
   display: none;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal {
+body.agm-standard .navbar-side.navbar-side-dark ul {
   list-style: none;
   padding: 0;
   margin: 0;
   background-color: #353b48;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li {
+body.agm-standard .navbar-side.navbar-side-dark ul li {
   position: relative;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li.label {
+body.agm-standard .navbar-side.navbar-side-dark ul li.label {
   background-color: #353b48;
   margin: 15px 0px 10px 0px;
   color: #00cec9;
@@ -11210,7 +11251,7 @@ body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li.label {
   padding-left: 1rem;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li a {
+body.agm-standard .navbar-side.navbar-side-dark ul li a {
   display: block;
   text-decoration: none;
   color: #f5f6fa;
@@ -11222,9 +11263,9 @@ body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li a {
           margin-block-end: 0px !important;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li a p {
+body.agm-standard .navbar-side.navbar-side-dark ul li a p {
   display: block;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   padding: 15px 0px 15px 2rem;
   -webkit-margin-before: 0em !important;
           margin-block-start: 0em !important;
@@ -11233,18 +11274,43 @@ body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li a p {
   transition: all 0.2s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li:hover > a p {
+body.agm-standard .navbar-side.navbar-side-dark ul li a p i {
+  float: right;
+  margin: 0.3rem 1.5rem 0 0;
+  color: #f5f6fa;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li:hover > a p {
   background-color: #2f3640;
   color: #dcdde1;
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li a.active p {
+body.agm-standard .navbar-side.navbar-side-dark ul li.active {
   background-color: #2f3640;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li ul,
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li ul li ul {
+body.agm-standard .navbar-side.navbar-side-dark ul li.active a p {
+  color: #f5f6fa;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li.active a p i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li.active > .items {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li.active > .items li {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li ul {
   position: relative;
   height: auto;
   min-width: 200px;
@@ -11252,18 +11318,87 @@ body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li ul li ul {
   margin: 0;
   background-color: #353b48;
   display: none;
-  z-index: 1000;
   list-style: none;
+  transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li ul a p,
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li ul li ul a p {
+body.agm-standard .navbar-side.navbar-side-dark ul li ul a p {
   padding-left: 3rem;
+  background-color: #353b48;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li:hover > ul,
-body.agm-standard .navbar-side.navbar-side-dark ul.horizontal li ul li:hover > ul {
-  display: block;
-  display: block;
+body.agm-standard .navbar-side.navbar-side-dark ul li ul li ul {
+  position: relative;
+  height: auto;
+  min-width: 200px;
+  padding: 0;
+  margin: 0;
+  background-color: #353b48;
+  display: none;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li ul li ul a p {
+  padding-left: 5rem;
+}
+
+body.agm-standard h1,
+body.agm-standard h2,
+body.agm-standard h3,
+body.agm-standard h4,
+body.agm-standard h5 {
+  font-family: "Cocogoose";
+  color: #353b48;
+}
+
+body.agm-standard h1 {
+  font-size: 2rem;
+}
+
+body.agm-standard h2 {
+  font-size: 1.8rem;
+}
+
+body.agm-standard h3 {
+  font-size: 1.6rem;
+}
+
+body.agm-standard h4 {
+  font-size: 1.4rem;
+}
+
+body.agm-standard h5 {
+  font-size: 1.2rem;
+}
+
+body.agm-standard p {
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card-body {
+  color: #353b48;
+  padding: 0.9rem;
+  font-size: 0.8rem;
+}
+
+body.agm-standard .card-body .card-title {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-family: "Cocogoose";
+}
+
+body.agm-standard .card-body .card-subtitle {
+  margin-top: -10px;
+}
+
+body.agm-standard .card-body .card-text {
+  margin: 0 0 1.5rem 0;
+}
+
+body.agm-standard .card-header {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-family: "Cocogoose";
 }
 

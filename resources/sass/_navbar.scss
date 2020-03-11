@@ -50,85 +50,115 @@
     }
 
     ul {
-        &.horizontal {
-            list-style: none;
-            padding: 0;
-            margin: 0;
-            background-color: $background-color;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background-color: $background-color;
 
-            li {
-                position: relative;
+        li {
+            position: relative;
 
-                &.label {
-                    background-color: $background-color;
-                    margin: 15px 0px 10px 0px;
-                    color: $label-color;
-                    font-size: 0.7rem;
-                    text-transform: uppercase;
-                    font-weight: bold;
-                    padding-left: 1rem;
-                }
-
-                a {
-                    display: block;
-                    text-decoration: none;
-                    color: $color;
-                    text-align: left;
-                    position: relative;
-                    margin-block-start: 0px !important;
-                    margin-block-end: 0px !important;
-
-                    p {
-                        display: block;
-                        font-size: 0.9rem;
-                        padding: 15px 0px 15px 2rem;
-                        margin-block-start: 0em !important;
-                        margin-block-end: 0em !important;
-                        transition: all 0.2s ease-in-out;
-                    }
-                }
-
-                &:hover > a p {
-                    background-color: $background-color-highlight;
-                    color: $color-highlight;
-                    transition: all 0.3s ease-in-out;
-                }
-
-                & a.active {
-                    p {
-                        background-color: $background-color-highlight;
-                    }
-                }
-            }
-
-            li ul,
-            li ul li ul {
-                position: relative;
-                height: auto;
-                min-width: 200px;
-                padding: 0;
-                margin: 0;
+            &.label {
                 background-color: $background-color;
-                display: none;
-                z-index: 1000;
-                list-style: none;
+                margin: 15px 0px 10px 0px;
+                color: $label-color;
+                font-size: 0.7rem;
+                text-transform: uppercase;
+                font-weight: bold;
+                padding-left: 1rem;
+            }
 
-                a {
-                    p {
-                        padding-left: 3rem;
+            a {
+                display: block;
+                text-decoration: none;
+                color: $color;
+                text-align: left;
+                position: relative;
+                margin-block-start: 0px !important;
+                margin-block-end: 0px !important;
+
+                p {
+                    display: block;
+                    font-size: 0.8rem;
+                    padding: 15px 0px 15px 2rem;
+                    margin-block-start: 0em !important;
+                    margin-block-end: 0em !important;
+                    transition: all 0.2s ease-in-out;
+
+                    i {
+                        float: right;
+                        margin: .3rem 1.5rem 0 0;
+                        color: $color;
+                        transition: all 0.3s ease-in-out;
                     }
                 }
             }
 
-            li:hover > ul,
-            li ul li:hover > ul {
-                display: block;
-                display: block;
+            &:hover > a p {
+                background-color: $background-color-highlight;
+                color: $color-highlight;
+                transition: all 0.3s ease-in-out;
+            }
+
+            &.active {
+                background-color: $background-color-highlight;
+
+                a p {
+                    color: $color;
+
+                    i {
+                        transform: rotate(90deg);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+
+                & > .items {
+                    display: block;
+                    transition: all 0.3s ease-in-out;
+
+                    li {
+                        display: block;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
             }
         }
 
-        &.vertical {
+        li ul {
+            position: relative;
+            height: auto;
+            min-width: 200px;
+            padding: 0;
+            margin: 0;
+            background-color: $background-color;
+            display: none;
+            list-style: none;
+            transition: all 0.3s ease-in-out;
 
+            a {
+                p {
+                    padding-left: 3rem;
+                    background-color: $background-color;
+                }
+            }
+        }
+
+        li ul li ul {
+            position: relative;
+            height: auto;
+            min-width: 200px;
+            padding: 0;
+            margin: 0;
+            background-color: $background-color;
+            display: none;
+            list-style: none;
+            transition: all 0.3s ease-in-out;
+
+            a {
+                p {
+                    padding-left: 5rem;
+                }
+            }
         }
     }
 }
