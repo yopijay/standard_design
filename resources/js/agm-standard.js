@@ -3,7 +3,7 @@ $(function() {
     let links = $('.navbar-side > ul >').find('.navbar-link');
     
     $('.content').css({display : 'none'});
-    $('#card-page').css({display : 'block'});
+    $('#color-page').css({display : 'block'});
 
     sidenavFunction(list, links);
 });

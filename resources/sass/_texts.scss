@@ -32,4 +32,16 @@
     p {
         font-size: .8rem;
     }
+
+    .blockquote {
+        font-size: .8rem;
+        color: $color-dark;
+
+        &-footer {
+            font-size: .7rem;
+            color: $color-dark-highlight;
+            font-style: italic;
+            font-weight: bold;
+        }
+    }
 }

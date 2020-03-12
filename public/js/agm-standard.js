@@ -99,7 +99,7 @@ $(function () {
   $('.content').css({
     display: 'none'
   });
-  $('#card-page').css({
+  $('#color-page').css({
     display: 'block'
   });
   sidenavFunction(list, links);
