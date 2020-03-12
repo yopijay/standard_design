@@ -1,31 +1,35 @@
 // Standard style for Texts
 @mixin text-default() {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5 {
+    @include text-theme;
+    
+    h1, h2, h3, h4, h5,
+    .h1, .h2, .h3, .h4, .h5 {
         font-family: 'Cocogoose';
         color: $color-dark;
     }
 
-    h1 {
+    h1,
+    .h1 {
         font-size: 2rem;
     }
 
-    h2 {
+    h2,
+    .h2 {
         font-size: 1.8rem;
     }
 
-    h3 {
+    h3,
+    .h3 {
         font-size: 1.6rem;
     }
 
-    h4 {
+    h4,
+    .h4 {
         font-size: 1.4rem;
     }
 
-    h5 {
+    h5,
+    .h5 {
         font-size: 1.2rem;
     }
 
@@ -43,5 +47,33 @@
             font-style: italic;
             font-weight: bold;
         }
+    }
+}
+
+// Text Themes
+@mixin text-theme() {
+    .text-primary {
+        color: $color-primary;
+    }
+    .text-secondary {
+        color: $color-secondary;
+    }
+    .text-success {
+        color: $color-success;
+    }
+    .text-warning {
+        color: $color-warning;
+    }
+    .text-danger {
+        color: $color-danger;
+    }
+    .text-info {
+        color: $color-info;
+    }
+    .text-light {
+        color: $color-light;
+    }
+    .text-dark {
+        color: $color-dark;
     }
 }

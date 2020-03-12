@@ -1,0 +1,243 @@
+@mixin button-default() {
+    .btn {
+
+        @include button-theme($color-light-highlight, $color-light-highlight, $color-dark, normal);
+        &.btn-primary {
+            @include button-theme($color-primary, $color-primary-highlight, $color-light, normal);
+        }
+        &.btn-secondary {
+            @include button-theme($color-secondary, $color-secondary-highlight, $color-light, normal);
+        }
+        &.btn-success {
+            @include button-theme($color-success, $color-success-highlight, $color-light, normal);
+        }
+        &.btn-warning {
+            @include button-theme($color-warning, $color-warning-highlight, $color-light, normal);
+        }
+        &.btn-danger {
+            @include button-theme($color-danger, $color-danger-highlight, $color-light, normal);
+        }
+        &.btn-info {
+            @include button-theme($color-info, $color-info-highlight, $color-light, normal);
+        }
+        &.btn-light {
+            @include button-theme($color-light-highlight, $color-light-highlight, $color-dark, normal);
+        }
+        &.btn-dark {
+            @include button-theme($color-dark, $color-dark-highlight, $color-light, normal);
+        }
+
+        // Oulined Buttons
+        &.btn-outline {
+            @include button-theme(#FFFFFF, $color-dark-highlight, $color-light, outline);
+        }
+        &.btn-light-outline {
+            @include button-theme(#FFFFFF, $color-light-highlight, $color-dark, outline);
+        }
+        &.btn-primary-outline {
+            @include button-theme(#FFFFFF, $color-primary-highlight, $color-light, outline);
+        }
+        &.btn-secondary-outline {
+            @include button-theme(#FFFFFF, $color-secondary-highlight, $color-light, outline);
+        }
+        &.btn-success-outline {
+            @include button-theme(#FFFFFF, $color-success-highlight, $color-light, outline);
+        }
+        &.btn-warning-outline {
+            @include button-theme(#FFFFFF, $color-warning-highlight, $color-light, outline);
+        }
+        &.btn-danger-outline {
+            @include button-theme(#FFFFFF, $color-danger-highlight, $color-light, outline);
+        }
+        &.btn-info-outline {
+            @include button-theme(#FFFFFF, $color-info-highlight, $color-light, outline);
+        }
+        &.btn-dark-outline {
+            @include button-theme(#FFFFFF, $color-dark-highlight, $color-light, outline);
+        }
+
+        // Pilled Buttons
+        &.btn-pills {
+            @include button-theme($color-light, $color-light-highlight, $color-dark, pills);
+        }
+        &.btn-primary-pills {
+            @include button-theme($color-primary, $color-primary-highlight, $color-light, pills);
+        }
+        &.btn-secondary-pills {
+            @include button-theme($color-secondary, $color-secondary-highlight, $color-light, pills);
+        }
+        &.btn-success-pills {
+            @include button-theme($color-success, $color-success-highlight, $color-light, pills);
+        }
+        &.btn-warning-pills {
+            @include button-theme($color-warning, $color-warning-highlight, $color-light, pills);
+        }
+        &.btn-danger-pills {
+            @include button-theme($color-danger, $color-danger-highlight, $color-light, pills);
+        }
+        &.btn-info-pills {
+            @include button-theme($color-info, $color-info-highlight, $color-light, pills);
+        }
+        &.btn-light-pills {
+            @include button-theme($color-light, $color-light-highlight, $color-dark, pills);
+        }
+        &.btn-dark-pills {
+            @include button-theme($color-dark, $color-dark-highlight, $color-light, pills);
+        }
+
+        // Branded Buttons
+        &.btn-brand {
+            transition: all 0.3s ease-in-out;
+            color: $color-light;
+            text-align: left;
+
+            i {
+                background-color: #00000033;
+                display: inline-block;
+                width: 2.0625rem;
+                line-height: 2.1rem;
+                margin: -0.375rem -0.75rem;
+                text-align: center;
+
+                & + span {
+                    margin-left: 1.5rem;
+                    text-align: center;
+                }
+            }
+
+            &.facebook {
+                @include button-theme(#3b5998, #30497c, '', brand);
+            }
+            &.behance {
+                @include button-theme(#1769ff, #0055f0, '', brand);
+            }
+            &.css3 {
+                @include button-theme(#0170ba, #015994, '', brand);
+            }
+            &.dribbble {
+                @include button-theme(#ea4c89, #e62a72, '', brand);
+            }
+            &.flickr {
+                @include button-theme(#ff0084, #d90070, '', brand);
+            }
+            &.github {
+                @include button-theme(#4183c4, #3570aa, '', brand);
+            }
+            &.googlePlus {
+                @include button-theme(#ba3929, #ba3929, '', brand);
+            }
+            &.html5 {
+                @include button-theme(#e34f26, #e34f26, '', brand);
+            }
+            &.instagram {
+                @include button-theme(#517fa4, #446b8a, '', brand);
+            }
+            &.openid {
+                @include button-theme(#f78c40, #f5761b, '', brand);
+            }
+            &.pinterest {
+                @include button-theme(#cb2027, #aa1b21, '', brand);
+            }
+            &.reddit {
+                @include button-theme(#ff4500, #d93b00, '', brand);
+            }
+            &.spotify {
+                @include button-theme(#1db954, #169a45, '', brand);
+            }
+            &.stackOverflow {
+                @include button-theme(#fe7a15, #ec6701, '', brand);
+            }
+            &.tumblr {
+                @include button-theme(#32506d, #263d53, '', brand);
+            }
+            &.twitter {
+                @include button-theme(#00aced, #0090c7, '', brand);
+            }
+            &.vimeo {
+                @include button-theme(#aad450, #9bcc32, '', brand);
+            }
+            &.vk {
+                @include button-theme(#45668e, #385474, '', brand);
+            }
+            &.xing {
+                @include button-theme(#026466, #013f40, '', brand);
+            }
+            &.yahoo {
+                @include button-theme(#400191, #2f016b, '', brand);
+            }
+            &.youtube {
+                @include button-theme(#b00, #950000, '', brand);
+            }
+        }
+    }
+}
+
+@mixin button-theme($background-color, $background-color-highlight, $color, $type) {
+    @if $type == 'normal' {
+        border: none;
+        background-color: $background-color;
+        font-size: .9rem;
+        transition: all 0.3s ease-in-out;
+        color: $color;
+    
+        &:hover {
+            background-color: $background-color-highlight;
+            color: $color;
+            transition: all 0.3s ease-in-out;
+        }
+    
+        &:focus {
+            outline: none;
+            background-color: $background-color;
+            color: $color;
+            box-shadow: 1px 2px 4px $background-color-highlight;
+        }
+    }
+    @else if $type == 'outline' {
+        background-color: $background-color;
+        color: $background-color-highlight;
+        font-size: .9rem;
+        transition: all 0.3s ease-in-out;
+        border: solid 1px $background-color-highlight;
+
+        &:hover {
+            background-color: $background-color-highlight;
+            color: $color;
+            transition: all 0.3s ease-in-out;
+        }
+    
+        &:focus {
+            outline: none;
+            background-color: $background-color-highlight;
+            color: $color;
+            box-shadow: 1px 2px 4px $background-color-highlight;
+        }
+    }
+    @else if $type == 'brand' {
+        background-color: $background-color;
+
+        &:hover {
+            transition: all 0.3s ease-in-out;
+            background-color: $background-color-highlight;
+        }
+    }
+    @else if $type == 'pills' {
+        background-color: $background-color;
+        color: $color;
+        transition: all 0.3s ease-in-out;
+        border-radius: 100px;
+        border: solid 1px $background-color-highlight;
+
+        &:hover {
+            background-color: $background-color-highlight;
+            color: $color;
+            transition: all 0.3s ease-in-out;
+        }
+
+        &:focus {
+            background-color: $background-color-highlight;
+            color: $color;
+            box-shadow: 1px 2px 4px $background-color-highlight;
+        }
+    }
+}

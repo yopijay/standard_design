@@ -44,6 +44,7 @@
     background-color: $background-color;
     overflow-y: scroll;
     padding: .5rem 0;
+    width: 280px;
 
     &::-webkit-scrollbar {
         display: none;
@@ -99,6 +100,10 @@
                 color: $color-highlight;
                 transition: all 0.3s ease-in-out;
             }
+
+            // ul li.active a p {
+            //     background-color: $background-color-highlight;
+            // }
 
             &.active {
                 background-color: $background-color-highlight;
@@ -160,6 +165,8 @@
                 }
             }
         }
+
+
     }
 }
 

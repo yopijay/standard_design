@@ -1,4 +1,5 @@
-<div class= "p-3 my-5 mr-4 border rounded shadow-sm content" id= "card-page">
+<div class= "p-4 my-5 mr-4 border rounded shadow-sm content" id= "card-page">
+    <h4 class= "mb-5">CARDS</h4>
     <div class= "row my-3">
         <div class= "col-md-4 mb-3">
             <div class="card">

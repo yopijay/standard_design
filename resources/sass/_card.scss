@@ -2,7 +2,6 @@
     .card {
         @include card-theme;
 
-
         &-header {
             font-size: .9rem;
             font-family: 'Cocogoose';
@@ -121,6 +120,32 @@
     &.card-accent-dark {
         @include card-design($color-dark, $color-light, accent);
     }
+
+    // Highlighted Cards
+    &.card-primary-highlight {
+        @include card-design($color-primary-highlight, $color-light, highlight);
+    }
+    &.card-secondary-highlight {
+        @include card-design($color-secondary-highlight, $color-light, highlight);
+    }
+    &.card-success-highlight {
+        @include card-design($color-success-highlight, $color-light, highlight);
+    }
+    &.card-warning-highlight {
+        @include card-design($color-warning-highlight, $color-light, highlight);
+    }
+    &.card-danger-highlight {
+        @include card-design($color-danger-highlight, $color-light, highlight);
+    }
+    &.card-info-highlight {
+        @include card-design($color-info-highlight, $color-light, highlight);
+    }
+    &.card-light-highlight {
+        @include card-design($color-light-highlight, $color-dark, highlight);
+    }
+    &.card-dark-highlight {
+        @include card-design($color-dark-highlight, $color-light, highlight);
+    }
 }
 
 @mixin card-design($background-color, $color, $type) {
@@ -151,5 +176,8 @@
     }
     @else if $type == 'accent' {
         border-top: solid 2px $background-color;
+    }
+    @else if $type == 'highlight' {
+        background-color: $background-color;
     }
 }
