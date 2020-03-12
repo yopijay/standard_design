@@ -27,64 +27,6 @@
             @include button-theme($color-dark, $color-dark-highlight, $color-light, normal);
         }
 
-        // Oulined Buttons
-        &.btn-outline {
-            @include button-theme(#FFFFFF, $color-dark-highlight, $color-light, outline);
-        }
-        &.btn-light-outline {
-            @include button-theme(#FFFFFF, $color-light-highlight, $color-dark, outline);
-        }
-        &.btn-primary-outline {
-            @include button-theme(#FFFFFF, $color-primary-highlight, $color-light, outline);
-        }
-        &.btn-secondary-outline {
-            @include button-theme(#FFFFFF, $color-secondary-highlight, $color-light, outline);
-        }
-        &.btn-success-outline {
-            @include button-theme(#FFFFFF, $color-success-highlight, $color-light, outline);
-        }
-        &.btn-warning-outline {
-            @include button-theme(#FFFFFF, $color-warning-highlight, $color-light, outline);
-        }
-        &.btn-danger-outline {
-            @include button-theme(#FFFFFF, $color-danger-highlight, $color-light, outline);
-        }
-        &.btn-info-outline {
-            @include button-theme(#FFFFFF, $color-info-highlight, $color-light, outline);
-        }
-        &.btn-dark-outline {
-            @include button-theme(#FFFFFF, $color-dark-highlight, $color-light, outline);
-        }
-
-        // Pilled Buttons
-        &.btn-pills {
-            @include button-theme($color-light, $color-light-highlight, $color-dark, pills);
-        }
-        &.btn-primary-pills {
-            @include button-theme($color-primary, $color-primary-highlight, $color-light, pills);
-        }
-        &.btn-secondary-pills {
-            @include button-theme($color-secondary, $color-secondary-highlight, $color-light, pills);
-        }
-        &.btn-success-pills {
-            @include button-theme($color-success, $color-success-highlight, $color-light, pills);
-        }
-        &.btn-warning-pills {
-            @include button-theme($color-warning, $color-warning-highlight, $color-light, pills);
-        }
-        &.btn-danger-pills {
-            @include button-theme($color-danger, $color-danger-highlight, $color-light, pills);
-        }
-        &.btn-info-pills {
-            @include button-theme($color-info, $color-info-highlight, $color-light, pills);
-        }
-        &.btn-light-pills {
-            @include button-theme($color-light, $color-light-highlight, $color-dark, pills);
-        }
-        &.btn-dark-pills {
-            @include button-theme($color-dark, $color-dark-highlight, $color-light, pills);
-        }
-
         // Branded Buttons
         &.btn-brand {
             transition: all 0.3s ease-in-out;
@@ -193,26 +135,26 @@
             box-shadow: 1px 2px 4px $background-color-highlight;
         }
     }
-    @else if $type == 'outline' {
-        background-color: $background-color;
-        color: $background-color-highlight;
-        font-size: .9rem;
-        transition: all 0.3s ease-in-out;
-        border: solid 1px $background-color-highlight;
+    // @else if $type == 'outline' {
+    //     background-color: $background-color;
+    //     color: $background-color-highlight;
+    //     font-size: .9rem;
+    //     transition: all 0.3s ease-in-out;
+    //     border: solid 1px $background-color-highlight;
 
-        &:hover {
-            background-color: $background-color-highlight;
-            color: $color;
-            transition: all 0.3s ease-in-out;
-        }
+    //     &:hover {
+    //         background-color: $background-color-highlight;
+    //         color: $color;
+    //         transition: all 0.3s ease-in-out;
+    //     }
     
-        &:focus {
-            outline: none;
-            background-color: $background-color-highlight;
-            color: $color;
-            box-shadow: 1px 2px 4px $background-color-highlight;
-        }
-    }
+    //     &:focus {
+    //         outline: none;
+    //         background-color: $background-color-highlight;
+    //         color: $color;
+    //         box-shadow: 1px 2px 4px $background-color-highlight;
+    //     }
+    // }
     @else if $type == 'brand' {
         background-color: $background-color;
 
@@ -220,24 +162,24 @@
             transition: all 0.3s ease-in-out;
             background-color: $background-color-highlight;
         }
-    }
-    @else if $type == 'pills' {
-        background-color: $background-color;
-        color: $color;
-        transition: all 0.3s ease-in-out;
-        border-radius: 100px;
-        border: solid 1px $background-color-highlight;
+    // }
+    // @else if $type == 'pills' {
+    //     background-color: $background-color;
+    //     color: $color;
+    //     transition: all 0.3s ease-in-out;
+    //     border-radius: 100px;
+    //     border: solid 1px $background-color-highlight;
 
-        &:hover {
-            background-color: $background-color-highlight;
-            color: $color;
-            transition: all 0.3s ease-in-out;
-        }
+    //     &:hover {
+    //         background-color: $background-color-highlight;
+    //         color: $color;
+    //         transition: all 0.3s ease-in-out;
+    //     }
 
-        &:focus {
-            background-color: $background-color-highlight;
-            color: $color;
-            box-shadow: 1px 2px 4px $background-color-highlight;
-        }
+    //     &:focus {
+    //         background-color: $background-color-highlight;
+    //         color: $color;
+    //         box-shadow: 1px 2px 4px $background-color-highlight;
+    //     }
     }
 }
