@@ -43,16 +43,9 @@
                                     <li class= "navbar-link"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
                                     <li class= "navbar-link"><a href= "#" content= "radio-page"><p>Radio Buttons</p></a></li>
                                     <li class= "navbar-link"><a href= "#" content= "toggles-page"><p>Swtich Toggles</p></a></li>
+                                    <li class= "navbar-link"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
                                 </ul>
                             </li>
-                            <!-- <li class= "list">
-                                <a href= "#"><p>Cards <i class="fas fa-caret-right"></i></p></a>
-                                <ul class= "items">
-                                    <li class= "navbar-link"><a href= "#" content= "normal-button-page"><p>Outline Card</p></a></li>
-                                    <li class= "navbar-link"><a href= "#" content= "rounded-button-page"><p>Rounded Button</p></a></li>
-                                    <li class= "navbar-link"><a href= "#" content= "icon-button-page"><p>Icon Button</p></a></li>
-                                </ul>
-                            </li> -->
                             <li class= "label"><p>Pages</p></li>
                             <li class= "navbar-link"><a href= "#" content= "login-page"><p>Login Page</p></a></li>
                             <li class= "navbar-link"><a href= "#" content= "404-page"><p>404 Page</p></a></li>
@@ -66,7 +59,10 @@
                     @include('layout.button')
                     @include('layout.card')
                     @include('layout.toaster')
+                    @include('layout.checkbox')
+                    @include('layout.radio')
                     @include('layout.toggle')
+                    @include('layout.input')
                     @include('layout.login')
                     @include('layout.404')
                 </div>

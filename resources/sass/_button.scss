@@ -22,7 +22,7 @@
             @include button-type(outline, #FFFFFF,  $color-light-highlight, $color-dark);
         }
 
-        &.btn-squere {
+        &.btn-square {
             @include button-type(square, #FFFFFF,  $color-light-highlight, $color-dark);
         }
 

@@ -1,0 +1,112 @@
+@mixin form-default() {
+    .form-group {
+        // Standard design for Labels
+        label {
+            font-size: .9rem;
+            margin-bottom: 5px;
+        }
+
+        // Standard design for Inputs
+        input {
+            &.form-control {
+                border: solid 1px $color-light-highlight;
+                font-size: .9rem;
+                color: $color-dark;
+                padding-left: 15px;
+                padding-right: 15px; 
+
+                &.form-square {
+                    border-radius: 0;
+                }
+
+                &.form-rounded {
+                    border-radius: 50px;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                }
+
+                @include input-theme();
+            }
+        }
+
+        // Standard design for Error messages
+        small {
+            float: right;
+            margin-top: 2px;
+            font-size: .7rem;
+            display: none;
+        }
+
+        // Standard design for Select Picker
+        select {
+            background-color: #FFFFFF;
+            border: solid 1px $color-light-highlight;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        // Standard design for Textareas
+        textarea {
+            border: solid 1px $color-light-highlight;
+            color: $color-dark;
+
+            &.form-square {
+                border-radius: 0;
+            }
+
+            &.form-rounded {
+                border-radius: 10px;
+            }
+
+            &:focus {
+                box-shadow: none;
+                border: solid 1px $color-light-highlight;   
+            }
+
+            @include input-theme();
+        }
+    }
+}
+
+@mixin input-style($style) {
+    @if $style == 'square' {
+
+    }
+    @else if $style == 'rounded' {
+
+    }
+    @else {
+
+    }
+}
+
+@mixin input-theme() {
+    &.form-primary {
+        border: solid 1px $color-primary;
+    }
+    &.form-secondary {
+        border: solid 1px $color-secondary;
+    }
+    &.form-success {
+        border: solid 1px $color-success;
+    }
+    &.form-warning {
+        border: solid 1px $color-warning;
+    }
+    &.form-danger {
+        border: solid 1px $color-danger;
+    }
+    &.form-info {
+        border: solid 1px $color-info;
+    }
+    &.form-light {
+        border: solid 1px $color-light-highlight;
+    }
+    &.form-dark {
+        border: solid 1px $color-dark;
+    }
+}

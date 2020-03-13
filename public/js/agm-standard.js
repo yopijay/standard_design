@@ -186,8 +186,26 @@ function sidenavFunction(list, links) {
         });
         break;
 
+      case 'radio-page':
+        $('#radio-page').css({
+          display: 'block'
+        });
+        break;
+
+      case 'checkbox-page':
+        $('#checkbox-page').css({
+          display: 'block'
+        });
+        break;
+
       case 'toggles-page':
         $('#toggle-page').css({
+          display: 'block'
+        });
+        break;
+
+      case 'input-page':
+        $('#input-page').css({
           display: 'block'
         });
         break;

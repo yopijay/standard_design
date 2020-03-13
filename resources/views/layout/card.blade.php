@@ -1,78 +1,171 @@
 <div class= "p-4 my-5 mr-4 border rounded shadow-sm content" id= "card-page">
     <h4 class= "mb-5">CARDS</h4>
-    <div class= "row my-3">
-        <div class= "col-md-4 mb-3">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <div class= "card mb-5">
+        <div class= "card-header">Card - Default</div>
+        <div class= "card-body">
+            <div class= "row">
+                <div class= "col-md-4 mb-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">.card</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class= "col-md-12">
+                    <p class= "card-title">Themes</p>
+                    <div class= "row">
+                        <div class= "col-md-4 mb-3">
+                            <div class="card card-primary">
+                                <div class="card-body">
+                                    <h5 class="card-title">.card-primary</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class= "col-md-4 mb-3">
+                            <div class="card  card-secondary">
+                                <div class="card-body">
+                                    <h5 class="card-title">.card-secondary</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class= "col-md-4 mb-3">
+                            <div class="card  card-success">
+                                <div class="card-body">
+                                    <h5 class="card-title">.card-success</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class= "col-md-4 mb-3">
+                            <div class="card  card-warning">
+                                <div class="card-body">
+                                    <h5 class="card-title">.card-warning</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class= "col-md-4 mb-3">
+                            <div class="card  card-danger">
+                                <div class="card-body">
+                                    <h5 class="card-title">.card-danger</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class= "col-md-4 mb-3">
+                            <div class="card  card-info">
+                                <div class="card-body">
+                                    <h5 class="card-title">.card-info</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class= "col-md-4 mb-3">
+                            <div class="card  card-light">
+                                <div class="card-body">
+                                    <h5 class="card-title">.card-light</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class= "col-md-4 mb-3">
+                            <div class="card  card-dark">
+                                <div class="card-body">
+                                    <h5 class="card-title">.card-dark</h5>
+                                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class= "col-md-4 mb-3">
-            <div class="card card-primary">
-                <div class="card-body">
-                    <h5 class="card-title">Card title - Primary</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+    <div class= "card mb-5">
+        <div class= "card-header">Card - Outline</div>
+        <div class= "card-body">
+
+        </div>
+    </div>
+</div>
+
+
+    <!-- <div class= "row my-3">
+            <div class= "col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class= "col-md-4 mb-3">
-            <div class="card  card-secondary">
-                <div class="card-body">
-                    <h5 class="card-title">Card title - Secondary</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class= "col-md-4 mb-3">
+                <div class="card card-primary">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title - Primary</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class= "col-md-4 mb-3">
-            <div class="card  card-success">
-                <div class="card-body">
-                    <h5 class="card-title">Card title - Success</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class= "col-md-4 mb-3">
+                <div class="card  card-secondary">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title - Secondary</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class= "col-md-4 mb-3">
-            <div class="card  card-warning">
-                <div class="card-body">
-                    <h5 class="card-title">Card title - Warning</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class= "col-md-4 mb-3">
+                <div class="card  card-success">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title - Success</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class= "col-md-4 mb-3">
-            <div class="card  card-danger">
-                <div class="card-body">
-                    <h5 class="card-title">Card title - Danger</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class= "col-md-4 mb-3">
+                <div class="card  card-warning">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title - Warning</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class= "col-md-4 mb-3">
-            <div class="card  card-info">
-                <div class="card-body">
-                    <h5 class="card-title">Card title - Info</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class= "col-md-4 mb-3">
+                <div class="card  card-danger">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title - Danger</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class= "col-md-4 mb-3">
-            <div class="card  card-light">
-                <div class="card-body">
-                    <h5 class="card-title">Card title - Light</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class= "col-md-4 mb-3">
+                <div class="card  card-info">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title - Info</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class= "col-md-4 mb-3">
-            <div class="card  card-dark">
-                <div class="card-body">
-                    <h5 class="card-title">Card title - Dark</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <div class= "col-md-4 mb-3">
+                <div class="card  card-light">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title - Light</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
                 </div>
             </div>
-        </div>
+            <div class= "col-md-4 mb-3">
+                <div class="card  card-dark">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title - Dark</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
     </div>
     <div class= "row my-3">
         <div class= "col-md-4 mb-3">
@@ -571,5 +664,4 @@
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </div> -->

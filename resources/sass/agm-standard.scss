@@ -5,6 +5,7 @@
 @import 'texts';
 @import 'card';
 @import 'button';
+@import 'form';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -23,4 +24,5 @@ body.agm-standard {
     @include text-default;
     @include button-default;
     @include card-default;
+    @include form-default;
 }

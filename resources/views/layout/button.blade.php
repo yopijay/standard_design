@@ -107,8 +107,8 @@
                 </div>
                 <div class= "col-md-4">
                     <button class= "btn btn-solid btn-primary btn-lg w-100 mb-2">.btn-lg</button>
-                    <button class= "btn btn-solid btn-pills btn-primary btn-lg w-100 mb-2">.btn-sm</button>
-                    <button class= "btn btn-solid btn-square btn-primary btn-lg w-100 mb-2">.btn-sm</button>
+                    <button class= "btn btn-solid btn-pills btn-primary btn-lg w-100 mb-2">.btn-lg</button>
+                    <button class= "btn btn-solid btn-square btn-primary btn-lg w-100 mb-2">.btn-lg</button>
                 </div>
             </div>
         </div>
