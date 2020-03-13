@@ -1,33 +1,31 @@
 @mixin button-default() {
     .btn {
+        font-size: .9rem;
+        transition: all 0.3s ease-in-out;
 
-        @include button-theme($color-light-highlight, $color-light-highlight, $color-dark, normal);
-        &.btn-primary {
-            @include button-theme($color-primary, $color-primary-highlight, $color-light, normal);
-        }
-        &.btn-secondary {
-            @include button-theme($color-secondary, $color-secondary-highlight, $color-light, normal);
-        }
-        &.btn-success {
-            @include button-theme($color-success, $color-success-highlight, $color-light, normal);
-        }
-        &.btn-warning {
-            @include button-theme($color-warning, $color-warning-highlight, $color-light, normal);
-        }
-        &.btn-danger {
-            @include button-theme($color-danger, $color-danger-highlight, $color-light, normal);
-        }
-        &.btn-info {
-            @include button-theme($color-info, $color-info-highlight, $color-light, normal);
-        }
-        &.btn-light {
-            @include button-theme($color-light-highlight, $color-light-highlight, $color-dark, normal);
-        }
-        &.btn-dark {
-            @include button-theme($color-dark, $color-dark-highlight, $color-light, normal);
+        &.btn-sm {
+            padding-top: 0;
+            padding-bottom: 0;
         }
 
-        // Branded Buttons
+        &.btn-lg {
+            padding-top: 1.2rem;
+            padding-bottom: 1.2rem;
+            font-size: 1.1rem;
+        }
+
+        &.btn-solid {
+            @include button-type(solid, $color-light,  $color-light-highlight, $color-dark);
+        }
+
+        &.btn-outline {
+            @include button-type(outline, #FFFFFF,  $color-light-highlight, $color-dark);
+        }
+
+        &.btn-squere {
+            @include button-type(square, #FFFFFF,  $color-light-highlight, $color-dark);
+        }
+
         &.btn-brand {
             transition: all 0.3s ease-in-out;
             color: $color-light;
@@ -48,138 +46,431 @@
             }
 
             &.facebook {
-                @include button-theme(#3b5998, #30497c, '', brand);
+                @include brand-theme(#3b5998, #30497c);
             }
             &.behance {
-                @include button-theme(#1769ff, #0055f0, '', brand);
+                @include brand-theme(#1769ff, #0055f0);
             }
             &.css3 {
-                @include button-theme(#0170ba, #015994, '', brand);
+                @include brand-theme(#0170ba, #015994);
             }
             &.dribbble {
-                @include button-theme(#ea4c89, #e62a72, '', brand);
+                @include brand-theme(#ea4c89, #e62a72);
             }
             &.flickr {
-                @include button-theme(#ff0084, #d90070, '', brand);
+                @include brand-theme(#ff0084, #d90070);
             }
             &.github {
-                @include button-theme(#4183c4, #3570aa, '', brand);
+                @include brand-theme(#4183c4, #3570aa);
             }
             &.googlePlus {
-                @include button-theme(#ba3929, #ba3929, '', brand);
+                @include brand-theme(#ba3929, #ba3929);
             }
             &.html5 {
-                @include button-theme(#e34f26, #e34f26, '', brand);
+                @include brand-theme(#e34f26, #e34f26);
             }
             &.instagram {
-                @include button-theme(#517fa4, #446b8a, '', brand);
+                @include brand-theme(#517fa4, #446b8a);
             }
             &.openid {
-                @include button-theme(#f78c40, #f5761b, '', brand);
+                @include brand-theme(#f78c40, #f5761b);
             }
             &.pinterest {
-                @include button-theme(#cb2027, #aa1b21, '', brand);
+                @include brand-theme(#cb2027, #aa1b21);
             }
             &.reddit {
-                @include button-theme(#ff4500, #d93b00, '', brand);
+                @include brand-theme(#ff4500, #d93b00);
             }
             &.spotify {
-                @include button-theme(#1db954, #169a45, '', brand);
+                @include brand-theme(#1db954, #169a45);
             }
             &.stackOverflow {
-                @include button-theme(#fe7a15, #ec6701, '', brand);
+                @include brand-theme(#fe7a15, #ec6701);
             }
             &.tumblr {
-                @include button-theme(#32506d, #263d53, '', brand);
+                @include brand-theme(#32506d, #263d53);
             }
             &.twitter {
-                @include button-theme(#00aced, #0090c7, '', brand);
+                @include brand-theme(#00aced, #0090c7);
             }
             &.vimeo {
-                @include button-theme(#aad450, #9bcc32, '', brand);
+                @include brand-theme(#aad450, #9bcc32);
             }
             &.vk {
-                @include button-theme(#45668e, #385474, '', brand);
+                @include brand-theme(#45668e, #385474);
             }
             &.xing {
-                @include button-theme(#026466, #013f40, '', brand);
+                @include brand-theme(#026466, #013f40);
             }
             &.yahoo {
-                @include button-theme(#400191, #2f016b, '', brand);
+                @include brand-theme(#400191, #2f016b);
             }
             &.youtube {
-                @include button-theme(#b00, #950000, '', brand);
+                @include brand-theme(#b00, #950000);
             }
         }
     }
 }
 
-@mixin button-theme($background-color, $background-color-highlight, $color, $type) {
-    @if $type == 'normal' {
-        border: none;
+@mixin button-type($type, $background-color, $background-color-highlight, $color) {
+    @if $type == 'solid' {
+        border: solid 1px $background-color-highlight;
         background-color: $background-color;
-        font-size: .9rem;
-        transition: all 0.3s ease-in-out;
         color: $color;
-    
+
+        &.btn-pills {
+            border-radius: 50px;
+        }
+
+        &.btn-square {
+            border-radius: 0;
+        }
+
         &:hover {
             background-color: $background-color-highlight;
             color: $color;
             transition: all 0.3s ease-in-out;
         }
-    
+
         &:focus {
             outline: none;
-            background-color: $background-color;
-            color: $color;
             box-shadow: 1px 2px 4px $background-color-highlight;
+            background-color: $background-color-highlight;
+            color: $color;
         }
-    }
-    // @else if $type == 'outline' {
-    //     background-color: $background-color;
-    //     color: $background-color-highlight;
-    //     font-size: .9rem;
-    //     transition: all 0.3s ease-in-out;
-    //     border: solid 1px $background-color-highlight;
 
-    //     &:hover {
-    //         background-color: $background-color-highlight;
-    //         color: $color;
-    //         transition: all 0.3s ease-in-out;
-    //     }
-    
-    //     &:focus {
-    //         outline: none;
-    //         background-color: $background-color-highlight;
-    //         color: $color;
-    //         box-shadow: 1px 2px 4px $background-color-highlight;
-    //     }
-    // }
-    @else if $type == 'brand' {
+        @include button-theme($type);
+    }
+    @else if $type == 'outline' {
+        border: solid 1px $background-color-highlight;
         background-color: $background-color;
+        color: $color;
+        
+        &.btn-pills {
+            border-radius: 50px;
+        }
+
+        &.btn-square {
+            border-radius: 0;
+        }
 
         &:hover {
-            transition: all 0.3s ease-in-out;
             background-color: $background-color-highlight;
+            color: $color;
+            transition: all 0.3s ease-in-out;
         }
-    // }
-    // @else if $type == 'pills' {
-    //     background-color: $background-color;
-    //     color: $color;
-    //     transition: all 0.3s ease-in-out;
-    //     border-radius: 100px;
-    //     border: solid 1px $background-color-highlight;
 
-    //     &:hover {
-    //         background-color: $background-color-highlight;
-    //         color: $color;
-    //         transition: all 0.3s ease-in-out;
-    //     }
+        &:focus {
+            outline: none;
+            box-shadow: 1px 2px 4px $background-color-highlight;
+            background-color: $background-color-highlight;
+            color: $color;
+        }
 
-    //     &:focus {
-    //         background-color: $background-color-highlight;
-    //         color: $color;
-    //         box-shadow: 1px 2px 4px $background-color-highlight;
-    //     }
+        @include button-theme($type);
+    }
+}
+
+@mixin button-theme($type) {
+    @if $type == 'solid' {
+        &.btn-primary {
+            border: solid 1px $color-primary-highlight;
+            background-color: $color-primary;
+            color: $color-light;
+
+            &:hover {
+                background-color: $color-primary-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-primary-highlight;
+                background-color: $color-primary-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-secondary {
+            border: solid 1px $color-secondary-highlight;
+            background-color: $color-secondary;
+            color: $color-light;
+
+            &:hover {
+                background-color: $color-secondary-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-secondary-highlight;
+                background-color: $color-secondary-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-success {
+            border: solid 1px $color-success-highlight;
+            background-color: $color-success;
+            color: $color-light;
+
+            &:hover {
+                background-color: $color-success-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-success-highlight;
+                background-color: $color-success-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-warning {
+            border: solid 1px $color-warning-highlight;
+            background-color: $color-warning;
+            color: $color-light;
+
+            &:hover {
+                background-color: $color-warning-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-warning-highlight;
+                background-color: $color-warning-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-danger {
+            border: solid 1px $color-danger-highlight;
+            background-color: $color-danger;
+            color: $color-light;
+
+            &:hover {
+                background-color: $color-danger-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-danger-highlight;
+                background-color: $color-danger-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-info {
+            border: solid 1px $color-info-highlight;
+            background-color: $color-info;
+            color: $color-light;
+
+            &:hover {
+                background-color: $color-info-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-info-highlight;
+                background-color: $color-info-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-light {
+            border: solid 1px $color-light-highlight;
+            background-color: $color-light;
+            color: $color-dark;
+
+            &:hover {
+                background-color: $color-light-highlight;
+                color: $color-dark;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-light-highlight;
+                background-color: $color-light-highlight;
+                color: $color-dark;
+            }
+        }
+        &.btn-dark {
+            border: solid 1px $color-dark-highlight;
+            background-color: $color-dark;
+            color: $color-light;
+
+            &:hover {
+                background-color: $color-dark-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-dark-highlight;
+                background-color: $color-dark-highlight;
+                color: $color-light;
+            }
+        }
+    }
+    @else if $type == 'outline' {
+        &.btn-primary {
+            border: solid 1px $color-primary-highlight;
+            background-color: #FFFFFF;
+            color: $color-primary;
+
+            &:hover {
+                background-color: $color-primary-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-primary-highlight;
+                background-color: $color-primary-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-secondary {
+            border: solid 1px $color-secondary-highlight;
+            background-color: #FFFFFF;
+            color: $color-secondary;
+
+            &:hover {
+                background-color: $color-secondary-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-secondary-highlight;
+                background-color: $color-secondary-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-success {
+            border: solid 1px $color-success-highlight;
+            background-color: #FFFFFF;
+            color: $color-success;
+
+            &:hover {
+                background-color: $color-success-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-success-highlight;
+                background-color: $color-success-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-warning {
+            border: solid 1px $color-warning-highlight;
+            background-color: #FFFFFF;
+            color: $color-warning;
+
+            &:hover {
+                background-color: $color-warning-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-warning-highlight;
+                background-color: $color-warning-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-danger {
+            border: solid 1px $color-danger-highlight;
+            background-color: #FFFFFF;
+            color: $color-danger;
+
+            &:hover {
+                background-color: $color-danger-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-danger-highlight;
+                background-color: $color-danger-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-info {
+            border: solid 1px $color-info-highlight;
+            background-color: #FFFFFF;
+            color: $color-info;
+
+            &:hover {
+                background-color: $color-info-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-info-highlight;
+                background-color: $color-info-highlight;
+                color: $color-light;
+            }
+        }
+        &.btn-light {
+            border: solid 1px $color-light-highlight;
+            background-color: #FFFFFF;
+            color: $color-light-highlight;
+
+            &:hover {
+                background-color: $color-light-highlight;
+                color: $color-dark;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-light-highlight;
+                background-color: $color-light-highlight;
+                color: $color-dark;
+            }
+        }
+        &.btn-dark {
+            border: solid 1px $color-dark-highlight;
+            background-color: #FFFFFF;
+            color: $color-dark;
+
+            &:hover {
+                background-color: $color-dark-highlight;
+                color: $color-light;
+                transition: all 0.3s ease-in-out;
+            }
+    
+            &:focus {
+                outline: none;
+                box-shadow: 1px 2px 4px $color-dark-highlight;
+                background-color: $color-dark-highlight;
+                color: $color-light;
+            }
+        }
+    }
+}
+
+@mixin brand-theme($background-color, $background-color-highlight) {
+    background-color: $background-color;
+
+    &:hover {
+        transition: all 0.3s ease-in-out;
+        background-color: $background-color-highlight;
     }
 }

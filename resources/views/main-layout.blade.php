@@ -14,7 +14,7 @@
     </head>
     <body class= "agm-standard">
         <div class= "container-fluid px-0">
-            <div class= "row navbar navbar-dark shadow-sm sticky-top px-5 w-100 mx-0">
+            <div class= "row navbar navbar-light shadow-sm sticky-top px-5 w-100 mx-0">
                 <div class= "col-md-3 offset-md-1 navbar-header">
                     <a href= "#">
                         <h1 class= "mt-1 mb-0"><span>A</span>GM</h1>
@@ -26,7 +26,7 @@
             </div>
             <div class= "row mx-0">
                 <div class= "col-md-3 vh-100 px-0">
-                    <div class= "navbar-side navbar-side-dark h-75 border rounded my-5 mx-4 shadow-sm position-fixed">
+                    <div class= "navbar-side navbar-side-light h-75 border rounded my-5 mx-4 shadow-sm position-fixed">
                         <ul>
                             <li class= "label"><p>Menu</p></li>
                             <li class= "navbar-link active"><a href= "#" content= "dashboard-page"><p>Dashboard</p></a></li>
