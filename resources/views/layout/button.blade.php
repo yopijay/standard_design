@@ -97,17 +97,16 @@
             <div class= "row px-4">
                 <div class= "col-md-4">
                     <button class= "btn btn-solid btn-primary btn-sm w-100 mb-2">.btn-sm</button>
-                    <button class= "btn btn-solid btn-pills btn-primary btn-sm w-100 mb-2">.btn-sm</button>
-                    <button class= "btn btn-solid btn-square btn-primary btn-sm w-100 mb-2">.btn-sm</button>
-                </div>
-                <div class= "col-md-4">
                     <button class= "btn btn-solid btn-primary w-100 mb-2">Normal</button>
+                    <button class= "btn btn-solid btn-primary btn-lg w-100 mb-2">.btn-lg</button>
+                </div>
+                <div class= "col-md-4"><button class= "btn btn-solid btn-pills btn-primary btn-sm w-100 mb-2">.btn-sm</button>
                     <button class= "btn btn-solid btn-pills btn-primary w-100 mb-2">Normal</button>
-                    <button class= "btn btn-solid btn-square btn-primary w-100 mb-2">Normal</button>
+                    <button class= "btn btn-solid btn-pills btn-primary btn-lg w-100 mb-2">.btn-lg</button>
                 </div>
                 <div class= "col-md-4">
-                    <button class= "btn btn-solid btn-primary btn-lg w-100 mb-2">.btn-lg</button>
-                    <button class= "btn btn-solid btn-pills btn-primary btn-lg w-100 mb-2">.btn-lg</button>
+                    <button class= "btn btn-solid btn-square btn-primary btn-sm w-100 mb-2">.btn-sm</button>
+                    <button class= "btn btn-solid btn-square btn-primary w-100 mb-2">Normal</button>
                     <button class= "btn btn-solid btn-square btn-primary btn-lg w-100 mb-2">.btn-lg</button>
                 </div>
             </div>

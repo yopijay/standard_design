@@ -42,10 +42,17 @@
         @include card-style(normal);
 
         &.card-outline {
+            border: solid 1px $color-light-highlight;
+            background-color: #FFFFFF;
+            color: $color-dark;
+
             @include card-style(outline);
         }
 
         &.card-accent {
+            border-top: solid 3px $color-light-highlight;
+            background-color: #FFFFFF;
+            color: $color-dark;
             @include card-style(accent);
         }
     }
@@ -196,194 +203,198 @@
     }
     @else if $style == 'outline' {
         &.card-primary {
-
+            border: solid 1px $color-primary;
+            
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-secondary {
+            border: solid 1px $color-secondary;
             
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-success {
+            border: solid 1px $color-success;
             
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-warning {
+            border: solid 1px $color-warning;
             
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-danger {
+            border: solid 1px $color-danger;
             
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-info {
+            border: solid 1px $color-info;
             
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-light {
+            border: solid 1px $color-light-highlight;
             
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-dark {
+            border: solid 1px $color-dark;
             
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
     }
     @else if $style == 'accent' {
         &.card-primary {
+            border: solid 1px $color-light-highlight;
+            border-top: solid 3px $color-primary;
+            
+            .card-header {
+                background-color: #FFFFFF;
+                color: $color-dark
+            }
 
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-secondary {
+            border: solid 1px $color-light-highlight;
+            border-top: solid 3px $color-secondary;
             
+            .card-header {
+                background-color: #FFFFFF;
+                color: $color-dark
+            }
+            
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-success {
+            border: solid 1px $color-light-highlight;
+            border-top: solid 3px $color-success;
             
+            .card-header {
+                background-color: #FFFFFF;
+                color: $color-dark
+            }
+            
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-warning {
+            border: solid 1px $color-light-highlight;
+            border-top: solid 3px $color-warning;
             
+            .card-header {
+                background-color: #FFFFFF;
+                color: $color-dark
+            }
+            
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-danger {
+            border: solid 1px $color-light-highlight;
+            border-top: solid 3px $color-danger;
             
+            .card-header {
+                background-color: #FFFFFF;
+                color: $color-dark
+            }
+            
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-info {
+            border: solid 1px $color-light-highlight;
+            border-top: solid 3px $color-info;
             
+            .card-header {
+                background-color: #FFFFFF;
+                color: $color-dark
+            }
+            
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-light {
+            border: solid 1px $color-light-highlight;
+            border-top: solid 3px $color-light-highlight;
             
+            .card-header {
+                background-color: #FFFFFF;
+                color: $color-dark
+            }
+            
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
         &.card-dark {
+            border: solid 1px $color-light-highlight;
+            border-top: solid 3px $color-dark;
             
+            .card-header {
+                background-color: #FFFFFF;
+                color: $color-dark
+            }
+            
+            .card-body {
+                .card-title {
+                    color: $color-dark;
+                }
+            }
         }
     }
 }
-
-// @mixin card-theme() {
-    //     // Solid Cards
-    //     &.card-primary {
-        //         @include card-design($color-primary, $color-light, solid);
-//     }
-//     &.card-secondary {
-//         @include card-design($color-secondary, $color-light, solid);
-//     }
-//     &.card-success {
-//         @include card-design($color-success, $color-light, solid);
-//     }
-//     &.card-warning {
-//         @include card-design($color-warning, $color-light, solid);
-//     }
-//     &.card-danger {
-//         @include card-design($color-danger, $color-light, solid);
-//     }
-//     &.card-info {
-//         @include card-design($color-info, $color-light, solid);
-//     }
-//     &.card-light {
-//         @include card-design($color-light, $color-dark, solid);
-//     }
-//     &.card-dark {
-//         @include card-design($color-dark, $color-light, solid);
-//     }
-
-//     // Outline Cards
-//     &.card-outline-primary {
-//         @include card-design($color-primary, $color-light, outline);
-//     }
-//     &.card-outline-secondary {
-//         @include card-design($color-secondary, $color-light, outline);
-//     }
-//     &.card-outline-success {
-//         @include card-design($color-success, $color-light, outline);
-//     }
-//     &.card-outline-warning {
-//         @include card-design($color-warning, $color-light, outline);
-//     }
-//     &.card-outline-danger {
-//         @include card-design($color-danger, $color-light, outline);
-//     }
-//     &.card-outline-info {
-//         @include card-design($color-info, $color-light, outline);
-//     }
-//     &.card-outline-light {
-//         @include card-design($color-light-highlight, $color-dark, outline);
-//     }
-//     &.card-outline-dark {
-//         @include card-design($color-dark, $color-light, outline);
-//     }
-
-//     // Accent Cards
-//     &.card-accent-primary {
-//         @include card-design($color-primary, $color-light, accent);
-//     }
-//     &.card-accent-secondary {
-//         @include card-design($color-secondary, $color-light, accent);
-//     }
-//     &.card-accent-success {
-//         @include card-design($color-success, $color-light, accent);
-//     }
-//     &.card-accent-warning {
-//         @include card-design($color-warning, $color-light, accent);
-//     }
-//     &.card-accent-danger {
-//         @include card-design($color-danger, $color-light, accent);
-//     }
-//     &.card-accent-info {
-//         @include card-design($color-info, $color-light, accent);
-//     }
-//     &.card-accent-light {
-//         @include card-design($color-light-highlight, $color-dark, accent);
-//     }
-//     &.card-accent-dark {
-//         @include card-design($color-dark, $color-light, accent);
-//     }
-
-//     // Highlighted Cards
-//     &.card-primary-highlight {
-//         @include card-design($color-primary-highlight, $color-light, highlight);
-//     }
-//     &.card-secondary-highlight {
-//         @include card-design($color-secondary-highlight, $color-light, highlight);
-//     }
-//     &.card-success-highlight {
-//         @include card-design($color-success-highlight, $color-light, highlight);
-//     }
-//     &.card-warning-highlight {
-//         @include card-design($color-warning-highlight, $color-light, highlight);
-//     }
-//     &.card-danger-highlight {
-//         @include card-design($color-danger-highlight, $color-light, highlight);
-//     }
-//     &.card-info-highlight {
-//         @include card-design($color-info-highlight, $color-light, highlight);
-//     }
-//     &.card-light-highlight {
-//         @include card-design($color-light-highlight, $color-dark, highlight);
-//     }
-//     &.card-dark-highlight {
-//         @include card-design($color-dark-highlight, $color-light, highlight);
-//     }
-// }
-
-// @mixin card-design($background-color, $color, $type) {
-//     @if $type == 'solid' {
-//         background-color: $background-color;
-//         color: $color;
-        
-//         & .card-header {
-//             background-color: $background-color + '-highlight';
-//             color: $color;
-//         }
-    
-//        & .card-body {
-//             color: $color;
-    
-//             .card-title {
-//                 color: $color;
-//             }
-//         }
-        
-//         & .card-footer {
-//             background-color: $background-color + '-highlight';
-//             color: $color;
-//         }
-//     }
-//     @else if $type == 'outline' {
-//         border: solid 1px $background-color;
-//     }
-//     @else if $type == 'accent' {
-//         border-top: solid 2px $background-color;
-//     }
-//     @else if $type == 'highlight' {
-//         background-color: $background-color;
-//     }
-// }

@@ -12174,6 +12174,194 @@ body.agm-standard .card.card-dark .card-body .card-title {
   color: #f5f6fa;
 }
 
+body.agm-standard .card.card-outline {
+  border: solid 1px #dcdde1;
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-outline.card-primary {
+  border: solid 1px #00a8ff;
+}
+
+body.agm-standard .card.card-outline.card-primary .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-outline.card-secondary {
+  border: solid 1px #7f8fa6;
+}
+
+body.agm-standard .card.card-outline.card-secondary .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-outline.card-success {
+  border: solid 1px #4cd137;
+}
+
+body.agm-standard .card.card-outline.card-success .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-outline.card-warning {
+  border: solid 1px #fbc531;
+}
+
+body.agm-standard .card.card-outline.card-warning .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-outline.card-danger {
+  border: solid 1px #e84118;
+}
+
+body.agm-standard .card.card-outline.card-danger .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-outline.card-info {
+  border: solid 1px #273c75;
+}
+
+body.agm-standard .card.card-outline.card-info .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-outline.card-light {
+  border: solid 1px #dcdde1;
+}
+
+body.agm-standard .card.card-outline.card-light .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-outline.card-dark {
+  border: solid 1px #353b48;
+}
+
+body.agm-standard .card.card-outline.card-dark .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent {
+  border-top: solid 3px #dcdde1;
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-primary {
+  border: solid 1px #dcdde1;
+  border-top: solid 3px #00a8ff;
+}
+
+body.agm-standard .card.card-accent.card-primary .card-header {
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-primary .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-secondary {
+  border: solid 1px #dcdde1;
+  border-top: solid 3px #7f8fa6;
+}
+
+body.agm-standard .card.card-accent.card-secondary .card-header {
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-secondary .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-success {
+  border: solid 1px #dcdde1;
+  border-top: solid 3px #4cd137;
+}
+
+body.agm-standard .card.card-accent.card-success .card-header {
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-success .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-warning {
+  border: solid 1px #dcdde1;
+  border-top: solid 3px #fbc531;
+}
+
+body.agm-standard .card.card-accent.card-warning .card-header {
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-warning .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-danger {
+  border: solid 1px #dcdde1;
+  border-top: solid 3px #e84118;
+}
+
+body.agm-standard .card.card-accent.card-danger .card-header {
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-danger .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-info {
+  border: solid 1px #dcdde1;
+  border-top: solid 3px #273c75;
+}
+
+body.agm-standard .card.card-accent.card-info .card-header {
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-info .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-light {
+  border: solid 1px #dcdde1;
+  border-top: solid 3px #dcdde1;
+}
+
+body.agm-standard .card.card-accent.card-light .card-header {
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-light .card-body .card-title {
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-dark {
+  border: solid 1px #dcdde1;
+  border-top: solid 3px #353b48;
+}
+
+body.agm-standard .card.card-accent.card-dark .card-header {
+  background-color: #FFFFFF;
+  color: #353b48;
+}
+
+body.agm-standard .card.card-accent.card-dark .card-body .card-title {
+  color: #353b48;
+}
+
 body.agm-standard .form-group label {
   font-size: 0.9rem;
   margin-bottom: 5px;
@@ -12295,5 +12483,694 @@ body.agm-standard .form-group textarea.form-light {
 
 body.agm-standard .form-group textarea.form-dark {
   border: solid 1px #353b48;
+}
+
+body.agm-standard .checkbox-anim.checkbox-primary input:checked + label svg {
+  stroke: #00a8ff;
+}
+
+body.agm-standard .checkbox-anim.checkbox-primary label:hover svg {
+  stroke: #00a8ff;
+}
+
+body.agm-standard .checkbox-anim.checkbox-secondary input:checked + label svg {
+  stroke: #7f8fa6;
+}
+
+body.agm-standard .checkbox-anim.checkbox-secondary label:hover svg {
+  stroke: #7f8fa6;
+}
+
+body.agm-standard .checkbox-anim.checkbox-success input:checked + label svg {
+  stroke: #4cd137;
+}
+
+body.agm-standard .checkbox-anim.checkbox-success label:hover svg {
+  stroke: #4cd137;
+}
+
+body.agm-standard .checkbox-anim.checkbox-warning input:checked + label svg {
+  stroke: #fbc531;
+}
+
+body.agm-standard .checkbox-anim.checkbox-warning label:hover svg {
+  stroke: #fbc531;
+}
+
+body.agm-standard .checkbox-anim.checkbox-danger input:checked + label svg {
+  stroke: #e84118;
+}
+
+body.agm-standard .checkbox-anim.checkbox-danger label:hover svg {
+  stroke: #e84118;
+}
+
+body.agm-standard .checkbox-anim.checkbox-info input:checked + label svg {
+  stroke: #273c75;
+}
+
+body.agm-standard .checkbox-anim.checkbox-info label:hover svg {
+  stroke: #273c75;
+}
+
+body.agm-standard .checkbox-anim.checkbox-light input:checked + label svg {
+  stroke: #dcdde1;
+}
+
+body.agm-standard .checkbox-anim.checkbox-light label:hover svg {
+  stroke: #dcdde1;
+}
+
+body.agm-standard .checkbox-anim.checkbox-dark input:checked + label svg {
+  stroke: #353b48;
+}
+
+body.agm-standard .checkbox-anim.checkbox-dark label:hover svg {
+  stroke: #353b48;
+}
+
+body.agm-standard .checkbox-anim input {
+  display: none;
+}
+
+body.agm-standard .checkbox-anim input:checked + label svg {
+  stroke: #2f3640;
+}
+
+body.agm-standard .checkbox-anim input:checked + label svg path {
+  stroke-dashoffset: 60;
+  transition: all 0.3s linear;
+}
+
+body.agm-standard .checkbox-anim input:checked + label svg polyline {
+  stroke-dashoffset: 42;
+  transition: all 0.2s linear;
+  transition-delay: 0.15s;
+}
+
+body.agm-standard .checkbox-anim label {
+  cursor: pointer;
+  position: relative;
+  margin: auto;
+  width: 18px;
+  height: 18px;
+  -webkit-tap-highlight-color: transparent;
+  transform: translate3d(0, 0, 0);
+}
+
+body.agm-standard .checkbox-anim label:before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  width: 48px;
+  height: 48px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+body.agm-standard .checkbox-anim label:hover:before {
+  opacity: 1;
+}
+
+body.agm-standard .checkbox-anim label:hover svg {
+  stroke: #2f3640;
+}
+
+body.agm-standard .checkbox-anim label svg {
+  position: relative;
+  z-index: 1;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #c8ccd4;
+  stroke-width: 1.5;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+
+body.agm-standard .checkbox-anim label svg path {
+  stroke-dasharray: 60;
+  stroke-dashoffset: 0;
+}
+
+body.agm-standard .checkbox-anim label svg polyline {
+  stroke-dasharray: 22;
+  stroke-dashoffset: 66;
+}
+
+body.agm-standard .checkbox-anim p {
+  font-size: 0.8rem;
+  margin-left: 0.5rem;
+}
+
+body.agm-standard .checkbox-square.checkbox-primary input:checked + label i {
+  color: #f5f6fa;
+}
+
+body.agm-standard .checkbox-square.checkbox-primary input:checked + label {
+  background-color: rgba(0, 151, 230, 0.5);
+}
+
+body.agm-standard .checkbox-square.checkbox-primary label {
+  border: 1px solid #0097e6;
+}
+
+body.agm-standard .checkbox-square.checkbox-primary label:hover {
+  background-color: rgba(0, 151, 230, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-square.checkbox-secondary input:checked + label i {
+  color: #f5f6fa;
+}
+
+body.agm-standard .checkbox-square.checkbox-secondary input:checked + label {
+  background-color: rgba(113, 128, 147, 0.5);
+}
+
+body.agm-standard .checkbox-square.checkbox-secondary label {
+  border: 1px solid #718093;
+}
+
+body.agm-standard .checkbox-square.checkbox-secondary label:hover {
+  background-color: rgba(113, 128, 147, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-square.checkbox-success input:checked + label i {
+  color: #f5f6fa;
+}
+
+body.agm-standard .checkbox-square.checkbox-success input:checked + label {
+  background-color: rgba(68, 189, 50, 0.5);
+}
+
+body.agm-standard .checkbox-square.checkbox-success label {
+  border: 1px solid #44bd32;
+}
+
+body.agm-standard .checkbox-square.checkbox-success label:hover {
+  background-color: rgba(68, 189, 50, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-square.checkbox-warning input:checked + label i {
+  color: #f5f6fa;
+}
+
+body.agm-standard .checkbox-square.checkbox-warning input:checked + label {
+  background-color: rgba(225, 177, 44, 0.5);
+}
+
+body.agm-standard .checkbox-square.checkbox-warning label {
+  border: 1px solid #e1b12c;
+}
+
+body.agm-standard .checkbox-square.checkbox-warning label:hover {
+  background-color: rgba(225, 177, 44, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-square.checkbox-danger input:checked + label i {
+  color: #f5f6fa;
+}
+
+body.agm-standard .checkbox-square.checkbox-danger input:checked + label {
+  background-color: rgba(194, 54, 22, 0.5);
+}
+
+body.agm-standard .checkbox-square.checkbox-danger label {
+  border: 1px solid #c23616;
+}
+
+body.agm-standard .checkbox-square.checkbox-danger label:hover {
+  background-color: rgba(194, 54, 22, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-square.checkbox-info input:checked + label i {
+  color: #f5f6fa;
+}
+
+body.agm-standard .checkbox-square.checkbox-info input:checked + label {
+  background-color: rgba(25, 42, 86, 0.5);
+}
+
+body.agm-standard .checkbox-square.checkbox-info label {
+  border: 1px solid #192a56;
+}
+
+body.agm-standard .checkbox-square.checkbox-info label:hover {
+  background-color: rgba(25, 42, 86, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-square.checkbox-light input:checked + label i {
+  color: #353b48;
+}
+
+body.agm-standard .checkbox-square.checkbox-light input:checked + label {
+  background-color: rgba(220, 221, 225, 0.5);
+}
+
+body.agm-standard .checkbox-square.checkbox-light label {
+  border: 1px solid #dcdde1;
+}
+
+body.agm-standard .checkbox-square.checkbox-light label:hover {
+  background-color: rgba(220, 221, 225, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-square.checkbox-dark input:checked + label i {
+  color: #f5f6fa;
+}
+
+body.agm-standard .checkbox-square.checkbox-dark input:checked + label {
+  background-color: rgba(47, 54, 64, 0.5);
+}
+
+body.agm-standard .checkbox-square.checkbox-dark label {
+  border: 1px solid #2f3640;
+}
+
+body.agm-standard .checkbox-square.checkbox-dark label:hover {
+  background-color: rgba(47, 54, 64, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-square input {
+  display: none;
+}
+
+body.agm-standard .checkbox-square input:checked + label i {
+  opacity: 1;
+  color: #f5f6fa;
+}
+
+body.agm-standard .checkbox-square input:checked + label {
+  background-color: rgba(47, 54, 64, 0.5);
+}
+
+body.agm-standard .checkbox-square label {
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  border: 1px solid #2f3640;
+  text-align: center;
+  line-height: 18px;
+  margin-top: 3px;
+  margin-right: 6px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+body.agm-standard .checkbox-square label i {
+  font-size: 8px;
+  opacity: 0;
+  margin-bottom: 8px;
+}
+
+body.agm-standard .checkbox-square label:hover {
+  background-color: rgba(47, 54, 64, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-primary label span {
+  border: solid 2px #0097e6;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-primary label span:before {
+  background-color: #0097e6;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-primary label span:after {
+  background-color: #0097e6;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary label span {
+  border: solid 2px #718093;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary label span:before {
+  background-color: #718093;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary label span:after {
+  background-color: #718093;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-success label span {
+  border: solid 2px #44bd32;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-success label span:before {
+  background-color: #44bd32;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-success label span:after {
+  background-color: #44bd32;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning label span {
+  border: solid 2px #e1b12c;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning label span:before {
+  background-color: #e1b12c;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning label span:after {
+  background-color: #e1b12c;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-danger label span {
+  border: solid 2px #c23616;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-danger label span:before {
+  background-color: #c23616;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-danger label span:after {
+  background-color: #c23616;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info label span {
+  border: solid 2px #192a56;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info label span:before {
+  background-color: #192a56;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info label span:after {
+  background-color: #192a56;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-light label span {
+  border: solid 2px #dcdde1;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-light label span:before {
+  background-color: #dcdde1;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-light label span:after {
+  background-color: #dcdde1;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark label span {
+  border: solid 2px #2f3640;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark label span:before {
+  background-color: #2f3640;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark label span:after {
+  background-color: #2f3640;
+}
+
+body.agm-standard .checkbox-rounded label {
+  display: inline-block;
+  color: #353b48;
+  cursor: pointer;
+  position: relative;
+}
+
+body.agm-standard .checkbox-rounded label span {
+  display: inline-block;
+  background-color: transparent;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  transform-origin: center;
+  border: solid 2px #2f3640;
+  margin-right: 10px;
+  border-radius: 50%;
+  vertical-align: -7px;
+  transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+}
+
+body.agm-standard .checkbox-rounded label span:before {
+  content: "";
+  width: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #2f3640;
+  position: absolute;
+  transform: rotate(45deg);
+  transition: width 50ms ease 50ms;
+  transform-origin: 0% 0%;
+  top: 8px;
+  left: 5px;
+}
+
+body.agm-standard .checkbox-rounded label span:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: #2f3640;
+  position: absolute;
+  transform: rotate(305deg);
+  transition: width 50ms ease 50ms;
+  transform-origin: 0% 0%;
+  top: 12px;
+  left: 6px;
+}
+
+body.agm-standard .checkbox-rounded label:hover span:before {
+  width: 5px;
+  transition: width 100ms ease;
+}
+
+body.agm-standard .checkbox-rounded label:hover span:after {
+  width: 10px;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .radio.radio-primary input:checked + span {
+  border: solid 2px #00a8ff;
+}
+
+body.agm-standard .radio.radio-primary span {
+  border: solid 2px #00a8ff;
+}
+
+body.agm-standard .radio.radio-primary span:after {
+  background-color: #0097e6;
+}
+
+body.agm-standard .radio.radio-secondary input:checked + span {
+  border: solid 2px #7f8fa6;
+}
+
+body.agm-standard .radio.radio-secondary span {
+  border: solid 2px #7f8fa6;
+}
+
+body.agm-standard .radio.radio-secondary span:after {
+  background-color: #718093;
+}
+
+body.agm-standard .radio.radio-success input:checked + span {
+  border: solid 2px #4cd137;
+}
+
+body.agm-standard .radio.radio-success span {
+  border: solid 2px #4cd137;
+}
+
+body.agm-standard .radio.radio-success span:after {
+  background-color: #44bd32;
+}
+
+body.agm-standard .radio.radio-warning input:checked + span {
+  border: solid 2px #fbc531;
+}
+
+body.agm-standard .radio.radio-warning span {
+  border: solid 2px #fbc531;
+}
+
+body.agm-standard .radio.radio-warning span:after {
+  background-color: #e1b12c;
+}
+
+body.agm-standard .radio.radio-danger input:checked + span {
+  border: solid 2px #e84118;
+}
+
+body.agm-standard .radio.radio-danger span {
+  border: solid 2px #e84118;
+}
+
+body.agm-standard .radio.radio-danger span:after {
+  background-color: #c23616;
+}
+
+body.agm-standard .radio.radio-info input:checked + span {
+  border: solid 2px #273c75;
+}
+
+body.agm-standard .radio.radio-info span {
+  border: solid 2px #273c75;
+}
+
+body.agm-standard .radio.radio-info span:after {
+  background-color: #192a56;
+}
+
+body.agm-standard .radio.radio-light input:checked + span {
+  border: solid 2px #f5f6fa;
+}
+
+body.agm-standard .radio.radio-light span {
+  border: solid 2px #f5f6fa;
+}
+
+body.agm-standard .radio.radio-light span:after {
+  background-color: #dcdde1;
+}
+
+body.agm-standard .radio.radio-dark input:checked + span {
+  border: solid 2px #353b48;
+}
+
+body.agm-standard .radio.radio-dark span {
+  border: solid 2px #353b48;
+}
+
+body.agm-standard .radio.radio-dark span:after {
+  background-color: #2f3640;
+}
+
+body.agm-standard .radio label {
+  position: relative;
+  cursor: pointer;
+  vertical-align: middle;
+  line-height: 20px;
+}
+
+body.agm-standard .radio label:hover span:after {
+  transform: scale(3.6);
+}
+
+body.agm-standard .radio input {
+  display: none;
+}
+
+body.agm-standard .radio input:checked + span {
+  border: solid 2px #353b48;
+}
+
+body.agm-standard .radio input:checked + span:after {
+  transform: scale(1);
+  transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+  opacity: 1;
+}
+
+body.agm-standard .radio span {
+  position: relative;
+  display: block;
+  float: left;
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+  border: solid 2px #353b48;
+  border-radius: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body.agm-standard .radio span:after {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background-color: #2f3640;
+  transform: scale(0);
+  transition: all 0.2s ease;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+body.agm-standard .toggle input {
+  display: none;
+}
+
+body.agm-standard .toggle input,
+body.agm-standard .toggle input:after,
+body.agm-standard .toggle input:before,
+body.agm-standard .toggle input *,
+body.agm-standard .toggle input *:after,
+body.agm-standard .toggle input *:before,
+body.agm-standard .toggle input + label {
+  box-sizing: border-box;
+}
+
+body.agm-standard .toggle input::-moz-selection, body.agm-standard .toggle input:after::-moz-selection, body.agm-standard .toggle input:before::-moz-selection, body.agm-standard .toggle input *::-moz-selection, body.agm-standard .toggle input *:after::-moz-selection, body.agm-standard .toggle input *:before::-moz-selection, body.agm-standard .toggle input + label::-moz-selection {
+  background: none;
+}
+
+body.agm-standard .toggle input::selection,
+body.agm-standard .toggle input:after::selection,
+body.agm-standard .toggle input:before::selection,
+body.agm-standard .toggle input *::selection,
+body.agm-standard .toggle input *:after::selection,
+body.agm-standard .toggle input *:before::selection,
+body.agm-standard .toggle input + label::selection {
+  background: none;
+}
+
+body.agm-standard .toggle input + label {
+  background-color: #dcdde1;
+  border-radius: 2rem;
+  padding: 2px;
+  transition: all 0.4s ease;
+}
+
+body.agm-standard .toggle input + label:after {
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  transition: all 0.2s ease;
+}
+
+body.agm-standard .toggle input:checked + label {
+  background-color: #2f3640;
+}
+
+body.agm-standard .toggle input + label {
+  outline: 0;
+  display: block;
+  width: 3em;
+  position: relative;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+body.agm-standard .toggle input + label:after,
+body.agm-standard .toggle input + label:before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
+body.agm-standard .toggle input + label:after {
+  left: 0;
+}
+
+body.agm-standard .toggle input + label:before {
+  display: none;
+}
+
+body.agm-standard .toggle input:checked + label:after {
+  left: 50%;
 }
 

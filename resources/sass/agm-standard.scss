@@ -6,6 +6,9 @@
 @import 'card';
 @import 'button';
 @import 'form';
+@import 'checkbox';
+@import 'radio';
+@import 'toggle';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
@@ -25,4 +28,7 @@ body.agm-standard {
     @include button-default;
     @include card-default;
     @include form-default;
+    @include checkbox-default;
+    @include radio-default;
+    @include toggle-default;
 }

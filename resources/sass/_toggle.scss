@@ -1,0 +1,77 @@
+@mixin toggle-default() {
+    .toggle {
+        input {
+            display: none;
+    
+            &,
+            &:after,
+            &:before,
+            & *,
+            & *:after,
+            & *:before,
+            & + label {
+                box-sizing: border-box;
+    
+                &::selection {
+                    background: none;
+                }
+            }
+
+            + label {
+                background-color: $color-light-highlight;
+                border-radius: 2rem;
+                padding: 2px;
+                transition: all 0.4s ease;
+    
+                &:after {
+                    border-radius: 50%;
+                    background-color: #FFFFFF;
+                    transition: all 0.2s ease;
+                }
+            }
+
+            &:checked + label {
+                background-color: $color-dark-highlight;
+            }
+    
+            & + label {
+                outline: 0;
+                display: block;
+                width: 3em;
+                position: relative;
+                height: 1.5rem;
+                cursor: pointer;
+    
+                &:after,
+                &:before {
+                    content: "";
+                    display: block;
+                    position: relative;
+                    width: 50%;
+                    height: 100%;
+                }
+    
+                &:after {
+                    left: 0;
+                }
+    
+                &:before { 
+                    display: none;
+                }
+            }
+    
+            &:checked + label:after {
+                left: 50%;
+            }
+        }
+    }
+}
+
+@mixin toggle-theme($type) {
+    @if $type == 'default' {
+
+    }
+    @else if $type == 'ios' {
+
+    }
+}

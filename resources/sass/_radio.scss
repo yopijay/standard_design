@@ -1,0 +1,180 @@
+@mixin radio-default() {
+    .radio {
+        @include radio-theme();
+
+        label {
+            position: relative;
+            cursor: pointer;
+            vertical-align: middle;
+            line-height: 20px;
+    
+            &:hover span:after {
+                transform: scale(3.6);
+            }
+        }
+
+        input {
+            display: none;
+    
+            &:checked + span {
+                border: solid 2px $color-dark;
+    
+                &:after {
+                    transform: scale(1);
+                    transition: all 0.2s cubic-bezier(0.35, 0.9, 0.4, 0.9);
+                    opacity: 1;
+                }
+            }
+        }
+
+        span {
+            position: relative;
+            display: block;
+            float: left;
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+            border: solid 2px $color-dark;
+            border-radius: 100%;
+            -webkit-tap-highlight-color: transparent;
+    
+            &:after {
+                content: "";
+                position: absolute;
+                top: 3px;
+                left: 3px;
+                width: 10px;
+                height: 10px;
+                border-radius: 100%;
+                background-color: $color-dark-highlight;
+                transform: scale(0);
+                transition: all 0.2s ease;
+                opacity: 0.08;
+                pointer-events: none;
+            }
+        }
+    }
+}
+
+@mixin radio-theme() {
+    &.radio-primary {
+        input {
+            &:checked + span {
+                border: solid 2px $color-primary;
+            }
+        }
+
+        span {
+            border: solid 2px $color-primary;
+
+            &:after {
+                background-color: $color-primary-highlight;
+            }
+        }
+    }
+    &.radio-secondary {
+        input {
+            &:checked + span {
+                border: solid 2px $color-secondary;
+            }
+        }
+
+        span {
+            border: solid 2px $color-secondary;
+
+            &:after {
+                background-color: $color-secondary-highlight;
+            }
+        }
+    }
+    &.radio-success {
+        input {
+            &:checked + span {
+                border: solid 2px $color-success;
+            }
+        }
+
+        span {
+            border: solid 2px $color-success;
+
+            &:after {
+                background-color: $color-success-highlight;
+            }
+        }
+    }
+    &.radio-warning {
+        input {
+            &:checked + span {
+                border: solid 2px $color-warning;
+            }
+        }
+
+        span {
+            border: solid 2px $color-warning;
+
+            &:after {
+                background-color: $color-warning-highlight;
+            }
+        }
+    }
+    &.radio-danger {
+        input {
+            &:checked + span {
+                border: solid 2px $color-danger;
+            }
+        }
+
+        span {
+            border: solid 2px $color-danger;
+
+            &:after {
+                background-color: $color-danger-highlight;
+            }
+        }
+    }
+    &.radio-info {
+        input {
+            &:checked + span {
+                border: solid 2px $color-info;
+            }
+        }
+
+        span {
+            border: solid 2px $color-info;
+
+            &:after {
+                background-color: $color-info-highlight;
+            }
+        }
+    }
+    &.radio-light {
+        input {
+            &:checked + span {
+                border: solid 2px $color-light;
+            }
+        }
+
+        span {
+            border: solid 2px $color-light;
+
+            &:after {
+                background-color: $color-light-highlight;
+            }
+        }
+    }
+    &.radio-dark {
+        input {
+            &:checked + span {
+                border: solid 2px $color-dark;
+            }
+        }
+
+        span {
+            border: solid 2px $color-dark;
+
+            &:after {
+                background-color: $color-dark-highlight;
+            }
+        }
+    }
+}
