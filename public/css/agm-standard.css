@@ -10927,6 +10927,7 @@ body.agm-standard::-webkit-scrollbar {
 }
 
 body.agm-standard .navbar {
+  z-index: 10000;
   background-color: #f5f6fa;
 }
 
@@ -11376,6 +11377,26 @@ body.agm-standard .text-light {
 
 body.agm-standard .text-dark {
   color: #353b48;
+}
+
+body.agm-standard .display-1 {
+  font-size: 3rem;
+}
+
+body.agm-standard .display-2 {
+  font-size: 2.5rem;
+}
+
+body.agm-standard .display-3 {
+  font-size: 2rem;
+}
+
+body.agm-standard .display-4 {
+  font-size: 1.5rem;
+}
+
+body.agm-standard .display-5 {
+  font-size: 1rem;
 }
 
 body.agm-standard h1,
@@ -12363,126 +12384,45 @@ body.agm-standard .card.card-accent.card-dark .card-body .card-title {
 }
 
 body.agm-standard .form-group label {
-  font-size: 0.9rem;
-  margin-bottom: 5px;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  color: #2f3640;
 }
 
-body.agm-standard .form-group input.form-control {
-  border: solid 1px #dcdde1;
-  font-size: 0.9rem;
-  color: #353b48;
-  padding-left: 15px;
-  padding-right: 15px;
+body.agm-standard .form-group .form-control {
+  font-size: 0.8rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 10px;
+  color: #7f8fa6;
 }
 
-body.agm-standard .form-group input.form-control.form-square {
-  border-radius: 0;
+body.agm-standard .form-group .form-control:focus {
+  border: solid 1px #7f8fa6;
+  box-shadow: none;
 }
 
-body.agm-standard .form-group input.form-control.form-rounded {
+body.agm-standard .form-group .form-control.form-success {
+  border: solid 1px #4cd137;
+}
+
+body.agm-standard .form-group .form-control.form-warning {
+  border: solid 1px #fbc531;
+}
+
+body.agm-standard .form-group .form-control.form-danger {
+  border: solid 1px #e84118;
+}
+
+body.agm-standard .form-group .form-control.form-info {
+  border: solid 1px #273c75;
+}
+
+body.agm-standard .form-group .form-control.form-square {
+  border-radius: 0px;
+}
+
+body.agm-standard .form-group .form-control.form-pills {
   border-radius: 50px;
-}
-
-body.agm-standard .form-group input.form-control:focus {
-  box-shadow: none;
-}
-
-body.agm-standard .form-group input.form-control.form-primary {
-  border: solid 1px #00a8ff;
-}
-
-body.agm-standard .form-group input.form-control.form-secondary {
-  border: solid 1px #7f8fa6;
-}
-
-body.agm-standard .form-group input.form-control.form-success {
-  border: solid 1px #4cd137;
-}
-
-body.agm-standard .form-group input.form-control.form-warning {
-  border: solid 1px #fbc531;
-}
-
-body.agm-standard .form-group input.form-control.form-danger {
-  border: solid 1px #e84118;
-}
-
-body.agm-standard .form-group input.form-control.form-info {
-  border: solid 1px #273c75;
-}
-
-body.agm-standard .form-group input.form-control.form-light {
-  border: solid 1px #dcdde1;
-}
-
-body.agm-standard .form-group input.form-control.form-dark {
-  border: solid 1px #353b48;
-}
-
-body.agm-standard .form-group small {
-  float: right;
-  margin-top: 2px;
-  font-size: 0.7rem;
-  display: none;
-}
-
-body.agm-standard .form-group select {
-  background-color: #FFFFFF;
-  border: solid 1px #dcdde1;
-}
-
-body.agm-standard .form-group select:focus {
-  box-shadow: none;
-}
-
-body.agm-standard .form-group textarea {
-  border: solid 1px #dcdde1;
-  color: #353b48;
-}
-
-body.agm-standard .form-group textarea.form-square {
-  border-radius: 0;
-}
-
-body.agm-standard .form-group textarea.form-rounded {
-  border-radius: 10px;
-}
-
-body.agm-standard .form-group textarea:focus {
-  box-shadow: none;
-  border: solid 1px #dcdde1;
-}
-
-body.agm-standard .form-group textarea.form-primary {
-  border: solid 1px #00a8ff;
-}
-
-body.agm-standard .form-group textarea.form-secondary {
-  border: solid 1px #7f8fa6;
-}
-
-body.agm-standard .form-group textarea.form-success {
-  border: solid 1px #4cd137;
-}
-
-body.agm-standard .form-group textarea.form-warning {
-  border: solid 1px #fbc531;
-}
-
-body.agm-standard .form-group textarea.form-danger {
-  border: solid 1px #e84118;
-}
-
-body.agm-standard .form-group textarea.form-info {
-  border: solid 1px #273c75;
-}
-
-body.agm-standard .form-group textarea.form-light {
-  border: solid 1px #dcdde1;
-}
-
-body.agm-standard .form-group textarea.form-dark {
-  border: solid 1px #353b48;
 }
 
 body.agm-standard .checkbox-anim.checkbox-primary input:checked + label svg {
@@ -12809,6 +12749,38 @@ body.agm-standard .checkbox-rounded.checkbox-primary label span:after {
   background-color: #0097e6;
 }
 
+body.agm-standard .checkbox-rounded.checkbox-primary input:checked + label span {
+  background-color: #0097e6;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-primary input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-primary input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-primary input:checked + label:hover span {
+  background-color: #0097e6;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-primary input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-primary input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
 body.agm-standard .checkbox-rounded.checkbox-secondary label span {
   border: solid 2px #718093;
 }
@@ -12819,6 +12791,38 @@ body.agm-standard .checkbox-rounded.checkbox-secondary label span:before {
 
 body.agm-standard .checkbox-rounded.checkbox-secondary label span:after {
   background-color: #718093;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary input:checked + label span {
+  background-color: #718093;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary input:checked + label:hover span {
+  background-color: #718093;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-secondary input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
 }
 
 body.agm-standard .checkbox-rounded.checkbox-success label span {
@@ -12833,6 +12837,38 @@ body.agm-standard .checkbox-rounded.checkbox-success label span:after {
   background-color: #44bd32;
 }
 
+body.agm-standard .checkbox-rounded.checkbox-success input:checked + label span {
+  background-color: #44bd32;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-success input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-success input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-success input:checked + label:hover span {
+  background-color: #44bd32;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-success input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-success input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
 body.agm-standard .checkbox-rounded.checkbox-warning label span {
   border: solid 2px #e1b12c;
 }
@@ -12843,6 +12879,38 @@ body.agm-standard .checkbox-rounded.checkbox-warning label span:before {
 
 body.agm-standard .checkbox-rounded.checkbox-warning label span:after {
   background-color: #e1b12c;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning input:checked + label span {
+  background-color: #e1b12c;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning input:checked + label:hover span {
+  background-color: #e1b12c;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-warning input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
 }
 
 body.agm-standard .checkbox-rounded.checkbox-danger label span {
@@ -12857,6 +12925,38 @@ body.agm-standard .checkbox-rounded.checkbox-danger label span:after {
   background-color: #c23616;
 }
 
+body.agm-standard .checkbox-rounded.checkbox-danger input:checked + label span {
+  background-color: #c23616;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-danger input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-danger input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-danger input:checked + label:hover span {
+  background-color: #c23616;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-danger input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-danger input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
 body.agm-standard .checkbox-rounded.checkbox-info label span {
   border: solid 2px #192a56;
 }
@@ -12867,6 +12967,38 @@ body.agm-standard .checkbox-rounded.checkbox-info label span:before {
 
 body.agm-standard .checkbox-rounded.checkbox-info label span:after {
   background-color: #192a56;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info input:checked + label span {
+  background-color: #192a56;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info input:checked + label:hover span {
+  background-color: #192a56;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-info input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
 }
 
 body.agm-standard .checkbox-rounded.checkbox-light label span {
@@ -12881,6 +13013,38 @@ body.agm-standard .checkbox-rounded.checkbox-light label span:after {
   background-color: #dcdde1;
 }
 
+body.agm-standard .checkbox-rounded.checkbox-light input:checked + label span {
+  background-color: #dcdde1;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-light input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-light input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-light input:checked + label:hover span {
+  background-color: #dcdde1;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-light input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-light input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
 body.agm-standard .checkbox-rounded.checkbox-dark label span {
   border: solid 2px #2f3640;
 }
@@ -12891,6 +13055,38 @@ body.agm-standard .checkbox-rounded.checkbox-dark label span:before {
 
 body.agm-standard .checkbox-rounded.checkbox-dark label span:after {
   background-color: #2f3640;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark input:checked + label span {
+  background-color: #2f3640;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark input:checked + label:hover span {
+  background-color: #2f3640;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded.checkbox-dark input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
 }
 
 body.agm-standard .checkbox-rounded label {
@@ -12948,6 +13144,42 @@ body.agm-standard .checkbox-rounded label:hover span:before {
 
 body.agm-standard .checkbox-rounded label:hover span:after {
   width: 10px;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded input {
+  display: none;
+}
+
+body.agm-standard .checkbox-rounded input:checked + label span {
+  background-color: #2f3640;
+}
+
+body.agm-standard .checkbox-rounded input:checked + label span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded input:checked + label span:before {
+  width: 5px;
+  background: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded input:checked + label:hover span {
+  background-color: #2f3640;
+}
+
+body.agm-standard .checkbox-rounded input:checked + label:hover span:after {
+  width: 10px;
+  background-color: #f5f6fa;
+  transition: width 150ms ease 100ms;
+}
+
+body.agm-standard .checkbox-rounded input:checked + label:hover span:before {
+  width: 5px;
+  background-color: #f5f6fa;
   transition: width 150ms ease 100ms;
 }
 
@@ -13052,6 +13284,7 @@ body.agm-standard .radio label {
   cursor: pointer;
   vertical-align: middle;
   line-height: 20px;
+  font-size: 0.8rem;
 }
 
 body.agm-standard .radio label:hover span:after {
@@ -13099,7 +13332,40 @@ body.agm-standard .radio span:after {
   pointer-events: none;
 }
 
+body.agm-standard .toggle.toggle-primary input:checked + label {
+  background-color: #00a8ff;
+}
+
+body.agm-standard .toggle.toggle-secondary input:checked + label {
+  background-color: #7f8fa6;
+}
+
+body.agm-standard .toggle.toggle-success input:checked + label {
+  background-color: #4cd137;
+}
+
+body.agm-standard .toggle.toggle-warning input:checked + label {
+  background-color: #fbc531;
+}
+
+body.agm-standard .toggle.toggle-danger input:checked + label {
+  background-color: #e84118;
+}
+
+body.agm-standard .toggle.toggle-info input:checked + label {
+  background-color: #273c75;
+}
+
+body.agm-standard .toggle.toggle-light input:checked + label {
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .toggle.toggle-dark input:checked + label {
+  background-color: #353b48;
+}
+
 body.agm-standard .toggle input {
+  float: left;
   display: none;
 }
 
@@ -13172,5 +13438,770 @@ body.agm-standard .toggle input + label:before {
 
 body.agm-standard .toggle input:checked + label:after {
   left: 50%;
+}
+
+body.agm-standard .toggle.toggle-ios.toggle-primary input:checked + label {
+  background-color: #00a8ff;
+}
+
+body.agm-standard .toggle.toggle-ios.toggle-secondary input:checked + label {
+  background-color: #7f8fa6;
+}
+
+body.agm-standard .toggle.toggle-ios.toggle-success input:checked + label {
+  background-color: #4cd137;
+}
+
+body.agm-standard .toggle.toggle-ios.toggle-warning input:checked + label {
+  background-color: #fbc531;
+}
+
+body.agm-standard .toggle.toggle-ios.toggle-danger input:checked + label {
+  background-color: #e84118;
+}
+
+body.agm-standard .toggle.toggle-ios.toggle-info input:checked + label {
+  background-color: #273c75;
+}
+
+body.agm-standard .toggle.toggle-ios.toggle-light input:checked + label {
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .toggle.toggle-ios.toggle-dark input:checked + label {
+  background-color: #353b48;
+}
+
+body.agm-standard .toggle.toggle-ios input + label {
+  background-color: #dcdde1;
+  border-radius: 2em;
+  padding: 2px;
+  transition: all 0.4s ease-in-out;
+}
+
+body.agm-standard .toggle.toggle-ios input + label:after {
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  transition: left 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), padding 0.3s ease, margin 0.3s ease;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+body.agm-standard .toggle.toggle-ios input:checked + label {
+  background-color: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-primary input + label:active {
+  background: #0097e6;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-primary input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-primary input:checked + label {
+  background-color: #0097e6;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-primary input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-primary input:checked + label:after {
+  left: 0;
+  background-color: #0097e6;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-primary input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-secondary input + label:active {
+  background: #718093;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-secondary input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-secondary input:checked + label {
+  background-color: #718093;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-secondary input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-secondary input:checked + label:after {
+  left: 0;
+  background-color: #718093;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-secondary input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-success input + label:active {
+  background: #44bd32;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-success input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-success input:checked + label {
+  background-color: #44bd32;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-success input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-success input:checked + label:after {
+  left: 0;
+  background-color: #44bd32;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-success input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-warning input + label:active {
+  background: #e1b12c;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-warning input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-warning input:checked + label {
+  background-color: #e1b12c;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-warning input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-warning input:checked + label:after {
+  left: 0;
+  background-color: #e1b12c;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-warning input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-danger input + label:active {
+  background: #c23616;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-danger input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-danger input:checked + label {
+  background-color: #c23616;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-danger input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-danger input:checked + label:after {
+  left: 0;
+  background-color: #c23616;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-danger input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-info input + label:active {
+  background: #192a56;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-info input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-info input:checked + label {
+  background-color: #192a56;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-info input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-info input:checked + label:after {
+  left: 0;
+  background-color: #192a56;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-info input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-light input + label:active {
+  background: #dcdde1;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-light input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-light input:checked + label {
+  background-color: #dcdde1;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-light input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-light input:checked + label:after {
+  left: 0;
+  background-color: #dcdde1;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-light input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-dark input + label:active {
+  background: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-dark input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-dark input:checked + label {
+  background-color: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-dark input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-dark input:checked + label:after {
+  left: 0;
+  background-color: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-skewed.toggle-dark input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-skewed input + label {
+  overflow: hidden;
+  transform: skew(-10deg);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  transition: all 0.2s ease;
+  font-weight: bold;
+  border-radius: 0rem;
+  background-color: #888888;
+}
+
+body.agm-standard .toggle.toggle-skewed input + label:after,
+body.agm-standard .toggle.toggle-skewed input + label:before {
+  transform: skew(10deg);
+  display: inline-block;
+  transition: all 0.2s ease;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  margin-top: -2px;
+  line-height: 2em;
+  color: #f5f6fa;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+body.agm-standard .toggle.toggle-skewed input + label:after {
+  left: 100%;
+  content: attr(data-tg-on);
+}
+
+body.agm-standard .toggle.toggle-skewed input + label:before {
+  left: 0;
+  content: attr(data-tg-off);
+}
+
+body.agm-standard .toggle.toggle-skewed input + label:active {
+  background: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-skewed input + label:active:before {
+  left: -10%;
+}
+
+body.agm-standard .toggle.toggle-skewed input:checked + label {
+  background-color: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-skewed input:checked + label:before {
+  left: -100%;
+}
+
+body.agm-standard .toggle.toggle-skewed input:checked + label:after {
+  left: 0;
+  background-color: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-skewed input:checked + label:active:after {
+  left: 10%;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-primary input + label {
+  background-color: #FFFFFF;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-primary input:checked + label {
+  border: solid 4px #0097e6;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-primary input:checked + label:after {
+  left: 50%;
+  background-color: #0097e6;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-secondary input + label {
+  background-color: #FFFFFF;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-secondary input:checked + label {
+  border: solid 4px #718093;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-secondary input:checked + label:after {
+  left: 50%;
+  background-color: #718093;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-success input + label {
+  background-color: #FFFFFF;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-success input:checked + label {
+  border: solid 4px #44bd32;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-success input:checked + label:after {
+  left: 50%;
+  background-color: #44bd32;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-warning input + label {
+  background-color: #FFFFFF;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-warning input:checked + label {
+  border: solid 4px #e1b12c;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-warning input:checked + label:after {
+  left: 50%;
+  background-color: #e1b12c;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-danger input + label {
+  background-color: #FFFFFF;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-danger input:checked + label {
+  border: solid 4px #c23616;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-danger input:checked + label:after {
+  left: 50%;
+  background-color: #c23616;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-info input + label {
+  background-color: #FFFFFF;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-info input:checked + label {
+  border: solid 4px #192a56;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-info input:checked + label:after {
+  left: 50%;
+  background-color: #192a56;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-light input + label {
+  background-color: #FFFFFF;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-light input:checked + label {
+  border: solid 4px #dcdde1;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-light input:checked + label:after {
+  left: 50%;
+  background-color: #dcdde1;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-dark input + label {
+  background-color: #FFFFFF;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-dark input:checked + label {
+  border: solid 4px #2f3640;
+}
+
+body.agm-standard .toggle.toggle-flat.toggle-dark input:checked + label:after {
+  left: 50%;
+  background-color: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-flat input + label {
+  padding: 2px;
+  transition: all 0.2s ease;
+  background-color: #FFFFFF;
+  border: solid 4px #f5f6fa;
+  border-radius: 2em;
+}
+
+body.agm-standard .toggle.toggle-flat input + label:after {
+  transition: all 0.2s ease;
+  background-color: #F2F2F2;
+  content: "";
+  border-radius: 1em;
+}
+
+body.agm-standard .toggle.toggle-flat input:checked + label {
+  border: solid 4px #2f3640;
+}
+
+body.agm-standard .toggle.toggle-flat input:checked + label:after {
+  left: 50%;
+  background-color: #2f3640;
+}
+
+body.agm-standard .toggle.toggle-flip.toggle-primary input:checked + label:after {
+  background-color: #00a8ff;
+}
+
+body.agm-standard .toggle.toggle-flip.toggle-secondary input:checked + label:after {
+  background-color: #7f8fa6;
+}
+
+body.agm-standard .toggle.toggle-flip.toggle-success input:checked + label:after {
+  background-color: #4cd137;
+}
+
+body.agm-standard .toggle.toggle-flip.toggle-warning input:checked + label:after {
+  background-color: #fbc531;
+}
+
+body.agm-standard .toggle.toggle-flip.toggle-danger input:checked + label:after {
+  background-color: #e84118;
+}
+
+body.agm-standard .toggle.toggle-flip.toggle-info input:checked + label:after {
+  background-color: #273c75;
+}
+
+body.agm-standard .toggle.toggle-flip.toggle-light input:checked + label:after {
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .toggle.toggle-flip.toggle-dark input:checked + label:after {
+  background-color: #353b48;
+}
+
+body.agm-standard .toggle.toggle-flip input + label {
+  transition: all 0.2s ease-in-out;
+}
+
+body.agm-standard .toggle.toggle-flip input + label:after,
+body.agm-standard .toggle.toggle-flip input + label:before {
+  display: inline-block;
+  transition: all 0.4s ease;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  font-weight: bold;
+  color: #ffffff;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+body.agm-standard .toggle.toggle-flip input + label:after {
+  content: attr(data-tg-on);
+  transform: rotateY(-180deg);
+}
+
+body.agm-standard .toggle.toggle-flip input + label:before {
+  background-color: #888888;
+  content: attr(data-tg-off);
+}
+
+body.agm-standard .toggle.toggle-flip input + label:active:before {
+  transform: rotateY(-20deg);
+}
+
+body.agm-standard .toggle.toggle-flip input:checked + label:before {
+  transform: rotateY(180deg);
+}
+
+body.agm-standard .toggle.toggle-flip input:checked + label:after {
+  transform: rotateY(0);
+  left: 0;
+  background-color: #353b48;
+}
+
+body.agm-standard .toggle.toggle-flip input:checked + label:active:before {
+  transform: rotateY(20deg);
+}
+
+body.agm-standard .toast {
+  display: block !important;
+  opacity: 0;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-primary {
+  background-color: rgba(0, 168, 255, 0.7);
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-primary .toast-body .toast-button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-secondary {
+  background-color: rgba(127, 143, 166, 0.7);
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-secondary .toast-body .toast-button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-success {
+  background-color: rgba(76, 209, 55, 0.7);
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-success .toast-body .toast-button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-warning {
+  background-color: rgba(251, 197, 49, 0.7);
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-warning .toast-body .toast-button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-danger {
+  background-color: rgba(232, 65, 24, 0.7);
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-danger .toast-body .toast-button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-info {
+  background-color: rgba(39, 60, 117, 0.7);
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-info .toast-body .toast-button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-light {
+  background-color: rgba(245, 246, 250, 0.7);
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-light .toast-body .toast-button {
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-dark {
+  background-color: rgba(53, 59, 72, 0.7);
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.toast-dark .toast-body .toast-button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .toast.show,
+body.agm-standard .toast.showing {
+  opacity: 1;
+}
+
+body.agm-standard .toast.hide {
+  opacity: 0;
+}
+
+body.agm-standard .toast-body {
+  padding: 10px 20px 0px 10px;
+}
+
+body.agm-standard .toast-body .custom-icon {
+  margin-top: -2px;
+  font-size: 1.4rem;
+}
+
+body.agm-standard .toast-body p {
+  margin-top: 6px;
+}
+
+body.agm-standard .toast-body .toast-button {
+  font-size: 1rem;
+  color: #353b48;
+  margin-top: 6px;
+}
+
+body.agm-standard .toast-body .toast-button:focus {
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+
+body.agm-standard .toast.toast-outline {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #dcdde1;
+}
+
+body.agm-standard .toast.toast-outline.toast-primary {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #00a8ff;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-primary .toast-body .custom-icon {
+  color: #00a8ff;
+}
+
+body.agm-standard .toast.toast-outline.toast-primary .toast-body .toast-button {
+  color: #00a8ff;
+}
+
+body.agm-standard .toast.toast-outline.toast-secondary {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #7f8fa6;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-secondary .toast-body .custom-icon {
+  color: #7f8fa6;
+}
+
+body.agm-standard .toast.toast-outline.toast-secondary .toast-body .toast-button {
+  color: #7f8fa6;
+}
+
+body.agm-standard .toast.toast-outline.toast-success {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #4cd137;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-success .toast-body .custom-icon {
+  color: #4cd137;
+}
+
+body.agm-standard .toast.toast-outline.toast-success .toast-body .toast-button {
+  color: #4cd137;
+}
+
+body.agm-standard .toast.toast-outline.toast-warning {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #fbc531;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-warning .toast-body .custom-icon {
+  color: #fbc531;
+}
+
+body.agm-standard .toast.toast-outline.toast-warning .toast-body .toast-button {
+  color: #fbc531;
+}
+
+body.agm-standard .toast.toast-outline.toast-danger {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #e84118;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-danger .toast-body .custom-icon {
+  color: #e84118;
+}
+
+body.agm-standard .toast.toast-outline.toast-danger .toast-body .toast-button {
+  color: #e84118;
+}
+
+body.agm-standard .toast.toast-outline.toast-info {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #273c75;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-info .toast-body .custom-icon {
+  color: #273c75;
+}
+
+body.agm-standard .toast.toast-outline.toast-info .toast-body .toast-button {
+  color: #273c75;
+}
+
+body.agm-standard .toast.toast-outline.toast-light {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #dcdde1;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-light .toast-body .custom-icon {
+  color: #dcdde1;
+}
+
+body.agm-standard .toast.toast-outline.toast-light .toast-body .toast-button {
+  color: #dcdde1;
+}
+
+body.agm-standard .toast.toast-outline.toast-dark {
+  background-color: rgba(245, 246, 250, 0.7);
+  border: solid 1px #353b48;
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-dark .toast-body .custom-icon {
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline.toast-dark .toast-body .toast-button {
+  color: #353b48;
+}
+
+body.agm-standard .toast.toast-outline .toast-body .custom-icon {
+  color: #2f3640;
+}
+
+body.agm-standard .toast.toast-outline .toast-body .custom-button {
+  color: #2f3640;
+}
+
+body.agm-standard .toast.toast-square {
+  border-radius: 0;
+}
+
+body.agm-standard .toast.toast-pills {
+  border-radius: 50px;
 }
 

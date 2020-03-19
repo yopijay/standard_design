@@ -1,10 +1,10 @@
 @mixin navbar() {
     .navbar {
+        z-index: 10000;
         @include navbar-theme($color-light, $color-dark);
         &.navbar-light {
             @include navbar-theme($color-light, $color-dark);
         }
-
         &.navbar-dark {
             @include navbar-theme($color-dark, $color-light);
         }
@@ -13,7 +13,7 @@
 
 @mixin navbar-side() {
     .navbar-side {
-        @include navbar-side-theme($color-light, $color-light-highlight, $color-dark, $color-dark-highlight , #00cec9);
+        @include navbar-side-theme($color-light, $color-light-highlight, $color-dark, $color-dark-highlight, #00cec9);
         &.navbar-side-light {
             @include navbar-side-theme($color-light, $color-light-highlight, $color-dark, $color-dark-highlight, #00cec9);
         }
@@ -28,10 +28,8 @@
     .navbar-header {
         a {
             text-decoration: none;
-
             h1 {
                 color: $color;
-
                 span {
                     color: #00cec9;
                 }
@@ -45,20 +43,16 @@
     overflow-y: scroll;
     padding: .5rem 0;
     width: 280px;
-
     &::-webkit-scrollbar {
         display: none;
     }
-
     ul {
         list-style: none;
         padding: 0;
         margin: 0;
         background-color: $background-color;
-
         li {
             position: relative;
-
             &.label {
                 background-color: $background-color;
                 margin: 15px 0px 10px 0px;
@@ -68,7 +62,6 @@
                 font-weight: bold;
                 padding-left: 1rem;
             }
-
             a {
                 display: block;
                 text-decoration: none;
@@ -77,7 +70,6 @@
                 position: relative;
                 margin-block-start: 0px !important;
                 margin-block-end: 0px !important;
-
                 p {
                     display: block;
                     font-size: 0.8rem;
@@ -85,7 +77,6 @@
                     margin-block-start: 0em !important;
                     margin-block-end: 0em !important;
                     transition: all 0.2s ease-in-out;
-
                     i {
                         float: right;
                         margin: .3rem 1.5rem 0 0;
@@ -94,33 +85,26 @@
                     }
                 }
             }
-
-            &:hover > a p {
+            &:hover>a p {
                 background-color: $background-color-highlight;
                 color: $color-highlight;
                 transition: all 0.3s ease-in-out;
             }
-
             // ul li.active a p {
             //     background-color: $background-color-highlight;
             // }
-
             &.active {
                 background-color: $background-color-highlight;
-
                 a p {
                     color: $color;
-
                     i {
                         transform: rotate(90deg);
                         transition: all 0.3s ease-in-out;
                     }
                 }
-
-                & > .items {
+                &>.items {
                     display: block;
                     transition: all 0.3s ease-in-out;
-
                     li {
                         display: block;
                         transition: all 0.3s ease-in-out;
@@ -128,7 +112,6 @@
                 }
             }
         }
-
         li ul {
             position: relative;
             height: auto;
@@ -139,7 +122,6 @@
             display: none;
             list-style: none;
             transition: all 0.3s ease-in-out;
-
             a {
                 p {
                     padding-left: 3rem;
@@ -147,7 +129,6 @@
                 }
             }
         }
-
         li ul li ul {
             position: relative;
             height: auto;
@@ -158,18 +139,14 @@
             display: none;
             list-style: none;
             transition: all 0.3s ease-in-out;
-
             a {
                 p {
                     padding-left: 5rem;
                 }
             }
         }
-
-
     }
 }
-
 
 @keyframes moveFromLeft {
     from {

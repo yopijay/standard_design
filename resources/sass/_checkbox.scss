@@ -191,6 +191,46 @@
                     }
                 }
             }
+
+            input {
+                display: none;
+        
+                &:checked + label {
+                    span {
+                        background-color: $color-dark-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-dark-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -527,6 +567,44 @@
                     }
                 }
             }
+
+            input {
+                &:checked + label {
+                    span {
+                        background-color: $color-primary-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-primary-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
+                    }
+                }
+            }
         }
         &.checkbox-secondary {
             label {
@@ -539,6 +617,44 @@
             
                     &:after {
                         background-color: $color-secondary-highlight;
+                    }
+                }
+            }
+
+            input {
+                &:checked + label {
+                    span {
+                        background-color: $color-secondary-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-secondary-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
                     }
                 }
             }
@@ -557,6 +673,44 @@
                     }
                 }
             }
+
+            input {
+                &:checked + label {
+                    span {
+                        background-color: $color-success-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-success-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
+                    }
+                }
+            }
         }
         &.checkbox-warning {
             label {
@@ -569,6 +723,44 @@
             
                     &:after {
                         background-color: $color-warning-highlight;
+                    }
+                }
+            }
+
+            input {
+                &:checked + label {
+                    span {
+                        background-color: $color-warning-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-warning-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
                     }
                 }
             }
@@ -587,6 +779,44 @@
                     }
                 }
             }
+
+            input {
+                &:checked + label {
+                    span {
+                        background-color: $color-danger-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-danger-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
+                    }
+                }
+            }
         }
         &.checkbox-info {
             label {
@@ -599,6 +829,44 @@
             
                     &:after {
                         background-color: $color-info-highlight;
+                    }
+                }
+            }
+
+            input {
+                &:checked + label {
+                    span {
+                        background-color: $color-info-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-info-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
                     }
                 }
             }
@@ -617,6 +885,44 @@
                     }
                 }
             }
+
+            input {
+                &:checked + label {
+                    span {
+                        background-color: $color-light-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-light-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
+                    }
+                }
+            }
         }
         &.checkbox-dark {
             label {
@@ -629,6 +935,44 @@
             
                     &:after {
                         background-color: $color-dark-highlight;
+                    }
+                }
+            }
+
+            input {
+                &:checked + label {
+                    span {
+                        background-color: $color-dark-highlight;
+        
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+        
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+        
+                    &:hover {
+                        span {
+                            background-color: $color-dark-highlight;
+        
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+        
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
                     }
                 }
             }

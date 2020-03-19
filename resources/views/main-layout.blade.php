@@ -29,26 +29,33 @@
                     <div class= "navbar-side navbar-side-light h-75 border rounded my-5 mx-4 shadow-sm position-fixed">
                         <ul>
                             <li class= "label"><p>Menu</p></li>
-                            <li class= "navbar-link active"><a href= "#" content= "dashboard-page"><p>Dashboard</p></a></li>
+                            <li class= "navbar-link list active"><a href= "#" content= "dashboard-page"><p>Dashboard</p></a></li>
                             <li class= "label"><p>Themes</p></li>
-                            <li class= "navbar-link"><a href= "#" content= "colors-page"><p>Colors</p></a></li>
-                            <li class= "navbar-link"><a href= "#" content= "typography-page"><p>Typography</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "colors-page"><p>Colors</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "typography-page"><p>Typography</p></a></li>
                             <li class= "label"><p>Components</p></li>
-                            <li class= "navbar-link"><a href= "#" content= "buttons-page"><p>Buttons</p></a></li>
-                            <li class= "navbar-link"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
-                            <li class= "navbar-link"><a href= "#" content= "toasters-page"><p>Toasters</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "buttons-page"><p>Buttons</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "radio-page"><p>Radio Buttons</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "toggles-page"><p>Swtich Toggles</p></a></li>
                             <li class= "list">
                                 <a href= "#"><p>Forms <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
-                                    <li class= "navbar-link"><a href= "#" content= "radio-page"><p>Radio Buttons</p></a></li>
-                                    <li class= "navbar-link"><a href= "#" content= "toggles-page"><p>Swtich Toggles</p></a></li>
-                                    <li class= "navbar-link"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
+                                </ul>
+                            </li>
+                            <li class= "list">
+                                <a href= "#"><p>Notifications <i class="fas fa-caret-right"></i></p></a>
+                                <ul class= "items">
+                                    <li class= "navbar-link list"><a href= "#" content= "badge-page"><p>Badges</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "toasters-page"><p>Toasters</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "modal-page"><p>Modal</p></a></li>
                                 </ul>
                             </li>
                             <li class= "label"><p>Pages</p></li>
-                            <li class= "navbar-link"><a href= "#" content= "login-page"><p>Login Page</p></a></li>
-                            <li class= "navbar-link"><a href= "#" content= "404-page"><p>404 Page</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "login-page"><p>Login Page</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "404-page"><p>404 Page</p></a></li>
                         </ul>
                     </div>
                 </div>

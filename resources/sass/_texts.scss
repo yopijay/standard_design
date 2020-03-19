@@ -1,46 +1,46 @@
 // Standard style for Texts
 @mixin text-default() {
     @include text-theme;
-    
-    h1, h2, h3, h4, h5,
-    .h1, .h2, .h3, .h4, .h5 {
+    @include text-display;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5 {
         font-family: 'Cocogoose';
         color: $color-dark;
     }
-
     h1,
     .h1 {
         font-size: 2rem;
     }
-
     h2,
     .h2 {
         font-size: 1.8rem;
     }
-
     h3,
     .h3 {
         font-size: 1.6rem;
     }
-
     h4,
     .h4 {
         font-size: 1.4rem;
     }
-
     h5,
     .h5 {
         font-size: 1.2rem;
     }
-
     p {
         font-size: .8rem;
     }
-
     .blockquote {
         font-size: .8rem;
         color: $color-dark;
-
         &-footer {
             font-size: .7rem;
             color: $color-dark-highlight;
@@ -75,5 +75,24 @@
     }
     .text-dark {
         color: $color-dark;
+    }
+}
+
+// Text Display
+@mixin text-display() {
+    .display-1 {
+        font-size: 3rem;
+    }
+    .display-2 {
+        font-size: 2.5rem;
+    }
+    .display-3 {
+        font-size: 2rem;
+    }
+    .display-4 {
+        font-size: 1.5rem;
+    }
+    .display-5 {
+        font-size: 1rem;
     }
 }

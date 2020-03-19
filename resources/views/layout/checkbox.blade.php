@@ -6,7 +6,7 @@
                 <div class= "card-header">Checkbox - Square</div>
                 <div class= "card-body">
                     <div class= "row">
-                        <div class= "col-md-5">
+                        <div class= "col-md-12">
                             <div class= "checkbox checkbox-square">
                                 <input type= "checkbox" id= "checkbox-square">
                                 <label for= "checkbox-square">
@@ -101,7 +101,7 @@
                 <div class= "card-header">Checkbox - Animated</div>
                 <div class= "card-body">
                     <div class= "row">
-                        <div class= "col-md-5">
+                        <div class= "col-md-12">
                             <div class= "checkbox checkbox-anim">
                                 <input type= "checkbox" id= "checkbox-anim">
                                 <label for= "checkbox-anim">
@@ -223,9 +223,9 @@
                 <div class= "card-header">Checkbox - Rounded</div>
                 <div class= "card-body">
                     <div class= "row">
-                        <div class= "col-md-7">
+                        <div class= "col-md-12">
                             <div class= "checkbox checkbox-rounded">
-                                <inpu type= "checkbox" id= "checkbox-rounded">
+                                <input type= "checkbox" id= "checkbox-rounded">
                                 <label for="checkbox-rounded">
                                     <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox .checkbox-rounded
                                 </label>
@@ -236,7 +236,7 @@
                             <div class= "row">
                                 <div class= "col-md-6">
                                     <div class= "checkbox checkbox-rounded checkbox-primary">
-                                        <inpu type= "checkbox" id= "checkbox-rounded-primary">
+                                        <input type= "checkbox" id= "checkbox-rounded-primary">
                                         <label for="checkbox-rounded-primary">
                                             <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox-primary
                                         </label>
@@ -244,7 +244,7 @@
                                 </div>
                                 <div class= "col-md-6">
                                     <div class= "checkbox checkbox-rounded checkbox-secondary">
-                                        <inpu type= "checkbox" id= "checkbox-rounded-secondary">
+                                        <input type= "checkbox" id= "checkbox-rounded-secondary">
                                         <label for="checkbox-rounded-secondary">
                                             <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox-secpndary
                                         </label>
@@ -252,7 +252,7 @@
                                 </div>
                                 <div class= "col-md-6">
                                     <div class= "checkbox checkbox-rounded checkbox-success">
-                                        <inpu type= "checkbox" id= "checkbox-rounded-success">
+                                        <input type= "checkbox" id= "checkbox-rounded-success">
                                         <label for="checkbox-rounded-success">
                                             <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox-success
                                         </label>
@@ -260,7 +260,7 @@
                                 </div>
                                 <div class= "col-md-6">
                                     <div class= "checkbox checkbox-rounded checkbox-warning">
-                                        <inpu type= "checkbox" id= "checkbox-rounded-warning">
+                                        <input type= "checkbox" id= "checkbox-rounded-warning">
                                         <label for="checkbox-rounded-warning">
                                             <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox-warning
                                         </label>
@@ -268,7 +268,7 @@
                                 </div>
                                 <div class= "col-md-6">
                                     <div class= "checkbox checkbox-rounded checkbox-danger">
-                                        <inpu type= "checkbox" id= "checkbox-rounded-danger">
+                                        <input type= "checkbox" id= "checkbox-rounded-danger">
                                         <label for="checkbox-rounded-danger">
                                             <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox-danger
                                         </label>
@@ -276,7 +276,7 @@
                                 </div>
                                 <div class= "col-md-6">
                                     <div class= "checkbox checkbox-rounded checkbox-info">
-                                        <inpu type= "checkbox" id= "checkbox-rounded-info">
+                                        <input type= "checkbox" id= "checkbox-rounded-info">
                                         <label for="checkbox-rounded-info">
                                             <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox-info
                                         </label>
@@ -284,7 +284,7 @@
                                 </div>
                                 <div class= "col-md-6">
                                     <div class= "checkbox checkbox-rounded checkbox-light">
-                                        <inpu type= "checkbox" id= "checkbox-rounded-light">
+                                        <input type= "checkbox" id= "checkbox-rounded-light">
                                         <label for="checkbox-rounded-light">
                                             <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox-light
                                         </label>
@@ -292,7 +292,7 @@
                                 </div>
                                 <div class= "col-md-6">
                                     <div class= "checkbox checkbox-rounded checkbox-dark">
-                                        <inpu type= "checkbox" id= "checkbox-rounded-dark">
+                                        <input type= "checkbox" id= "checkbox-rounded-dark">
                                         <label for="checkbox-rounded-dark">
                                             <span><!-- This span is needed to create the "checkbox" element --></span>.checkbox-dark
                                         </label>

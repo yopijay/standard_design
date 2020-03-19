@@ -1,112 +1,45 @@
 @mixin form-default() {
     .form-group {
-        // Standard design for Labels
         label {
-            font-size: .9rem;
-            margin-bottom: 5px;
+            font-size: .8rem;
+            margin-bottom: 0.2rem;
+            color: $color-dark-highlight;
         }
-
-        // Standard design for Inputs
-        input {
-            &.form-control {
-                border: solid 1px $color-light-highlight;
-                font-size: .9rem;
-                color: $color-dark;
-                padding-left: 15px;
-                padding-right: 15px; 
-
-                &.form-square {
-                    border-radius: 0;
-                }
-
-                &.form-rounded {
-                    border-radius: 50px;
-                }
-
-                &:focus {
-                    box-shadow: none;
-                }
-
-                @include input-theme();
-            }
-        }
-
-        // Standard design for Error messages
-        small {
-            float: right;
-            margin-top: 2px;
-            font-size: .7rem;
-            display: none;
-        }
-
-        // Standard design for Select Picker
-        select {
-            background-color: #FFFFFF;
-            border: solid 1px $color-light-highlight;
-
+        .form-control {
+            font-size: .8rem;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 5px 10px;
+            color: $color-secondary;
             &:focus {
+                border: solid 1px $color-secondary;
                 box-shadow: none;
             }
-        }
-
-        // Standard design for Textareas
-        textarea {
-            border: solid 1px $color-light-highlight;
-            color: $color-dark;
-
+            @include form-theme(default);
             &.form-square {
-                border-radius: 0;
+                border-radius: 0px;
             }
-
-            &.form-rounded {
-                border-radius: 10px;
+            &.form-pills {
+                border-radius: 50px;
             }
-
-            &:focus {
-                box-shadow: none;
-                border: solid 1px $color-light-highlight;   
-            }
-
-            @include input-theme();
         }
     }
 }
 
-@mixin input-style($style) {
-    @if $style == 'square' {
-
+@mixin form-theme($type) {
+    @if $type=='default' {
+        &.form-success {
+            border: solid 1px $color-success;
+        }
+        &.form-warning {
+            border: solid 1px $color-warning;
+        }
+        &.form-danger {
+            border: solid 1px $color-danger;
+        }
+        &.form-info {
+            border: solid 1px $color-info;
+        }
     }
-    @else if $style == 'rounded' {
-
-    }
-    @else {
-
-    }
-}
-
-@mixin input-theme() {
-    &.form-primary {
-        border: solid 1px $color-primary;
-    }
-    &.form-secondary {
-        border: solid 1px $color-secondary;
-    }
-    &.form-success {
-        border: solid 1px $color-success;
-    }
-    &.form-warning {
-        border: solid 1px $color-warning;
-    }
-    &.form-danger {
-        border: solid 1px $color-danger;
-    }
-    &.form-info {
-        border: solid 1px $color-info;
-    }
-    &.form-light {
-        border: solid 1px $color-light-highlight;
-    }
-    &.form-dark {
-        border: solid 1px $color-dark;
-    }
+    @else if $type=='square' {}
+    @else if $type=='pills' {}
 }
