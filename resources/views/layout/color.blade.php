@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content" id= "color-page">
+<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "color-page">
     <h4 class= "mb-5">COLORS</h4>
     <div class= "row mb-5">
         <div class= "col-md-2 mb-4">

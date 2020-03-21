@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content" id= "button-page">
+<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "button-page">
     <h4 class= "mb-5">BUTTONS</h4>
     <div class= "card mb-4">
         <div class= "card-header">Button Normal</div>

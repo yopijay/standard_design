@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content" id= "radio-page">
+<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "radio-page">
     <h4 class= "mb-5">RADIO BUTTON</h4>
     <div class= "row">
         <div class= "col-md-6">

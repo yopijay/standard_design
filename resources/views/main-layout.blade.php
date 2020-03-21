@@ -36,12 +36,12 @@
                             <li class= "label"><p>Components</p></li>
                             <li class= "navbar-link list"><a href= "#" content= "buttons-page"><p>Buttons</p></a></li>
                             <li class= "navbar-link list"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
-                            <li class= "navbar-link list"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
-                            <li class= "navbar-link list"><a href= "#" content= "radio-page"><p>Radio Buttons</p></a></li>
-                            <li class= "navbar-link list"><a href= "#" content= "toggles-page"><p>Swtich Toggles</p></a></li>
                             <li class= "list">
                                 <a href= "#"><p>Forms <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
+                                    <li class= "navbar-link list"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "radio-page"><p>Radio Buttons</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "toggles-page"><p>Swtich Toggles</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
                                 </ul>
                             </li>

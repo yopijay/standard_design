@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content" id= "input-page">
+<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "input-page">
     <h4 class= "mb-5">INPUT FIELDS</h4>
     <div class= "row">
         <div class="col-md-6">
@@ -73,11 +73,11 @@
                     <form id= "validate_form">
                         <div class= "form-group">
                             <label for= "email">Email:</label>
-                            <input type= "email" id= "email" class= "form-control"/>
+                            <input type= "email" id= "email" class= "form-control" input-label= "Email"/>
                         </div>
                         <div class= "form-group">
                             <label for= "password">Password:</label>
-                            <input type= "password" id= "password" class= "form-control"/>
+                            <input type= "password" id= "password" class= "form-control" input-label= "Password"/>
                         </div>
                     </form>
                     <button type= "button" class= "btn btn-solid btn-square btn-primary btn-block mt-4" id= "validate">Login</button>

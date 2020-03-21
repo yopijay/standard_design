@@ -3,7 +3,7 @@ $(function() {
     let links = $('.navbar-side > ul').find('.navbar-link');
 
     $('.content').css({ display: 'none' });
-    $('#input-page').css({ display: 'block' });
+    $('#dashboard-page').css({ display: 'block' });
 
     sidenavFunction(list, links);
     brandButtons();
@@ -139,57 +139,115 @@ function brandButtons() {
 }
 
 // Toaster Function
-function toaster(type, theme, icon, message, delay) {
-    var _toast = '<div class="toast ' + type + ' ' + theme + '" role="alert" aria-live="assertive" aria-atomic="true" id= "toast">' +
-        '<div class= "toast-body">' +
-        '<div class= "row">' +
-        '<div class= "col-1 pr-0 custom-icon"><i class= "' + icon + ' ml-2"></i></div>' +
-        '<div class= "col-10 pr-0">' +
-        '<p class= "ml-4">' + message + '</p>' +
+function toaster(_type, _theme, _icon, _message, _delay) {
+    var _toast = '<div class= "toaster ' + _type + ' ' + _theme + '" id= "toaster">' +
+        '<div class= "row mx-0">' +
+        '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+        '<i class= "' + _icon + '"></i>' +
         '</div>' +
-        '<div class= "col-1 pl-0">' +
-        '<button type="button" class="close toast-button" data-dismiss="toast" aria-label="Close"><i class= "fas fa-times"></i></button>' +
+        '<div class= "col-md-8 toaster-message px-0">' +
+        '<p>' + _message + '</p>' +
         '</div>' +
+        '<div class= "col-md-2 toaster-close px-0 text-center">' +
+        '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
         '</div>' +
         '</div>' +
         '</div>';
 
-    if (document.getElementById('toast') == null) {
-        document.body.insertAdjacentHTML('beforeend', _toast);
-    } else {
-        $('#toast').remove();
-        document.body.insertAdjacentHTML('beforeend', _toast);
-    }
+    document.body.insertAdjacentHTML('afterbegin', _toast);
+    showToast();
 
     function showToast() {
-        const toaster = $('body').find('.toast');
-        let toastWidth = screen.width - 370;
+        const toaster = $('body').find('#toaster');
+        let toastWidth = screen.width - 320;
 
         toaster.css({
-            'width': 350,
-            'position': 'fixed',
+            'display': 'block',
+            'width': 300,
             'left': toastWidth,
-            'top': 20,
-            'z-index': 20000
+            'top': 10
         });
 
-        toaster.toast({ delay: delay }).toast('show');
+        setTimeout(function() {
+            toaster.remove();
+        }, _delay);
     }
-    showToast();
+
+    $('#close-btn').click(function() {
+        $('#toaster').delay(2000).remove();
+    });
 }
 
 // Validations
 function validate(form) {
     let inputs = form.getElementsByClassName('form-control');
-    let result = 0;
+    let result = true;
 
-    for (var count = 0; count < inputs.length; count++) {
-        if (inputs[count].tagName == 'INPUT') {
-            if (inputs[count].value == '') {
-                $('#' + inputs[count].id + '').addClass('form-danger');
-                result = 1;
-            } else {
-                $('#' + inputs[count].id + '').removeClass('form-danger');
+    let validEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    let validPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])+(?=.*[^a-zA-Z0-9])(?!.*\s).{6,30}$/;
+
+    let _value = '';
+    let _type = '';
+    let _label = '';
+    let _message = '';
+
+    toastValidation();
+    inputValidation();
+
+    function toastValidation() {
+        for (var count = 0; count < inputs.length; count++) {
+            if (inputs[count].tagName == 'INPUT') {
+                const _id = inputs[count].id;
+
+                _value = inputs[count].value;
+                _type = inputs[count].type;
+                _label = $('#' + _id + '').attr('input-label');
+                _message = '';
+
+                if (_value == '') {
+                    _message = _label + ' must not be empty!';
+                    toaster('', 'toast-danger', 'fas fa-exclamation-triangle', _message, 5000);
+                    return false;
+                } else if (_type == 'email' && !validEmail.test(_value)) {
+                    _message = 'Invalid ' + _label + ' format!';
+                    toaster('', 'toast-danger', 'fas fa-exclamation-triangle', _message, 5000);
+                    return false;
+                } else if (_type == 'password' && !_value.match(validPassword)) {
+                    _message = _label + ' must have at least 6 character with UPPERCASE, lowercase, number and a Special Characters!';
+                    toaster('', 'toast-danger', 'fas fa-exclamation-triangle', _message, 5000);
+                    return false;
+                }
+
+            }
+        }
+        return true;
+    }
+
+    function inputValidation() {
+        for (var count = 0; count < inputs.length; count++) {
+            if (inputs[count].tagName == 'INPUT') {
+                const _id = inputs[count].id;
+
+                _value = inputs[count].value;
+                _type = inputs[count].type;
+                _label = $('#' + _id + '').attr('input-label');
+                _message = '';
+
+                if (_value == '') {
+                    $('#' + _id + '').addClass('form-danger');
+                    result = false;
+                } else if (_type == 'email' && !validEmail.test(_value)) {
+                    $('#' + _id + '').removeClass('form-danger');
+                    $('#' + _id + '').addClass('form-warning');
+                    result = false;
+                } else if (_type == 'password' && !_value.match(validPassword)) {
+                    $('#' + _id + '').removeClass('form-danger');
+                    $('#' + _id + '').addClass('form-warning');
+                    result = false;
+                } else {
+                    $('#' + _id + '').removeClass('form-danger');
+                    $('#' + _id + '').removeClass('form-warning');
+                }
             }
         }
     }

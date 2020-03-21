@@ -1,50 +1,65 @@
 @mixin toast-default() {
-    .toast {
+    .toaster {
         @include toast-theme(solid);
-        display: block !important;
-        opacity: 0;
-        background-color: rgba(255, 255, 255, 0.5);
-        border: none;
-        color: $color-dark;
-        &.show,
-        &.showing {
-            opacity: 1;
+        position: fixed;
+        background-color: rgba($color-light, 0.9);
+        width: 300px;
+        display: none;
+        border-radius: 3px;
+        box-shadow: 2px 2px 5px -2px $color-dark-highlight;
+        z-index: 20000;
+        margin-top: 10px;
+        padding: 0px 10px;
+        &-icon,
+        &-message,
+        &-close {
+            padding: 10px 0px;
         }
-        &.hide {
-            opacity: 0;
+        &-icon {
+            color: $color-dark;
+            i {
+                font-size: 1rem;
+                border: solid 1px $color-dark;
+                padding: 10px;
+                border-radius: 50%;
+            }
         }
-        &-body {
-            padding: 10px 20px 0px 10px;
-            .custom-icon {
-                margin-top: -2px;
-                font-size: 1.4rem;
+        &-message {
+            padding-bottom: 0px;
+            overflow-y: scroll;
+            max-height: 150px;
+            &::-webkit-scrollbar {
+                display: none;
             }
             p {
-                margin-top: 6px;
-            }
-            .toast-button {
-                font-size: 1rem;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 color: $color-dark;
-                margin-top: 6px;
+                font-size: .8rem;
+                padding-top: 7px;
+                padding-left: 15px;
+            }
+        }
+        &-close {
+            margin-top: 7px;
+            button {
+                background-color: transparent;
+                border: none;
+                color: $color-dark;
+                transition: all 0.2s ease-in-out;
+                &:hover {
+                    transition: all 0.2s ease-in-out;
+                    color: $color-dark-highlight;
+                }
                 &:focus {
                     border: none;
                     outline: none;
-                    box-shadow: none;
                 }
             }
         }
         &.toast-outline {
             @include toast-theme(outline);
-            background-color: rgba($color-light, 0.7);
+            background-color: rgba($color-light, 0.9);
             border: solid 1px $color-light-highlight;
-            .toast-body {
-                .custom-icon {
-                    color: $color-dark-highlight;
-                }
-                .custom-button {
-                    color: $color-dark-highlight;
-                }
-            }
         }
         &.toast-square {
             border-radius: 0;
@@ -58,180 +73,356 @@
 @mixin toast-theme($type) {
     @if $type=='solid' {
         &.toast-primary {
-            background-color: rgba($color-primary, 0.7);
-            color: $color-light;
-            .toast-body {
-                .toast-button {
+            background-color: rgba($color-primary, 0.8);
+            .toaster-icon {
+                color: $color-light;
+                i {
+                    border: solid 1px $color-light;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-light;
+                }
+            }
+            .toaster-close {
+                button {
+                    color: $color-light;
+                    &:hover {
+                        color: $color-light-highlight;
+                    }
                 }
             }
         }
         &.toast-secondary {
-            background-color: rgba($color-secondary, 0.7);
-            color: $color-light;
-            .toast-body {
-                .toast-button {
+            background-color: rgba($color-secondary, 0.8);
+            .toaster-icon {
+                color: $color-light;
+                i {
+                    border: solid 1px $color-light;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-light;
+                }
+            }
+            .toaster-close {
+                button {
+                    color: $color-light;
+                    &:hover {
+                        color: $color-light-highlight;
+                    }
                 }
             }
         }
         &.toast-success {
-            background-color: rgba($color-success, 0.7);
-            color: $color-light;
-            .toast-body {
-                .toast-button {
+            background-color: rgba($color-success, 0.8);
+            .toaster-icon {
+                color: $color-light;
+                i {
+                    border: solid 1px $color-light;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-light;
+                }
+            }
+            .toaster-close {
+                button {
+                    color: $color-light;
+                    &:hover {
+                        color: $color-light-highlight;
+                    }
                 }
             }
         }
         &.toast-warning {
-            background-color: rgba($color-warning, 0.7);
-            color: $color-light;
-            .toast-body {
-                .toast-button {
+            background-color: rgba($color-warning, 0.8);
+            .toaster-icon {
+                color: $color-light;
+                i {
+                    border: solid 1px $color-light;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-light;
+                }
+            }
+            .toaster-close {
+                button {
+                    color: $color-light;
+                    &:hover {
+                        color: $color-light-highlight;
+                    }
                 }
             }
         }
         &.toast-danger {
-            background-color: rgba($color-danger, 0.7);
-            color: $color-light;
-            .toast-body {
-                .toast-button {
+            background-color: rgba($color-danger, 0.8);
+            .toaster-icon {
+                color: $color-light;
+                i {
+                    border: solid 1px $color-light;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-light;
+                }
+            }
+            .toaster-close {
+                button {
+                    color: $color-light;
+                    &:hover {
+                        color: $color-light-highlight;
+                    }
                 }
             }
         }
         &.toast-info {
-            background-color: rgba($color-info, 0.7);
-            color: $color-light;
-            .toast-body {
-                .toast-button {
+            background-color: rgba($color-info, 0.8);
+            .toaster-icon {
+                color: $color-light;
+                i {
+                    border: solid 1px $color-light;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-light;
+                }
+            }
+            .toaster-close {
+                button {
+                    color: $color-light;
+                    &:hover {
+                        color: $color-light-highlight;
+                    }
                 }
             }
         }
         &.toast-light {
-            background-color: rgba($color-light, 0.7);
-            color: $color-dark;
-            .toast-body {
-                .toast-button {
+            background-color: rgba($color-light, 0.8);
+            .toaster-icon {
+                color: $color-dark;
+                i {
+                    border: solid 1px $color-dark;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-dark;
+                }
+            }
+            .toaster-close {
+                button {
+                    color: $color-dark;
+                    &:hover {
+                        color: $color-dark-highlight;
+                    }
                 }
             }
         }
         &.toast-dark {
-            background-color: rgba($color-dark, 0.7);
-            color: $color-light;
-            .toast-body {
-                .toast-button {
+            background-color: rgba($color-dark, 0.8);
+            .toaster-icon {
+                color: $color-light;
+                i {
+                    border: solid 1px $color-light;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-light;
+                }
+            }
+            .toaster-close {
+                button {
+                    color: $color-light;
+                    &:hover {
+                        color: $color-light-highlight;
+                    }
                 }
             }
         }
     }
     @else if $type=='outline' {
         &.toast-primary {
-            background-color: rgba($color-light, 0.7);
             border: solid 1px $color-primary;
-            color: $color-dark;
-            .toast-body {
-                .custom-icon {
+            .toaster-icon {
+                color: $color-primary;
+                i {
+                    border: solid 1px $color-primary;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-primary;
                 }
-                .toast-button {
+            }
+            .toaster-close {
+                button {
                     color: $color-primary;
+                    &:hover {
+                        color: $color-primary-highlight;
+                    }
                 }
             }
         }
         &.toast-secondary {
-            background-color: rgba($color-light, 0.7);
             border: solid 1px $color-secondary;
-            color: $color-dark;
-            .toast-body {
-                .custom-icon {
+            .toaster-icon {
+                color: $color-secondary;
+                i {
+                    border: solid 1px $color-secondary;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-secondary;
                 }
-                .toast-button {
+            }
+            .toaster-close {
+                button {
                     color: $color-secondary;
+                    &:hover {
+                        color: $color-secondary-highlight;
+                    }
                 }
             }
         }
         &.toast-success {
-            background-color: rgba($color-light, 0.7);
             border: solid 1px $color-success;
-            color: $color-dark;
-            .toast-body {
-                .custom-icon {
+            .toaster-icon {
+                color: $color-success;
+                i {
+                    border: solid 1px $color-success;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-success;
                 }
-                .toast-button {
+            }
+            .toaster-close {
+                button {
                     color: $color-success;
+                    &:hover {
+                        color: $color-success-highlight;
+                    }
                 }
             }
         }
         &.toast-warning {
-            background-color: rgba($color-light, 0.7);
             border: solid 1px $color-warning;
-            color: $color-dark;
-            .toast-body {
-                .custom-icon {
+            .toaster-icon {
+                color: $color-warning;
+                i {
+                    border: solid 1px $color-warning;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-warning;
                 }
-                .toast-button {
+            }
+            .toaster-close {
+                button {
                     color: $color-warning;
+                    &:hover {
+                        color: $color-warning-highlight;
+                    }
                 }
             }
         }
         &.toast-danger {
-            background-color: rgba($color-light, 0.7);
             border: solid 1px $color-danger;
-            color: $color-dark;
-            .toast-body {
-                .custom-icon {
+            .toaster-icon {
+                color: $color-danger;
+                i {
+                    border: solid 1px $color-danger;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-danger;
                 }
-                .toast-button {
+            }
+            .toaster-close {
+                button {
                     color: $color-danger;
+                    &:hover {
+                        color: $color-danger-highlight;
+                    }
                 }
             }
         }
         &.toast-info {
-            background-color: rgba($color-light, 0.7);
             border: solid 1px $color-info;
-            color: $color-dark;
-            .toast-body {
-                .custom-icon {
+            .toaster-icon {
+                color: $color-info;
+                i {
+                    border: solid 1px $color-info;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-info;
                 }
-                .toast-button {
+            }
+            .toaster-close {
+                button {
                     color: $color-info;
+                    &:hover {
+                        color: $color-info-highlight;
+                    }
                 }
             }
         }
         &.toast-light {
-            background-color: rgba($color-light, 0.7);
             border: solid 1px $color-light-highlight;
-            color: $color-dark;
-            .toast-body {
-                .custom-icon {
+            .toaster-icon {
+                color: $color-light-highlight;
+                i {
+                    border: solid 1px $color-light-highlight;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-light-highlight;
                 }
-                .toast-button {
-                    color: $color-light-highlight;
+            }
+            .toaster-close {
+                button {
+                    color: $color-light;
+                    &:hover {
+                        color: $color-primary-highlight;
+                    }
                 }
             }
         }
         &.toast-dark {
-            background-color: rgba($color-light, 0.7);
             border: solid 1px $color-dark;
-            color: $color-dark;
-            .toast-body {
-                .custom-icon {
+            .toaster-icon {
+                color: $color-dark;
+                i {
+                    border: solid 1px $color-dark;
+                }
+            }
+            .toaster-message {
+                p {
                     color: $color-dark;
                 }
-                .toast-button {
+            }
+            .toaster-close {
+                button {
                     color: $color-dark;
+                    &:hover {
+                        color: $color-dark-highlight;
+                    }
                 }
             }
         }
