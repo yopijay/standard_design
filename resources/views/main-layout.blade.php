@@ -7,7 +7,6 @@
 
         <!-- CSS -->
         @include('global.style')
-
         <!-- Javascript -->
         @include('global.script')
 
