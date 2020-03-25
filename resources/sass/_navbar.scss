@@ -1,6 +1,6 @@
 @mixin navbar() {
     .navbar {
-        z-index: 10000;
+        z-index: 1000;
         @include navbar-theme($color-light, $color-dark);
         &.navbar-light {
             @include navbar-theme($color-light, $color-dark);

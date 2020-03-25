@@ -1,0 +1,110 @@
+@mixin modal-default() {
+    .modal {
+        @include modal-theme;
+        z-index: 15000;
+        &-dialog {
+            .modal-content {
+                .modal-header {
+                    button {
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@mixin modal-theme() {
+    &.modal-primary {
+        .modal-dialog {
+            .modal-content {
+                .modal-header {
+                    background-color: $color-primary;
+                    .modal-title {
+                        color: $color-light;
+                    }
+                    button {
+                        color: $color-light;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.modal-success {
+        .modal-dialog {
+            .modal-content {
+                .modal-header {
+                    background-color: $color-success;
+                    .modal-title {
+                        color: $color-light;
+                    }
+                    button {
+                        color: $color-light;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.modal-warning {
+        .modal-dialog {
+            .modal-content {
+                .modal-header {
+                    background-color: $color-warning;
+                    .modal-title {
+                        color: $color-light;
+                    }
+                    button {
+                        color: $color-light;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.modal-danger {
+        .modal-dialog {
+            .modal-content {
+                .modal-header {
+                    background-color: $color-danger;
+                    .modal-title {
+                        color: $color-light;
+                    }
+                    button {
+                        color: $color-light;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &.modal-info {
+        .modal-dialog {
+            .modal-content {
+                .modal-header {
+                    background-color: $color-info;
+                    .modal-title {
+                        color: $color-light;
+                    }
+                    button {
+                        color: $color-light;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

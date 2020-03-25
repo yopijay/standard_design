@@ -11,6 +11,7 @@
 @import 'radio';
 @import 'toggle';
 @import 'toast';
+@import 'modal';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 body.agm-standard {
@@ -30,4 +31,5 @@ body.agm-standard {
     @include radio-default;
     @include toggle-default;
     @include toast-default;
+    @include modal-default;
 }

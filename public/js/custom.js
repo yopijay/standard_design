@@ -1,4 +1,58 @@
 $(function() {
+    let links = $('.navbar-side > ul').find('.navbar-link');
+
+    $('.content').css({ display: 'none' });
+    $('#dashboard-page').css({ display: 'block' });
+
+    $(links).on('click', function() {
+        let content = $(this).find('a').attr('content');
+        $('.content').css({ display: 'none' });
+
+        switch (content) {
+            case 'dashboard-page':
+                $('#dashboard-page').css({ display: 'block' });
+                break;
+            case 'colors-page':
+                $('#color-page').css({ display: 'block' });
+                break;
+            case 'typography-page':
+                $('#typography-page').css({ display: 'block' });
+                break;
+            case 'buttons-page':
+                $('#button-page').css({ display: 'block' });
+                break;
+            case 'cards-page':
+                $('#card-page').css({ display: 'block' });
+                break;
+            case 'toasters-page':
+                $('#toaster-page').css({ display: 'block' });
+                break;
+            case 'badge-page':
+                $('#badge-page').css({ display: 'block' });
+                break;
+            case 'modal-page':
+                $('#modal-page').css({ display: 'block' });
+                break;
+            case 'radio-page':
+                $('#radio-page').css({ display: 'block' });
+                break;
+            case 'checkbox-page':
+                $('#checkbox-page').css({ display: 'block' });
+                break;
+            case 'toggles-page':
+                $('#toggle-page').css({ display: 'block' });
+                break;
+            case 'input-page':
+                $('#input-page').css({ display: 'block' });
+                break;
+            case 'login-page':
+                $('#login-page').css({ display: 'block' });
+                break;
+            case '404-page':
+                $('#404-page').css({ display: 'block' });
+                break;
+        }
+    });
 
     $('body')
         .on('click', '#validate', function() {

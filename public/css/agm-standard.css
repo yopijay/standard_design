@@ -10927,7 +10927,7 @@ body.agm-standard::-webkit-scrollbar {
 }
 
 body.agm-standard .navbar {
-  z-index: 10000;
+  z-index: 1000;
   background-color: #f5f6fa;
 }
 
@@ -11397,6 +11397,166 @@ body.agm-standard .display-4 {
 
 body.agm-standard .display-5 {
   font-size: 1rem;
+}
+
+body.agm-standard .agm-badge-primary {
+  background-color: #00a8ff;
+  color: #f5f6fa;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+body.agm-standard .agm-badge-primary.badge-outline {
+  border: solid 1px #00a8ff;
+  color: #00a8ff;
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge-primary.badge-square {
+  border-radius: 0;
+}
+
+body.agm-standard .agm-badge-secondary {
+  background-color: #7f8fa6;
+  color: #f5f6fa;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+body.agm-standard .agm-badge-secondary.badge-outline {
+  border: solid 1px #7f8fa6;
+  color: #7f8fa6;
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge-secondary.badge-square {
+  border-radius: 0;
+}
+
+body.agm-standard .agm-badge-success {
+  background-color: #4cd137;
+  color: #f5f6fa;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+body.agm-standard .agm-badge-success.badge-outline {
+  border: solid 1px #4cd137;
+  color: #4cd137;
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge-success.badge-square {
+  border-radius: 0;
+}
+
+body.agm-standard .agm-badge-warning {
+  background-color: #fbc531;
+  color: #f5f6fa;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+body.agm-standard .agm-badge-warning.badge-outline {
+  border: solid 1px #fbc531;
+  color: #fbc531;
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge-warning.badge-square {
+  border-radius: 0;
+}
+
+body.agm-standard .agm-badge-danger {
+  background-color: #e84118;
+  color: #f5f6fa;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+body.agm-standard .agm-badge-danger.badge-outline {
+  border: solid 1px #e84118;
+  color: #e84118;
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge-danger.badge-square {
+  border-radius: 0;
+}
+
+body.agm-standard .agm-badge-info {
+  background-color: #273c75;
+  color: #f5f6fa;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+body.agm-standard .agm-badge-info.badge-outline {
+  border: solid 1px #273c75;
+  color: #273c75;
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge-info.badge-square {
+  border-radius: 0;
+}
+
+body.agm-standard .agm-badge-light {
+  background-color: #f5f6fa;
+  color: #353b48;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+body.agm-standard .agm-badge-light.badge-outline {
+  border: solid 1px #dcdde1;
+  color: #dcdde1;
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge-light.badge-square {
+  border-radius: 0;
+}
+
+body.agm-standard .agm-badge-dark {
+  background-color: #353b48;
+  color: #f5f6fa;
+  text-align: center;
+  border-radius: 50px;
+  padding: 0px 10px;
+  font-weight: bold;
+  display: inline-flex;
+}
+
+body.agm-standard .agm-badge-dark.badge-outline {
+  border: solid 1px #353b48;
+  color: #353b48;
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge-dark.badge-square {
+  border-radius: 0;
 }
 
 body.agm-standard h1,
@@ -14421,5 +14581,93 @@ body.agm-standard .toaster.toast-square {
 
 body.agm-standard .toaster.toast-pills {
   border-radius: 50px;
+}
+
+body.agm-standard .modal {
+  z-index: 15000;
+}
+
+body.agm-standard .modal.modal-primary .modal-dialog .modal-content .modal-header {
+  background-color: #00a8ff;
+}
+
+body.agm-standard .modal.modal-primary .modal-dialog .modal-content .modal-header .modal-title {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-primary .modal-dialog .modal-content .modal-header button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-primary .modal-dialog .modal-content .modal-header button:focus {
+  outline: none;
+}
+
+body.agm-standard .modal.modal-success .modal-dialog .modal-content .modal-header {
+  background-color: #4cd137;
+}
+
+body.agm-standard .modal.modal-success .modal-dialog .modal-content .modal-header .modal-title {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-success .modal-dialog .modal-content .modal-header button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-success .modal-dialog .modal-content .modal-header button:focus {
+  outline: none;
+}
+
+body.agm-standard .modal.modal-warning .modal-dialog .modal-content .modal-header {
+  background-color: #fbc531;
+}
+
+body.agm-standard .modal.modal-warning .modal-dialog .modal-content .modal-header .modal-title {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-warning .modal-dialog .modal-content .modal-header button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-warning .modal-dialog .modal-content .modal-header button:focus {
+  outline: none;
+}
+
+body.agm-standard .modal.modal-danger .modal-dialog .modal-content .modal-header {
+  background-color: #e84118;
+}
+
+body.agm-standard .modal.modal-danger .modal-dialog .modal-content .modal-header .modal-title {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-danger .modal-dialog .modal-content .modal-header button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-danger .modal-dialog .modal-content .modal-header button:focus {
+  outline: none;
+}
+
+body.agm-standard .modal.modal-info .modal-dialog .modal-content .modal-header {
+  background-color: #273c75;
+}
+
+body.agm-standard .modal.modal-info .modal-dialog .modal-content .modal-header .modal-title {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-info .modal-dialog .modal-content .modal-header button {
+  color: #f5f6fa;
+}
+
+body.agm-standard .modal.modal-info .modal-dialog .modal-content .modal-header button:focus {
+  outline: none;
+}
+
+body.agm-standard .modal-dialog .modal-content .modal-header button:focus {
+  outline: none;
 }
 

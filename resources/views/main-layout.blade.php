@@ -65,6 +65,8 @@
                     @include('layout.button')
                     @include('layout.card')
                     @include('layout.toaster')
+                    @include('layout.badge')
+                    @include('layout.modal')
                     @include('layout.checkbox')
                     @include('layout.radio')
                     @include('layout.toggle')

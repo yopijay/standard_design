@@ -2,95 +2,9 @@ $(function() {
     let list = $('.navbar-side > ul > .list');
     let links = $('.navbar-side > ul').find('.navbar-link');
 
-    $('.content').css({ display: 'none' });
-    $('#dashboard-page').css({ display: 'block' });
-
     sidenavFunction(list, links);
     brandButtons();
 });
-
-// Sidenav Function
-function sidenavFunction(list, links) {
-    for (var count = 0; count < list.length; count++) {
-        list[count].addEventListener('click', function(e) {
-            e.stopPropagation();
-
-            if (this.classList.contains('active')) {
-                this.classList.remove('active');
-            } else if (this.parentElement.parentElement.classList.contains('active')) {
-                this.classList.add('active');
-            } else {
-                for (var item = 0; item < list.length; item++) {
-                    list[item].classList.remove('active');
-                }
-
-                this.classList.add('active');
-            }
-        });
-    }
-
-    for (var count = 0; count < links.length; count++) {
-        links[count].addEventListener('click', function(e) {
-            e.stopPropagation();
-
-            if (this.classList.contains('active')) {
-                this.classList.add('active');
-            } else if (this.parentElement.parentElement.classList.contains('active')) {
-                this.classList.add('active');
-            } else {
-                for (var item = 0; item < links.length; item++) {
-                    links[item].classList.remove('active');
-                }
-
-                this.classList.add('active');
-            }
-        });
-    }
-
-    $(links).on('click', function() {
-        let content = $(this).find('a').attr('content');
-        $('.content').css({ display: 'none' });
-
-        switch (content) {
-            case 'dashboard-page':
-                $('#dashboard-page').css({ display: 'block' });
-                break;
-            case 'colors-page':
-                $('#color-page').css({ display: 'block' });
-                break;
-            case 'typography-page':
-                $('#typography-page').css({ display: 'block' });
-                break;
-            case 'buttons-page':
-                $('#button-page').css({ display: 'block' });
-                break;
-            case 'cards-page':
-                $('#card-page').css({ display: 'block' });
-                break;
-            case 'toasters-page':
-                $('#toaster-page').css({ display: 'block' });
-                break;
-            case 'radio-page':
-                $('#radio-page').css({ display: 'block' });
-                break;
-            case 'checkbox-page':
-                $('#checkbox-page').css({ display: 'block' });
-                break;
-            case 'toggles-page':
-                $('#toggle-page').css({ display: 'block' });
-                break;
-            case 'input-page':
-                $('#input-page').css({ display: 'block' });
-                break;
-            case 'login-page':
-                $('#login-page').css({ display: 'block' });
-                break;
-            case '404-page':
-                $('#404-page').css({ display: 'block' });
-                break;
-        }
-    });
-}
 
 // Branded Buttons
 function brandButtons() {
@@ -252,4 +166,43 @@ function validate(form) {
         }
     }
     return result;
+}
+
+// Sidenav Function
+function sidenavFunction(list, links) {
+    for (var count = 0; count < list.length; count++) {
+        list[count].addEventListener('click', function(e) {
+            e.stopPropagation();
+
+            if (this.classList.contains('active')) {
+                this.classList.remove('active');
+            } else if (this.parentElement.parentElement.classList.contains('active')) {
+                this.classList.add('active');
+            } else {
+                for (var item = 0; item < list.length; item++) {
+                    list[item].classList.remove('active');
+                }
+
+                this.classList.add('active');
+            }
+        });
+    }
+
+    for (var count = 0; count < links.length; count++) {
+        links[count].addEventListener('click', function(e) {
+            e.stopPropagation();
+
+            if (this.classList.contains('active')) {
+                this.classList.add('active');
+            } else if (this.parentElement.parentElement.classList.contains('active')) {
+                this.classList.add('active');
+            } else {
+                for (var item = 0; item < links.length; item++) {
+                    links[item].classList.remove('active');
+                }
+
+                this.classList.add('active');
+            }
+        });
+    }
 }
