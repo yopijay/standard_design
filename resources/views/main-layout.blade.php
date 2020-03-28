@@ -31,8 +31,8 @@
                             <li class= "navbar-link list active"><a href= "#" content= "dashboard-page"><p>Dashboard</p></a></li>
                             <li class= "label"><p>Themes</p></li>
                             <li class= "navbar-link list"><a href= "#" content= "colors-page"><p>Colors</p></a></li>
-                            <li class= "navbar-link list"><a href= "#" content= "typography-page"><p>Typography</p></a></li>
                             <li class= "label"><p>Components</p></li>
+                            <li class= "navbar-link list"><a href= "#" content= "typography-page"><p>Typography</p></a></li>
                             <li class= "navbar-link list"><a href= "#" content= "buttons-page"><p>Buttons</p></a></li>
                             <li class= "navbar-link list"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
                             <li class= "list">

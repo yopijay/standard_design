@@ -1,8 +1,5 @@
 $(function() {
-    let list = $('.navbar-side > ul > .list');
-    let links = $('.navbar-side > ul').find('.navbar-link');
 
-    sidenavFunction(list, links);
     brandButtons();
 });
 
@@ -52,26 +49,27 @@ function brandButtons() {
     });
 }
 
-// Toaster Function
-function toaster(_type, _theme, _icon, _message, _delay) {
-    var _toast = '<div class= "toaster ' + _type + ' ' + _theme + '" id= "toaster">' +
-        '<div class= "row mx-0">' +
-        '<div class= "col-md-2 toaster-icon px-0 text-center">' +
-        '<i class= "' + _icon + '"></i>' +
-        '</div>' +
-        '<div class= "col-md-8 toaster-message px-0">' +
-        '<p>' + _message + '</p>' +
-        '</div>' +
-        '<div class= "col-md-2 toaster-close px-0 text-center">' +
-        '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
-        '</div>' +
-        '</div>' +
-        '</div>';
+var toaster = (function() {
+    var toast = function(_type, _theme, _icon, _message) {
+        var _toast = '<div class= "toaster ' + _type + ' ' + _theme + '" id= "toaster">' +
+            '<div class= "row mx-0">' +
+            '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+            '<i class= "' + _icon + '"></i>' +
+            '</div>' +
+            '<div class= "col-md-8 toaster-message px-0">' +
+            '<p>' + _message + '</p>' +
+            '</div>' +
+            '<div class= "col-md-2 toaster-close px-0 text-center">' +
+            '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
 
-    document.body.insertAdjacentHTML('afterbegin', _toast);
-    showToast();
+        document.body.insertAdjacentHTML('afterbegin', _toast);
 
-    function showToast() {
+        return this;
+    }
+    var show = function(_delay) {
         const toaster = $('body').find('#toaster');
         let toastWidth = screen.width - 320;
 
@@ -85,59 +83,99 @@ function toaster(_type, _theme, _icon, _message, _delay) {
         setTimeout(function() {
             toaster.remove();
         }, _delay);
+
+        return this;
+    }
+    return {
+        toast: toast,
+        show: show
+    }
+})();
+
+// Sidenav Function
+$.fn.sidenav = function(submenu) {
+    let _list = this;
+    let _links = submenu;
+
+    for (var count = 0; count < _list.length; count++) {
+        _list[count].addEventListener('click', function(e) {
+            e.stopPropagation();
+
+            if (this.classList.contains('active')) {
+                this.classList.remove('active');
+            } else if (this.parentElement.parentElement.classList.contains('active')) {
+                this.classList.add('active');
+            } else {
+                for (var item = 0; item < _list.length; item++) {
+                    _list[item].classList.remove('active');
+                }
+
+                this.classList.add('active');
+            }
+        });
     }
 
-    $('#close-btn').click(function() {
-        $('#toaster').delay(2000).remove();
-    });
+    for (var count = 0; count < _links.length; count++) {
+        _links[count].addEventListener('click', function(e) {
+            e.stopPropagation();
+
+            if (this.classList.contains('active')) {
+                this.classList.add('active');
+            } else if (this.parentElement.parentElement.classList.contains('active')) {
+                this.classList.add('active');
+            } else {
+                for (var item = 0; item < _links.length; item++) {
+                    _links[item].classList.remove('active');
+                }
+
+                this.classList.add('active');
+            }
+        });
+    }
+    return this;
 }
 
-// Validations
-function validate(form) {
-    let inputs = form.getElementsByClassName('form-control');
+$.fn.validate = function() {
+    let inputs = this[0].elements;
     let result = true;
 
     let validEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     let validPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])+(?=.*[^a-zA-Z0-9])(?!.*\s).{6,30}$/;
 
-    let _value = '';
-    let _type = '';
-    let _label = '';
-    let _message = '';
+    // let _value = '';
+    // let _type = '';
+    // let _label = '';
+    // let _message = '';
 
-    toastValidation();
-    inputValidation();
-
-    function toastValidation() {
+    function hasToast() {
         for (var count = 0; count < inputs.length; count++) {
             if (inputs[count].tagName == 'INPUT') {
                 const _id = inputs[count].id;
 
-                _value = inputs[count].value;
-                _type = inputs[count].type;
-                _label = $('#' + _id + '').attr('input-label');
-                _message = '';
+                let _value = inputs[count].value;
+                let _type = inputs[count].type;
+                let _label = $('#' + _id + '').attr('input-label');
+                let _message = '';
 
                 if (_value == '') {
                     _message = _label + ' must not be empty!';
-                    toaster('', 'toast-danger', 'fas fa-exclamation-triangle', _message, 5000);
+                    toaster.toast('', 'toast-danger', 'fas fa-exclamation-triangle', _message).show(3000);
                     return false;
                 } else if (_type == 'email' && !validEmail.test(_value)) {
-                    _message = 'Invalid ' + _label + ' format!';
-                    toaster('', 'toast-danger', 'fas fa-exclamation-triangle', _message, 5000);
+                    _message = _label + ' format is invalid!';
+                    toaster.toast('', 'toast-warning', 'fas fa-radiation', _message).show(3000);
                     return false;
                 } else if (_type == 'password' && !_value.match(validPassword)) {
-                    _message = _label + ' must have at least 6 character with UPPERCASE, lowercase, number and a Special Characters!';
-                    toaster('', 'toast-danger', 'fas fa-exclamation-triangle', _message, 5000);
+                    _message = _label + ' must have at least 6 characters with uppercase, lowercase, numbers and a special character!';
+                    toaster.toast('', 'toast-warning', 'fas fa-radiation', _message).show(3000);
                     return false;
                 }
-
             }
         }
         return true;
     }
 
-    function inputValidation() {
+    function hasInputValidation() {
         for (var count = 0; count < inputs.length; count++) {
             if (inputs[count].tagName == 'INPUT') {
                 const _id = inputs[count].id;
@@ -164,45 +202,8 @@ function validate(form) {
                 }
             }
         }
-    }
-    return result;
-}
-
-// Sidenav Function
-function sidenavFunction(list, links) {
-    for (var count = 0; count < list.length; count++) {
-        list[count].addEventListener('click', function(e) {
-            e.stopPropagation();
-
-            if (this.classList.contains('active')) {
-                this.classList.remove('active');
-            } else if (this.parentElement.parentElement.classList.contains('active')) {
-                this.classList.add('active');
-            } else {
-                for (var item = 0; item < list.length; item++) {
-                    list[item].classList.remove('active');
-                }
-
-                this.classList.add('active');
-            }
-        });
+        return result;
     }
 
-    for (var count = 0; count < links.length; count++) {
-        links[count].addEventListener('click', function(e) {
-            e.stopPropagation();
-
-            if (this.classList.contains('active')) {
-                this.classList.add('active');
-            } else if (this.parentElement.parentElement.classList.contains('active')) {
-                this.classList.add('active');
-            } else {
-                for (var item = 0; item < links.length; item++) {
-                    links[item].classList.remove('active');
-                }
-
-                this.classList.add('active');
-            }
-        });
-    }
+    return [hasToast(), hasInputValidation()];
 }

@@ -1,5 +1,10 @@
 $(function() {
+    let list = $('.navbar-side > ul > .list');
     let links = $('.navbar-side > ul').find('.navbar-link');
+    let brandBtn = $('body').find('.btn-brand');
+    let form = $('#validate_form');
+
+    list.sidenav(links);
 
     $('.content').css({ display: 'none' });
     $('#dashboard-page').css({ display: 'block' });
@@ -56,8 +61,8 @@ $(function() {
 
     $('body')
         .on('click', '#validate', function() {
-            if (validate(document.getElementById('validate_form'))) {
-                toaster('', 'toast-success', 'fas fa-check', 'Inputs successfully meet!', 5000);
+            if (form.validate()[0] && form.validate()[1]) {
+                toaster.toast('', 'toast-success', 'fas fa-check', 'Inputs successfully correct!').show(3000);
             }
         })
         .on('click', '#show-toast', function() {
@@ -85,6 +90,6 @@ $(function() {
 
             _code.innerHTML = '$("' + _type + '", "' + _theme + '", "' + _icon + '", "' + _message + '", ' + _delay + ');';
 
-            toaster(_type, _theme, _icon == '' ? 'fas fa-check' : _icon, _message, _delay);
+            toaster.toast(_type, _theme, _icon == '' ? 'fas fa-check' : _icon, _message).show(_delay);
         })
 });
