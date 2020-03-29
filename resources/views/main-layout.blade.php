@@ -53,6 +53,8 @@
                                 <a href= "#"><p>Forms <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
                                     <li class= "navbar-link list"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "forms-page"><p>Forms</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "validation-page"><p>Form Validation</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">
