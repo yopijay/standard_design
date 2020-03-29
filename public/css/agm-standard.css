@@ -11563,12 +11563,7 @@ body.agm-standard h1,
 body.agm-standard h2,
 body.agm-standard h3,
 body.agm-standard h4,
-body.agm-standard h5,
-body.agm-standard .h1,
-body.agm-standard .h2,
-body.agm-standard .h3,
-body.agm-standard .h4,
-body.agm-standard .h5 {
+body.agm-standard h5 {
   font-family: "Cocogoose";
   color: #353b48;
 }
@@ -11655,7 +11650,7 @@ body.agm-standard .btn.btn-solid:hover {
 
 body.agm-standard .btn.btn-solid:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #dcdde1;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #dcdde1;
   color: #353b48;
 }
@@ -11674,7 +11669,7 @@ body.agm-standard .btn.btn-solid.btn-primary:hover {
 
 body.agm-standard .btn.btn-solid.btn-primary:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #0097e6;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #0097e6;
   color: #f5f6fa;
 }
@@ -11693,7 +11688,7 @@ body.agm-standard .btn.btn-solid.btn-secondary:hover {
 
 body.agm-standard .btn.btn-solid.btn-secondary:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #718093;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #718093;
   color: #f5f6fa;
 }
@@ -11712,7 +11707,7 @@ body.agm-standard .btn.btn-solid.btn-success:hover {
 
 body.agm-standard .btn.btn-solid.btn-success:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #44bd32;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #44bd32;
   color: #f5f6fa;
 }
@@ -11731,7 +11726,7 @@ body.agm-standard .btn.btn-solid.btn-warning:hover {
 
 body.agm-standard .btn.btn-solid.btn-warning:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #e1b12c;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #e1b12c;
   color: #f5f6fa;
 }
@@ -11750,7 +11745,7 @@ body.agm-standard .btn.btn-solid.btn-danger:hover {
 
 body.agm-standard .btn.btn-solid.btn-danger:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #c23616;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #c23616;
   color: #f5f6fa;
 }
@@ -11769,7 +11764,7 @@ body.agm-standard .btn.btn-solid.btn-info:hover {
 
 body.agm-standard .btn.btn-solid.btn-info:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #192a56;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #192a56;
   color: #f5f6fa;
 }
@@ -11788,7 +11783,7 @@ body.agm-standard .btn.btn-solid.btn-light:hover {
 
 body.agm-standard .btn.btn-solid.btn-light:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #dcdde1;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #dcdde1;
   color: #353b48;
 }
@@ -11834,7 +11829,7 @@ body.agm-standard .btn.btn-outline:hover {
 
 body.agm-standard .btn.btn-outline:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #dcdde1;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #dcdde1;
   color: #353b48;
 }
@@ -11853,7 +11848,7 @@ body.agm-standard .btn.btn-outline.btn-primary:hover {
 
 body.agm-standard .btn.btn-outline.btn-primary:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #0097e6;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #0097e6;
   color: #f5f6fa;
 }
@@ -11872,7 +11867,7 @@ body.agm-standard .btn.btn-outline.btn-secondary:hover {
 
 body.agm-standard .btn.btn-outline.btn-secondary:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #718093;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #718093;
   color: #f5f6fa;
 }
@@ -11891,7 +11886,7 @@ body.agm-standard .btn.btn-outline.btn-success:hover {
 
 body.agm-standard .btn.btn-outline.btn-success:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #44bd32;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #44bd32;
   color: #f5f6fa;
 }
@@ -11910,7 +11905,7 @@ body.agm-standard .btn.btn-outline.btn-warning:hover {
 
 body.agm-standard .btn.btn-outline.btn-warning:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #e1b12c;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #e1b12c;
   color: #f5f6fa;
 }
@@ -11929,7 +11924,7 @@ body.agm-standard .btn.btn-outline.btn-danger:hover {
 
 body.agm-standard .btn.btn-outline.btn-danger:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #c23616;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #c23616;
   color: #f5f6fa;
 }
@@ -11948,7 +11943,7 @@ body.agm-standard .btn.btn-outline.btn-info:hover {
 
 body.agm-standard .btn.btn-outline.btn-info:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #192a56;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #192a56;
   color: #f5f6fa;
 }
@@ -11967,7 +11962,7 @@ body.agm-standard .btn.btn-outline.btn-light:hover {
 
 body.agm-standard .btn.btn-outline.btn-light:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #dcdde1;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #dcdde1;
   color: #353b48;
 }
@@ -11986,7 +11981,7 @@ body.agm-standard .btn.btn-outline.btn-dark:hover {
 
 body.agm-standard .btn.btn-outline.btn-dark:focus {
   outline: none;
-  box-shadow: 1px 2px 4px #2f3640;
+  box-shadow: 2px 2px 5px -2px #2f3640;
   background-color: #2f3640;
   color: #f5f6fa;
 }
@@ -12020,6 +12015,10 @@ body.agm-standard .btn.btn-brand.facebook:hover {
   background-color: #30497c;
 }
 
+body.agm-standard .btn.btn-brand.facebook:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.behance {
   background-color: #1769ff;
 }
@@ -12027,6 +12026,10 @@ body.agm-standard .btn.btn-brand.behance {
 body.agm-standard .btn.btn-brand.behance:hover {
   transition: all 0.3s ease-in-out;
   background-color: #0055f0;
+}
+
+body.agm-standard .btn.btn-brand.behance:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.css3 {
@@ -12038,6 +12041,10 @@ body.agm-standard .btn.btn-brand.css3:hover {
   background-color: #015994;
 }
 
+body.agm-standard .btn.btn-brand.css3:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.dribbble {
   background-color: #ea4c89;
 }
@@ -12045,6 +12052,10 @@ body.agm-standard .btn.btn-brand.dribbble {
 body.agm-standard .btn.btn-brand.dribbble:hover {
   transition: all 0.3s ease-in-out;
   background-color: #e62a72;
+}
+
+body.agm-standard .btn.btn-brand.dribbble:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.flickr {
@@ -12056,6 +12067,10 @@ body.agm-standard .btn.btn-brand.flickr:hover {
   background-color: #d90070;
 }
 
+body.agm-standard .btn.btn-brand.flickr:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.github {
   background-color: #4183c4;
 }
@@ -12063,6 +12078,10 @@ body.agm-standard .btn.btn-brand.github {
 body.agm-standard .btn.btn-brand.github:hover {
   transition: all 0.3s ease-in-out;
   background-color: #3570aa;
+}
+
+body.agm-standard .btn.btn-brand.github:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.googlePlus {
@@ -12074,6 +12093,10 @@ body.agm-standard .btn.btn-brand.googlePlus:hover {
   background-color: #ba3929;
 }
 
+body.agm-standard .btn.btn-brand.googlePlus:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.html5 {
   background-color: #e34f26;
 }
@@ -12081,6 +12104,10 @@ body.agm-standard .btn.btn-brand.html5 {
 body.agm-standard .btn.btn-brand.html5:hover {
   transition: all 0.3s ease-in-out;
   background-color: #e34f26;
+}
+
+body.agm-standard .btn.btn-brand.html5:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.instagram {
@@ -12092,6 +12119,10 @@ body.agm-standard .btn.btn-brand.instagram:hover {
   background-color: #446b8a;
 }
 
+body.agm-standard .btn.btn-brand.instagram:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.openid {
   background-color: #f78c40;
 }
@@ -12099,6 +12130,10 @@ body.agm-standard .btn.btn-brand.openid {
 body.agm-standard .btn.btn-brand.openid:hover {
   transition: all 0.3s ease-in-out;
   background-color: #f5761b;
+}
+
+body.agm-standard .btn.btn-brand.openid:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.pinterest {
@@ -12110,6 +12145,10 @@ body.agm-standard .btn.btn-brand.pinterest:hover {
   background-color: #aa1b21;
 }
 
+body.agm-standard .btn.btn-brand.pinterest:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.reddit {
   background-color: #ff4500;
 }
@@ -12117,6 +12156,10 @@ body.agm-standard .btn.btn-brand.reddit {
 body.agm-standard .btn.btn-brand.reddit:hover {
   transition: all 0.3s ease-in-out;
   background-color: #d93b00;
+}
+
+body.agm-standard .btn.btn-brand.reddit:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.spotify {
@@ -12128,6 +12171,10 @@ body.agm-standard .btn.btn-brand.spotify:hover {
   background-color: #169a45;
 }
 
+body.agm-standard .btn.btn-brand.spotify:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.stackOverflow {
   background-color: #fe7a15;
 }
@@ -12135,6 +12182,10 @@ body.agm-standard .btn.btn-brand.stackOverflow {
 body.agm-standard .btn.btn-brand.stackOverflow:hover {
   transition: all 0.3s ease-in-out;
   background-color: #ec6701;
+}
+
+body.agm-standard .btn.btn-brand.stackOverflow:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.tumblr {
@@ -12146,6 +12197,10 @@ body.agm-standard .btn.btn-brand.tumblr:hover {
   background-color: #263d53;
 }
 
+body.agm-standard .btn.btn-brand.tumblr:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.twitter {
   background-color: #00aced;
 }
@@ -12153,6 +12208,10 @@ body.agm-standard .btn.btn-brand.twitter {
 body.agm-standard .btn.btn-brand.twitter:hover {
   transition: all 0.3s ease-in-out;
   background-color: #0090c7;
+}
+
+body.agm-standard .btn.btn-brand.twitter:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.vimeo {
@@ -12164,6 +12223,10 @@ body.agm-standard .btn.btn-brand.vimeo:hover {
   background-color: #9bcc32;
 }
 
+body.agm-standard .btn.btn-brand.vimeo:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.vk {
   background-color: #45668e;
 }
@@ -12171,6 +12234,10 @@ body.agm-standard .btn.btn-brand.vk {
 body.agm-standard .btn.btn-brand.vk:hover {
   transition: all 0.3s ease-in-out;
   background-color: #385474;
+}
+
+body.agm-standard .btn.btn-brand.vk:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .btn.btn-brand.xing {
@@ -12182,6 +12249,10 @@ body.agm-standard .btn.btn-brand.xing:hover {
   background-color: #013f40;
 }
 
+body.agm-standard .btn.btn-brand.xing:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.yahoo {
   background-color: #400191;
 }
@@ -12191,6 +12262,10 @@ body.agm-standard .btn.btn-brand.yahoo:hover {
   background-color: #2f016b;
 }
 
+body.agm-standard .btn.btn-brand.yahoo:focus {
+  box-shadow: none;
+}
+
 body.agm-standard .btn.btn-brand.youtube {
   background-color: #b00;
 }
@@ -12198,6 +12273,10 @@ body.agm-standard .btn.btn-brand.youtube {
 body.agm-standard .btn.btn-brand.youtube:hover {
   transition: all 0.3s ease-in-out;
   background-color: #950000;
+}
+
+body.agm-standard .btn.btn-brand.youtube:focus {
+  box-shadow: none;
 }
 
 body.agm-standard .card-header {

@@ -2,35 +2,28 @@
     .btn {
         font-size: .9rem;
         transition: all 0.3s ease-in-out;
-
         &.btn-sm {
             padding-top: 0;
             padding-bottom: 0;
         }
-
         &.btn-lg {
             padding-top: 1.2rem;
             padding-bottom: 1.2rem;
             font-size: 1.1rem;
         }
-
         &.btn-solid {
-            @include button-type(solid, $color-light,  $color-light-highlight, $color-dark);
+            @include button-type(solid, $color-light, $color-light-highlight, $color-dark);
         }
-
         &.btn-outline {
-            @include button-type(outline, #FFFFFF,  $color-light-highlight, $color-dark);
+            @include button-type(outline, #FFFFFF, $color-light-highlight, $color-dark);
         }
-
         &.btn-square {
-            @include button-type(square, #FFFFFF,  $color-light-highlight, $color-dark);
+            @include button-type(square, #FFFFFF, $color-light-highlight, $color-dark);
         }
-
         &.btn-brand {
             transition: all 0.3s ease-in-out;
             color: $color-light;
             text-align: left;
-
             i {
                 background-color: #00000033;
                 display: inline-block;
@@ -38,13 +31,11 @@
                 line-height: 2.1rem;
                 margin: -0.375rem -0.75rem;
                 text-align: center;
-
-                & + span {
+                &+span {
                     margin-left: 1.5rem;
                     text-align: center;
                 }
             }
-
             &.facebook {
                 @include brand-theme(#3b5998, #30497c);
             }
@@ -113,80 +104,68 @@
 }
 
 @mixin button-type($type, $background-color, $background-color-highlight, $color) {
-    @if $type == 'solid' {
+    @if $type=='solid' {
         border: solid 1px $background-color-highlight;
         background-color: $background-color;
         color: $color;
-
         &.btn-pills {
             border-radius: 50px;
         }
-
         &.btn-square {
             border-radius: 0;
         }
-
         &:hover {
             background-color: $background-color-highlight;
             color: $color;
             transition: all 0.3s ease-in-out;
         }
-
         &:focus {
             outline: none;
-            box-shadow: 1px 2px 4px $background-color-highlight;
+            box-shadow: 2px 2px 5px -2px $color-dark-highlight;
             background-color: $background-color-highlight;
             color: $color;
         }
-
         @include button-theme($type);
     }
-    @else if $type == 'outline' {
+    @else if $type=='outline' {
         border: solid 1px $background-color-highlight;
         background-color: $background-color;
         color: $color;
-        
         &.btn-pills {
             border-radius: 50px;
         }
-
         &.btn-square {
             border-radius: 0;
         }
-
         &:hover {
             background-color: $background-color-highlight;
             color: $color;
             transition: all 0.3s ease-in-out;
         }
-
         &:focus {
             outline: none;
-            box-shadow: 1px 2px 4px $background-color-highlight;
+            box-shadow: 2px 2px 5px -2px $color-dark-highlight;
             background-color: $background-color-highlight;
             color: $color;
         }
-
         @include button-theme($type);
     }
 }
 
 @mixin button-theme($type) {
-    @if $type == 'solid' {
+    @if $type=='solid' {
         &.btn-primary {
             border: solid 1px $color-primary-highlight;
             background-color: $color-primary;
             color: $color-light;
-
             &:hover {
                 background-color: $color-primary-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-primary-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-primary-highlight;
                 color: $color-light;
             }
@@ -195,16 +174,14 @@
             border: solid 1px $color-secondary-highlight;
             background-color: $color-secondary;
             color: $color-light;
-
             &:hover {
                 background-color: $color-secondary-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-secondary-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-secondary-highlight;
                 color: $color-light;
             }
@@ -213,16 +190,14 @@
             border: solid 1px $color-success-highlight;
             background-color: $color-success;
             color: $color-light;
-
             &:hover {
                 background-color: $color-success-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-success-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-success-highlight;
                 color: $color-light;
             }
@@ -231,16 +206,14 @@
             border: solid 1px $color-warning-highlight;
             background-color: $color-warning;
             color: $color-light;
-
             &:hover {
                 background-color: $color-warning-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-warning-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-warning-highlight;
                 color: $color-light;
             }
@@ -249,16 +222,14 @@
             border: solid 1px $color-danger-highlight;
             background-color: $color-danger;
             color: $color-light;
-
             &:hover {
                 background-color: $color-danger-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-danger-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-danger-highlight;
                 color: $color-light;
             }
@@ -267,16 +238,14 @@
             border: solid 1px $color-info-highlight;
             background-color: $color-info;
             color: $color-light;
-
             &:hover {
                 background-color: $color-info-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-info-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-info-highlight;
                 color: $color-light;
             }
@@ -285,16 +254,14 @@
             border: solid 1px $color-light-highlight;
             background-color: $color-light;
             color: $color-dark;
-
             &:hover {
                 background-color: $color-light-highlight;
                 color: $color-dark;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-light-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-light-highlight;
                 color: $color-dark;
             }
@@ -303,13 +270,11 @@
             border: solid 1px $color-dark-highlight;
             background-color: $color-dark;
             color: $color-light;
-
             &:hover {
                 background-color: $color-dark-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
                 box-shadow: 1px 2px 4px $color-dark-highlight;
@@ -318,21 +283,19 @@
             }
         }
     }
-    @else if $type == 'outline' {
+    @else if $type=='outline' {
         &.btn-primary {
             border: solid 1px $color-primary-highlight;
             background-color: #FFFFFF;
             color: $color-primary;
-
             &:hover {
                 background-color: $color-primary-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-primary-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-primary-highlight;
                 color: $color-light;
             }
@@ -341,16 +304,14 @@
             border: solid 1px $color-secondary-highlight;
             background-color: #FFFFFF;
             color: $color-secondary;
-
             &:hover {
                 background-color: $color-secondary-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-secondary-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-secondary-highlight;
                 color: $color-light;
             }
@@ -359,16 +320,14 @@
             border: solid 1px $color-success-highlight;
             background-color: #FFFFFF;
             color: $color-success;
-
             &:hover {
                 background-color: $color-success-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-success-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-success-highlight;
                 color: $color-light;
             }
@@ -377,16 +336,14 @@
             border: solid 1px $color-warning-highlight;
             background-color: #FFFFFF;
             color: $color-warning;
-
             &:hover {
                 background-color: $color-warning-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-warning-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-warning-highlight;
                 color: $color-light;
             }
@@ -395,16 +352,14 @@
             border: solid 1px $color-danger-highlight;
             background-color: #FFFFFF;
             color: $color-danger;
-
             &:hover {
                 background-color: $color-danger-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-danger-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-danger-highlight;
                 color: $color-light;
             }
@@ -413,16 +368,14 @@
             border: solid 1px $color-info-highlight;
             background-color: #FFFFFF;
             color: $color-info;
-
             &:hover {
                 background-color: $color-info-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-info-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-info-highlight;
                 color: $color-light;
             }
@@ -431,16 +384,14 @@
             border: solid 1px $color-light-highlight;
             background-color: #FFFFFF;
             color: $color-light-highlight;
-
             &:hover {
                 background-color: $color-light-highlight;
                 color: $color-dark;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-light-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-light-highlight;
                 color: $color-dark;
             }
@@ -449,16 +400,14 @@
             border: solid 1px $color-dark-highlight;
             background-color: #FFFFFF;
             color: $color-dark;
-
             &:hover {
                 background-color: $color-dark-highlight;
                 color: $color-light;
                 transition: all 0.3s ease-in-out;
             }
-    
             &:focus {
                 outline: none;
-                box-shadow: 1px 2px 4px $color-dark-highlight;
+                box-shadow: 2px 2px 5px -2px $color-dark-highlight;
                 background-color: $color-dark-highlight;
                 color: $color-light;
             }
@@ -468,9 +417,11 @@
 
 @mixin brand-theme($background-color, $background-color-highlight) {
     background-color: $background-color;
-
     &:hover {
         transition: all 0.3s ease-in-out;
         background-color: $background-color-highlight;
+    }
+    &:focus {
+        box-shadow: none;
     }
 }
