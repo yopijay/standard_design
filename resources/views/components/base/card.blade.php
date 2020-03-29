@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class= "col-md-12">
-                    <p class= "card-title">Themes</p>
+                    <p class= "card-title mb-1">Themes</p>
                     <div class= "row">
                         <div class= "col-md-4 mb-3">
                             <div class="card card-primary">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <div class= "col-md-12">
-                    <p class= "card-title">Themes</p>
+                    <p class= "card-title mb-1">Themes</p>
                     <div class= "row">
                         <div class= "col-md-4 mb-3">
                             <div class="card card-outline card-primary">
@@ -181,7 +181,7 @@
                     </div>
                 </div>
                 <div class= "col-md-12">
-                    <p class= "card-title">Themes</p>
+                    <p class= "card-title mb-1">Themes</p>
                     <div class= "row">
                         <div class= "col-md-4 mb-3">
                             <div class="card card-accent card-primary">
@@ -297,7 +297,7 @@
                         </div>
                         <div class="card-body">
                             <blockquote class="blockquote mb-0">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                <p class= "mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                                 <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
                             </blockquote>
                         </div>
@@ -316,7 +316,7 @@
                         <img src="{{ asset('img/dog.jpg') }}" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text mb-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                         </div>
                     </div>
@@ -372,7 +372,7 @@
                             <div class="col-md-8">
                                 <div class="card-body">
                                     <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text mb-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                                 </div>
                             </div>
@@ -384,7 +384,7 @@
                         <img src="{{ asset('img/dog.jpg') }}" class="card-img-top h-100 img-fluid" alt="...">
                         <div class="card-img-overlay">
                             <h5 class="card-title">Card title</h5>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                            <p class="card-text mb-1">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                             <p class="card-text">Last updated 3 mins ago</p>
                         </div>
                     </div>

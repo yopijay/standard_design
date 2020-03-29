@@ -114,7 +114,7 @@
                             </div>
                         </div>
                         <div class= "col-md-12">
-                            <p class= "card-title mb-4">Themes</p>
+                            <p class= "card-title mb-4 mt-2">Themes</p>
                             <div class= "row">
                                 <div class= "col-md-6 mb-2">
                                     <div class= "checkbox checkbox-anim checkbox-primary">

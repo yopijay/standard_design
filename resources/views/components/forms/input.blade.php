@@ -46,7 +46,7 @@
         <div class="col-md-6">
             <div class= "card card-accent card-info mb-5">
                 <div class= "card-body">
-                    <p class= "card-title">Input Style</p>
+                    <p class= "card-title mb-1">Input Style</p>
                     <div class= "form-group">
                         <input type= "text" class= "form-control mb-3" placeholder= ".form-control">
                         <input type= "text" class= "form-control form-square mb-3" placeholder= ".form-control .form-square">
@@ -56,7 +56,7 @@
             </div>
             <div class= "card card-accent card-info mb-5">
                 <div class= "card-body">
-                    <p class="card-title">Input Validation</p>
+                    <p class="card-title mb-1">Input Validation</p>
                     <div class= "form-group">
                         <input type= "text" class= "form-control form-success mb-3" placeholder= ".form-success">
                         <input type= "text" class= "form-control form-warning mb-3" placeholder= ".form-warning">

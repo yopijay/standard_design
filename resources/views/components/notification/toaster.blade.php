@@ -2,7 +2,7 @@
     <h4 class= "mb-5">TOASTERS</h4>
     <div class="row">
         <div class="col-md-4">
-            <p class= "font-weight-bold text-uppercase text-info">Toast Type</p>
+            <p class= "font-weight-bold text-uppercase text-info mb-1">Toast Type</p>
             <div class= "radio radio-dark">
                 <input type= "radio" id= "toast_default" name= "toast_type" checked value= "">
                 <span></span>
@@ -35,7 +35,7 @@
             </div>
         </div>
         <div class= "col-md-3">
-            <p class= "font-weight-bold text-uppercase text-info">Toast Theme</p>
+            <p class= "font-weight-bold text-uppercase text-info mb-1">Toast Theme</p>
             <div class= "radio radio-dark">
                 <input type= "radio" id= "toast_success" name= "toast_theme" checked value= "toast-success">
                 <span></span>
@@ -58,7 +58,7 @@
             </div>
         </div>
         <div class="col-md-5">
-            <p class= "font-weight-bold text-uppercase text-info">Other Content</p>
+            <p class= "font-weight-bold text-uppercase text-info mb-1">Other Content</p>
             <form action="">
                 <div class="form-group mb-2">
                     <label for= "field">Message:</label>
@@ -77,7 +77,7 @@
         <div class= "col-md-12 mt-5">
             <div class= "row">
                 <div class= "col-md-6">
-                    <p class= "align-middle" id= "toaster-code">$('', '', '', '', 0);</p>
+                    <p class= "align-middle" id= "toaster-code">toaster.toast('', '', '', '').show(0);</p>
                 </div>
                 <div class= "col-md-6">
                     <button type= "button" class= "btn btn-solid btn-primary" id= "show-toast">Show Toast</button>

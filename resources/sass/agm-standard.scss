@@ -12,6 +12,7 @@
 @import 'toggle';
 @import 'toast';
 @import 'modal';
+@import 'table';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 body.agm-standard {
@@ -32,4 +33,5 @@ body.agm-standard {
     @include toggle-default;
     @include toast-default;
     @include modal-default;
+    @include table-default;
 }

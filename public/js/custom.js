@@ -50,6 +50,9 @@ $(function() {
             case 'input-page':
                 $('#input-page').css({ display: 'block' });
                 break;
+            case 'standard-tbl-page':
+                $('#standard-tbl-page').css({ display: 'block' });
+                break;
             case 'login-page':
                 $('#login-page').css({ display: 'block' });
                 break;
@@ -88,7 +91,7 @@ $(function() {
                 }
             }
 
-            _code.innerHTML = '$("' + _type + '", "' + _theme + '", "' + _icon + '", "' + _message + '", ' + _delay + ');';
+            _code.innerHTML = 'toaster.toast("' + _type + '", "' + _theme + '", "' + _icon + '", "' + _message + '").show(' + _delay + ');';
 
             toaster.toast(_type, _theme, _icon == '' ? 'fas fa-check' : _icon, _message).show(_delay);
         })

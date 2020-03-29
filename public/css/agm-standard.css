@@ -11600,6 +11600,7 @@ body.agm-standard .h5 {
 
 body.agm-standard p {
   font-size: 0.8rem;
+  margin-bottom: -1rem;
 }
 
 body.agm-standard .blockquote {
@@ -14669,5 +14670,9 @@ body.agm-standard .modal.modal-info .modal-dialog .modal-content .modal-header b
 
 body.agm-standard .modal-dialog .modal-content .modal-header button:focus {
   outline: none;
+}
+
+body.agm-standard .table {
+  margin-bottom: 0;
 }
 
