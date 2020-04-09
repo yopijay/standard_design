@@ -1,69 +1,72 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "badge-page">
-    <h4 class= "mb-5">BADGES</h4>
-    <div class= "row">
-        <div class= "col-md-6 mb-5">
-            <div class= "card card-accent card-primary">
-                <div class= "card-body">
-                    <p class= "card-title mb-3">Badges - Default</p>
-                    <p class= "card-text text-warning font-weight-bold mb-1">agm-badge-*</p>
-                    <p class= "agm-badge-primary mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-secondary mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-success mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-warning mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-danger mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-info mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-light mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-dark mx-1 mb-1">Status</p>
-                </div>
-            </div>
+<div class= "p-4 my-5 mr-4 content" id= "badge-page">
+    <h4>BADGES</h4>
+    <p class= "mb-1">Bootstrap badges are small count and labeling components.</p>
+    <hr>
+    <div class= "row mt-1 mb-3">
+        <div class= "col-md-5">
+            <span class= "agm-badge-success">Success</span>
+            <span class= "agm-badge-warning">Warning</span>
+            <span class= "agm-badge-danger">Danger</span>
+            <span class= "agm-badge-info">Info</span>
         </div>
-        <div class= "col-md-6 mb-5">
-            <div class= "card card-accent card-primary">
-                <div class= "card-body">
-                    <p class= "card-title mb-3">Badges - Outline</p>
-                    <p class= "card-text text-warning font-weight-bold mb-1">agm-badge-* badge-outline</p>
-                    <p class= "agm-badge-primary badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-secondary badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-success badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-warning badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-danger badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-info badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-light badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-dark badge-outline mx-1 mb-1">Status</p>
-                </div>
-            </div>
+        <div class= "col-md-7">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-success</span>">Success< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-warning</span>">Warning< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-danger</span>">Danger< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-info</span>">Info< /span ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
-        <div class= "col-md-6 mb-5">
-            <div class= "card card-accent card-primary">
-                <div class= "card-body">
-                    <p class= "card-title mb-3">Badges - Square</p>
-                    <p class= "card-text text-warning font-weight-bold mb-1">agm-badge-* badge-square</p>
-                    <p class= "agm-badge-primary badge-square mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-secondary badge-square mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-success badge-square mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-warning badge-square mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-danger badge-square mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-info badge-square mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-light badge-square mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-dark badge-square mx-1 mb-1">Status</p>
-                </div>
-            </div>
+    </div>
+    <p class= "text-info my-4 h5">OUTLINED BADGES</p>
+    <div class= "row mt-1 mb-3">
+        <div class= "col-md-5">
+            <span class= "agm-badge-success badge-outline">Success</span>
+            <span class= "agm-badge-warning badge-outline">Warning</span>
+            <span class= "agm-badge-danger badge-outline">Danger</span>
+            <span class= "agm-badge-info badge-outline">Info</span>
         </div>
-        <div class= "col-md-6 mb-5">
-            <div class= "card card-accent card-primary">
-                <div class= "card-body">
-                    <p class= "card-title mb-3">Badges - Square Outline</p>
-                    <p class= "card-text text-warning font-weight-bold mb-1">agm-badge-* badge-square badge-outline</p>
-                    <p class= "agm-badge-primary badge-square badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-secondary badge-square badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-success badge-square badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-warning badge-square badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-danger badge-square badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-info badge-square badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-light badge-square badge-outline mx-1 mb-1">Status</p>
-                    <p class= "agm-badge-dark badge-square badge-outline mx-1 mb-1">Status</p>
-                </div>
-            </div>
+        <div class= "col-md-7">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-success badge-outline</span>">Success< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-warning badge-outline</span>">Warning< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-danger badge-outline</span>">Danger< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-info badge-outline</span>">Info< /span ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "text-info my-4 h5">SQUARED BADGES</p>
+    <div class= "row mt-1 mb-3">
+        <div class= "col-md-5">
+            <span class= "agm-badge-success badge-square">Success</span>
+            <span class= "agm-badge-warning badge-square">Warning</span>
+            <span class= "agm-badge-danger badge-square">Danger</span>
+            <span class= "agm-badge-info badge-square">Info</span>
+        </div>
+        <div class= "col-md-7">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-success badge-square</span>">Success< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-warning badge-square</span>">Warning< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-danger badge-square</span>">Danger< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-info badge-square</span>">Info< /span ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "text-info my-4 h5">SQUARED OUTLINE BADGES</p>
+    <div class= "row mt-1 mb-3">
+        <div class= "col-md-5">
+            <span class= "agm-badge-success badge-square badge-outline">Success</span>
+            <span class= "agm-badge-warning badge-square badge-outline">Warning</span>
+            <span class= "agm-badge-danger badge-square badge-outline">Danger</span>
+            <span class= "agm-badge-info badge-square badge-outline">Info</span>
+        </div>
+        <div class= "col-md-7">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-success badge-square badge-outline</span>">Success< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-warning badge-square badge-outline</span>">Warning< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-danger badge-square badge-outline</span>">Danger< /span ></p>
+            <p class= "mb-1">< span class= "<span class= "text-danger">agm-badge-info badge-square badge-outline</span>">Info< /span ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
 </div>

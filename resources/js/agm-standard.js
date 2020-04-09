@@ -84,6 +84,10 @@ var toaster = (function() {
             toaster.remove();
         }, _delay);
 
+        $('#close-btn').click(function() {
+            toaster.remove();
+        });
+
         return this;
     }
     return {
@@ -141,11 +145,6 @@ $.fn.validate = function() {
 
     let validEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     let validPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])+(?=.*[^a-zA-Z0-9])(?!.*\s).{6,30}$/;
-
-    // let _value = '';
-    // let _type = '';
-    // let _label = '';
-    // let _message = '';
 
     function hasToast() {
         for (var count = 0; count < inputs.length; count++) {

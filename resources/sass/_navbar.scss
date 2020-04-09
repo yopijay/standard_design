@@ -30,9 +30,6 @@
             text-decoration: none;
             h1 {
                 color: $color;
-                span {
-                    color: #00cec9;
-                }
             }
         }
     }
@@ -90,10 +87,8 @@
                 color: $color-highlight;
                 transition: all 0.3s ease-in-out;
             }
-            // ul li.active a p {
-            //     background-color: $background-color-highlight;
-            // }
-            &.active {
+            &.active,
+            &#list ul li.active {
                 background-color: $background-color-highlight;
                 a p {
                     color: $color;

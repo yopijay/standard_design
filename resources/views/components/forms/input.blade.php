@@ -1,6 +1,7 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "input-page">
-    <h4 class= "mb-5">INPUT FIELDS</h4>
-    <div class= "row">
+<div class= "p-4 my-5 mr-4 content" id= "input-page">
+    <h4>INPUT FIELDS</h4>
+    <hr>
+    <div class= "row mt-5 ">
         <div class="col-md-6">
             <div class="card mb-3">
                 <div class="card-header">Basic Form Elements</div>

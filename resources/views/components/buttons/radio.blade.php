@@ -1,82 +1,24 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "radio-page">
-    <h4 class= "mb-5">RADIO BUTTON</h4>
-    <div class= "row">
-        <div class= "col-md-6">
-            <div class= "card">
-                <div class= "card-header">Radio - Default</div>
-                <div class= "card-body">
-                    <div class= "row">
-                        <div class= "col-md-5 mb-3">
-                            <div class= "radio">
-                                <input type= "radio" id= "radio">
-                                <span></span>
-                                <label for= "radio">.radio</label>
-                            </div>
-                        </div>
-                        <div class= "col-md-12">
-                            <p class= "card-title mb-1">Themes</p>
-                            <div class= "row">
-                                <div class= "col-md-6 mb-2">
-                                    <div class= "radio radio-primary">
-                                        <input type= "radio" id= "radio-primary" name= "theme">
-                                        <span></span>
-                                        <label for= "radio-primary">.radio-primary</label>
-                                    </div>
-                                </div>
-                                <div class= "col-md-6 mb-2">
-                                    <div class= "radio radio-secondary">
-                                        <input type= "radio" id= "radio-secondary" name= "theme">
-                                        <span></span>
-                                        <label for= "radio-secondary">.radio-secondary</label>
-                                    </div>
-                                </div>
-                                <div class= "col-md-6 mb-2">
-                                    <div class= "radio radio-success">
-                                        <input type= "radio" id= "radio-success" name= "theme">
-                                        <span></span>
-                                        <label for= "radio-success">.radio-success</label>
-                                    </div>
-                                </div>
-                                <div class= "col-md-6 mb-2">
-                                    <div class= "radio radio-warning">
-                                        <input type= "radio" id= "radio-warning" name= "theme">
-                                        <span></span>
-                                        <label for= "radio-warning">.radio-warning</label>
-                                    </div>
-                                </div>
-                                <div class= "col-md-6 mb-2">
-                                    <div class= "radio radio-danger">
-                                        <input type= "radio" id= "radio-danger" name= "theme">
-                                        <span></span>
-                                        <label for= "radio-danger">.radio-danger</label>
-                                    </div>
-                                </div>
-                                <div class= "col-md-6 mb-2">
-                                    <div class= "radio radio-info">
-                                        <input type= "radio" id= "radio-info" name= "theme">
-                                        <span></span>
-                                        <label for= "radio-info">.radio-info</label>
-                                    </div>
-                                </div>
-                                <div class= "col-md-6 mb-2">
-                                    <div class= "radio radio-light">
-                                        <input type= "radio" id= "radio-light" name= "theme">
-                                        <span></span>
-                                        <label for= "radio-light">.radio-light</label>
-                                    </div>
-                                </div>
-                                <div class= "col-md-6 mb-2">
-                                    <div class= "radio radio-dark">
-                                        <input type= "radio" id= "radio-dark" name= "theme">
-                                        <span></span>
-                                        <label for= "radio-dark">.radio-dark</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<div class= "p-4 my-5 mr-4 content" id= "radio-page">
+    <h4>RADIO BUTTON</h4>
+    <hr>
+    <p class= "text-info mb-1 h5">NORMAL</p>
+    <p class= "mb-4">Add <span class= "text-danger">.radio-* {primary , secondary, success, warning, danger, info, light, dark}</span> for your desired checkbox color.</p>
+    <div class= "row mt-3 mb-5">
+        <div class="col-md-5">
+            <div class= "form-radio">
+                <input type= "radio" id= "radio-default">
+                <span></span>
+                <label for= "radio-default">Radio default</label>
             </div>
+        </div>
+        <div class= "col-md-7">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< div class= "<span class= "text-danger">form-radio</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">radio</span>" id= "<span class= "text-danger">radio-default</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< span>< /span ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">radio-default</span>" >Normal checkbox< /label ></p>
+            <p class= "mb-1">< /div ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
 </div>

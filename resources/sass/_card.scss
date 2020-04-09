@@ -1,54 +1,48 @@
 @mixin card-default() {
     .card {
-        
+        box-shadow: 2px 2px 5px -4px $color-dark-highlight;
+        overflow: hidden;
+        img {
+            border-radius: 0px !important;
+        }
         &-header {
             font-size: .9rem;
             font-family: 'Cocogoose';
             color: $color-dark;
         }
-        
         &-body {
             font-size: .8rem;
-            
             .card-title {
                 font-size: 1rem;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
                 font-weight: bold;
                 color: $color-dark;
             }
-            
             .card-subtitle {
                 font-size: .8rem;
                 margin-top: -10px;
                 font-style: italic;
             }
         }
-        
         &-footer {
             font-size: .8rem;
             color: $color-dark;
         }
-        
         &-img-overlay {
             .card-title {
                 color: $color-light;
             }
-
             .card-text {
                 color: $color-light;
             }
         }
-        
         @include card-style(normal);
-
         &.card-outline {
             border: solid 1px $color-light-highlight;
             background-color: #FFFFFF;
             color: $color-dark;
-
             @include card-style(outline);
         }
-
         &.card-accent {
             border-top: solid 3px $color-light-highlight;
             background-color: #FFFFFF;
@@ -59,152 +53,167 @@
 }
 
 @mixin card-style($style) {
-    @if $style == 'normal' {
+    @if $style=='normal' {
         @include card-theme($style);
     }
-    @else if $style == 'outline' {
+    @else if $style=='outline' {
         @include card-theme($style);
     }
-    @else if $style == 'accent' {
+    @else if $style=='accent' {
         @include card-theme($style);
     }
 }
 
 @mixin card-theme($style) {
-    @if $style == 'normal' {
+    @if $style=='normal' {
         &.card-primary {
             background-color: $color-primary;
             color: $color-light;
             border: none;
-
             & .card-header {
                 background-color: $color-primary-highlight;
                 color: $color-light;
             }
-
             & .card-body {
                 .card-title {
                     color: $color-light;
                 }
+            }
+            & .card-footer {
+                background-color: $color-primary-highlight;
+                color: $color-light;
             }
         }
         &.card-secondary {
             background-color: $color-secondary;
             color: $color-light;
             border: none;
-
             & .card-header {
                 background-color: $color-secondary-highlight;
                 color: $color-light;
             }
-
             & .card-body {
                 .card-title {
                     color: $color-light;
                 }
+            }
+            & .card-footer {
+                background-color: $color-secondary-highlight;
+                color: $color-light;
             }
         }
         &.card-success {
             background-color: $color-success;
             color: $color-light;
             border: none;
-
             & .card-header {
                 background-color: $color-success-highlight;
                 color: $color-light;
             }
-
             & .card-body {
                 .card-title {
                     color: $color-light;
                 }
+            }
+            & .card-footer {
+                background-color: $color-success-highlight;
+                color: $color-light;
             }
         }
         &.card-warning {
             background-color: $color-warning;
             color: $color-light;
             border: none;
-
             & .card-header {
                 background-color: $color-warning-highlight;
                 color: $color-light;
             }
-
             & .card-body {
                 .card-title {
                     color: $color-light;
                 }
+            }
+            & .card-footer {
+                background-color: $color-warning-highlight;
+                color: $color-light;
             }
         }
         &.card-danger {
             background-color: $color-danger;
             color: $color-light;
             border: none;
-
             & .card-header {
                 background-color: $color-danger-highlight;
                 color: $color-light;
             }
-
             & .card-body {
                 .card-title {
                     color: $color-light;
                 }
+            }
+            & .card-footer {
+                background-color: $color-danger-highlight;
+                color: $color-light;
             }
         }
         &.card-info {
             background-color: $color-info;
             color: $color-light;
             border: none;
-
             & .card-header {
                 background-color: $color-info-highlight;
                 color: $color-light;
             }
-
             & .card-body {
                 .card-title {
                     color: $color-light;
                 }
+            }
+            & .card-footer {
+                background-color: $color-info-highlight;
+                color: $color-light;
             }
         }
         &.card-light {
             background-color: $color-light;
             color: $color-dark;
             border: none;
-
             & .card-header {
                 background-color: $color-light-highlight;
                 color: $color-dark;
             }
-
             & .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            & .card-footer {
+                background-color: $color-light-highlight;
+                color: $color-dark;
             }
         }
         &.card-dark {
             background-color: $color-dark;
             color: $color-light;
             border: none;
-
             & .card-header {
                 background-color: $color-dark-highlight;
                 color: $color-light;
             }
-
             & .card-body {
                 .card-title {
                     color: $color-light;
                 }
             }
+            & .card-footer {
+                background-color: $color-dark-highlight;
+                color: $color-light;
+            }
         }
     }
-    @else if $style == 'outline' {
+    @else if $style=='outline' {
         &.card-primary {
             border: solid 1px $color-primary;
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
@@ -213,7 +222,6 @@
         }
         &.card-secondary {
             border: solid 1px $color-secondary;
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
@@ -222,7 +230,6 @@
         }
         &.card-success {
             border: solid 1px $color-success;
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
@@ -231,7 +238,6 @@
         }
         &.card-warning {
             border: solid 1px $color-warning;
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
@@ -240,7 +246,6 @@
         }
         &.card-danger {
             border: solid 1px $color-danger;
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
@@ -249,7 +254,6 @@
         }
         &.card-info {
             border: solid 1px $color-info;
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
@@ -258,7 +262,6 @@
         }
         &.card-light {
             border: solid 1px $color-light-highlight;
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
@@ -267,7 +270,6 @@
         }
         &.card-dark {
             border: solid 1px $color-dark;
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
@@ -275,125 +277,141 @@
             }
         }
     }
-    @else if $style == 'accent' {
+    @else if $style=='accent' {
         &.card-primary {
             border: solid 1px $color-light-highlight;
             border-top: solid 3px $color-primary;
-            
             .card-header {
                 background-color: #FFFFFF;
                 color: $color-dark
             }
-
             .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            .card-footer {
+                background-color: #FFFFFF;
+                color: $color-dark;
             }
         }
         &.card-secondary {
             border: solid 1px $color-light-highlight;
             border-top: solid 3px $color-secondary;
-            
             .card-header {
                 background-color: #FFFFFF;
                 color: $color-dark
             }
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            .card-footer {
+                background-color: #FFFFFF;
+                color: $color-dark;
             }
         }
         &.card-success {
             border: solid 1px $color-light-highlight;
             border-top: solid 3px $color-success;
-            
             .card-header {
                 background-color: #FFFFFF;
                 color: $color-dark
             }
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            .card-footer {
+                background-color: #FFFFFF;
+                color: $color-dark;
             }
         }
         &.card-warning {
             border: solid 1px $color-light-highlight;
             border-top: solid 3px $color-warning;
-            
             .card-header {
                 background-color: #FFFFFF;
                 color: $color-dark
             }
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            .card-footer {
+                background-color: #FFFFFF;
+                color: $color-dark;
             }
         }
         &.card-danger {
             border: solid 1px $color-light-highlight;
             border-top: solid 3px $color-danger;
-            
             .card-header {
                 background-color: #FFFFFF;
                 color: $color-dark
             }
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            .card-footer {
+                background-color: #FFFFFF;
+                color: $color-dark;
             }
         }
         &.card-info {
             border: solid 1px $color-light-highlight;
             border-top: solid 3px $color-info;
-            
             .card-header {
                 background-color: #FFFFFF;
                 color: $color-dark
             }
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            .card-footer {
+                background-color: #FFFFFF;
+                color: $color-dark;
             }
         }
         &.card-light {
             border: solid 1px $color-light-highlight;
             border-top: solid 3px $color-light-highlight;
-            
             .card-header {
                 background-color: #FFFFFF;
                 color: $color-dark
             }
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            .card-footer {
+                background-color: #FFFFFF;
+                color: $color-dark;
             }
         }
         &.card-dark {
             border: solid 1px $color-light-highlight;
             border-top: solid 3px $color-dark;
-            
             .card-header {
                 background-color: #FFFFFF;
                 color: $color-dark
             }
-            
             .card-body {
                 .card-title {
                     color: $color-dark;
                 }
+            }
+            .card-footer {
+                background-color: #FFFFFF;
+                color: $color-dark;
             }
         }
     }

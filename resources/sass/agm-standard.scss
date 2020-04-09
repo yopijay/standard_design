@@ -6,7 +6,7 @@
 @import 'texts';
 @import 'card';
 @import 'button';
-@import 'form';
+@import 'input';
 @import 'checkbox';
 @import 'radio';
 @import 'toggle';
@@ -27,8 +27,8 @@ body.agm-standard {
     @include text-default;
     @include button-default;
     @include card-default;
-    @include form-default;
     @include checkbox-default;
+    // @include input-default;
     @include radio-default;
     @include toggle-default;
     @include toast-default;

@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>@yield('title', 'AGM Dashboard')</title>
+        <title>@yield('title', 'Aktus Global Management')</title>
 
         <!-- CSS -->
         @include('global.style')
@@ -36,8 +36,8 @@
                             <li class= "list">
                                 <a href= "#"><p>Base <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "badge-page"><p>Badges</p></a></li>
+                                    <li class= "navbar-link list active"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">

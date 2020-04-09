@@ -1,107 +1,19 @@
 @mixin checkbox-default() {
-    .checkbox {
-
-        &-anim {
-            @include checkbox-theme(anim);
-
-            input {
-                display: none;
-
-                &:checked {
-                    & + label svg {
-                        stroke: $color-dark-highlight;
-                    }
-            
-                    & + label svg path {
-                        stroke-dashoffset: 60;
-                        transition: all 0.3s linear;
-                    }
-                    
-                    & + label svg polyline {
-                        stroke-dashoffset: 42;
-                        transition: all 0.2s linear;
-                        transition-delay: 0.15s;
-                    }
-                }
-            }
-
-           label {
-               cursor: pointer;
-               position: relative;
-               margin: auto;
-               width: 18px;
-               height: 18px;
-               -webkit-tap-highlight-color: transparent;
-               transform: translate3d(0, 0, 0);
-
-               &:before {
-                   content: '';
-                   position: absolute;
-                   top: -15px;
-                   left: -15px;
-                   width: 48px;
-                   height: 48px;
-                   opacity: 0;
-                   transition: opacity 0.2s ease;
-               }
-
-               &:hover {
-                   &:before {
-                       opacity: 1;
-                   }
-           
-                   svg {
-                       stroke: $color-dark-highlight;
-                   }
-               }
-
-               svg {
-                   position: relative;
-                   z-index: 1;
-                   fill: none;
-                   stroke-linecap: round;
-                   stroke-linejoin: round;
-                   stroke: #c8ccd4;
-                   stroke-width: 1.5;
-                   transform: translate3d(0, 0, 0);
-                   transition: all 0.2s ease;
-       
-                   path {
-                       stroke-dasharray: 60;
-                       stroke-dashoffset: 0;
-                   }
-           
-                   polyline {
-                       stroke-dasharray: 22;
-                       stroke-dashoffset: 66;
-                   }
-               }
-           }
-            
-           p {
-               font-size: .8rem;
-               margin-left: .5rem;
-           }
-        }
-
-        &-square {
+    .form-checkbox {
+        &.checkbox-default {
             @include checkbox-theme(square);
-            
             input {
                 display: none;
-        
                 &:checked {
-                    & + label i {
+                    &+label i {
                         opacity: 1;
                         color: $color-light;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-dark-highlight, .5);
                     }
                 }
             }
-
             label {
                 width: 15px;
                 height: 15px;
@@ -113,29 +25,66 @@
                 margin-right: 6px;
                 border-radius: 3px;
                 cursor: pointer;
-        
                 i {
                     font-size: 8px;
                     opacity: 0;
                     margin-bottom: 8px;
                 }
-
+                p {
+                    display: inline-block;
+                    position: absolute;
+                    margin: -3px 0px 0px 10px;
+                }
                 &:hover {
                     background-color: rgba($color-dark-highlight, .5);
                     transition: all 0.3s ease-in-out;
                 }
             }
         }
-
-        &-rounded {
+        &.checkbox-rounded {
             @include checkbox-theme(rounded);
-
+            input {
+                display: none;
+                &:checked+label {
+                    span {
+                        background-color: $color-dark-highlight;
+                        &:after {
+                            width: 10px;
+                            background-color: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                        &:before {
+                            width: 5px;
+                            background: $color-light;
+                            transition: width 150ms ease 100ms;
+                        }
+                    }
+                    &:hover {
+                        span {
+                            background-color: $color-dark-highlight;
+                            &:after {
+                                width: 10px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                            &:before {
+                                width: 5px;
+                                background-color: $color-light;
+                                transition: width 150ms ease 100ms;
+                            }
+                        }
+                    }
+                }
+            }
             label {
+                font-size: .8rem;
                 display: inline-block;
                 color: $color-dark;
                 cursor: pointer;
                 position: relative;
-        
+                p {
+                    margin: -5px 0px 0px 30px;
+                }
                 span {
                     display: inline-block;
                     background-color: transparent;
@@ -148,7 +97,6 @@
                     border-radius: 50%;
                     vertical-align: -7px;
                     transition: background-color 150ms 200ms, transform 350ms cubic-bezier(.78, -1.22, .17, 1.89);
-            
                     &:before {
                         content: "";
                         width: 0;
@@ -162,7 +110,6 @@
                         top: 8px;
                         left: 5px;
                     }
-            
                     &:after {
                         content: "";
                         width: 0;
@@ -176,14 +123,12 @@
                         left: 6px;
                     }
                 }
-        
                 &:hover {
                     span {
                         &:before {
                             width: 5px;
                             transition: width 100ms ease;
                         }
-        
                         &:after {
                             width: 10px;
                             transition: width 150ms ease 100ms;
@@ -191,43 +136,72 @@
                     }
                 }
             }
-
+        }
+        &.checkbox-animated {
+            @include checkbox-theme(anim);
             input {
                 display: none;
-        
-                &:checked + label {
-                    span {
-                        background-color: $color-dark-highlight;
-        
-                        &:after {
-                            width: 10px;
-                            background-color: $color-light;
-                            transition: width 150ms ease 100ms;
-                        }
-        
-                        &:before {
-                            width: 5px;
-                            background: $color-light;
-                            transition: width 150ms ease 100ms;
-                        }
+                &:checked {
+                    &+label svg {
+                        stroke: $color-dark-highlight;
                     }
-        
-                    &:hover {
-                        span {
-                            background-color: $color-dark-highlight;
-        
-                            &:after {
-                                width: 10px;
-                                background-color: $color-light;
-                                transition: width 150ms ease 100ms;
-                            }
-        
-                            &:before {
-                                width: 5px;
-                                background-color: $color-light;
-                                transition: width 150ms ease 100ms;
-                            }
-                        }
+                    &+label svg path {
+                        stroke-dashoffset: 60;
+                        transition: all 0.3s linear;
+                    }
+                    &+label svg polyline {
+                        stroke-dashoffset: 42;
+                        transition: all 0.2s linear;
+                        transition-delay: 0.15s;
+                    }
+                }
+            }
+            label {
+                cursor: pointer;
+                display: inline-block;
+                width: 18px;
+                height: 18px;
+                -webkit-tap-highlight-color: transparent;
+                transform: translate3d(0, 0, 0);
+                &:before {
+                    content: '';
+                    top: -15px;
+                    left: -15px;
+                    width: 48px;
+                    height: 48px;
+                    opacity: 0;
+                    transition: opacity 0.2s ease;
+                }
+                &:hover {
+                    &:before {
+                        opacity: 1;
+                    }
+                    svg {
+                        stroke: $color-dark-highlight;
+                    }
+                }
+                p {
+                    display: inline-block;
+                    position: absolute;
+                    margin-left: 30px;
+                }
+                svg {
+                    position: absolute;
+                    z-index: 1;
+                    fill: none;
+                    stroke-linecap: round;
+                    stroke-linejoin: round;
+                    stroke: #c8ccd4;
+                    stroke-width: 1.5;
+                    transform: translate3d(0, 0, 0);
+                    transition: all 0.2s ease;
+                    path {
+                        stroke-dasharray: 60;
+                        stroke-dashoffset: 0;
+                    }
+                    polyline {
+                        stroke-dasharray: 22;
+                        stroke-dashoffset: 66;
                     }
                 }
             }
@@ -236,16 +210,15 @@
 }
 
 @mixin checkbox-theme($type) {
-    @if $type == 'anim' {
+    @if $type=='anim' {
         &.checkbox-primary {
             input {
                 &:checked {
-                    & + label svg {
+                    &+label svg {
                         stroke: $color-primary;
                     }
                 }
             }
-
             label {
                 &:hover {
                     svg {
@@ -257,12 +230,11 @@
         &.checkbox-secondary {
             input {
                 &:checked {
-                    & + label svg {
+                    &+label svg {
                         stroke: $color-secondary;
                     }
                 }
             }
-
             label {
                 &:hover {
                     svg {
@@ -274,12 +246,11 @@
         &.checkbox-success {
             input {
                 &:checked {
-                    & + label svg {
+                    &+label svg {
                         stroke: $color-success;
                     }
                 }
             }
-
             label {
                 &:hover {
                     svg {
@@ -291,12 +262,11 @@
         &.checkbox-warning {
             input {
                 &:checked {
-                    & + label svg {
+                    &+label svg {
                         stroke: $color-warning;
                     }
                 }
             }
-
             label {
                 &:hover {
                     svg {
@@ -308,12 +278,11 @@
         &.checkbox-danger {
             input {
                 &:checked {
-                    & + label svg {
+                    &+label svg {
                         stroke: $color-danger;
                     }
                 }
             }
-
             label {
                 &:hover {
                     svg {
@@ -325,12 +294,11 @@
         &.checkbox-info {
             input {
                 &:checked {
-                    & + label svg {
+                    &+label svg {
                         stroke: $color-info;
                     }
                 }
             }
-
             label {
                 &:hover {
                     svg {
@@ -342,12 +310,11 @@
         &.checkbox-light {
             input {
                 &:checked {
-                    & + label svg {
+                    &+label svg {
                         stroke: $color-light-highlight;
                     }
                 }
             }
-
             label {
                 &:hover {
                     svg {
@@ -359,12 +326,11 @@
         &.checkbox-dark {
             input {
                 &:checked {
-                    & + label svg {
+                    &+label svg {
                         stroke: $color-dark;
                     }
                 }
             }
-
             label {
                 &:hover {
                     svg {
@@ -373,24 +339,21 @@
                 }
             }
         }
-     }
-    @else if $type == 'square' {
+    }
+    @else if $type=='square' {
         &.checkbox-primary {
             input {
                 &:checked {
-                    & + label i {
+                    &+label i {
                         color: $color-light;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-primary-highlight, .5);
                     }
                 }
             }
-
             label {
                 border: 1px solid $color-primary-highlight;
-
                 &:hover {
                     background-color: rgba($color-primary-highlight, .5);
                     transition: all 0.3s ease-in-out;
@@ -400,19 +363,16 @@
         &.checkbox-secondary {
             input {
                 &:checked {
-                    & + label i {
+                    &+label i {
                         color: $color-light;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-secondary-highlight, .5);
                     }
                 }
             }
-
             label {
                 border: 1px solid $color-secondary-highlight;
-
                 &:hover {
                     background-color: rgba($color-secondary-highlight, .5);
                     transition: all 0.3s ease-in-out;
@@ -422,19 +382,16 @@
         &.checkbox-success {
             input {
                 &:checked {
-                    & + label i {
+                    &+label i {
                         color: $color-light;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-success-highlight, .5);
                     }
                 }
             }
-
             label {
                 border: 1px solid $color-success-highlight;
-
                 &:hover {
                     background-color: rgba($color-success-highlight, .5);
                     transition: all 0.3s ease-in-out;
@@ -444,19 +401,16 @@
         &.checkbox-warning {
             input {
                 &:checked {
-                    & + label i {
+                    &+label i {
                         color: $color-light;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-warning-highlight, .5);
                     }
                 }
             }
-
             label {
                 border: 1px solid $color-warning-highlight;
-
                 &:hover {
                     background-color: rgba($color-warning-highlight, .5);
                     transition: all 0.3s ease-in-out;
@@ -466,19 +420,16 @@
         &.checkbox-danger {
             input {
                 &:checked {
-                    & + label i {
+                    &+label i {
                         color: $color-light;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-danger-highlight, .5);
                     }
                 }
             }
-
             label {
                 border: 1px solid $color-danger-highlight;
-
                 &:hover {
                     background-color: rgba($color-danger-highlight, .5);
                     transition: all 0.3s ease-in-out;
@@ -488,19 +439,16 @@
         &.checkbox-info {
             input {
                 &:checked {
-                    & + label i {
+                    &+label i {
                         color: $color-light;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-info-highlight, .5);
                     }
                 }
             }
-
             label {
                 border: 1px solid $color-info-highlight;
-
                 &:hover {
                     background-color: rgba($color-info-highlight, .5);
                     transition: all 0.3s ease-in-out;
@@ -510,19 +458,16 @@
         &.checkbox-light {
             input {
                 &:checked {
-                    & + label i {
+                    &+label i {
                         color: $color-dark;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-light-highlight, .5);
                     }
                 }
             }
-
             label {
                 border: 1px solid $color-light-highlight;
-
                 &:hover {
                     background-color: rgba($color-light-highlight, .5);
                     transition: all 0.3s ease-in-out;
@@ -532,19 +477,16 @@
         &.checkbox-dark {
             input {
                 &:checked {
-                    & + label i {
+                    &+label i {
                         color: $color-light;
                     }
-
-                    & + label {
+                    &+label {
                         background-color: rgba($color-dark-highlight, .5);
                     }
                 }
             }
-
             label {
                 border: 1px solid $color-dark-highlight;
-
                 &:hover {
                     background-color: rgba($color-dark-highlight, .5);
                     transition: all 0.3s ease-in-out;
@@ -552,50 +494,42 @@
             }
         }
     }
-    @else if $type == 'rounded' {
+    @else if $type=='rounded' {
         &.checkbox-primary {
             label {
                 span {
                     border: solid 2px $color-primary-highlight;
-            
                     &:before {
                         background-color: $color-primary-highlight;
                     }
-            
                     &:after {
                         background-color: $color-primary-highlight;
                     }
                 }
             }
-
             input {
-                &:checked + label {
+                &:checked+label {
                     span {
                         background-color: $color-primary-highlight;
-        
                         &:after {
                             width: 10px;
                             background-color: $color-light;
                             transition: width 150ms ease 100ms;
                         }
-        
                         &:before {
                             width: 5px;
                             background: $color-light;
                             transition: width 150ms ease 100ms;
                         }
                     }
-        
                     &:hover {
                         span {
                             background-color: $color-primary-highlight;
-        
                             &:after {
                                 width: 10px;
                                 background-color: $color-light;
                                 transition: width 150ms ease 100ms;
                             }
-        
                             &:before {
                                 width: 5px;
                                 background-color: $color-light;
@@ -610,45 +544,37 @@
             label {
                 span {
                     border: solid 2px $color-secondary-highlight;
-            
                     &:before {
                         background-color: $color-secondary-highlight;
                     }
-            
                     &:after {
                         background-color: $color-secondary-highlight;
                     }
                 }
             }
-
             input {
-                &:checked + label {
+                &:checked+label {
                     span {
                         background-color: $color-secondary-highlight;
-        
                         &:after {
                             width: 10px;
                             background-color: $color-light;
                             transition: width 150ms ease 100ms;
                         }
-        
                         &:before {
                             width: 5px;
                             background: $color-light;
                             transition: width 150ms ease 100ms;
                         }
                     }
-        
                     &:hover {
                         span {
                             background-color: $color-secondary-highlight;
-        
                             &:after {
                                 width: 10px;
                                 background-color: $color-light;
                                 transition: width 150ms ease 100ms;
                             }
-        
                             &:before {
                                 width: 5px;
                                 background-color: $color-light;
@@ -663,45 +589,37 @@
             label {
                 span {
                     border: solid 2px $color-success-highlight;
-            
                     &:before {
                         background-color: $color-success-highlight;
                     }
-            
                     &:after {
                         background-color: $color-success-highlight;
                     }
                 }
             }
-
             input {
-                &:checked + label {
+                &:checked+label {
                     span {
                         background-color: $color-success-highlight;
-        
                         &:after {
                             width: 10px;
                             background-color: $color-light;
                             transition: width 150ms ease 100ms;
                         }
-        
                         &:before {
                             width: 5px;
                             background: $color-light;
                             transition: width 150ms ease 100ms;
                         }
                     }
-        
                     &:hover {
                         span {
                             background-color: $color-success-highlight;
-        
                             &:after {
                                 width: 10px;
                                 background-color: $color-light;
                                 transition: width 150ms ease 100ms;
                             }
-        
                             &:before {
                                 width: 5px;
                                 background-color: $color-light;
@@ -716,45 +634,37 @@
             label {
                 span {
                     border: solid 2px $color-warning-highlight;
-            
                     &:before {
                         background-color: $color-warning-highlight;
                     }
-            
                     &:after {
                         background-color: $color-warning-highlight;
                     }
                 }
             }
-
             input {
-                &:checked + label {
+                &:checked+label {
                     span {
                         background-color: $color-warning-highlight;
-        
                         &:after {
                             width: 10px;
                             background-color: $color-light;
                             transition: width 150ms ease 100ms;
                         }
-        
                         &:before {
                             width: 5px;
                             background: $color-light;
                             transition: width 150ms ease 100ms;
                         }
                     }
-        
                     &:hover {
                         span {
                             background-color: $color-warning-highlight;
-        
                             &:after {
                                 width: 10px;
                                 background-color: $color-light;
                                 transition: width 150ms ease 100ms;
                             }
-        
                             &:before {
                                 width: 5px;
                                 background-color: $color-light;
@@ -769,45 +679,37 @@
             label {
                 span {
                     border: solid 2px $color-danger-highlight;
-            
                     &:before {
                         background-color: $color-danger-highlight;
                     }
-            
                     &:after {
                         background-color: $color-danger-highlight;
                     }
                 }
             }
-
             input {
-                &:checked + label {
+                &:checked+label {
                     span {
                         background-color: $color-danger-highlight;
-        
                         &:after {
                             width: 10px;
                             background-color: $color-light;
                             transition: width 150ms ease 100ms;
                         }
-        
                         &:before {
                             width: 5px;
                             background: $color-light;
                             transition: width 150ms ease 100ms;
                         }
                     }
-        
                     &:hover {
                         span {
                             background-color: $color-danger-highlight;
-        
                             &:after {
                                 width: 10px;
                                 background-color: $color-light;
                                 transition: width 150ms ease 100ms;
                             }
-        
                             &:before {
                                 width: 5px;
                                 background-color: $color-light;
@@ -822,45 +724,37 @@
             label {
                 span {
                     border: solid 2px $color-info-highlight;
-            
                     &:before {
                         background-color: $color-info-highlight;
                     }
-            
                     &:after {
                         background-color: $color-info-highlight;
                     }
                 }
             }
-
             input {
-                &:checked + label {
+                &:checked+label {
                     span {
                         background-color: $color-info-highlight;
-        
                         &:after {
                             width: 10px;
                             background-color: $color-light;
                             transition: width 150ms ease 100ms;
                         }
-        
                         &:before {
                             width: 5px;
                             background: $color-light;
                             transition: width 150ms ease 100ms;
                         }
                     }
-        
                     &:hover {
                         span {
                             background-color: $color-info-highlight;
-        
                             &:after {
                                 width: 10px;
                                 background-color: $color-light;
                                 transition: width 150ms ease 100ms;
                             }
-        
                             &:before {
                                 width: 5px;
                                 background-color: $color-light;
@@ -875,45 +769,37 @@
             label {
                 span {
                     border: solid 2px $color-light-highlight;
-            
                     &:before {
                         background-color: $color-light-highlight;
                     }
-            
                     &:after {
                         background-color: $color-light-highlight;
                     }
                 }
             }
-
             input {
-                &:checked + label {
+                &:checked+label {
                     span {
                         background-color: $color-light-highlight;
-        
                         &:after {
                             width: 10px;
                             background-color: $color-light;
                             transition: width 150ms ease 100ms;
                         }
-        
                         &:before {
                             width: 5px;
                             background: $color-light;
                             transition: width 150ms ease 100ms;
                         }
                     }
-        
                     &:hover {
                         span {
                             background-color: $color-light-highlight;
-        
                             &:after {
                                 width: 10px;
                                 background-color: $color-light;
                                 transition: width 150ms ease 100ms;
                             }
-        
                             &:before {
                                 width: 5px;
                                 background-color: $color-light;
@@ -928,45 +814,37 @@
             label {
                 span {
                     border: solid 2px $color-dark-highlight;
-            
                     &:before {
                         background-color: $color-dark-highlight;
                     }
-            
                     &:after {
                         background-color: $color-dark-highlight;
                     }
                 }
             }
-
             input {
-                &:checked + label {
+                &:checked+label {
                     span {
                         background-color: $color-dark-highlight;
-        
                         &:after {
                             width: 10px;
                             background-color: $color-light;
                             transition: width 150ms ease 100ms;
                         }
-        
                         &:before {
                             width: 5px;
                             background: $color-light;
                             transition: width 150ms ease 100ms;
                         }
                     }
-        
                     &:hover {
                         span {
                             background-color: $color-dark-highlight;
-        
                             &:after {
                                 width: 10px;
                                 background-color: $color-light;
                                 transition: width 150ms ease 100ms;
                             }
-        
                             &:before {
                                 width: 5px;
                                 background-color: $color-light;

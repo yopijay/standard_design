@@ -1,0 +1,44 @@
+// @mixin input-default() {
+//     .form-group {
+//         label {
+//             font-size: .8rem;
+//             margin-bottom: 0.2rem;
+//             color: $color-dark-highlight;
+//         }
+//         .form-control {
+//             font-size: .8rem;
+//             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+//             padding: 5px 10px;
+//             color: $color-secondary;
+//             &:focus {
+//                 border: solid 1px $color-secondary;
+//                 box-shadow: none;
+//             }
+//             @include input-theme(default);
+//             &.form-square {
+//                 border-radius: 0px;
+//             }
+//             &.form-pills {
+//                 border-radius: 50px;
+//             }
+//         }
+//     }
+// }
+// @mixin input-theme($type) {
+//     @if $type=='default' {
+//         &.form-success {
+//             border: solid 1px $color-success;
+//         }
+//         &.form-warning {
+//             border: solid 1px $color-warning;
+//         }
+//         &.form-danger {
+//             border: solid 1px $color-danger;
+//         }
+//         &.form-info {
+//             border: solid 1px $color-info;
+//         }
+//     }
+//     @else if $type=='square' {}
+//     @else if $type=='pills' {}
+// }

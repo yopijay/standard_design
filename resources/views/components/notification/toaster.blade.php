@@ -1,6 +1,7 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "toaster-page">
-    <h4 class= "mb-5">TOASTERS</h4>
-    <div class="row">
+<div class= "p-4 my-5 mr-4 content" id= "toaster-page">
+    <h4>TOASTERS</h4>
+    <hr>
+    <div class="row mt-5">
         <div class="col-md-4">
             <p class= "font-weight-bold text-uppercase text-info mb-1">Toast Type</p>
             <div class= "radio radio-dark">

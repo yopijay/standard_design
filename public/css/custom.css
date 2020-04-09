@@ -1,3 +1,16 @@
 #toaster-page p {
     font-size: .9rem;
 }
+
+#note {
+    font-size: 70%;
+}
+
+#note i {
+    margin-right: 5px;
+}
+
+.navbar .navbar-header a h1 span {
+    color: #00cec9;
+    font-size: 1.8rem;
+}

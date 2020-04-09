@@ -1,5 +1,6 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "modal-page">
-    <h4 class= "mb-5">MODALS</h4>
+<div class= "p-4 my-5 mr-4 content" id= "modal-page">
+    <h4>MODALS</h4>
+    <hr class= "mb-5">
     <div class= "card card-accent card-primary">
         <div class= "row">
             <div class= "col-md-12">

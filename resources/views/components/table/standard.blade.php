@@ -1,6 +1,7 @@
-<div class= "p-4 my-5 mr-4 border rounded shadow-sm content bg-light" id= "standard-tbl-page">
-    <h4 class= "mb-5">STANDARD TABLE</h4>
-    <div class= "row">
+<div class= "p-4 my-5 mr-4 content" id= "standard-tbl-page">
+    <h4>STANDARD TABLE</h4>
+    <hr>
+    <div class= "row mt-5">
         <div class= "col-md-6 mb-5">
             <div class= "card">
                 <div class= "card-header">Simple Table</div>
