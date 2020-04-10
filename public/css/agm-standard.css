@@ -13489,6 +13489,48 @@ body.agm-standard .form-checkbox.checkbox-animated label svg polyline {
   stroke-dashoffset: 66;
 }
 
+body.agm-standard .form-group label {
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  color: #2f3640;
+}
+
+body.agm-standard .form-group .form-control {
+  font-size: 0.8rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 10px;
+  color: #7f8fa6;
+}
+
+body.agm-standard .form-group .form-control:focus {
+  border: solid 1px #7f8fa6;
+  box-shadow: none;
+}
+
+body.agm-standard .form-group .form-control.form-success {
+  border: solid 1px #4cd137;
+}
+
+body.agm-standard .form-group .form-control.form-warning {
+  border: solid 1px #fbc531;
+}
+
+body.agm-standard .form-group .form-control.form-danger {
+  border: solid 1px #e84118;
+}
+
+body.agm-standard .form-group .form-control.form-info {
+  border: solid 1px #273c75;
+}
+
+body.agm-standard .form-group .form-control.form-square {
+  border-radius: 0px;
+}
+
+body.agm-standard .form-group .form-control.form-pills {
+  border-radius: 50px;
+}
+
 body.agm-standard .form-radio.radio-primary input:checked + span {
   border: solid 2px #00a8ff;
 }

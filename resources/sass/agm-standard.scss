@@ -28,7 +28,7 @@ body.agm-standard {
     @include button-default;
     @include card-default;
     @include checkbox-default;
-    // @include input-default;
+    @include input-default;
     @include radio-default;
     @include toggle-default;
     @include toast-default;
