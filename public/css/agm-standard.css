@@ -15083,6 +15083,11 @@ body.agm-standard .modal-dialog .modal-content .modal-header button:focus {
   outline: none;
 }
 
+body.agm-standard .modal-dialog .modal-content .modal-header button i {
+  font-size: 1rem;
+  margin-top: -7px !important;
+}
+
 body.agm-standard .table {
   margin-bottom: 0;
 }

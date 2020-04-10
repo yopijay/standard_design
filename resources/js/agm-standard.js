@@ -49,6 +49,7 @@ function brandButtons() {
     });
 }
 
+// Toaster Function
 var toaster = (function() {
     var toast = function(_type, _theme, _icon, _message) {
         var _toast = '<div class= "toaster ' + _type + ' ' + _theme + '" id= "toaster">' +
@@ -139,6 +140,7 @@ $.fn.sidenav = function(submenu) {
     return this;
 }
 
+// Validations
 $.fn.validate = function() {
     let inputs = this[0].elements;
     let result = true;

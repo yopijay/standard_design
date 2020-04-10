@@ -111,4 +111,76 @@
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
+    <p class= "text-info mb-1 h5">STYLES</p>
+    <div class= "row mt-3 mb-5">
+        <div class= "col-md-5">
+            <form>
+                <div class="form-group mb-2">
+                    <label for= "field">Square:</label>
+                    <input type= "text" class= "form-control form-square"/>
+                </div>
+                <div class="form-group mb-2">
+                    <label for= "field">Pills:</label>
+                    <input type= "text" class= "form-control form-pills"/>
+                </div>
+            </form>
+        </div>
+        <div class= "col-md-7">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< form ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Square:< /label ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-square</span>" id= "<span class= "text-danger">field</span>" / ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Pills:< /label ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-pills</span>" id= "<span class= "text-danger">field</span>" / ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
+            <p class= "mb-1">< /form ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "mb-1">Use <span class= "text-danger">.form-* {success, danger, warning, info}</span> for your desired input theme.</p>
+    <div class= "row mt-3 mb-5">
+        <div class= "col-md-5">
+            <div class= "form-group mb-2">
+                <label for= "field">Success:</label>
+                <input type= "text" class= "form-control form-success" id= "field"/>
+            </div>
+            <div class= "form-group mb-2">
+                <label for= "field">Warning:</label>
+                <input type= "text" class= "form-control form-warning" id= "field"/>
+            </div>
+            <div class= "form-group mb-2">
+                <label for= "field">Danger:</label>
+                <input type= "text" class= "form-control form-danger" id= "field"/>
+            </div>
+            <div class= "form-group mb-2">
+                <label for= "field">Info:</label>
+                <input type= "text" class= "form-control form-info" id= "field"/>
+            </div>
+        </div>
+        <div class= "col-md-7">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< form ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Success:< /label ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-success</span>" id= "<span class= "text-danger">field</span>" / ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Warning:< /label ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-warning</span>" id= "<span class= "text-danger">field</span>" / ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Danger:< /label ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-danger</span>" id= "<span class= "text-danger">field</span>" / ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Info:< /label ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-info</span>" id= "<span class= "text-danger">field</span>" / ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
+            <p class= "mb-1">< /form ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
 </div>

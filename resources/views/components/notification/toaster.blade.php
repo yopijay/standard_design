@@ -1,5 +1,6 @@
 <div class= "p-4 my-5 mr-4 content" id= "toaster-page">
     <h4>TOASTERS</h4>
+    <p class= "mb-1">Toasts are lightweight notifications designed to mimic the push notifications that have been popularized by mobile and desktop operating systems. They’re built with flexbox, so they’re easy to align and position.</p>
     <hr>
     <div class="row mt-5">
         <div class="col-md-4">
