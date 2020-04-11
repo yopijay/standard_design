@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 content" id= "button-page">
+<div class= "p-4 mt-4 mr-4 content" id= "button-page">
     <h4>BUTTONS</h4>
     <p class= "mb-1">Bootstrap buttons component for actions in tables, forms, cards, and more. Bootstrap 4 provides various styles, states, and size. Ready to use and easy to customize.</p>
     <hr>

@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 content" id= "checkbox-page">
+<div class= "p-4 mt-4 mr-4 content" id= "checkbox-page">
     <h4>CHECKBOX</h4>
     <hr>
     <p class= "text-info mb-1 h5">NORMAL</p>

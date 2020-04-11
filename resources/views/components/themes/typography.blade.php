@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 content" id= "typography-page">
+<div class= "p-4 mt-4 mr-4 content" id= "typography-page">
     <h4>TYPOGRAPHY</h4>
     <p class= "mb-1">Documentation and examples for Bootstrap typography, including headings, body text, lists, and more.</p>
     <hr>

@@ -1,5 +1,19 @@
 @mixin table-default() {
     .table {
-        margin-bottom: 0;
+        thead {
+            th,
+            td {
+                font-size: .9rem;
+            }
+        }
+        tbody {
+            th,
+            td {
+                font-size: .8rem;
+            }
+        }
+        &.table-hover {
+            cursor: pointer;
+        }
     }
 }

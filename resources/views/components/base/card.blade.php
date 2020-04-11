@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 content" id= "card-page">
+<div class= "p-4 mt-4 mr-4 content" id= "card-page">
     <h4>CARDS</h4>
     <p class= "mb-1">Bootstrap cards component provide a flexible and extensible container for displaying content. Bootstrap cards are delivered with a bunch of variants and options.</p>
     <hr>

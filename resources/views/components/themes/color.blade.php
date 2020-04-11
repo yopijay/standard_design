@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 content" id= "color-page">
+<div class= "p-4 mt-4 mr-4 content" id= "color-page">
     <h4>COLORS</h4>
     <p class= "mb-1">We use a subset of all colors to create a smaller color palette for generating color schemes, also available as Sass variables and a Sass map in Bootstrap’s <span class= "text-danger">scss/_colors.scss</span> file.</p>
     <hr>

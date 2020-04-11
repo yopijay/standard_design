@@ -15087,7 +15087,17 @@ body.agm-standard .modal-dialog .modal-content .modal-header button i {
   margin-top: -7px !important;
 }
 
-body.agm-standard .table {
-  margin-bottom: 0;
+body.agm-standard .table thead th,
+body.agm-standard .table thead td {
+  font-size: 0.9rem;
+}
+
+body.agm-standard .table tbody th,
+body.agm-standard .table tbody td {
+  font-size: 0.8rem;
+}
+
+body.agm-standard .table.table-hover {
+  cursor: pointer;
 }
 

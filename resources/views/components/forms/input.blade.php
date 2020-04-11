@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 content" id= "input-page">
+<div class= "p-4 mt-4 mr-4 content" id= "input-page">
     <h4>INPUT FIELDS</h4>
     <p class= "mb-1">Be sure to use an appropriate <span class= "text-danger">type</span> attribute on all inputs (e.g., <span class= "text-danger">email</span> for email address or <span class= "text-danger">number</span> for numerical information) to take advantage of newer input controls like email verification, number selection, and more.</p>
     <p class= "mb-1">Here’s a quick example to demonstrate Bootstrap’s form styles. Keep reading for documentation on required classes, form layout, and more.</p>

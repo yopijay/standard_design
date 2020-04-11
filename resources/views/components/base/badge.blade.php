@@ -1,4 +1,4 @@
-<div class= "p-4 my-5 mr-4 content" id= "badge-page">
+<div class= "p-4 mt-4 mr-4 content" id= "badge-page">
     <h4>BADGES</h4>
     <p class= "mb-1">Bootstrap badges are small count and labeling components.</p>
     <hr>
