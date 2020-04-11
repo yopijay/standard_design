@@ -13,6 +13,7 @@
 @import 'toast';
 @import 'modal';
 @import 'table';
+@import 'listgroup';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 body.agm-standard {
@@ -34,4 +35,5 @@ body.agm-standard {
     @include toast-default;
     @include modal-default;
     @include table-default;
+    @include listgroup-default;
 }

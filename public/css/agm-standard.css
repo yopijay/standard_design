@@ -11415,6 +11415,7 @@ body.agm-standard .agm-badge-primary {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
+  font-size: 0.7rem;
 }
 
 body.agm-standard .agm-badge-primary.badge-outline {
@@ -11435,6 +11436,7 @@ body.agm-standard .agm-badge-secondary {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
+  font-size: 0.7rem;
 }
 
 body.agm-standard .agm-badge-secondary.badge-outline {
@@ -11455,6 +11457,7 @@ body.agm-standard .agm-badge-success {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
+  font-size: 0.7rem;
 }
 
 body.agm-standard .agm-badge-success.badge-outline {
@@ -11475,6 +11478,7 @@ body.agm-standard .agm-badge-warning {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
+  font-size: 0.7rem;
 }
 
 body.agm-standard .agm-badge-warning.badge-outline {
@@ -11495,6 +11499,7 @@ body.agm-standard .agm-badge-danger {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
+  font-size: 0.7rem;
 }
 
 body.agm-standard .agm-badge-danger.badge-outline {
@@ -11515,6 +11520,7 @@ body.agm-standard .agm-badge-info {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
+  font-size: 0.7rem;
 }
 
 body.agm-standard .agm-badge-info.badge-outline {
@@ -11535,6 +11541,7 @@ body.agm-standard .agm-badge-light {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
+  font-size: 0.7rem;
 }
 
 body.agm-standard .agm-badge-light.badge-outline {
@@ -11555,6 +11562,7 @@ body.agm-standard .agm-badge-dark {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
+  font-size: 0.7rem;
 }
 
 body.agm-standard .agm-badge-dark.badge-outline {
@@ -15097,7 +15105,195 @@ body.agm-standard .table tbody td {
   font-size: 0.8rem;
 }
 
-body.agm-standard .table.table-hover {
+body.agm-standard .table.table-hover tbody tr:hover {
   cursor: pointer;
+}
+
+body.agm-standard .list-group .list-group-item {
+  font-size: 0.8rem;
+}
+
+body.agm-standard .list-group .list-group-item-primary {
+  background-color: rgba(0, 168, 255, 0.8);
+  border-color: rgba(0, 168, 255, 0.8);
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item-secondary {
+  background-color: rgba(127, 143, 166, 0.8);
+  border-color: rgba(127, 143, 166, 0.8);
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item-success {
+  background-color: rgba(76, 209, 55, 0.8);
+  border-color: rgba(76, 209, 55, 0.8);
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item-warning {
+  background-color: rgba(251, 197, 49, 0.8);
+  border-color: rgba(251, 197, 49, 0.8);
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item-danger {
+  background-color: rgba(232, 65, 24, 0.8);
+  border-color: rgba(232, 65, 24, 0.8);
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item-info {
+  background-color: rgba(39, 60, 117, 0.8);
+  border-color: rgba(39, 60, 117, 0.8);
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item-light {
+  background-color: rgba(245, 246, 250, 0.8);
+  border-color: rgba(245, 246, 250, 0.8);
+  color: #353b48;
+}
+
+body.agm-standard .list-group .list-group-item-dark {
+  background-color: rgba(53, 59, 72, 0.8);
+  border-color: rgba(53, 59, 72, 0.8);
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.active {
+  background-color: #00a8ff;
+  border: solid 1px #00a8ff;
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover {
+  color: #2f3640;
+  transition: all 0.3s ease-in-out;
+  text-align: left;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-primary {
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-primary:hover {
+  background-color: rgba(0, 151, 230, 0.8);
+  border-color: rgba(0, 151, 230, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-primary:focus {
+  background-color: rgba(0, 168, 255, 0.8);
+  border-color: rgba(0, 168, 255, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-secondary {
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-secondary:hover {
+  background-color: rgba(113, 128, 147, 0.8);
+  border-color: rgba(113, 128, 147, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-secondary:focus {
+  background-color: rgba(127, 143, 166, 0.8);
+  border-color: rgba(127, 143, 166, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-success {
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-success:hover {
+  background-color: rgba(68, 189, 50, 0.8);
+  border-color: rgba(68, 189, 50, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-success:focus {
+  background-color: rgba(76, 209, 55, 0.8);
+  border-color: rgba(76, 209, 55, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-warning {
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-warning:hover {
+  background-color: rgba(225, 177, 44, 0.8);
+  border-color: rgba(225, 177, 44, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-warning:focus {
+  background-color: rgba(251, 197, 49, 0.8);
+  border-color: rgba(251, 197, 49, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-danger {
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-danger:hover {
+  background-color: rgba(194, 54, 22, 0.8);
+  border-color: rgba(194, 54, 22, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-danger:focus {
+  background-color: rgba(232, 65, 24, 0.8);
+  border-color: rgba(232, 65, 24, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-info {
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-info:hover {
+  background-color: rgba(25, 42, 86, 0.8);
+  border-color: rgba(25, 42, 86, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-info:focus {
+  background-color: rgba(39, 60, 117, 0.8);
+  border-color: rgba(39, 60, 117, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-light {
+  color: #353b48;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-light:hover {
+  background-color: rgba(220, 221, 225, 0.8);
+  border-color: rgba(220, 221, 225, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-light:focus {
+  background-color: rgba(245, 246, 250, 0.8);
+  border-color: rgba(245, 246, 250, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-dark {
+  color: #f5f6fa;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-dark:hover {
+  background-color: rgba(47, 54, 64, 0.8);
+  border-color: rgba(47, 54, 64, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover.list-group-item-dark:focus {
+  background-color: rgba(53, 59, 72, 0.8);
+  border-color: rgba(53, 59, 72, 0.8);
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover:hover {
+  background-color: rgba(220, 221, 225, 0.4);
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+body.agm-standard .list-group .list-group-item.list-group-hover:focus {
+  outline: none;
+  border-color: #dcdde1;
 }
 

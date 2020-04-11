@@ -37,7 +37,8 @@
                                 <a href= "#"><p>Base <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
                                     <li class= "navbar-link list"><a href= "#" content= "badge-page"><p>Badges</p></a></li>
-                                    <li class= "navbar-link list active"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "listgroup-page"><p>List Groups</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">
@@ -83,6 +84,7 @@
                     @include('components.buttons.button')
                     @include('components.base.card')
                     @include('components.base.badge')
+                    @include('components.base.listgroup')
                     @include('components.notification.modal')
                     @include('components.notification.toaster')
                     @include('components.buttons.checkbox')

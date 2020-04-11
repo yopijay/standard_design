@@ -13,7 +13,11 @@
             }
         }
         &.table-hover {
-            cursor: pointer;
+            tbody {
+                tr:hover {
+                    cursor: pointer;
+                }
+            }
         }
     }
 }

@@ -1,0 +1,164 @@
+@mixin listgroup-default() {
+    .list-group {
+        .list-group-item {
+            @include listgroup-type(default);
+            font-size: .8rem;
+            &.active {
+                background-color: $color-primary;
+                border: solid 1px $color-primary;
+                color: $color-light;
+            }
+            &.list-group-hover {
+                @include listgroup-type(hoverable);
+                color: $color-dark-highlight;
+                transition: all 0.3s ease-in-out;
+                text-align: left;
+                &:hover {
+                    background-color: rgba($color-light-highlight, 0.4);
+                    transition: all 0.3s ease-in-out;
+                    text-decoration: none;
+                    cursor: pointer;
+                }
+                &:focus {
+                    outline: none;
+                    border-color: $color-light-highlight;
+                }
+            }
+        }
+    }
+}
+
+@mixin listgroup-type($type) {
+    @if $type=='default' {
+        &-primary {
+            background-color: rgba($color-primary, 0.8);
+            border-color: rgba($color-primary, 0.8);
+            color: $color-light;
+        }
+        &-secondary {
+            background-color: rgba($color-secondary, 0.8);
+            border-color: rgba($color-secondary, 0.8);
+            color: $color-light;
+        }
+        &-success {
+            background-color: rgba($color-success, 0.8);
+            border-color: rgba($color-success, 0.8);
+            color: $color-light;
+        }
+        &-warning {
+            background-color: rgba($color-warning, 0.8);
+            border-color: rgba($color-warning, 0.8);
+            color: $color-light;
+        }
+        &-danger {
+            background-color: rgba($color-danger, 0.8);
+            border-color: rgba($color-danger, 0.8);
+            color: $color-light;
+        }
+        &-info {
+            background-color: rgba($color-info, 0.8);
+            border-color: rgba($color-info, 0.8);
+            color: $color-light;
+        }
+        &-light {
+            background-color: rgba($color-light, 0.8);
+            border-color: rgba($color-light, 0.8);
+            color: $color-dark;
+        }
+        &-dark {
+            background-color: rgba($color-dark, 0.8);
+            border-color: rgba($color-dark, 0.8);
+            color: $color-light;
+        }
+    }
+    @else if $type=='hoverable' {
+        &.list-group-item-primary {
+            color: $color-light;
+            &:hover {
+                background-color: rgba($color-primary-highlight, 0.8);
+                border-color: rgba($color-primary-highlight, 0.8);
+            }
+            &:focus {
+                background-color: rgba($color-primary, 0.8);
+                border-color: rgba($color-primary, 0.8);
+            }
+        }
+        &.list-group-item-secondary {
+            color: $color-light;
+            &:hover {
+                background-color: rgba($color-secondary-highlight, 0.8);
+                border-color: rgba($color-secondary-highlight, 0.8);
+            }
+            &:focus {
+                background-color: rgba($color-secondary, 0.8);
+                border-color: rgba($color-secondary, 0.8);
+            }
+        }
+        &.list-group-item-success {
+            color: $color-light;
+            &:hover {
+                background-color: rgba($color-success-highlight, 0.8);
+                border-color: rgba($color-success-highlight, 0.8);
+            }
+            &:focus {
+                background-color: rgba($color-success, 0.8);
+                border-color: rgba($color-success, 0.8);
+            }
+        }
+        &.list-group-item-warning {
+            color: $color-light;
+            &:hover {
+                background-color: rgba($color-warning-highlight, 0.8);
+                border-color: rgba($color-warning-highlight, 0.8);
+            }
+            &:focus {
+                background-color: rgba($color-warning, 0.8);
+                border-color: rgba($color-warning, 0.8);
+            }
+        }
+        &.list-group-item-danger {
+            color: $color-light;
+            &:hover {
+                background-color: rgba($color-danger-highlight, 0.8);
+                border-color: rgba($color-danger-highlight, 0.8);
+            }
+            &:focus {
+                background-color: rgba($color-danger, 0.8);
+                border-color: rgba($color-danger, 0.8);
+            }
+        }
+        &.list-group-item-info {
+            color: $color-light;
+            &:hover {
+                background-color: rgba($color-info-highlight, 0.8);
+                border-color: rgba($color-info-highlight, 0.8);
+            }
+            &:focus {
+                background-color: rgba($color-info, 0.8);
+                border-color: rgba($color-info, 0.8);
+            }
+        }
+        &.list-group-item-light {
+            color: $color-dark;
+            &:hover {
+                background-color: rgba($color-light-highlight, 0.8);
+                border-color: rgba($color-light-highlight, 0.8);
+            }
+            &:focus {
+                background-color: rgba($color-light, 0.8);
+                border-color: rgba($color-light, 0.8);
+            }
+        }
+        &.list-group-item-dark {
+            color: $color-light;
+            &:hover {
+                background-color: rgba($color-dark-highlight, 0.8);
+                border-color: rgba($color-dark-highlight, 0.8);
+            }
+            &:focus {
+                background-color: rgba($color-dark, 0.8);
+                border-color: rgba($color-dark, 0.8);
+            }
+        }
+    }
+}

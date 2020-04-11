@@ -59,6 +59,9 @@ $(function() {
             case '404-page':
                 $('#404-page').css({ display: 'block' });
                 break;
+            case 'listgroup-page':
+                $('#listgroup-page').css({ display: 'block' });
+                break;
         }
     });
 
