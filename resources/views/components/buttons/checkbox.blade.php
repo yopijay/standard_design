@@ -42,7 +42,8 @@
             <p class= "mb-1">< div class= "<span class= "text-danger">form-checkbox checkbox-rounded</span>" ></p>
             <p class= "mb-1">< input type= "<span class= "text-danger">checkbox</span>" id= "<span class= "text-danger">checkbox-rounded</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< label for="<span class= "text-danger">checkbox-rounded</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< span>< /span >Rounded checkbox</p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< span>< /span ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< p >Rounded checkbox< /p ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /label ></p>
             <p class= "mb-1">< /div ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>

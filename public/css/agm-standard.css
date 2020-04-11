@@ -11604,7 +11604,6 @@ body.agm-standard .h5 {
 body.agm-standard p,
 body.agm-standard span {
   font-size: 0.8rem;
-  margin-bottom: -1rem;
 }
 
 body.agm-standard .blockquote {
@@ -13297,7 +13296,7 @@ body.agm-standard .form-checkbox.checkbox-rounded label {
 }
 
 body.agm-standard .form-checkbox.checkbox-rounded label p {
-  margin: -5px 0px 0px 30px;
+  margin: -20px 0px 0px 30px;
 }
 
 body.agm-standard .form-checkbox.checkbox-rounded label span {

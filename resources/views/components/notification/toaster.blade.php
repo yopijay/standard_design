@@ -4,63 +4,63 @@
     <hr>
     <div class="row mt-5">
         <div class="col-md-4">
-            <p class= "font-weight-bold text-uppercase text-info mb-1">Toast Type</p>
-            <div class= "radio radio-dark">
+            <p class= "font-weight-bold text-uppercase text-info mb-4">Toast Type</p>
+            <div class= "form-radio radio radio-dark">
                 <input type= "radio" id= "toast_default" name= "toast_type" checked value= "">
                 <span></span>
                 <label for= "toast_default">Default</label>
             </div>
-            <div class= "radio radio-dark">
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_default-square" name= "toast_type" value= "toast-square">
                 <span></span>
                 <label for= "toast_default-square">Default - Square</label>
             </div>
-            <div class= "radio radio-dark">
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_default_pills" name= "toast_type" value= "toast-pills">
                 <span></span>
                 <label for= "toast_default_pills">Default - Pills</label>
             </div>
-            <div class= "radio radio-dark">
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_outline" name= "toast_type" value= "toast-outline">
                 <span></span>
                 <label for= "toast_outline">Outline</label>
             </div>
-            <div class= "radio radio-dark">
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_outline_square" name= "toast_type" value= "toast-outline toast-square">
                 <span></span>
                 <label for= "toast_outline_square">Outline - Square</label>
             </div>
-            <div class= "radio radio-dark">
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_outline_pills" name= "toast_type" value= "toast-outline toast-pills">
                 <span></span>
                 <label for= "toast_outline_pills">Outline - Pills</label>
             </div>
         </div>
         <div class= "col-md-3">
-            <p class= "font-weight-bold text-uppercase text-info mb-1">Toast Theme</p>
-            <div class= "radio radio-dark">
+            <p class= "font-weight-bold text-uppercase text-info mb-4">Toast Theme</p>
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_success" name= "toast_theme" checked value= "toast-success">
                 <span></span>
                 <label for= "toast_success" class= "text-success">Success</label>
             </div>
-            <div class= "radio radio-dark">
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_warning" name= "toast_theme" value= "toast-warning">
                 <span></span>
                 <label for= "toast_warning" class= "text-warning">Warning</label>
             </div>
-            <div class= "radio radio-dark">
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_danger" name= "toast_theme" value= "toast-danger">
                 <span></span>
                 <label for= "toast_danger" class= "text-danger">Danger</label>
             </div>
-            <div class= "radio radio-dark">
+            <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_info" name= "toast_theme" value= "toast-info">
                 <span></span>
                 <label for= "toast_info" class= "text-info">Info</label>
             </div>
         </div>
         <div class="col-md-5">
-            <p class= "font-weight-bold text-uppercase text-info mb-1">Other Content</p>
+            <p class= "font-weight-bold text-uppercase text-info mb-4">Other Content</p>
             <form action="">
                 <div class="form-group mb-2">
                     <label for= "field">Message:</label>
