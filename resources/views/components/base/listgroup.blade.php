@@ -158,27 +158,27 @@
     <div class= "row mt-3 mb-5">
         <div class= "col-md-5">
             <ul class= "list-group">
-                <li class= "list-group-item list-group-hover list-group-item-primary">Primary</li>
-                <li class= "list-group-item list-group-hover list-group-item-secondary">Secondary</li>
-                <li class= "list-group-item list-group-hover list-group-item-success">Success</li>
-                <li class= "list-group-item list-group-hover list-group-item-warning">Warning</li>
-                <li class= "list-group-item list-group-hover list-group-item-danger">Danger</li>
-                <li class= "list-group-item list-group-hover list-group-item-info">Info</li>
-                <li class= "list-group-item list-group-hover list-group-item-light">Light</li>
-                <li class= "list-group-item list-group-hover list-group-item-dark">Dark</li>
+                <a class= "list-group-item list-group-hover list-group-item-primary">Primary</a>
+                <a class= "list-group-item list-group-hover list-group-item-secondary">Secondary</a>
+                <a class= "list-group-item list-group-hover list-group-item-success">Success</a>
+                <a class= "list-group-item list-group-hover list-group-item-warning">Warning</a>
+                <a class= "list-group-item list-group-hover list-group-item-danger">Danger</a>
+                <a class= "list-group-item list-group-hover list-group-item-info">Info</a>
+                <a class= "list-group-item list-group-hover list-group-item-light">Light</a>
+                <a class= "list-group-item list-group-hover list-group-item-dark">Dark</a>
             </ul>
         </div>
         <div class= "col-md-7">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< ul class= "<span class= "text-danger">list-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< li class= "<span class= "text-danger">list-group-item list-group-item-primary</span>" >Primary< /li ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< li class= "<span class= "text-danger">list-group-item list-group-item-secondary</span>" >Secondary< /li ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< li class= "<span class= "text-danger">list-group-item list-group-item-success</span>" >Success< /li ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< li class= "<span class= "text-danger">list-group-item list-group-item-warning</span>" >Warning< /li ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< li class= "<span class= "text-danger">list-group-item list-group-item-danger</span>" >Danger< /li ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< li class= "<span class= "text-danger">list-group-item list-group-item-info</span>" >Info< /li ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< li class= "<span class= "text-danger">list-group-item list-group-item-light</span>" >Light< /li ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< li class= "<span class= "text-danger">list-group-item list-group-item-dark</span>" >Dark< /li ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< a class= "<span class= "text-danger">list-group-item list-group-item-primary</span>" >Primary< /a ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< a class= "<span class= "text-danger">list-group-item list-group-item-secondary</span>" >Secondary< /a ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< a class= "<span class= "text-danger">list-group-item list-group-item-success</span>" >Success< /a ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< a class= "<span class= "text-danger">list-group-item list-group-item-warning</span>" >Warning< /a ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< a class= "<span class= "text-danger">list-group-item list-group-item-danger</span>" >Danger< /a ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< a class= "<span class= "text-danger">list-group-item list-group-item-info</span>" >Info< /a ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< a class= "<span class= "text-danger">list-group-item list-group-item-light</span>" >Light< /a ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< a class= "<span class= "text-danger">list-group-item list-group-item-dark</span>" >Dark< /a ></p>
             <p class= "mb-1">< /ul ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>

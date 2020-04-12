@@ -94,8 +94,18 @@ $(function() {
                 }
             }
 
-            _code.innerHTML = 'toaster.toast("' + _type + '", "' + _theme + '", "' + _icon + '", "' + _message + '").show(' + _delay + ');';
-
-            toaster.toast(_type, _theme, _icon == '' ? 'fas fa-check' : _icon, _message).show(_delay);
+            if (_theme == 'toast-success') {
+                toaster.success(_type, _message).show(_delay);
+                _code.innerHTML = 'toaster.success("' + _type + '", "' + _message + '").show(' + _delay + ');';
+            } else if (_theme == 'toast-danger') {
+                toaster.danger(_type, _message).show(_delay);
+                _code.innerHTML = 'toaster.danger("' + _type + '", "' + _message + '").show(' + _delay + ');';
+            } else if (_theme == 'toast-warning') {
+                toaster.warning(_type, _message).show(_delay);
+                _code.innerHTML = 'toaster.warning("' + _type + '", "' + _message + '").show(' + _delay + ');';
+            } else if (_theme == 'toast-info') {
+                toaster.info(_type, _message).show(_delay);
+                _code.innerHTML = 'toaster.info("' + _type + '", "' + _message + '").show(' + _delay + ');';
+            }
         })
 });

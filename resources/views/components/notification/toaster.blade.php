@@ -70,10 +70,6 @@
                     <label for= "field">Delay:</label>
                     <input type= "number" class= "form-control" name= "toast_delay" id= "toast-delay" min= "500" value= "500"/>
                 </div>
-                <div class="form-group mb-2">
-                    <label for= "field">Icon:</label>
-                    <input type= "text" class= "form-control" name= "toast_icon" id= "toast-icon"/>
-                </div>
             </form>
         </div>
         <div class= "col-md-12 mt-5">

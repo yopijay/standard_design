@@ -11415,7 +11415,7 @@ body.agm-standard .agm-badge-primary {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 body.agm-standard .agm-badge-primary.badge-outline {
@@ -11436,7 +11436,7 @@ body.agm-standard .agm-badge-secondary {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 body.agm-standard .agm-badge-secondary.badge-outline {
@@ -11457,7 +11457,7 @@ body.agm-standard .agm-badge-success {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 body.agm-standard .agm-badge-success.badge-outline {
@@ -11478,7 +11478,7 @@ body.agm-standard .agm-badge-warning {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 body.agm-standard .agm-badge-warning.badge-outline {
@@ -11499,7 +11499,7 @@ body.agm-standard .agm-badge-danger {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 body.agm-standard .agm-badge-danger.badge-outline {
@@ -11520,7 +11520,7 @@ body.agm-standard .agm-badge-info {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 body.agm-standard .agm-badge-info.badge-outline {
@@ -11541,7 +11541,7 @@ body.agm-standard .agm-badge-light {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 body.agm-standard .agm-badge-light.badge-outline {
@@ -11562,7 +11562,7 @@ body.agm-standard .agm-badge-dark {
   padding: 0px 10px;
   font-weight: bold;
   display: inline-flex;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 
 body.agm-standard .agm-badge-dark.badge-outline {

@@ -51,11 +51,68 @@ function brandButtons() {
 
 // Toaster Function
 var toaster = (function() {
-    var toast = function(_type, _theme, _icon, _message) {
-        var _toast = '<div class= "toaster ' + _type + ' ' + _theme + '" id= "toaster">' +
+    var success = function(_type, _message) {
+        var _toast = '<div class= "toaster ' + _type + ' toast-success" id= "toaster">' +
             '<div class= "row mx-0">' +
             '<div class= "col-md-2 toaster-icon px-0 text-center">' +
-            '<i class= "' + _icon + '"></i>' +
+            '<i class= "fas fa-check"></i>' +
+            '</div>' +
+            '<div class= "col-md-8 toaster-message px-0">' +
+            '<p>' + _message + '</p>' +
+            '</div>' +
+            '<div class= "col-md-2 toaster-close px-0 text-center">' +
+            '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
+
+        document.body.insertAdjacentHTML('afterbegin', _toast);
+
+        return this;
+    }
+    var danger = function(_type, _message) {
+        var _toast = '<div class= "toaster ' + _type + ' toast-danger" id= "toaster">' +
+            '<div class= "row mx-0">' +
+            '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+            '<i class= "fas fa-check"></i>' +
+            '</div>' +
+            '<div class= "col-md-8 toaster-message px-0">' +
+            '<p>' + _message + '</p>' +
+            '</div>' +
+            '<div class= "col-md-2 toaster-close px-0 text-center">' +
+            '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
+
+        document.body.insertAdjacentHTML('afterbegin', _toast);
+
+        return this;
+    }
+    var warning = function(_type, _message) {
+        var _toast = '<div class= "toaster ' + _type + ' toast-warning" id= "toaster">' +
+            '<div class= "row mx-0">' +
+            '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+            '<i class= "fas fa-check"></i>' +
+            '</div>' +
+            '<div class= "col-md-8 toaster-message px-0">' +
+            '<p>' + _message + '</p>' +
+            '</div>' +
+            '<div class= "col-md-2 toaster-close px-0 text-center">' +
+            '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
+            '</div>' +
+            '</div>' +
+            '</div>';
+
+        document.body.insertAdjacentHTML('afterbegin', _toast);
+
+        return this;
+    }
+    var info = function(_type, _message) {
+        var _toast = '<div class= "toaster ' + _type + ' toast-info" id= "toaster">' +
+            '<div class= "row mx-0">' +
+            '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+            '<i class= "fas fa-check"></i>' +
             '</div>' +
             '<div class= "col-md-8 toaster-message px-0">' +
             '<p>' + _message + '</p>' +
@@ -83,7 +140,7 @@ var toaster = (function() {
 
         setTimeout(function() {
             toaster.remove();
-        }, _delay);
+        }, _delay == null ? 2000 : _delay);
 
         $('#close-btn').click(function() {
             toaster.remove();
@@ -92,7 +149,10 @@ var toaster = (function() {
         return this;
     }
     return {
-        toast: toast,
+        success: success,
+        danger: danger,
+        warning: warning,
+        info: info,
         show: show
     }
 })();
