@@ -64,7 +64,7 @@
             <form action="" id= "toastContent">
                 <div class="form-group mb-2">
                     <label for= "field">Message:</label>
-                    <textarea class= "form-control" rows="3" name= "toast_message" id= "toast-message"></textarea>
+                    <textarea class= "form-control" rows="3" name= "toast_message" id= "toast-message" input-label= "Message"></textarea>
                 </div>
                 <div class="form-group mb-2">
                     <label for= "field">Delay:</label>

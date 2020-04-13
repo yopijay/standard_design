@@ -95,7 +95,7 @@ $(function() {
                 }
             }
 
-            if (form.validate()[0] && form.validate()[1]) {
+            if (form.validate(true)) {
                 if (_theme == 'toast-success') {
                     toaster.success(_type, _message).show(_delay);
                     _code.innerHTML = 'toaster.success("' + _type + '", "' + _message + '").show(' + _delay + ');';

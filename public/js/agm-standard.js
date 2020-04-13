@@ -213,70 +213,103 @@ $.fn.sidenav = function(submenu) {
 }
 
 // Validations
-$.fn.validate = function() {
+$.fn.validate = function(hasToast) {
     let inputs = this[0].elements;
     let result = true;
 
     let validEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     let validPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])+(?=.*[^a-zA-Z0-9])(?!.*\s).{6,30}$/;
 
-    function hasToast() {
-        for (var count = 0; count < inputs.length; count++) {
-            if (inputs[count].tagName == 'INPUT') {
-                const _id = inputs[count].id;
+    for (var count = 0; count < inputs.length; count++) {
+        if (inputs[count].tagName == 'INPUT') {
+            const _id = inputs[count].id;
 
-                let _value = inputs[count].value;
-                let _type = inputs[count].type;
-                let _label = $('#' + _id + '').attr('input-label');
-                let _message = '';
+            let _value = inputs[count].value;
+            let _type = inputs[count].type;
+            let _label = $('#' + _id + '').attr('input-label');
 
-                if (_value == '') {
-                    _message = _label + ' must not be empty!';
-                    toaster.toast('', 'toast-danger', 'fas fa-exclamation-triangle', _message).show(3000);
-                    return false;
-                } else if (_type == 'email' && !validEmail.test(_value)) {
-                    _message = _label + ' format is invalid!';
-                    toaster.toast('', 'toast-warning', 'fas fa-radiation', _message).show(3000);
-                    return false;
-                } else if (_type == 'password' && !_value.match(validPassword)) {
-                    _message = _label + ' must have at least 6 characters with uppercase, lowercase, numbers and a special character!';
-                    toaster.toast('', 'toast-warning', 'fas fa-radiation', _message).show(3000);
-                    return false;
-                }
+            if (_value == '') {
+                $('#' + _id + '').addClass('form-danger');
+                result = false;
+            } else if (_type == 'email' && !validEmail.test(_value)) {
+                $('#' + _id + '').removeClass('form-danger');
+                $('#' + _id + '').addClass('form-warning');
+                result = false;
+            } else if (_type == 'password' && !_value.match(validPassword)) {
+                $('#' + _id + '').removeClass('form-danger');
+                $('#' + _id + '').addClass('form-warning');
+                result = false;
+            } else {
+                $('#' + _id + '').removeClass('form-danger');
+                $('#' + _id + '').removeClass('form-warning');
+            }
+        } else if (inputs[count].tagName == 'TEXTAREA') {
+            const _id = inputs[count].id;
+
+            _value = inputs[count].value;
+            _type = inputs[count].type;
+            _label = $('#' + _id + '').attr('input-label');
+
+            if (_value == '') {
+                $('#' + _id + '').addClass('form-danger');
+                result = false;
+            } else {
+                $('#' + _id + '').removeClass('form-danger');
+                $('#' + _id + '').removeClass('form-warning');
             }
         }
-        return true;
     }
 
-    function hasInputValidation() {
-        for (var count = 0; count < inputs.length; count++) {
-            if (inputs[count].tagName == 'INPUT') {
-                const _id = inputs[count].id;
+    if (hasToast == true) {
+        this.hasToast();
+    }
 
-                _value = inputs[count].value;
-                _type = inputs[count].type;
-                _label = $('#' + _id + '').attr('input-label');
-                _message = '';
+    return result;
+}
 
-                if (_value == '') {
-                    $('#' + _id + '').addClass('form-danger');
-                    result = false;
-                } else if (_type == 'email' && !validEmail.test(_value)) {
-                    $('#' + _id + '').removeClass('form-danger');
-                    $('#' + _id + '').addClass('form-warning');
-                    result = false;
-                } else if (_type == 'password' && !_value.match(validPassword)) {
-                    $('#' + _id + '').removeClass('form-danger');
-                    $('#' + _id + '').addClass('form-warning');
-                    result = false;
-                } else {
-                    $('#' + _id + '').removeClass('form-danger');
-                    $('#' + _id + '').removeClass('form-warning');
-                }
+$.fn.hasToast = function() {
+    let inputs = this[0].elements;
+    let result = true;
+
+    let validEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+    let validPassword = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])+(?=.*[^a-zA-Z0-9])(?!.*\s).{6,30}$/;
+
+    for (var count = 0; count < inputs.length; count++) {
+        if (inputs[count].tagName == 'INPUT') {
+            const _id = inputs[count].id;
+
+            let _value = inputs[count].value;
+            let _type = inputs[count].type;
+            let _label = $('#' + _id + '').attr('input-label');
+            let _message = '';
+
+            if (_value == '') {
+                _message = _label + ' must not be empty!';
+                toaster.error('', _message).show();
+                return false;
+            } else if (_type == 'email' && !validEmail.test(_value)) {
+                _message = _label + ' format is invalid!';
+                toaster.warning('', _message).show();
+                return false;
+            } else if (_type == 'password' && !_value.match(validPassword)) {
+                _message = _label + ' must have at least 6 characters with uppercase, lowercase, numbers and a special character!';
+                toaster.warning('', _message).show();
+                return false;
+            }
+        } else if (inputs[count].tagName == 'TEXTAREA') {
+            const _id = inputs[count].id;
+
+            let _value = inputs[count].value;
+            let _type = inputs[count].type;
+            let _label = $('#' + _id + '').attr('input-label');
+            let _message = '';
+
+            if (_value == '') {
+                _message = _label + ' must not be empty!';
+                toaster.error('', _message).show();
+                return false;
             }
         }
-        return result;
     }
-
-    return [hasToast(), hasInputValidation()];
+    return true;
 }
