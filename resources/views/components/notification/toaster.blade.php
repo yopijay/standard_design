@@ -61,14 +61,14 @@
         </div>
         <div class="col-md-5">
             <p class= "font-weight-bold text-uppercase text-info mb-4">Other Content</p>
-            <form action="">
+            <form action="" id= "toastContent">
                 <div class="form-group mb-2">
                     <label for= "field">Message:</label>
                     <textarea class= "form-control" rows="3" name= "toast_message" id= "toast-message"></textarea>
                 </div>
                 <div class="form-group mb-2">
                     <label for= "field">Delay:</label>
-                    <input type= "number" class= "form-control" name= "toast_delay" id= "toast-delay" min= "500" value= "500"/>
+                    <input type= "number" class= "form-control" name= "toast_delay" id= "toast-delay" min= "500" value= "500" input-label= "Delay"/>
                 </div>
             </form>
         </div>

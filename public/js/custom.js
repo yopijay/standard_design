@@ -81,6 +81,7 @@ $(function() {
             let _delay = $('input[name= "toast_delay"]').val();
             let _icon = $('input[name= "toast_icon"]').val();
             let _code = document.getElementById('toaster-code');
+            let form = $('#toastContent');
 
             for (var count = 0; count < toastType.length; count++) {
                 if ($('#' + toastType[count].id + '').is(':checked')) {
@@ -94,18 +95,20 @@ $(function() {
                 }
             }
 
-            if (_theme == 'toast-success') {
-                toaster.success(_type, _message).show(_delay);
-                _code.innerHTML = 'toaster.success("' + _type + '", "' + _message + '").show(' + _delay + ');';
-            } else if (_theme == 'toast-danger') {
-                toaster.danger(_type, _message).show(_delay);
-                _code.innerHTML = 'toaster.danger("' + _type + '", "' + _message + '").show(' + _delay + ');';
-            } else if (_theme == 'toast-warning') {
-                toaster.warning(_type, _message).show(_delay);
-                _code.innerHTML = 'toaster.warning("' + _type + '", "' + _message + '").show(' + _delay + ');';
-            } else if (_theme == 'toast-info') {
-                toaster.info(_type, _message).show(_delay);
-                _code.innerHTML = 'toaster.info("' + _type + '", "' + _message + '").show(' + _delay + ');';
+            if (form.validate()[0] && form.validate()[1]) {
+                if (_theme == 'toast-success') {
+                    toaster.success(_type, _message).show(_delay);
+                    _code.innerHTML = 'toaster.success("' + _type + '", "' + _message + '").show(' + _delay + ');';
+                } else if (_theme == 'toast-danger') {
+                    toaster.error(_type, _message).show(_delay);
+                    _code.innerHTML = 'toaster.danger("' + _type + '", "' + _message + '").show(' + _delay + ');';
+                } else if (_theme == 'toast-warning') {
+                    toaster.warning(_type, _message).show(_delay);
+                    _code.innerHTML = 'toaster.warning("' + _type + '", "' + _message + '").show(' + _delay + ');';
+                } else if (_theme == 'toast-info') {
+                    toaster.info(_type, _message).show(_delay);
+                    _code.innerHTML = 'toaster.info("' + _type + '", "' + _message + '").show(' + _delay + ');';
+                }
             }
         })
 });

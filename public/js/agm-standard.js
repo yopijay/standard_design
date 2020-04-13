@@ -66,11 +66,14 @@ var toaster = (function() {
             '</div>' +
             '</div>';
 
+        if (document.body.contains(document.getElementById('toaster'))) {
+            document.getElementById('toaster').remove();
+        }
         document.body.insertAdjacentHTML('afterbegin', _toast);
 
         return this;
     }
-    var danger = function(_type, _message) {
+    var error = function(_type, _message) {
         var _toast = '<div class= "toaster ' + _type + ' toast-danger" id= "toaster">' +
             '<div class= "row mx-0">' +
             '<div class= "col-md-2 toaster-icon px-0 text-center">' +
@@ -85,6 +88,9 @@ var toaster = (function() {
             '</div>' +
             '</div>';
 
+        if (document.body.contains(document.getElementById('toaster'))) {
+            document.getElementById('toaster').remove();
+        }
         document.body.insertAdjacentHTML('afterbegin', _toast);
 
         return this;
@@ -104,6 +110,9 @@ var toaster = (function() {
             '</div>' +
             '</div>';
 
+        if (document.body.contains(document.getElementById('toaster'))) {
+            document.getElementById('toaster').remove();
+        }
         document.body.insertAdjacentHTML('afterbegin', _toast);
 
         return this;
@@ -123,6 +132,9 @@ var toaster = (function() {
             '</div>' +
             '</div>';
 
+        if (document.body.contains(document.getElementById('toaster'))) {
+            document.getElementById('toaster').remove();
+        }
         document.body.insertAdjacentHTML('afterbegin', _toast);
 
         return this;
@@ -150,7 +162,7 @@ var toaster = (function() {
     }
     return {
         success: success,
-        danger: danger,
+        error: error,
         warning: warning,
         info: info,
         show: show
