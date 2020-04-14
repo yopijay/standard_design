@@ -77,7 +77,7 @@ var toaster = (function() {
         var _toast = '<div class= "toaster ' + _type + ' toast-danger" id= "toaster">' +
             '<div class= "row mx-0">' +
             '<div class= "col-md-2 toaster-icon px-0 text-center">' +
-            '<i class= "fas fa-check"></i>' +
+            '<i class= "fas fa-exclamation-triangle"></i>' +
             '</div>' +
             '<div class= "col-md-8 toaster-message px-0">' +
             '<p>' + _message + '</p>' +
@@ -99,7 +99,7 @@ var toaster = (function() {
         var _toast = '<div class= "toaster ' + _type + ' toast-warning" id= "toaster">' +
             '<div class= "row mx-0">' +
             '<div class= "col-md-2 toaster-icon px-0 text-center">' +
-            '<i class= "fas fa-check"></i>' +
+            '<i class= "fas fa-radiation"></i>' +
             '</div>' +
             '<div class= "col-md-8 toaster-message px-0">' +
             '<p>' + _message + '</p>' +
@@ -121,7 +121,7 @@ var toaster = (function() {
         var _toast = '<div class= "toaster ' + _type + ' toast-info" id= "toaster">' +
             '<div class= "row mx-0">' +
             '<div class= "col-md-2 toaster-icon px-0 text-center">' +
-            '<i class= "fas fa-check"></i>' +
+            '<i class= "fas fa-info-circle"></i>' +
             '</div>' +
             '<div class= "col-md-8 toaster-message px-0">' +
             '<p>' + _message + '</p>' +
