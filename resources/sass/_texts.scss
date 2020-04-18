@@ -2,7 +2,6 @@
 @mixin text-default() {
     @include text-theme;
     @include text-display;
-    @include text-badge;
     h1,
     h2,
     h3,
