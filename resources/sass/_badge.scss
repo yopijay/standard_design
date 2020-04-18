@@ -1,0 +1,92 @@
+@mixin badge-default() {
+    .agm-badge {
+        @include badge-theme(default);
+        text-align: center;
+        border-radius: 3px;
+        padding: 3px 10px;
+        font-weight: bold;
+        display: inline-flex;
+        font-size: .6rem;
+        &.badge-outline {
+            @include badge-theme(outline);
+            background-color: rgba(0, 0, 0, 0.0);
+        }
+        &.badge-pills {
+            border-radius: 50px;
+        }
+        &.badge-square {
+            border-radius: 0px;
+        }
+    }
+}
+
+@mixin badge-theme($type) {
+    @if $type==default {
+        &.badge-primary {
+            background-color: $color-primary;
+            color: $color-light;
+        }
+        &.badge-secondary {
+            background-color: $color-secondary;
+            color: $color-light;
+        }
+        &.badge-success {
+            background-color: $color-success;
+            color: $color-light;
+        }
+        &.badge-warning {
+            background-color: $color-warning;
+            color: $color-light;
+        }
+        &.badge-danger {
+            background-color: $color-danger;
+            color: $color-light;
+        }
+        &.badge-info {
+            background-color: $color-info;
+            color: $color-light;
+        }
+        &.badge-light {
+            background-color: $color-light;
+            color: $color-dark;
+        }
+        &.badge-dark {
+            background-color: $color-dark;
+            color: $color-light;
+        }
+    }
+    @else if $type==outline {
+        &.badge-primary {
+            border: solid 1px $color-primary;
+            color: $color-primary;
+        }
+        &.badge-secondary {
+            border: solid 1px $color-secondary;
+            color: $color-secondary;
+        }
+        &.badge-success {
+            border: solid 1px $color-success;
+            color: $color-success;
+        }
+        &.badge-warning {
+            border: solid 1px $color-warning;
+            color: $color-warning;
+        }
+        &.badge-danger {
+            border: solid 1px $color-danger;
+            color: $color-danger;
+        }
+        &.badge-info {
+            border: solid 1px $color-info;
+            color: $color-info;
+        }
+        &.badge-light {
+            border: solid 1px $color-light;
+            color: $color-light;
+        }
+        &.badge-dark {
+            border: solid 1px $color-dark;
+            color: $color-dark;
+        }
+    }
+}

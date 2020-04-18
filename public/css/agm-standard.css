@@ -11475,8 +11475,8 @@ body.agm-standard .agm-badge-primary {
   background-color: #00a8ff;
   color: #f5f6fa;
   text-align: center;
-  border-radius: 50px;
-  padding: 0px 10px;
+  border-radius: 3px;
+  padding: 3px 10px;
   font-weight: bold;
   display: inline-flex;
   font-size: 0.6rem;
@@ -11496,8 +11496,8 @@ body.agm-standard .agm-badge-secondary {
   background-color: #7f8fa6;
   color: #f5f6fa;
   text-align: center;
-  border-radius: 50px;
-  padding: 0px 10px;
+  border-radius: 3px;
+  padding: 3px 10px;
   font-weight: bold;
   display: inline-flex;
   font-size: 0.6rem;
@@ -11517,8 +11517,8 @@ body.agm-standard .agm-badge-success {
   background-color: #4cd137;
   color: #f5f6fa;
   text-align: center;
-  border-radius: 50px;
-  padding: 0px 10px;
+  border-radius: 3px;
+  padding: 3px 10px;
   font-weight: bold;
   display: inline-flex;
   font-size: 0.6rem;
@@ -11538,8 +11538,8 @@ body.agm-standard .agm-badge-warning {
   background-color: #fbc531;
   color: #f5f6fa;
   text-align: center;
-  border-radius: 50px;
-  padding: 0px 10px;
+  border-radius: 3px;
+  padding: 3px 10px;
   font-weight: bold;
   display: inline-flex;
   font-size: 0.6rem;
@@ -11559,8 +11559,8 @@ body.agm-standard .agm-badge-danger {
   background-color: #e84118;
   color: #f5f6fa;
   text-align: center;
-  border-radius: 50px;
-  padding: 0px 10px;
+  border-radius: 3px;
+  padding: 3px 10px;
   font-weight: bold;
   display: inline-flex;
   font-size: 0.6rem;
@@ -11580,8 +11580,8 @@ body.agm-standard .agm-badge-info {
   background-color: #273c75;
   color: #f5f6fa;
   text-align: center;
-  border-radius: 50px;
-  padding: 0px 10px;
+  border-radius: 3px;
+  padding: 3px 10px;
   font-weight: bold;
   display: inline-flex;
   font-size: 0.6rem;
@@ -11601,8 +11601,8 @@ body.agm-standard .agm-badge-light {
   background-color: #f5f6fa;
   color: #353b48;
   text-align: center;
-  border-radius: 50px;
-  padding: 0px 10px;
+  border-radius: 3px;
+  padding: 3px 10px;
   font-weight: bold;
   display: inline-flex;
   font-size: 0.6rem;
@@ -11622,8 +11622,8 @@ body.agm-standard .agm-badge-dark {
   background-color: #353b48;
   color: #f5f6fa;
   text-align: center;
-  border-radius: 50px;
-  padding: 0px 10px;
+  border-radius: 3px;
+  padding: 3px 10px;
   font-weight: bold;
   display: inline-flex;
   font-size: 0.6rem;
@@ -11680,6 +11680,7 @@ body.agm-standard li,
 body.agm-standard dt,
 body.agm-standard dd {
   font-size: 0.8rem;
+  vertical-align: center;
 }
 
 body.agm-standard .blockquote {
@@ -12794,6 +12795,107 @@ body.agm-standard .card.card-accent.card-dark .card-body .card-title {
 body.agm-standard .card.card-accent.card-dark .card-footer {
   background-color: #FFFFFF;
   color: #353b48;
+}
+
+body.agm-standard .agm-badge {
+  text-align: center;
+  border-radius: 3px;
+  padding: 3px 10px;
+  font-weight: bold;
+  display: inline-flex;
+  font-size: 0.6rem;
+}
+
+body.agm-standard .agm-badge.badge-primary {
+  background-color: #00a8ff;
+  color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge.badge-secondary {
+  background-color: #7f8fa6;
+  color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge.badge-success {
+  background-color: #4cd137;
+  color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge.badge-warning {
+  background-color: #fbc531;
+  color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge.badge-danger {
+  background-color: #e84118;
+  color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge.badge-info {
+  background-color: #273c75;
+  color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge.badge-light {
+  background-color: #f5f6fa;
+  color: #353b48;
+}
+
+body.agm-standard .agm-badge.badge-dark {
+  background-color: #353b48;
+  color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge.badge-outline {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+body.agm-standard .agm-badge.badge-outline.badge-primary {
+  border: solid 1px #00a8ff;
+  color: #00a8ff;
+}
+
+body.agm-standard .agm-badge.badge-outline.badge-secondary {
+  border: solid 1px #7f8fa6;
+  color: #7f8fa6;
+}
+
+body.agm-standard .agm-badge.badge-outline.badge-success {
+  border: solid 1px #4cd137;
+  color: #4cd137;
+}
+
+body.agm-standard .agm-badge.badge-outline.badge-warning {
+  border: solid 1px #fbc531;
+  color: #fbc531;
+}
+
+body.agm-standard .agm-badge.badge-outline.badge-danger {
+  border: solid 1px #e84118;
+  color: #e84118;
+}
+
+body.agm-standard .agm-badge.badge-outline.badge-info {
+  border: solid 1px #273c75;
+  color: #273c75;
+}
+
+body.agm-standard .agm-badge.badge-outline.badge-light {
+  border: solid 1px #f5f6fa;
+  color: #f5f6fa;
+}
+
+body.agm-standard .agm-badge.badge-outline.badge-dark {
+  border: solid 1px #353b48;
+  color: #353b48;
+}
+
+body.agm-standard .agm-badge.badge-pills {
+  border-radius: 50px;
+}
+
+body.agm-standard .agm-badge.badge-square {
+  border-radius: 0px;
 }
 
 body.agm-standard .form-checkbox.checkbox-default.checkbox-primary input:checked + label i {
