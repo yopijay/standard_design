@@ -10931,6 +10931,70 @@ body.agm-standard::-webkit-scrollbar {
   display: none;
 }
 
+body.agm-standard .agm-bg-primary {
+  background-color: #00a8ff !important;
+}
+
+body.agm-standard .agm-bg-primary-light {
+  background-color: #0097e6;
+}
+
+body.agm-standard .agm-bg-secondary {
+  background-color: #7f8fa6;
+}
+
+body.agm-standard .agm-bg-secondary-light {
+  background-color: #718093;
+}
+
+body.agm-standard .agm-bg-success {
+  background-color: #4cd137;
+}
+
+body.agm-standard .agm-bg-success-light {
+  background-color: #44bd32;
+}
+
+body.agm-standard .agm-bg-warning {
+  background-color: #fbc531;
+}
+
+body.agm-standard .agm-bg-warning-light {
+  background-color: #e1b12c;
+}
+
+body.agm-standard .agm-bg-danger {
+  background-color: #e84118;
+}
+
+body.agm-standard .agm-bg-danger-light {
+  background-color: #c23616;
+}
+
+body.agm-standard .agm-bg-info {
+  background-color: #273c75;
+}
+
+body.agm-standard .agm-bg-info-light {
+  background-color: #192a56;
+}
+
+body.agm-standard .agm-bg-light {
+  background-color: #f5f6fa;
+}
+
+body.agm-standard .agm-bg-light-light {
+  background-color: #dcdde1;
+}
+
+body.agm-standard .agm-bg-dark {
+  background-color: #353b48;
+}
+
+body.agm-standard .agm-bg-dark-light {
+  background-color: #2f3640;
+}
+
 body.agm-standard .navbar {
   z-index: 1000;
   background-color: #f5f6fa;
@@ -11610,13 +11674,17 @@ body.agm-standard .h5 {
 }
 
 body.agm-standard p,
-body.agm-standard span {
+body.agm-standard span,
+body.agm-standard a,
+body.agm-standard li,
+body.agm-standard dt,
+body.agm-standard dd {
   font-size: 0.8rem;
 }
 
 body.agm-standard .blockquote {
   font-size: 0.8rem;
-  color: #353b48;
+  color: #2f3640;
 }
 
 body.agm-standard .blockquote-footer {

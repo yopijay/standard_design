@@ -47,29 +47,53 @@
 
 // Background Color
 @mixin background-theme() {
-    .bg-primary {
-        background-color: $color-primary;
+    .agm-bg-primary {
+        background-color: $color-primary !important;
     }
-    .bg-secondary {
+    .agm-bg-primary-light {
+        background-color: $color-primary-highlight;
+    }
+    .agm-bg-secondary {
         background-color: $color-secondary;
     }
-    .bg-success {
+    .agm-bg-secondary-light {
+        background-color: $color-secondary-highlight;
+    }
+    .agm-bg-success {
         background-color: $color-success;
     }
-    .bg-warning {
+    .agm-bg-success-light {
+        background-color: $color-success-highlight;
+    }
+    .agm-bg-warning {
         background-color: $color-warning;
     }
-    .bg-danger {
+    .agm-bg-warning-light {
+        background-color: $color-warning-highlight;
+    }
+    .agm-bg-danger {
         background-color: $color-danger;
     }
-    .bg-info {
+    .agm-bg-danger-light {
+        background-color: $color-danger-highlight;
+    }
+    .agm-bg-info {
         background-color: $color-info;
     }
-    .bg-light {
+    .agm-bg-info-light {
+        background-color: $color-info-highlight;
+    }
+    .agm-bg-light {
         background-color: $color-light;
     }
-    .bg-dark {
+    .agm-bg-light-light {
+        background-color: $color-light-highlight;
+    }
+    .agm-bg-dark {
         background-color: $color-dark;
+    }
+    .agm-bg-dark-light {
+        background-color: $color-dark-highlight;
     }
 }
 

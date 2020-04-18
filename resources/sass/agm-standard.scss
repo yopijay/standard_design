@@ -23,6 +23,7 @@ body.agm-standard {
     &::-webkit-scrollbar {
         display: none;
     }
+    @include background-theme;
     @include navbar;
     @include navbar-side;
     @include text-default;

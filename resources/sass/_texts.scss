@@ -32,12 +32,16 @@
         font-size: 1rem;
     }
     p,
-    span {
+    span,
+    a,
+    li,
+    dt,
+    dd {
         font-size: .8rem;
     }
     .blockquote {
         font-size: .8rem;
-        color: $color-dark;
+        color: $color-dark-highlight;
         &-footer {
             font-size: .7rem;
             color: $color-dark-highlight;

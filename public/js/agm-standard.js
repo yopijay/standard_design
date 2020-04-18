@@ -1,5 +1,5 @@
 $(function() {
-
+    // Brand buttons
     brandButtons();
 });
 
