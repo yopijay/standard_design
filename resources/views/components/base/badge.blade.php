@@ -145,6 +145,7 @@
     <p class= "mb-1">Using the contextual <span class= "text-danger">.badge-*</span> classes on an < <span class= "text-danger">a</span> > element quickly provide actionable badges with hover and focus states.</p>
     <div class= "row mt-3 mb-5">
         <div class= "col-md-6 agm-bg-light py-3 rounded">
+            <p class= "h5 text-info mb-3">Preview:</p>
             <a href= "#" class= "agm-badge badge-primary">Primary</a>
             <a href= "#" class= "agm-badge badge-secondary">Secondary</a>
             <a href= "#" class= "agm-badge badge-success">Success</a>
