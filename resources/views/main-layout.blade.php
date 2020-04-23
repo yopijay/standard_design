@@ -37,15 +37,22 @@
                                 <a href= "#"><p>Base <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
                                     <li class= "navbar-link list"><a href= "#" content= "badge-page"><p>Badges</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "breadcrumb-page"><p>Breadcumbs</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "dropdown-page"><p>Dropdowns</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "listgroup-page"><p>List Groups</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "pagination-page"><p>Pagination</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "popover-page"><p>Popovers</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "progress-page"><p>Progress</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "tooltip-page"><p>Tooltips</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">
                                 <a href= "#"><p>Buttons <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "buttons-page"><p>Buttons</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "buttons-page"><p>Buttons</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "button-group-page"><p>Button Group</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "radio-page"><p>Radio Buttons</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "toggles-page"><p>Swtich Toggles</p></a></li>
                                 </ul>
@@ -53,16 +60,26 @@
                             <li class= "list">
                                 <a href= "#"><p>Forms <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "forms-page"><p>Forms</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "validation-page"><p>Form Validation</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "input-group-page"><p>Input Group</p></a></li>
+                                </ul>
+                            </li>
+                            <li class= "list">
+                                <a href= "#"><p>Navs <i class= "fas fa-caret-right"></i></p></a>
+                                <ul class= "items">
+                                    <li class= "navbar-link list"><a href= "#" content= "nav-page"><p>Nav</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "navbar-page"><p>Navbar</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "sidenav-page"><p>Side Nav</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">
                                 <a href= "#"><p>Notifications <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "toasters-page"><p>Toasters</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "alert-page"><p>Alerts</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "modal-page"><p>Modal</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "toasters-page"><p>Toasters</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">
