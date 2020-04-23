@@ -75,7 +75,7 @@
         <div class= "col-md-12 mt-5">
             <div class= "row">
                 <div class= "col-md-6">
-                    <p class= "align-middle" id= "toaster-code">toaster.toast('', '', '', '').show(0);</p>
+                    <p class= "align-middle" id= "toaster-code">toaster.success("", "").show(0);</p>
                 </div>
                 <div class= "col-md-6">
                     <button type= "button" class= "btn btn-solid btn-primary" id= "show-toast">Show Toast</button>
