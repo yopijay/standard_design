@@ -524,4 +524,4 @@
             <p class= "mb-1">< /table ></p>
         </div>
     </div>
-</div>
+</table>

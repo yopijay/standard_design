@@ -7,7 +7,7 @@ $(function() {
     list.sidenav(links);
 
     $('.content').css({ display: 'none' });
-    $('#dashboard-page').css({ display: 'block' });
+    $('#datatable-page').css({ display: 'block' });
 
     $(links).on('click', function() {
         let content = $(this).find('a').attr('content');
@@ -53,6 +53,9 @@ $(function() {
             case 'standard-tbl-page':
                 $('#standard-tbl-page').css({ display: 'block' });
                 break;
+            case 'data-tbl-page':
+                $('#datatable-page').css({ display: 'block' });
+                break;
             case 'login-page':
                 $('#login-page').css({ display: 'block' });
                 break;
@@ -64,6 +67,8 @@ $(function() {
                 break;
         }
     });
+
+    $('#sample').datatable();
 
     $('body')
         .on('click', '#validate', function() {

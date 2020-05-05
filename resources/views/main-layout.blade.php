@@ -50,9 +50,9 @@
                             <li class= "list">
                                 <a href= "#"><p>Buttons <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "buttons-page"><p>Buttons</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "button-group-page"><p>Button Group</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "radio-page"><p>Radio Buttons</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "toggles-page"><p>Swtich Toggles</p></a></li>
                                 </ul>
@@ -86,6 +86,7 @@
                                 <a href= "#"><p>Tables <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
                                     <li class= "navbar-link list"><a href= "#" content= "standard-tbl-page"><p>Standard Tables</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "data-tbl-page"><p>Datatables</p></a></li>
                                 </ul>
                             </li>
                             <li class= "label"><p class= "mb-1">Pages</p></li>
@@ -108,6 +109,7 @@
                     @include('components.buttons.radio')
                     @include('components.buttons.toggle')
                     @include('components.forms.input')
+                    @include('components.table.datatable')
                     @include('components.table.standard')
                     @include('components.pages.login')
                     @include('components.pages.404')

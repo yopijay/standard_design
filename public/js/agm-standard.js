@@ -313,3 +313,191 @@ $.fn.hasToast = function() {
     }
     return true;
 }
+
+// Datatables
+$.fn.datatable = function() {
+    let _id = this[0].id; // Get the id of the table
+    let _table = document.getElementById(_id); // Get the table
+    let _row = _table.getElementsByTagName('tbody')[0].children; // Get the rows or data of the table body
+    let _colspan = _table.getElementsByTagName('thead')[0].children[0].cells; // Count the columns
+
+    // Design for Max row dropdown and search box
+    let _tableHeader = '<div class= "row">' +
+        '<div class= "col-md-8">' +
+        '<div class= "form-group w-25">' +
+        '<select class= "form-control" id= "' + _id + 'Row">' +
+        '<option value= "10" selected>10</option>' +
+        '<option value= "15">15</option>' +
+        '<option value= "20">20</option>' +
+        '</select>' +
+        '</div>' +
+        '</div>' +
+        '<div class= "col-md-4">' +
+        '<div class= "form-group">' +
+        '<input type= "text" class= "form-control form-pills px-3" placeholder= "Search..." id= "' + _id + 'Search">' +
+        '</div>' +
+        '</div>' +
+        '</div>';
+
+    // Design for pagination
+    let _tableFooter = '<div class= "row">' +
+        '<div class= "col-md-8">' +
+        // '<p>Showing 1 to <span id= "maxRow"></span> of ' + _row.length + ' entries</p>' +
+        '</div>' +
+        '<div class= "col-md-4">' +
+        '<nav class= "float-right">' +
+        '<ul class= "pagination">' +
+        '</ul>' +
+        '</nav>' +
+        '</div>' +
+        '</div>';
+
+    let _empty = '<tr data-index= "0" id= "' + _id + 'Empty"><td colspan= "' + _colspan.length + '" class= "text-center">No item found</td></tr>'; // For empty tables
+
+    document.getElementById(_id).insertAdjacentHTML('beforebegin', _tableHeader); // Automatically add Max row dropdown and a search box
+    document.getElementById(_id).insertAdjacentHTML('afterend', _tableFooter); // Automatically add pagination
+
+    if (_row.length != 0) {
+        let _rowCount = 1; // Start of data-index value for each row
+        let _rowData = [];
+        // Set values to data-index attribute
+        $('#' + _id + ' tr:gt(0)').each(function() {
+            $(this)[0].setAttribute('data-index', _rowCount++);
+            _rowData.push($(this)[0].attributes['data-index'].value);
+        });
+        setRowLimit($('#' + _id + 'Row').val()); // Set row limit on load
+        // Set row limit on change
+        $('#' + _id + 'Row').on('change', function() {
+            setRowLimit($(this).val());
+        });
+        // Search function
+        $('#' + _id + 'Search').on('keyup', function() {
+            let _txt = $(this).val().toLowerCase();
+            let _searchItems = [];
+            let _maxRow = $('#' + _id + 'Row').val();
+            $('.pagination').html('');
+
+            $('#' + _id + ' tr:gt(0)').each(function() {
+                let _data = $(this)[0].cells;
+                let _result = [];
+
+                for (var columnCount = 0; columnCount < _data.length; columnCount++) {
+                    if (_data[columnCount]) {
+                        let _value = _data[columnCount].textContent || _data[columnCount].innerText;
+
+                        if (_value.toLowerCase().indexOf(_txt) >= 0) {
+                            _result.push(1);
+                        } else {
+                            _result.push(0);
+                        }
+                    }
+                }
+
+                if (_result.includes(1)) {
+                    _searchItems.push($(this)[0].attributes['data-index'].value);
+                    if (_searchItems.includes($(this)[0].attributes['data-index'].value)) {
+                        if (_searchItems.length <= _maxRow) {
+                            $(this).show();
+                        }
+                    } else {
+                        $(this).hide();
+                    }
+                } else {
+                    $(this).hide();
+                }
+            });
+
+            if (_searchItems.length > _maxRow) {
+                var _pagenum = Math.ceil(_searchItems.length / _maxRow);
+
+                for (var index = 1; index <= _pagenum;) {
+                    $('.pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
+                }
+            }
+
+            if (_searchItems.length == 0) {
+                $('#' + _id + '>tbody').html();
+                $('#' + _id + '>tbody').append(_empty).show();
+            } else {
+                if (document.body.contains(document.getElementById(_id + 'Empty'))) {
+                    document.getElementById(_id + 'Empty').remove();
+                }
+            }
+
+            $('.pagination li:first-child').addClass('active');
+            $('.pagination li').on('click', function() {
+                var _page = $(this).attr('data-page');
+                var _trindex = 0;
+
+                $('.pagination li').removeClass('active');
+                $(this).addClass('active');
+
+                $('#' + _id + ' tr:gt(0)').each(function() {
+
+                    if (_searchItems.includes($(this)[0].attributes['data-index'].value)) {
+                        _trindex++;
+
+                        if (_trindex > (_maxRow * _page) || _trindex <= ((_maxRow * _page) - _maxRow)) {
+                            $(this).hide();
+                        } else {
+                            $(this).show();
+                        }
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        });
+        // Set row limit and pagination
+        function setRowLimit(maxRow) {
+            $('.pagination').html('');
+            let _count = 0;
+
+            $('#' + _id + ' tr:gt(0)').each(function() {
+                _count++;
+                // Hide all data that exeeds to row limit
+                if (_count > maxRow) {
+                    $(this).hide();
+                }
+                // Display all data depends on set limit
+                if (_count <= maxRow) {
+                    $(this).show();
+                }
+            });
+            // Automatically create page-link button
+            if (_row.length > maxRow) {
+                var _pagenum = Math.ceil(_row.length / maxRow); // Set number of page link
+
+                for (var index = 1; index <= _pagenum;) {
+                    $('.pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
+                }
+            }
+            // Page-link functionality
+            $('.pagination li:first-child').addClass('active');
+            $('.pagination li').on('click', function() {
+                var _page = $(this).attr('data-page');
+                var _index = 0;
+
+                $('.pagination li').removeClass('active');
+                $(this).addClass('active');
+
+                $('#' + _id + ' tr:gt(0)').each(function() {
+                    if (_rowData.includes($(this)[0].attributes['data-index'].value)) {
+                        _index++;
+
+                        if (_index > (maxRow * _page) || _index <= ((maxRow * _page) - maxRow)) {
+                            $(this).hide();
+                        } else {
+                            $(this).show();
+                        }
+                    } else {
+                        $(this).hide();
+                    }
+                });
+            });
+        }
+    } else {
+        $('#' + _id + '>tbody').html();
+        $('#' + _id + '>tbody').append(_empty).show();
+    }
+}
