@@ -429,6 +429,9 @@ $.fn.datatable = function() {
             }
 
             if (_searchItems.length == 0) {
+                if (document.body.contains(document.getElementById(_id + 'Empty'))) {
+                    document.getElementById(_id + 'Empty').remove();
+                }
                 $('#' + _id + '>tbody').html();
                 $('#' + _id + '>tbody').append(_empty).show();
             } else {
