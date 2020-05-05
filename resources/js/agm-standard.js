@@ -374,41 +374,54 @@ $.fn.datatable = function() {
         $('#' + _id + 'Search').on('keyup', function() {
             let _txt = $(this).val().toLowerCase();
             let _searchItems = [];
+            let _count = 0;
             let _maxRow = $('#' + _id + 'Row').val();
             $('.pagination').html('');
 
             $('#' + _id + ' tr:gt(0)').each(function() {
-                let _data = $(this)[0].cells;
-                let _result = [];
+                if ($(this)[0].id != _id + 'Empty') {
+                    let _data = $(this)[0].cells;
+                    let _result = [];
+                    _count++;
 
-                for (var columnCount = 0; columnCount < _data.length; columnCount++) {
-                    if (_data[columnCount]) {
-                        let _value = _data[columnCount].textContent || _data[columnCount].innerText;
+                    if (_count > _maxRow) {
+                        $(this).hide();
+                    }
 
-                        if (_value.toLowerCase().indexOf(_txt) >= 0) {
-                            _result.push(1);
-                        } else {
-                            _result.push(0);
+                    if (_count <= _maxRow) {
+                        $(this).show();
+                    }
+
+                    for (var columnCount = 0; columnCount < _data.length; columnCount++) {
+                        if (_data[columnCount]) {
+                            let _value = _data[columnCount].textContent || _data[columnCount].innerText;
+
+                            if (_value.toLowerCase().indexOf(_txt) >= 0) {
+                                _result.push(1);
+                            } else {
+                                _result.push(0);
+                            }
                         }
                     }
-                }
 
-                if (_result.includes(1)) {
-                    _searchItems.push($(this)[0].attributes['data-index'].value);
-                    if (_searchItems.includes($(this)[0].attributes['data-index'].value)) {
-                        if (_searchItems.length <= _maxRow) {
-                            $(this).show();
+                    if (_result.includes(1)) {
+                        _searchItems.push($(this)[0].attributes['data-index'].value);
+                        if (_searchItems.includes($(this)[0].attributes['data-index'].value)) {
+                            if (_searchItems.length <= _maxRow) {
+                                $(this).show();
+                            }
+                        } else {
+                            $(this).hide();
                         }
                     } else {
                         $(this).hide();
                     }
-                } else {
-                    $(this).hide();
                 }
             });
 
             if (_searchItems.length > _maxRow) {
                 var _pagenum = Math.ceil(_searchItems.length / _maxRow);
+                console.log(_searchItems.length);
 
                 for (var index = 1; index <= _pagenum;) {
                     $('.pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
