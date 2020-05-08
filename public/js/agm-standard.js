@@ -346,11 +346,18 @@ $.fn.datatable = function() {
         '</div>' +
         '<div class= "col-md-4">' +
         '<nav class= "float-right">' +
-        '<ul class= "pagination">' +
+        '<ul class= "pagination" id= "' + _id + 'Pagination">' +
         '</ul>' +
         '</nav>' +
         '</div>' +
         '</div>';
+    // First and prev button for pagination
+    let _prevBtn = '<li class= "page-item" id= "firstpage"><a class= "page-link"><i class= "fas fa-angle-double-left"></i></a></li>' +
+        '<li class= "page-item" id= "prevpage"><a class= "page-link"><i class= "fas fa-angle-left"></i></a></li>';
+
+    // Last and next button for pagination
+    let _nextBtn = '<li class= "page-item" id= "nextpage"><a class= "page-link"><i class= "fas fa-angle-right"></i></a></li>' +
+        '<li class= "page-item" id= "lastpage"><a class= "page-link"><i class= "fas fa-angle-double-right"></i></a></li>';
 
     let _empty = '<tr data-index= "0" id= "' + _id + 'Empty"><td colspan= "' + _colspan.length + '" class= "text-center">No item found</td></tr>'; // For empty tables
 
@@ -421,11 +428,13 @@ $.fn.datatable = function() {
 
             if (_searchItems.length > _maxRow) {
                 var _pagenum = Math.ceil(_searchItems.length / _maxRow);
-                console.log(_searchItems.length);
 
                 for (var index = 1; index <= _pagenum;) {
                     $('.pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
                 }
+
+                document.getElementById(_id + 'Pagination').insertAdjacentHTML('afterbegin', _prevBtn);
+                document.getElementById(_id + 'Pagination').insertAdjacentHTML('beforeend', _nextBtn);
             }
 
             if (_searchItems.length == 0) {
@@ -440,20 +449,55 @@ $.fn.datatable = function() {
                 }
             }
 
-            $('.pagination li:first-child').addClass('active');
+            $('.pagination li:nth-child(3)').addClass('active');
+            let _pageActive = $('.page-item').closest('.pagination').children('.active')[0].attributes['data-page'].value;
             $('.pagination li').on('click', function() {
                 var _page = $(this).attr('data-page');
-                var _trindex = 0;
+                _pageActive = $('.page-item').closest('.pagination').children('.active')[0].attributes['data-page'].value;
+                var _index = 0;
 
                 $('.pagination li').removeClass('active');
                 $(this).addClass('active');
 
+                if ($(this)[0].id == 'firstpage') {
+                    $(this).removeClass('active');
+                    $('[data-page= 1]').addClass('active');
+                    _page = 1;
+                }
+
+                if ($(this)[0].id == "prevpage") {
+                    $(this).removeClass('active');
+                    _pageActive--;
+                    if (_pageActive <= 1) {
+                        _page = 1;
+                    } else {
+                        _page = _pageActive;
+                    }
+                    $('[data-page= ' + _page + ']').addClass('active');
+                }
+
+                if ($(this)[0].id == 'lastpage') {
+                    $(this).removeClass('active');
+                    $('[data-page= ' + _pagenum + ']').addClass('active');
+                    _page = _pagenum;
+                }
+
+                if ($(this)[0].id == 'nextpage') {
+                    $(this).removeClass('active');
+                    _pageActive++;
+                    if (_pageActive >= _pagenum) {
+                        _page = _pagenum;
+                    } else {
+                        _page = _pageActive;
+                    }
+                    $('[data-page= ' + _page + ']').addClass('active');
+                }
+
                 $('#' + _id + ' tr:gt(0)').each(function() {
-
                     if (_searchItems.includes($(this)[0].attributes['data-index'].value)) {
-                        _trindex++;
+                        _index++;
 
-                        if (_trindex > (_maxRow * _page) || _trindex <= ((_maxRow * _page) - _maxRow)) {
+                        if (_index > (_maxRow * _page) || _index <= ((_maxRow * _page) - _maxRow)) {
                             $(this).hide();
                         } else {
                             $(this).show();
@@ -487,15 +531,54 @@ $.fn.datatable = function() {
                 for (var index = 1; index <= _pagenum;) {
                     $('.pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
                 }
+
+                document.getElementById(_id + 'Pagination').insertAdjacentHTML('afterbegin', _prevBtn);
+                document.getElementById(_id + 'Pagination').insertAdjacentHTML('beforeend', _nextBtn);
             }
             // Page-link functionality
-            $('.pagination li:first-child').addClass('active');
+            $('.pagination li:nth-child(3)').addClass('active');
+            let _pageActive = $('.page-item').closest('.pagination').children('.active')[0].attributes['data-page'].value;
             $('.pagination li').on('click', function() {
                 var _page = $(this).attr('data-page');
+                _pageActive = $('.page-item').closest('.pagination').children('.active')[0].attributes['data-page'].value;
                 var _index = 0;
 
                 $('.pagination li').removeClass('active');
                 $(this).addClass('active');
+
+                if ($(this)[0].id == 'firstpage') {
+                    $(this).removeClass('active');
+                    $('[data-page= 1]').addClass('active');
+                    _page = 1;
+                }
+
+                if ($(this)[0].id == "prevpage") {
+                    $(this).removeClass('active');
+                    _pageActive--;
+                    if (_pageActive <= 1) {
+                        _page = 1;
+                    } else {
+                        _page = _pageActive;
+                    }
+                    $('[data-page= ' + _page + ']').addClass('active');
+                }
+
+                if ($(this)[0].id == 'lastpage') {
+                    $(this).removeClass('active');
+                    $('[data-page= ' + _pagenum + ']').addClass('active');
+                    _page = _pagenum;
+                }
+
+                if ($(this)[0].id == 'nextpage') {
+                    $(this).removeClass('active');
+                    _pageActive++;
+                    if (_pageActive >= _pagenum) {
+                        _page = _pagenum;
+                    } else {
+                        _page = _pageActive;
+                    }
+                    $('[data-page= ' + _page + ']').addClass('active');
+                }
 
                 $('#' + _id + ' tr:gt(0)').each(function() {
                     if (_rowData.includes($(this)[0].attributes['data-index'].value)) {
