@@ -6,7 +6,8 @@
     <p class= "text-info mb-1 h5">FORM CONTROLS</p>
     <p class= "mb-4">Textual form controls—like < <span class= "text-danger">input</span> >s, < <span class= "text-danger">select</span> >s, and < <span class= "text-danger">textarea</span> >s—are styled with the .form-control class. Included are styles for general appearance, focus state, sizing, and more.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-5">
+        <div class= "col-md-6 py-3 agm-bg-light rounded">
+            <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="form-group mb-2">
                     <label for= "field">Text:</label>
@@ -43,48 +44,49 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-7">
+        <div class= "col-md-6 py-3">
             <p class= "h5 text-info mb-3">Example Code:</p>
-            <p class= "mb-1">< form ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Text:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Password:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">password</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Number:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">number</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" min= "<span class= "text-danger">0</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Email:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">email</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" placeholder= "<span class= "text-danger">sample@yahoo.com</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Date:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">date</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >TextArea:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< textarea class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" rows= "<span class= "text-danger">3</span>">< /textarea ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Select:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< select class= "<span class= "text-danger">form-control</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< option value= "<span class= "text-danger">1</span>" >Option 1< /option ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< option value= "<span class= "text-danger">2</span>" >Option 2< /option ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< /select ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">< /form ></p>
+            <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Text:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Password:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">password</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Number:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">number</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" min= "<span class= "text-danger">0</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Email:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">email</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" placeholder= "<span class= "text-danger">sample@yahoo.com</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Date:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">date</span>" class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >TextArea:<<span class= "text-danger"> /label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">textarea</span> class= "<span class= "text-danger">form-control</span>" id= "<span class= "text-danger">field</span>" rows= "<span class= "text-danger">3</span>">< <span class= "text-danger">/textarea</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Select:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">select</span> class= "<span class= "text-danger">form-control</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">option</span> value= "<span class= "text-danger">1</span>" >Option 1< <span class= "text-danger">/option</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">option</span> value= "<span class= "text-danger">2</span>" >Option 2< <span class= "text-danger">/option</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/select</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZING</p>
     <p class= "mb-4">Set heights using classes like <span class= "text-danger">.form-control-lg</span> and <span class= "text-danger">.form-control-sm</span>.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-5">
+        <div class= "col-md-6 py-3 agm-bg-light rounded">
+            <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="form-group mb-2">
                     <label for= "field">Small Inputs:</label>
@@ -96,24 +98,25 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-7">
+        <div class= "col-md-6 py-3">
             <p class= "h5 text-info mb-3">Example Code:</p>
-            <p class= "mb-1">< form ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Small Inputs:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-control-sm</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Large Inputs:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-control-lg</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">< /form ></p>
+            <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Small Inputs:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-control-sm</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Large Inputs:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-control-lg</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
     <p class= "text-info mb-1 h5">STYLES</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-5">
+        <div class= "col-md-6 py-3 agm-bg-light rounded">
+            <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="form-group mb-2">
                     <label for= "field">Square:</label>
@@ -125,24 +128,25 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-7">
+        <div class= "col-md-6 py-3">
             <p class= "h5 text-info mb-3">Example Code:</p>
-            <p class= "mb-1">< form ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Square:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-square</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Pills:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-pills</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">< /form ></p>
+            <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Square:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-square</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Pills:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-pills</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
     <p class= "mb-1">Use <span class= "text-danger">.form-* {success, danger, warning, info}</span> for your desired input theme.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-5">
+        <div class= "col-md-6 py-3 agm-bg-light rounded">
+            <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "form-group mb-2">
                 <label for= "field">Success:</label>
                 <input type= "text" class= "form-control form-success" id= "field"/>
@@ -160,26 +164,26 @@
                 <input type= "text" class= "form-control form-info" id= "field"/>
             </div>
         </div>
-        <div class= "col-md-7">
+        <div class= "col-md-6 py-3">
             <p class= "h5 text-info mb-3">Example Code:</p>
-            <p class= "mb-1">< form ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Success:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-success</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Warning:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-warning</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Danger:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-danger</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">form-group</span>" ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< label for= "<span class= "text-danger">field</span>" >Info:< /label ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< input type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-info</span>" id= "<span class= "text-danger">field</span>" / ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< /div ></p>
-            <p class= "mb-1">< /form ></p>
+            <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Success:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-success</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Warning:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-warning</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Danger:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-danger</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Info:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-info</span>" id= "<span class= "text-danger">field</span>" <span class= "text-danger">/</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
