@@ -245,27 +245,27 @@
         </div>
         <div class= "col-md-6 py-3">
             <p class= "h5 text-info mb-3">Example Code:</p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn facebook btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn behance btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn css3 btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn dribbble btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn flickr btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn github btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn googlePlus btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn html5 btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn instagram btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn openid btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn pinterest btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn reddit btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn spotify btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn stackOverflow btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn tumblr btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn twitter btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn vimeo btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn vk btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn xing btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn yahoo btn-brand</span>" >< /button ></p>
-            <p class= "mb-1">< button class= "<span class= "text-danger">btn youtube btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn facebook btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn behance btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn css3 btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn dribbble btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn flickr btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn github btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn googlePlus btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn html5 btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn instagram btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn openid btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn pinterest btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn reddit btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn spotify btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn stackOverflow btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn tumblr btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn twitter btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn vimeo btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn vk btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn xing btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn yahoo btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn youtube btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>

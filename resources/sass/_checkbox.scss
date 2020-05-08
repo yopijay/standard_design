@@ -178,11 +178,13 @@
                         stroke: $color-dark-highlight;
                     }
                 }
+                p {
+                    margin-left: 30px;
+                }
                 svg {
                     width: 18px;
                     height: 18px;
                     position: absolute;
-                    display: inline-block;
                     z-index: 1;
                     fill: none;
                     stroke-linecap: round;
@@ -199,9 +201,6 @@
                         stroke-dasharray: 22;
                         stroke-dashoffset: 66;
                     }
-                }
-                p {
-                    margin-left: 30px;
                 }
             }
         }
