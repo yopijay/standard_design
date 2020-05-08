@@ -13491,8 +13491,6 @@ body.agm-standard .form-checkbox.checkbox-animated input:checked + label svg pol
 body.agm-standard .form-checkbox.checkbox-animated label {
   cursor: pointer;
   display: inline-block;
-  width: 18px;
-  height: 18px;
   -webkit-tap-highlight-color: transparent;
   transform: translate3d(0, 0, 0);
 }
@@ -13515,14 +13513,11 @@ body.agm-standard .form-checkbox.checkbox-animated label:hover svg {
   stroke: #2f3640;
 }
 
-body.agm-standard .form-checkbox.checkbox-animated label p {
-  display: inline-block;
-  position: absolute;
-  margin-left: 30px;
-}
-
 body.agm-standard .form-checkbox.checkbox-animated label svg {
+  width: 18px;
+  height: 18px;
   position: absolute;
+  display: inline-block;
   z-index: 1;
   fill: none;
   stroke-linecap: round;
@@ -13541,6 +13536,10 @@ body.agm-standard .form-checkbox.checkbox-animated label svg path {
 body.agm-standard .form-checkbox.checkbox-animated label svg polyline {
   stroke-dasharray: 22;
   stroke-dashoffset: 66;
+}
+
+body.agm-standard .form-checkbox.checkbox-animated label p {
+  margin-left: 30px;
 }
 
 body.agm-standard .form-group label {

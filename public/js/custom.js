@@ -4,7 +4,7 @@ $(function() {
     let form = $('#validate_form');
 
     $('.content').css({ display: 'none' });
-    $('#dashboard-page').css({ display: 'block' });
+    $('#checkbox-page').css({ display: 'block' });
 
     $(links).on('click', function() {
         let content = $(this).find('a').attr('content');
