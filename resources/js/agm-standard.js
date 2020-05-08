@@ -1,6 +1,7 @@
 $(function() {
     // Brand buttons
     brandButtons();
+    $('.navbar-side > ul > .list').sidenav($('.navbar-side > ul').find('.navbar-link'));
 });
 
 // Branded Buttons
@@ -173,6 +174,18 @@ var toaster = (function() {
 $.fn.sidenav = function(submenu) {
     let _list = this;
     let _links = submenu;
+
+    $(_list).on('click', function() {
+        $(_list).removeClass('active');
+        $(this).addClass('active');
+    });
+
+    $(_links).on('click', function() {
+        $(_links).removeClass('active');
+        $(this).addClass('active');
+    });
+
+    return this;
 
     for (var count = 0; count < _list.length; count++) {
         _list[count].addEventListener('click', function(e) {

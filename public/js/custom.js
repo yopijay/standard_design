@@ -1,13 +1,10 @@
 $(function() {
-    let list = $('.navbar-side > ul > .list');
     let links = $('.navbar-side > ul').find('.navbar-link');
     let brandBtn = $('body').find('.btn-brand');
     let form = $('#validate_form');
 
-    list.sidenav(links);
-
     $('.content').css({ display: 'none' });
-    $('#datatable-page').css({ display: 'block' });
+    $('#dashboard-page').css({ display: 'block' });
 
     $(links).on('click', function() {
         let content = $(this).find('a').attr('content');

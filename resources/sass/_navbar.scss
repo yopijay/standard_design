@@ -87,10 +87,27 @@
                 color: $color-highlight;
                 transition: all 0.3s ease-in-out;
             }
-            &.active,
-            &#list ul li.active {
+            &.active {
                 background-color: $background-color-highlight;
                 a p {
+                    color: $color;
+                    i {
+                        transform: rotate(90deg);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+                &>.items {
+                    display: block;
+                    transition: all 0.3s ease-in-out;
+                    li {
+                        display: block;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+            }
+            & ul li.active {
+                a p {
+                    background-color: $background-color-highlight;
                     color: $color;
                     i {
                         transform: rotate(90deg);

@@ -186,13 +186,86 @@
     <div class= "row my-3">
         <div class= "col-md-6 py-3 agm-bg-light rounded">
             <p class= "text-info mb-3 h5">Preview</p>
-            <button class= "btn btn-solid btn-primary btn-lg btn-block my-2">btn-lg</button>
-            <button class= "btn btn-solid btn-secondary btn-sm btn-block my-2">btn-sm</button>
+            <div class= "row">
+                <div class= "col-md-6">
+                    <button class= "btn btn-solid btn-primary btn-lg btn-block my-2">btn-lg</button>
+                </div>
+                <div class= "col-md-6">
+                    <button class= "btn btn-solid btn-secondary btn-sm btn-block my-2">btn-sm</button>
+                </div>
+            </div>
         </div>
         <div class= "col-md-6 py-3">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary btn-lg</span>" >btn-lg< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-secondary btn-sm</span>" >btn-sm< <span class= "text-danger">/button</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "mb-1">Create block level buttons - those that span the full width of a parent - by adding <span class= "text-danger">.btn-block</span>.</p>
+    <div class= "row  mt-3 mb-5">
+        <div class= "col-md-6 py-3 agm-bg-light rounded">
+            <p class= "text-info mb-3 h5">Preview</p>
+            <button class= "btn btn-solid btn-primary btn-block my-2">btn-block</button>
+            <button class= "btn btn-solid btn-secondary btn-block my-2">btn-block</button>
+        </div>
+        <div class= "col-md-6 py-3">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary btn-block</span>" >btn-block< <span class= "text-danger">/button</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-secondary btn-smblock</span>" >btn-block< <span class= "text-danger">/button</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "text-info mb-1 h5">BUTTON BRANDS</p>
+    <p class= "mb-1">You can also combine Bootstrap buttons with Brand Icons.</p>
+    <div class= "row my-3">
+        <div class= "col-md-6 py-3 agm-bg-light rounded">
+            <p class= "text-info mb-3 h5">Preview</p>
+            <button class= "btn facebook btn-brand mb-1"></button>
+            <button class= "btn behance btn-brand mb-1"></button>
+            <button class= "btn css3 btn-brand mb-1"></button>
+            <button class= "btn dribbble btn-brand mb-1"></button>
+            <button class= "btn flickr btn-brand mb-1"></button>
+            <button class= "btn github btn-brand mb-1"></button>
+            <button class= "btn googlePlus btn-brand mb-1"></button>
+            <button class= "btn html5 btn-brand mb-1"></button>
+            <button class= "btn instagram btn-brand mb-1"></button>
+            <button class= "btn openid btn-brand mb-1"></button>
+            <button class= "btn pinterest btn-brand mb-1"></button>
+            <button class= "btn reddit btn-brand mb-1"></button>
+            <button class= "btn spotify btn-brand mb-1"></button>
+            <button class= "btn stackOverflow btn-brand mb-1"></button>
+            <button class= "btn tumblr btn-brand mb-1"></button>
+            <button class= "btn twitter btn-brand mb-1"></button>
+            <button class= "btn vimeo btn-brand mb-1"></button>
+            <button class= "btn vk btn-brand mb-1"></button>
+            <button class= "btn xing btn-brand mb-1"></button>
+            <button class= "btn yahoo btn-brand mb-1"></button>
+            <button class= "btn youtube btn-brand mb-1"></button>
+        </div>
+        <div class= "col-md-6 py-3">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn facebook btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn behance btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn css3 btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn dribbble btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn flickr btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn github btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn googlePlus btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn html5 btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn instagram btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn openid btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn pinterest btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn reddit btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn spotify btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn stackOverflow btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn tumblr btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn twitter btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn vimeo btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn vk btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn xing btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn yahoo btn-brand</span>" >< /button ></p>
+            <p class= "mb-1">< button class= "<span class= "text-danger">btn youtube btn-brand</span>" >< /button ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>

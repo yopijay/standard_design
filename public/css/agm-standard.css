@@ -11100,30 +11100,45 @@ body.agm-standard .navbar-side ul li:hover > a p {
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side ul li.active,
-body.agm-standard .navbar-side ul li#list ul li.active {
+body.agm-standard .navbar-side ul li.active {
   background-color: #dcdde1;
 }
 
-body.agm-standard .navbar-side ul li.active a p,
-body.agm-standard .navbar-side ul li#list ul li.active a p {
+body.agm-standard .navbar-side ul li.active a p {
   color: #353b48;
 }
 
-body.agm-standard .navbar-side ul li.active a p i,
-body.agm-standard .navbar-side ul li#list ul li.active a p i {
+body.agm-standard .navbar-side ul li.active a p i {
   transform: rotate(90deg);
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side ul li.active > .items,
-body.agm-standard .navbar-side ul li#list ul li.active > .items {
+body.agm-standard .navbar-side ul li.active > .items {
   display: block;
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side ul li.active > .items li,
-body.agm-standard .navbar-side ul li#list ul li.active > .items li {
+body.agm-standard .navbar-side ul li.active > .items li {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side ul li ul li.active a p {
+  background-color: #dcdde1;
+  color: #353b48;
+}
+
+body.agm-standard .navbar-side ul li ul li.active a p i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side ul li ul li.active > .items {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side ul li ul li.active > .items li {
   display: block;
   transition: all 0.3s ease-in-out;
 }
@@ -11229,30 +11244,45 @@ body.agm-standard .navbar-side.navbar-side-light ul li:hover > a p {
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul li.active,
-body.agm-standard .navbar-side.navbar-side-light ul li#list ul li.active {
+body.agm-standard .navbar-side.navbar-side-light ul li.active {
   background-color: #dcdde1;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul li.active a p,
-body.agm-standard .navbar-side.navbar-side-light ul li#list ul li.active a p {
+body.agm-standard .navbar-side.navbar-side-light ul li.active a p {
   color: #353b48;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul li.active a p i,
-body.agm-standard .navbar-side.navbar-side-light ul li#list ul li.active a p i {
+body.agm-standard .navbar-side.navbar-side-light ul li.active a p i {
   transform: rotate(90deg);
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul li.active > .items,
-body.agm-standard .navbar-side.navbar-side-light ul li#list ul li.active > .items {
+body.agm-standard .navbar-side.navbar-side-light ul li.active > .items {
   display: block;
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul li.active > .items li,
-body.agm-standard .navbar-side.navbar-side-light ul li#list ul li.active > .items li {
+body.agm-standard .navbar-side.navbar-side-light ul li.active > .items li {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li ul li.active a p {
+  background-color: #dcdde1;
+  color: #353b48;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li ul li.active a p i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li ul li.active > .items {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-light ul li ul li.active > .items li {
   display: block;
   transition: all 0.3s ease-in-out;
 }
@@ -11358,30 +11388,45 @@ body.agm-standard .navbar-side.navbar-side-dark ul li:hover > a p {
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul li.active,
-body.agm-standard .navbar-side.navbar-side-dark ul li#list ul li.active {
+body.agm-standard .navbar-side.navbar-side-dark ul li.active {
   background-color: #2f3640;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul li.active a p,
-body.agm-standard .navbar-side.navbar-side-dark ul li#list ul li.active a p {
+body.agm-standard .navbar-side.navbar-side-dark ul li.active a p {
   color: #f5f6fa;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul li.active a p i,
-body.agm-standard .navbar-side.navbar-side-dark ul li#list ul li.active a p i {
+body.agm-standard .navbar-side.navbar-side-dark ul li.active a p i {
   transform: rotate(90deg);
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul li.active > .items,
-body.agm-standard .navbar-side.navbar-side-dark ul li#list ul li.active > .items {
+body.agm-standard .navbar-side.navbar-side-dark ul li.active > .items {
   display: block;
   transition: all 0.3s ease-in-out;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul li.active > .items li,
-body.agm-standard .navbar-side.navbar-side-dark ul li#list ul li.active > .items li {
+body.agm-standard .navbar-side.navbar-side-dark ul li.active > .items li {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li ul li.active a p {
+  background-color: #2f3640;
+  color: #f5f6fa;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li ul li.active a p i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li ul li.active > .items {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar-side.navbar-side-dark ul li ul li.active > .items li {
   display: block;
   transition: all 0.3s ease-in-out;
 }
