@@ -11591,7 +11591,7 @@ body.agm-standard .btn-group-lg > .btn {
 }
 
 body.agm-standard .btn.btn-solid {
-  border: solid 1px #dcdde1;
+  border: 0px;
   background-color: #f5f6fa;
   color: #353b48;
 }
@@ -11618,7 +11618,7 @@ body.agm-standard .btn.btn-solid:focus {
 }
 
 body.agm-standard .btn.btn-solid.btn-primary {
-  border: solid 1px #0097e6;
+  border: 0px;
   background-color: #00a8ff;
   color: #f5f6fa;
 }
@@ -11637,7 +11637,7 @@ body.agm-standard .btn.btn-solid.btn-primary:focus {
 }
 
 body.agm-standard .btn.btn-solid.btn-secondary {
-  border: solid 1px #718093;
+  border: 0px;
   background-color: #7f8fa6;
   color: #f5f6fa;
 }
@@ -11656,7 +11656,7 @@ body.agm-standard .btn.btn-solid.btn-secondary:focus {
 }
 
 body.agm-standard .btn.btn-solid.btn-success {
-  border: solid 1px #44bd32;
+  border: 0px;
   background-color: #4cd137;
   color: #f5f6fa;
 }
@@ -11675,7 +11675,7 @@ body.agm-standard .btn.btn-solid.btn-success:focus {
 }
 
 body.agm-standard .btn.btn-solid.btn-warning {
-  border: solid 1px #e1b12c;
+  border: 0px;
   background-color: #fbc531;
   color: #f5f6fa;
 }
@@ -11694,7 +11694,7 @@ body.agm-standard .btn.btn-solid.btn-warning:focus {
 }
 
 body.agm-standard .btn.btn-solid.btn-danger {
-  border: solid 1px #c23616;
+  border: 0px;
   background-color: #e84118;
   color: #f5f6fa;
 }
@@ -11713,7 +11713,7 @@ body.agm-standard .btn.btn-solid.btn-danger:focus {
 }
 
 body.agm-standard .btn.btn-solid.btn-info {
-  border: solid 1px #192a56;
+  border: 0px;
   background-color: #273c75;
   color: #f5f6fa;
 }
@@ -11732,7 +11732,7 @@ body.agm-standard .btn.btn-solid.btn-info:focus {
 }
 
 body.agm-standard .btn.btn-solid.btn-light {
-  border: solid 1px #dcdde1;
+  border: 0px;
   background-color: #f5f6fa;
   color: #353b48;
 }
@@ -11751,7 +11751,7 @@ body.agm-standard .btn.btn-solid.btn-light:focus {
 }
 
 body.agm-standard .btn.btn-solid.btn-dark {
-  border: solid 1px #2f3640;
+  border: 0px;
   background-color: #353b48;
   color: #f5f6fa;
 }

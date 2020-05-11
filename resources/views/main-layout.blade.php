@@ -108,6 +108,7 @@
                     @include('components.notification.modal')
                     @include('components.notification.toaster')
                     @include('components.buttons.checkbox')
+                    @include('components.buttons.button-group')
                     @include('components.buttons.radio')
                     @include('components.buttons.toggle')
                     @include('components.forms.input')

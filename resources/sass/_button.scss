@@ -105,7 +105,7 @@
 
 @mixin button-type($type, $background-color, $background-color-highlight, $color) {
     @if $type=='solid' {
-        border: solid 1px $background-color-highlight;
+        border: 0px;
         background-color: $background-color;
         color: $color;
         &.btn-pills {
@@ -155,7 +155,7 @@
 @mixin button-theme($type) {
     @if $type=='solid' {
         &.btn-primary {
-            border: solid 1px $color-primary-highlight;
+            border: 0px;
             background-color: $color-primary;
             color: $color-light;
             &:hover {
@@ -171,7 +171,7 @@
             }
         }
         &.btn-secondary {
-            border: solid 1px $color-secondary-highlight;
+            border: 0px;
             background-color: $color-secondary;
             color: $color-light;
             &:hover {
@@ -187,7 +187,7 @@
             }
         }
         &.btn-success {
-            border: solid 1px $color-success-highlight;
+            border: 0px;
             background-color: $color-success;
             color: $color-light;
             &:hover {
@@ -203,7 +203,7 @@
             }
         }
         &.btn-warning {
-            border: solid 1px $color-warning-highlight;
+            border: 0px;
             background-color: $color-warning;
             color: $color-light;
             &:hover {
@@ -219,7 +219,7 @@
             }
         }
         &.btn-danger {
-            border: solid 1px $color-danger-highlight;
+            border: 0px;
             background-color: $color-danger;
             color: $color-light;
             &:hover {
@@ -235,7 +235,7 @@
             }
         }
         &.btn-info {
-            border: solid 1px $color-info-highlight;
+            border: 0px;
             background-color: $color-info;
             color: $color-light;
             &:hover {
@@ -251,7 +251,7 @@
             }
         }
         &.btn-light {
-            border: solid 1px $color-light-highlight;
+            border: 0px;
             background-color: $color-light;
             color: $color-dark;
             &:hover {
@@ -267,7 +267,7 @@
             }
         }
         &.btn-dark {
-            border: solid 1px $color-dark-highlight;
+            border: 0px;
             background-color: $color-dark;
             color: $color-light;
             &:hover {

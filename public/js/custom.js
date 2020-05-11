@@ -44,6 +44,9 @@ $(function() {
             case 'radio-page':
                 $('#radio-page').css({ display: 'block' });
                 break;
+            case 'button-group-page':
+                $('#button-group-page').css({ display: 'block' });
+                break;
             case 'checkbox-page':
                 $('#checkbox-page').css({ display: 'block' });
                 break;
