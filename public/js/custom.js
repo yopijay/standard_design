@@ -32,6 +32,9 @@ $(function() {
             case 'badge-page':
                 $('#badge-page').css({ display: 'block' });
                 break;
+            case 'breadcrumb-page':
+                $('#breadcrumb-page').css({ display: 'block' });
+                break;
             case 'modal-page':
                 $('#modal-page').css({ display: 'block' });
                 break;

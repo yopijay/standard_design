@@ -15344,3 +15344,11 @@ body.agm-standard .list-group .list-group-item.list-group-hover:focus {
   border-color: #dcdde1;
 }
 
+body.agm-standard .breadcrumb.breadcrumb-square {
+  border-radius: 0px;
+}
+
+body.agm-standard .breadcrumb.breadcrumb-pill {
+  border-radius: 50px;
+}
+

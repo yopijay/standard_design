@@ -15,6 +15,7 @@
 @import 'modal';
 @import 'table';
 @import 'listgroup';
+@import 'breadcrumb';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 body.agm-standard {
@@ -39,4 +40,5 @@ body.agm-standard {
     @include modal-default;
     @include table-default;
     @include listgroup-default;
+    @include breadcrumb-default;
 }

@@ -1,0 +1,10 @@
+@mixin breadcrumb-default() {
+    .breadcrumb {
+        &.breadcrumb-square {
+            border-radius: 0px;
+        }
+        &.breadcrumb-pill {
+            border-radius: 50px;
+        }
+    }
+}

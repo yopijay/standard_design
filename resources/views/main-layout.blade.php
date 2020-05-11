@@ -102,6 +102,7 @@
                     @include('components.buttons.button')
                     @include('components.base.card')
                     @include('components.base.badge')
+                    @include('components.base.breadcrumb')
                     @include('components.base.listgroup')
                     @include('components.notification.modal')
                     @include('components.notification.toaster')
