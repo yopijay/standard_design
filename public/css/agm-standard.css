@@ -15142,12 +15142,14 @@ body.agm-standard .modal-dialog .modal-content .modal-header button i {
 
 body.agm-standard .table thead th,
 body.agm-standard .table thead td {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  vertical-align: center;
 }
 
 body.agm-standard .table tbody th,
 body.agm-standard .table tbody td {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  vertical-align: center;
 }
 
 body.agm-standard .table.table-hover tbody tr:hover {
