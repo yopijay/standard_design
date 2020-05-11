@@ -35,6 +35,9 @@ $(function() {
             case 'breadcrumb-page':
                 $('#breadcrumb-page').css({ display: 'block' });
                 break;
+            case 'dropdown-page':
+                $('#dropdown-page').css({ display: 'block' });
+                break;
             case 'modal-page':
                 $('#modal-page').css({ display: 'block' });
                 break;

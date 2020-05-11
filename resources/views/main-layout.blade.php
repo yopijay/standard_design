@@ -103,6 +103,7 @@
                     @include('components.base.card')
                     @include('components.base.badge')
                     @include('components.base.breadcrumb')
+                    @include('components.base.dropdown')
                     @include('components.base.listgroup')
                     @include('components.notification.modal')
                     @include('components.notification.toaster')

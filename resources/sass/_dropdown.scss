@@ -1,0 +1,23 @@
+@mixin dropdown-default() {
+    .dropdown {
+        .dropdown-menu {
+            .dropdown-item {
+                color: $color-dark;
+                &:hover {
+                    background-color: $color-light-highlight;
+                }
+                &:focus {
+                    color: $color-dark;
+                    border: 0;
+                    outline: none
+                }
+                &.active {
+                    color: $color-light;
+                }
+                &.disabled {
+                    color: $color-light-highlight;
+                }
+            }
+        }
+    }
+}

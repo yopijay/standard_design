@@ -16,6 +16,7 @@
 @import 'table';
 @import 'listgroup';
 @import 'breadcrumb';
+@import 'dropdown';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 body.agm-standard {
@@ -41,4 +42,5 @@ body.agm-standard {
     @include table-default;
     @include listgroup-default;
     @include breadcrumb-default;
+    @include dropdown-default;
 }
