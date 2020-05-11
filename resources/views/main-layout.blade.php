@@ -37,7 +37,7 @@
                                 <a href= "#"><p>Base <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
                                     <li class= "navbar-link list"><a href= "#" content= "badge-page"><p>Badges</p></a></li>
-                                    <li class= "navbar-link list"><a href= "#" content= "breadcrumb-page"><p>Breadcumbs</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "breadcrumb-page"><p>Breadcrumbs</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "dropdown-page"><p>Dropdowns</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "listgroup-page"><p>List Groups</p></a></li>
