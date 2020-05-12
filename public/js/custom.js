@@ -1,7 +1,7 @@
 $(function() {
     let links = $('.navbar-side > ul').find('.navbar-link');
     let brandBtn = $('body').find('.btn-brand');
-    let form = $('#validate_form');
+    let form = $('#sample-form-validation');
 
     $('.content').css({ display: 'none' });
     $('#dashboard-page').css({ display: 'block' });
@@ -19,8 +19,13 @@ $(function() {
 
     $('body')
         .on('click', '#validate', function() {
-            if (form.validate()[0] && form.validate()[1]) {
-                toaster.toast('', 'toast-success', 'fas fa-check', 'Inputs successfully correct!').show(3000);
+            if (form.validate()) {
+                toaster.success("", "Success!").show(2500);
+            }
+        })
+        .on('click', '#validate-toast', function() {
+            if (form.validate(true)) {
+                toaster.success("", "Success!").show(2500);
             }
         })
         .on('click', '#show-toast', function() {

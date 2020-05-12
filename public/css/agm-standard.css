@@ -13583,6 +13583,12 @@ body.agm-standard .form-group .form-control.form-pills {
   border-radius: 50px;
 }
 
+body.agm-standard .form-group .form-message {
+  font-size: 0.6rem;
+  float: right;
+  font-weight: bold;
+}
+
 body.agm-standard .form-radio.radio-primary input:checked + span {
   border: solid 2px #00a8ff;
 }

@@ -38,8 +38,8 @@
                                 <ul class= "items">
                                     <li class= "navbar-link list"><a href= "#" content= "badge-page"><p>Badges</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "breadcrumb-page"><p>Breadcrumbs</p></a></li>
-                                    <li class= "navbar-link list"><a href= "#" content= "dropdown-page"><p>Dropdowns</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "card-page"><p>Cards</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "dropdown-page"><p>Dropdowns</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "listgroup-page"><p>List Groups</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "pagination-page"><p>Pagination</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "popover-page"><p>Popovers</p></a></li>
@@ -113,6 +113,7 @@
                     @include('components.buttons.radio')
                     @include('components.buttons.toggle')
                     @include('components.forms.input')
+                    @include('components.forms.validation')
                     @include('components.table.datatable')
                     @include('components.table.standard')
                     @include('components.pages.login')

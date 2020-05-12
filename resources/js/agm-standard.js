@@ -186,43 +186,6 @@ $.fn.sidenav = function(submenu) {
     });
 
     return this;
-
-    for (var count = 0; count < _list.length; count++) {
-        _list[count].addEventListener('click', function(e) {
-            e.stopPropagation();
-
-            if (this.classList.contains('active')) {
-                this.classList.remove('active');
-            } else if (this.parentElement.parentElement.classList.contains('active')) {
-                this.classList.add('active');
-            } else {
-                for (var item = 0; item < _list.length; item++) {
-                    _list[item].classList.remove('active');
-                }
-
-                this.classList.add('active');
-            }
-        });
-    }
-
-    for (var count = 0; count < _links.length; count++) {
-        _links[count].addEventListener('click', function(e) {
-            e.stopPropagation();
-
-            if (this.classList.contains('active')) {
-                this.classList.add('active');
-            } else if (this.parentElement.parentElement.classList.contains('active')) {
-                this.classList.add('active');
-            } else {
-                for (var item = 0; item < _links.length; item++) {
-                    _links[item].classList.remove('active');
-                }
-
-                this.classList.add('active');
-            }
-        });
-    }
-    return this;
 }
 
 // Validations
@@ -241,20 +204,40 @@ $.fn.validate = function(hasToast) {
             let _type = inputs[count].type;
             let _label = $('#' + _id + '').attr('input-label');
 
-            if (_value == '') {
-                $('#' + _id + '').addClass('form-danger');
-                result = false;
-            } else if (_type == 'email' && !validEmail.test(_value)) {
-                $('#' + _id + '').removeClass('form-danger');
-                $('#' + _id + '').addClass('form-warning');
-                result = false;
-            } else if (_type == 'password' && !_value.match(validPassword)) {
-                $('#' + _id + '').removeClass('form-danger');
-                $('#' + _id + '').addClass('form-warning');
-                result = false;
-            } else {
-                $('#' + _id + '').removeClass('form-danger');
-                $('#' + _id + '').removeClass('form-warning');
+            if (!($('#' + _id + '').hasClass('except'))) {
+                if (_value == '') {
+                    $('#' + _id + '').addClass('form-danger');
+                    if (document.body.contains(document.getElementById(_id + '-form-message'))) {
+                        document.getElementById(_id + '-form-message').remove();
+                    }
+                    let _message = '<p class= "form-message text-danger" id= "' + _id + '-form-message">This must not be empty.</p>';
+                    document.getElementById(_id).insertAdjacentHTML('afterend', _message);
+                    result = false;
+                } else if (_type == 'email' && !validEmail.test(_value)) {
+                    $('#' + _id + '').removeClass('form-danger');
+                    $('#' + _id + '').addClass('form-warning');
+                    if (document.body.contains(document.getElementById(_id + '-form-message'))) {
+                        document.getElementById(_id + '-form-message').remove();
+                    }
+                    let _message = '<p class= "form-message text-warning" id= "' + _id + '-form-message">Invalid email format.</p>';
+                    document.getElementById(_id).insertAdjacentHTML('afterend', _message);
+                    result = false;
+                } else if (_type == 'password' && !_value.match(validPassword)) {
+                    $('#' + _id + '').removeClass('form-danger');
+                    $('#' + _id + '').addClass('form-warning');
+                    if (document.body.contains(document.getElementById(_id + '-form-message'))) {
+                        document.getElementById(_id + '-form-message').remove();
+                    }
+                    let _message = '<p class= "form-message text-warning" id= "' + _id + '-form-message">Password must have at least 6 characters contains 1 Uppercase, lowercase, symbol and numbers.</p>';
+                    document.getElementById(_id).insertAdjacentHTML('afterend', _message);
+                    result = false;
+                } else {
+                    $('#' + _id + '').removeClass('form-danger');
+                    $('#' + _id + '').removeClass('form-warning');
+                    if (document.body.contains(document.getElementById(_id + '-form-message'))) {
+                        document.getElementById(_id + '-form-message').remove();
+                    }
+                }
             }
         } else if (inputs[count].tagName == 'TEXTAREA') {
             const _id = inputs[count].id;
@@ -263,12 +246,46 @@ $.fn.validate = function(hasToast) {
             _type = inputs[count].type;
             _label = $('#' + _id + '').attr('input-label');
 
-            if (_value == '') {
-                $('#' + _id + '').addClass('form-danger');
-                result = false;
-            } else {
-                $('#' + _id + '').removeClass('form-danger');
-                $('#' + _id + '').removeClass('form-warning');
+            if (!($('#' + _id + '').hasClass('except'))) {
+                if (_value == '') {
+                    $('#' + _id + '').addClass('form-danger');
+                    if (document.body.contains(document.getElementById(_id + '-form-message'))) {
+                        document.getElementById(_id + '-form-message').remove();
+                    }
+                    let _message = '<p class= "form-message text-danger" id= "' + _id + '-form-message">This must not be empty.</p>';
+                    document.getElementById(_id).insertAdjacentHTML('afterend', _message);
+                    result = false;
+                } else {
+                    $('#' + _id + '').removeClass('form-danger');
+                    $('#' + _id + '').removeClass('form-warning');
+                    if (document.body.contains(document.getElementById(_id + '-form-message'))) {
+                        document.getElementById(_id + '-form-message').remove();
+                    }
+                }
+            }
+        } else if (inputs[count].tagName == 'SELECT') {
+            const _id = inputs[count].id;
+
+            _value = inputs[count].value;
+            _type = inputs[count].type;
+            _label = $('#' + _id + '').attr('input-label');
+
+            if (!($('#' + _id + '').hasClass('except'))) {
+                if (_value == '') {
+                    $('#' + _id + '').addClass('form-danger');
+                    if (document.body.contains(document.getElementById(_id + '-form-message'))) {
+                        document.getElementById(_id + '-form-message').remove();
+                    }
+                    let _message = '<p class= "form-message text-danger" id= "' + _id + '-form-message">This must not be empty.</p>';
+                    document.getElementById(_id).insertAdjacentHTML('afterend', _message);
+                    result = false;
+                } else {
+                    $('#' + _id + '').removeClass('form-danger');
+                    $('#' + _id + '').removeClass('form-warning');
+                    if (document.body.contains(document.getElementById(_id + '-form-message'))) {
+                        document.getElementById(_id + '-form-message').remove();
+                    }
+                }
             }
         }
     }
@@ -295,19 +312,26 @@ $.fn.hasToast = function() {
             let _type = inputs[count].type;
             let _label = $('#' + _id + '').attr('input-label');
             let _message = '';
-
-            if (_value == '') {
-                _message = _label + ' must not be empty!';
-                toaster.error('', _message).show();
-                return false;
-            } else if (_type == 'email' && !validEmail.test(_value)) {
-                _message = _label + ' format is invalid!';
-                toaster.warning('', _message).show();
-                return false;
-            } else if (_type == 'password' && !_value.match(validPassword)) {
-                _message = _label + ' must have at least 6 characters with uppercase, lowercase, numbers and a special character!';
-                toaster.warning('', _message).show();
-                return false;
+            if (!($('#' + _id + '').hasClass('except'))) {
+                if (_value == '') {
+                    // _message = _label + ' must not be empty!';
+                    // toaster.error('', _message).show();
+                    // toaster.error("", "Something went wrong").show(3000);
+                    // return false;
+                    result = false;
+                } else if (_type == 'email' && !validEmail.test(_value)) {
+                    // _message = _label + ' format is invalid!';
+                    // toaster.warning('', _message).show();
+                    // toaster.error("", "Invalid inputs").show(3000);
+                    // return false;
+                    result = false;
+                } else if (_type == 'password' && !_value.match(validPassword)) {
+                    // _message = _label + ' must have at least 6 characters with uppercase, lowercase, numbers and a special character!';
+                    // toaster.warning('', _message).show();
+                    // toaster.error("", "Invalid inputs").show(3000);
+                    // return false;
+                    result = false;
+                }
             }
         } else if (inputs[count].tagName == 'TEXTAREA') {
             const _id = inputs[count].id;
@@ -317,14 +341,35 @@ $.fn.hasToast = function() {
             let _label = $('#' + _id + '').attr('input-label');
             let _message = '';
 
-            if (_value == '') {
-                _message = _label + ' must not be empty!';
-                toaster.error('', _message).show();
-                return false;
+            if (!($('#' + _id + '').hasClass('except'))) {
+                if (_value == '') {
+                    // _message = _label + ' must not be empty!';
+                    // toaster.error('', _message).show();
+                    // toaster.error("", "Something went wrong").show(3000);
+                    // return false;
+                    result = false;
+                }
+            }
+        } else if (inputs[count].tagName == 'SELECT') {
+            const _id = inputs[count].id;
+
+            let _value = inputs[count].value;
+            let _type = inputs[count].type;
+            let _label = $('#' + _id + '').attr('input-label');
+            let _message = '';
+
+            if (!($('#' + _id + '').hasClass('except'))) {
+                if (_value == '') {
+                    // _message = _label + ' must not be empty!';
+                    // toaster.error('', _message).show();
+                    // toaster.error("", "Something went wrong").show(3000);
+                    // return false;
+                    result = false;
+                }
             }
         }
     }
-    return true;
+    return (result == false) ? toaster.error('', "Something went wrong").show(3000) : true;
 }
 
 // Datatables
