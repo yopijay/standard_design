@@ -19,6 +19,7 @@
 @import 'dropdown';
 @import 'pagination';
 @import 'popover';
+@import 'progressbar';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 body.agm-standard {
@@ -47,4 +48,5 @@ body.agm-standard {
     @include dropdown-default;
     @include pagination-default;
     @include popover-default;
+    @include progressbar-default;
 }

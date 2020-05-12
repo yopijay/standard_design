@@ -107,6 +107,7 @@
                     @include('components.base.listgroup')
                     @include('components.base.pagination')
                     @include('components.base.popover')
+                    @include('components.base.progress')
                     @include('components.notification.modal')
                     @include('components.notification.toaster')
                     @include('components.buttons.checkbox')

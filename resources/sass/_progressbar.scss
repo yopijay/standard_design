@@ -1,0 +1,33 @@
+@mixin progressbar-default() {
+    .progress {
+        &.progressbar-square {
+            border-radius: 0px;
+        }
+        &.progressbar-pill {
+            border-radius: 50px;
+        }
+        .progress-bar {
+            &.progressbar-primary {
+                background-color: $color-primary;
+            }
+            &.progressbar-secondary {
+                background-color: $color-secondary;
+            }
+            &.progressbar-success {
+                background-color: $color-success;
+            }
+            &.progressbar-warning {
+                background-color: $color-warning;
+            }
+            &.progressbar-danger {
+                background-color: $color-danger;
+            }
+            &.progressbar-info {
+                background-color: $color-info;
+            }
+            &.progressbar-dark {
+                background-color: $color-dark;
+            }
+        }
+    }
+}

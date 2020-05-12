@@ -15417,3 +15417,39 @@ body.agm-standard .popover .popover-body {
   color: #353b48;
 }
 
+body.agm-standard .progress.progressbar-square {
+  border-radius: 0px;
+}
+
+body.agm-standard .progress.progressbar-pill {
+  border-radius: 50px;
+}
+
+body.agm-standard .progress .progress-bar.progressbar-primary {
+  background-color: #00a8ff;
+}
+
+body.agm-standard .progress .progress-bar.progressbar-secondary {
+  background-color: #7f8fa6;
+}
+
+body.agm-standard .progress .progress-bar.progressbar-success {
+  background-color: #4cd137;
+}
+
+body.agm-standard .progress .progress-bar.progressbar-warning {
+  background-color: #fbc531;
+}
+
+body.agm-standard .progress .progress-bar.progressbar-danger {
+  background-color: #e84118;
+}
+
+body.agm-standard .progress .progress-bar.progressbar-info {
+  background-color: #273c75;
+}
+
+body.agm-standard .progress .progress-bar.progressbar-dark {
+  background-color: #353b48;
+}
+
