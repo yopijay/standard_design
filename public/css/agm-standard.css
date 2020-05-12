@@ -15405,3 +15405,15 @@ body.agm-standard .pagination .page-item .page-link:focus {
   box-shadow: none;
 }
 
+body.agm-standard .popover .popover-header {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #353b48;
+  background-color: #dcdde1;
+}
+
+body.agm-standard .popover .popover-body {
+  font-size: 0.7rem;
+  color: #353b48;
+}
+

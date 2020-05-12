@@ -106,6 +106,7 @@
                     @include('components.base.dropdown')
                     @include('components.base.listgroup')
                     @include('components.base.pagination')
+                    @include('components.base.popover')
                     @include('components.notification.modal')
                     @include('components.notification.toaster')
                     @include('components.buttons.checkbox')

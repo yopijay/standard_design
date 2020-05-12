@@ -1,0 +1,14 @@
+@mixin popover-default() {
+    .popover {
+        .popover-header {
+            font-size: .8rem;
+            text-transform: uppercase;
+            color: $color-dark;
+            background-color: $color-light-highlight;
+        }
+        .popover-body {
+            font-size: .7rem;
+            color: $color-dark;
+        }
+    }
+}
