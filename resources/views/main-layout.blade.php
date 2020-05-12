@@ -30,7 +30,7 @@
                             <li class= "label"><p class= "mb-1">Menu</p></li>
                             <li class= "navbar-link list active"><a href= "#" content= "dashboard-page"><p>Dashboard</p></a></li>
                             <li class= "label"><p class= "mb-1">Themes</p></li>
-                            <li class= "navbar-link list"><a href= "#" content= "colors-page"><p>Colors</p></a></li>
+                            <li class= "navbar-link list"><a href= "#" content= "color-page"><p>Colors</p></a></li>
                             <li class= "navbar-link list"><a href= "#" content= "typography-page"><p>Typography</p></a></li>
                             <li class= "label"><p class= "mb-1">Components</p></li>
                             <li class= "list">
@@ -39,7 +39,7 @@
                                     <li class= "navbar-link list"><a href= "#" content= "badge-page"><p>Badges</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "breadcrumb-page"><p>Breadcrumbs</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "dropdown-page"><p>Dropdowns</p></a></li>
-                                    <li class= "navbar-link list"><a href= "#" content= "cards-page"><p>Cards</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "card-page"><p>Cards</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "listgroup-page"><p>List Groups</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "pagination-page"><p>Pagination</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "popover-page"><p>Popovers</p></a></li>
@@ -50,11 +50,11 @@
                             <li class= "list">
                                 <a href= "#"><p>Buttons <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "buttons-page"><p>Buttons</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "button-page"><p>Buttons</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "button-group-page"><p>Button Group</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "checkbox-page"><p>Checkboxes</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "radio-page"><p>Radio Buttons</p></a></li>
-                                    <li class= "navbar-link list"><a href= "#" content= "toggles-page"><p>Swtich Toggles</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "toggle-page"><p>Swtich Toggles</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">
@@ -79,14 +79,14 @@
                                 <ul class= "items">
                                     <li class= "navbar-link list"><a href= "#" content= "alert-page"><p>Alerts</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "modal-page"><p>Modal</p></a></li>
-                                    <li class= "navbar-link list"><a href= "#" content= "toasters-page"><p>Toasters</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "toaster-page"><p>Toasters</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">
                                 <a href= "#"><p>Tables <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
                                     <li class= "navbar-link list"><a href= "#" content= "standard-tbl-page"><p>Standard Tables</p></a></li>
-                                    <li class= "navbar-link list"><a href= "#" content= "data-tbl-page"><p>Datatables</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "datatable-page"><p>Datatables</p></a></li>
                                 </ul>
                             </li>
                             <li class= "label"><p class= "mb-1">Pages</p></li>
@@ -105,6 +105,7 @@
                     @include('components.base.breadcrumb')
                     @include('components.base.dropdown')
                     @include('components.base.listgroup')
+                    @include('components.base.pagination')
                     @include('components.notification.modal')
                     @include('components.notification.toaster')
                     @include('components.buttons.checkbox')

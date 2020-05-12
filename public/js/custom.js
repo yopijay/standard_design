@@ -10,67 +10,8 @@ $(function() {
         let content = $(this).find('a').attr('content');
         $('.content').css({ display: 'none' });
 
-        switch (content) {
-            case 'dashboard-page':
-                $('#dashboard-page').css({ display: 'block' });
-                break;
-            case 'colors-page':
-                $('#color-page').css({ display: 'block' });
-                break;
-            case 'typography-page':
-                $('#typography-page').css({ display: 'block' });
-                break;
-            case 'buttons-page':
-                $('#button-page').css({ display: 'block' });
-                break;
-            case 'cards-page':
-                $('#card-page').css({ display: 'block' });
-                break;
-            case 'toasters-page':
-                $('#toaster-page').css({ display: 'block' });
-                break;
-            case 'badge-page':
-                $('#badge-page').css({ display: 'block' });
-                break;
-            case 'breadcrumb-page':
-                $('#breadcrumb-page').css({ display: 'block' });
-                break;
-            case 'dropdown-page':
-                $('#dropdown-page').css({ display: 'block' });
-                break;
-            case 'modal-page':
-                $('#modal-page').css({ display: 'block' });
-                break;
-            case 'radio-page':
-                $('#radio-page').css({ display: 'block' });
-                break;
-            case 'button-group-page':
-                $('#button-group-page').css({ display: 'block' });
-                break;
-            case 'checkbox-page':
-                $('#checkbox-page').css({ display: 'block' });
-                break;
-            case 'toggles-page':
-                $('#toggle-page').css({ display: 'block' });
-                break;
-            case 'input-page':
-                $('#input-page').css({ display: 'block' });
-                break;
-            case 'standard-tbl-page':
-                $('#standard-tbl-page').css({ display: 'block' });
-                break;
-            case 'data-tbl-page':
-                $('#datatable-page').css({ display: 'block' });
-                break;
-            case 'login-page':
-                $('#login-page').css({ display: 'block' });
-                break;
-            case '404-page':
-                $('#404-page').css({ display: 'block' });
-                break;
-            case 'listgroup-page':
-                $('#listgroup-page').css({ display: 'block' });
-                break;
+        if (document.getElementById(content)) {
+            $('#' + content + '').css({ display: 'block' });
         }
     });
 

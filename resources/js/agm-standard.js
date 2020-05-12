@@ -396,7 +396,7 @@ $.fn.datatable = function() {
             let _searchItems = [];
             let _count = 0;
             let _maxRow = $('#' + _id + 'Row').val();
-            $('.pagination').html('');
+            $('#' + _id + 'Pagination').html('');
 
             $('#' + _id + ' tr:gt(0)').each(function() {
                 if ($(this)[0].id != _id + 'Empty') {
@@ -443,7 +443,7 @@ $.fn.datatable = function() {
                 var _pagenum = Math.ceil(_searchItems.length / _maxRow);
 
                 for (var index = 1; index <= _pagenum;) {
-                    $('.pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
+                    $('#' + _id + 'Pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
                 }
 
                 document.getElementById(_id + 'Pagination').insertAdjacentHTML('afterbegin', _prevBtn);
@@ -462,14 +462,14 @@ $.fn.datatable = function() {
                 }
             }
 
-            $('.pagination li:nth-child(3)').addClass('active');
-            let _pageActive = $('.page-item').closest('.pagination').children('.active')[0].attributes['data-page'].value;
-            $('.pagination li').on('click', function() {
+            $('#' + _id + 'Pagination li:nth-child(3)').addClass('active');
+            let _pageActive = $('.page-item').closest('#' + _id + 'Pagination').children('.active')[0].attributes['data-page'].value;
+            $('#' + _id + 'Pagination li').on('click', function() {
                 var _page = $(this).attr('data-page');
-                _pageActive = $('.page-item').closest('.pagination').children('.active')[0].attributes['data-page'].value;
+                _pageActive = $('.page-item').closest('#' + _id + 'Pagination').children('.active')[0].attributes['data-page'].value;
                 var _index = 0;
 
-                $('.pagination li').removeClass('active');
+                $('#' + _id + 'Pagination li').removeClass('active');
                 $(this).addClass('active');
 
                 if ($(this)[0].id == 'firstpage') {
@@ -523,7 +523,7 @@ $.fn.datatable = function() {
         });
         // Set row limit and pagination
         function setRowLimit(maxRow) {
-            $('.pagination').html('');
+            $('#' + _id + 'Pagination').html('');
             let _count = 0;
 
             $('#' + _id + ' tr:gt(0)').each(function() {
@@ -542,21 +542,21 @@ $.fn.datatable = function() {
                 var _pagenum = Math.ceil(_row.length / maxRow); // Set number of page link
 
                 for (var index = 1; index <= _pagenum;) {
-                    $('.pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
+                    $('#' + _id + 'Pagination').append('<li class= "page-item" data-page= "' + index + '">\<a class= "page-link">' + index++ + ' <span class= "sr-only">(current)</span></a>\</li>').show();
                 }
 
                 document.getElementById(_id + 'Pagination').insertAdjacentHTML('afterbegin', _prevBtn);
                 document.getElementById(_id + 'Pagination').insertAdjacentHTML('beforeend', _nextBtn);
             }
             // Page-link functionality
-            $('.pagination li:nth-child(3)').addClass('active');
-            let _pageActive = $('.page-item').closest('.pagination').children('.active')[0].attributes['data-page'].value;
-            $('.pagination li').on('click', function() {
+            $('#' + _id + 'Pagination li:nth-child(3)').addClass('active');
+            let _pageActive = $('.page-item').closest('#' + _id + 'Pagination').children('.active')[0].attributes['data-page'].value;
+            $('#' + _id + 'Pagination li').on('click', function() {
                 var _page = $(this).attr('data-page');
-                _pageActive = $('.page-item').closest('.pagination').children('.active')[0].attributes['data-page'].value;
+                _pageActive = $('.page-item').closest('#' + _id + 'Pagination').children('.active')[0].attributes['data-page'].value;
                 var _index = 0;
 
-                $('.pagination li').removeClass('active');
+                $('#' + _id + 'Pagination li').removeClass('active');
                 $(this).addClass('active');
 
                 if ($(this)[0].id == 'firstpage') {

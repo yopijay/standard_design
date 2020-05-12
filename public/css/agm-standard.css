@@ -15374,3 +15374,28 @@ body.agm-standard .dropdown .dropdown-menu .dropdown-item.disabled {
   color: #dcdde1;
 }
 
+body.agm-standard .pagination .page-item .page-link,
+body.agm-standard .pagination .page-item .page-link span {
+  font-size: 0.7rem;
+  color: #353b48;
+}
+
+body.agm-standard .pagination .page-item .page-link i,
+body.agm-standard .pagination .page-item .page-link span i {
+  color: #353b48;
+  font-size: 0.6rem;
+}
+
+body.agm-standard .pagination .page-item.active .page-link {
+  color: #f5f6fa;
+}
+
+body.agm-standard .pagination .page-item.disabled .page-link {
+  color: #dcdde1;
+}
+
+body.agm-standard .pagination .page-item .page-link:focus {
+  outline: none;
+  box-shadow: none;
+}
+

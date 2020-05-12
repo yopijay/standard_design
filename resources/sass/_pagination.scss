@@ -1,0 +1,29 @@
+@mixin pagination-default() {
+    .pagination {
+        .page-item {
+            .page-link,
+            .page-link span {
+                font-size: .7rem;
+                color: $color-dark;
+                i {
+                    color: $color-dark;
+                    font-size: .6rem;
+                }
+            }
+            &.active {
+                .page-link {
+                    color: $color-light;
+                }
+            }
+            &.disabled {
+                .page-link {
+                    color: $color-light-highlight;
+                }
+            }
+            & .page-link:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+}
