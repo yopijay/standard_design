@@ -84,9 +84,3 @@
         </div>
     </div>
 </div>
-
-
-<!-- <div class= "col-md-6 py-3">
-            <p class= "h5 text-info mb-3">Example Code:</p>
-            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
-        </div> -->
