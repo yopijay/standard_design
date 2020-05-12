@@ -15453,3 +15453,7 @@ body.agm-standard .progress .progress-bar.progressbar-dark {
   background-color: #353b48;
 }
 
+body.agm-standard .tooltip {
+  font-size: 0.7rem;
+}
+

@@ -4,6 +4,8 @@ $(function() {
     $('.navbar-side > ul > .list').sidenav($('.navbar-side > ul').find('.navbar-link'));
     // Activate popover
     $('[data-toggle= "popover"]').popover();
+    // Activate tooltip
+    $('[data-toggle= "tooltip"]').tooltip();
 });
 
 // Branded Buttons
