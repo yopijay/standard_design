@@ -1,0 +1,52 @@
+@mixin alert-default() {
+    .alert {
+        &.alert-primary {
+            background-color: rgba($color-primary-highlight, 0.3);
+            color: $color-dark-highlight;
+            font-size: .8rem;
+            border: solid 1px rgba($color-primary-highlight, 0.3);
+        }
+        &.alert-secondary {
+            background-color: rgba($color-secondary-highlight, 0.3);
+            color: $color-dark-highlight;
+            font-size: .8rem;
+            border: solid 1px rgba($color-secondary-highlight, 0.3);
+        }
+        &.alert-success {
+            background-color: rgba($color-success-highlight, 0.3);
+            color: $color-dark-highlight;
+            font-size: .8rem;
+            border: solid 1px rgba($color-success-highlight, 0.3);
+        }
+        &.alert-warning {
+            background-color: rgba($color-warning-highlight, 0.3);
+            color: $color-dark-highlight;
+            font-size: .8rem;
+            border: solid 1px rgba($color-warning-highlight, 0.3);
+        }
+        &.alert-danger {
+            background-color: rgba($color-danger-highlight, 0.3);
+            color: $color-dark-highlight;
+            font-size: .8rem;
+            border: solid 1px rgba($color-danger-highlight, 0.3);
+        }
+        &.alert-info {
+            background-color: rgba($color-info-highlight, 0.3);
+            color: $color-dark-highlight;
+            font-size: .8rem;
+            border: solid 1px rgba($color-info-highlight, 0.3);
+        }
+        &.alert-light {
+            background-color: rgba($color-light-highlight, 0.3);
+            color: $color-dark-highlight;
+            font-size: .8rem;
+            border: solid 1px rgba($color-light-highlight, 0.3);
+        }
+        &.alert-dark {
+            background-color: rgba($color-dark-highlight, 0.3);
+            color: $color-dark-highlight;
+            font-size: .8rem;
+            border: solid 1px rgba($color-dark-highlight, 0.3);
+        }
+    }
+}

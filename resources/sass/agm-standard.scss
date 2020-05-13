@@ -21,6 +21,7 @@
 @import 'popover';
 @import 'progressbar';
 @import 'tooltip';
+@import 'alert';
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 body.agm-standard {
@@ -51,4 +52,5 @@ body.agm-standard {
     @include popover-default;
     @include progressbar-default;
     @include tooltip-default;
+    @include alert-default;
 }
