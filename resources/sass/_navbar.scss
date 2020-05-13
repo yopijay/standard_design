@@ -8,6 +8,12 @@
         &.navbar-dark {
             @include navbar-theme($color-dark, $color-light);
         }
+        &-brand {
+            margin-left: 4rem;
+            img {
+                margin-right: 1rem;
+            }
+        }
     }
 }
 

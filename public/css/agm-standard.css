@@ -11032,6 +11032,14 @@ body.agm-standard .navbar.navbar-dark .navbar-header a h1 {
   color: #f5f6fa;
 }
 
+body.agm-standard .navbar-brand {
+  margin-left: 4rem;
+}
+
+body.agm-standard .navbar-brand img {
+  margin-right: 1rem;
+}
+
 body.agm-standard .navbar-side {
   background-color: #f5f6fa;
   overflow-y: scroll;

@@ -13,14 +13,11 @@
     </head>
     <body class= "agm-standard">
         <div class= "container-fluid px-0">
-            <div class= "row navbar navbar-light shadow-sm sticky-top px-5 w-100 mx-0">
-                <div class= "col-md-3 offset-md-1 navbar-header">
+            <div class= "navbar navbar-light shadow-sm sticky-top px-5 w-100 mx-0">
+                <div class= "navbar-brand">
                     <a href= "#">
                         <h1 class= "mt-1 mb-0"><span>A</span>GM</h1>
                     </a>
-                </div>
-                <div class= "col-md-8 navbar-links">
-                
                 </div>
             </div>
             <div class= "row mx-0">
@@ -121,6 +118,7 @@
                     @include('components.forms.input-group')
                     @include('components.forms.validation')
                     @include('components.nav.nav')
+                    @include('components.nav.navbar')
                     @include('components.table.datatable')
                     @include('components.table.standard')
                     @include('components.pages.login')
