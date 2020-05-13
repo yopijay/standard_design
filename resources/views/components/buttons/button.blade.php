@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "button-page">
     <h4>BUTTONS</h4>
-    <p class= "mb-1">Bootstrap buttons component for actions in tables, forms, cards, and more. Bootstrap 4 provides various styles, states, and size. Ready to use and easy to customize.</p>
+    <p class= "mb-1">AGM buttons component for actions in tables, forms, cards, and more. AGM provides various styles, states, and size. Ready to use and easy to customize.</p>
     <hr>
     <p class= "mb-1">AGM includes a bunch of predefined Bootstrap buttons,each serving its own semantic purpose. AGM also offers some unique buttons styles.</p>
     <div class= "row my-3">

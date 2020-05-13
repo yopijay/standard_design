@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "modal-page">
     <h4>MODALS</h4>
-    <p class= "mb-1">Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
+    <p class= "mb-1">Use AGM’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
     <hr>
     <p class= "text-info mb-1 h5">LIVE DEMO</p>
     <div class= "row mt-3 mb-5">

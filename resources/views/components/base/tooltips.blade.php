@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "tooltip-page">
     <h4>TOOLTIPS</h4>
-    <p class= "mb-1">Documentation and examples for adding custom Bootstrap tooltips with CSS and JavaScript using CSS3 for animations and data-attributes for local title storage.</p>
+    <p class= "mb-1">Documentation and examples for adding custom AGM tooltips with CSS and JavaScript using CSS3 for animations and data-attributes for local title storage.</p>
     <hr>
     <p class= "text-info mb-1 h5">EXAMPLE: ENABLE TOOLTIPS EVERYWHERE</p>
     <p class= "mb-1">One way to initialize all tooltips on a page would be to select them by their <span class= "text-danger">data-toggle</span> attribute:</p>
@@ -38,10 +38,3 @@
         </div>
     </div>
 </div>
-        <!--<div class= "col-md-6 py-3 agm-bg-light rounded">
-            <p class= "text-info mb-3 h5">Preview:</p>
-        </div>
-        <div class= "col-md-6 py-3">
-            <p class= "h5 text-info mb-3">Example Code:</p>
-            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
-        </div> -->

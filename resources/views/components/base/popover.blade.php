@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "popover-page">
     <h4>POPOVER</h4>
-    <p class= "mb-1">Documentation and examples for adding Bootstrap popovers, like those found in iOS, to any element on your site.</p>
+    <p class= "mb-1">Documentation and examples for adding AGM popovers, like those found in iOS, to any element on your site.</p>
     <hr>
     <p class= "text-info mb-1 h5">EXAMPLE: ENABLE POPOVERS ANYWHERE</p>
     <p class= "mb-1">One way to initialize all popovers on a page would be to select them by their <span class= "text-danger">data-toggle</span> attribute:</p>

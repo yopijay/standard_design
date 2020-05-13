@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "nav-page">
     <h4>NAVS</h4>
-    <p class= "mb-1">Documentation and examples for how to use Bootstrap’s included navigation components.</p>
+    <p class= "mb-1">Documentation and examples for how to use AGM’s included navigation components.</p>
     <hr>
     <p class= "text-info mb-1 h5">BASE NAV</p>
     <p class= "mb-3">Navigation available in Bootstrap share general markup and styles, from the base <span class= "text-danger">.nav</span> class to the active and disabled states. Swap modifier classes to switch between each style.</p>

@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "typography-page">
     <h4>TYPOGRAPHY</h4>
-    <p class= "mb-1">Documentation and examples for Bootstrap typography, including headings, body text, lists, and more.</p>
+    <p class= "mb-1">Documentation and examples for AGM typography, including headings, body text, lists, and more.</p>
     <hr>
     <p class= "mb-1 text-info h5">HEADINGS</p>
     <p class= "mb-1">All HTML headings, <span class= "text-danger">< h1 ></span> through <span class= "text-danger">< h5 ></span>, are available.</p>

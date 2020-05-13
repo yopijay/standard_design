@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "dropdown-page">
     <h4>DROPDOWNS</h4>
-    <p class= "mb-1">Toggle contextual overlays for displaying lists of links and more with the Bootstrap dropdown plugin.</p>
+    <p class= "mb-1">Toggle contextual overlays for displaying lists of links and more with the AGM dropdown plugin.</p>
     <hr>
     <p class= "mb-3">Wrap the dropdown’s toggle (your button or link) and the dropdown menu within <span class= "text-danger">.dropdown</span>, or another element that declares <span class= "text-danger">position: relative;</span>. Dropdowns can be triggered from < <span class= "text-danger">a</span> > or < <span class= "text-danger">button</span> > elements to better fit your potential needs.</p>
     <p class= "text-info mb-1 h5">SIGLE BUTTON</p>

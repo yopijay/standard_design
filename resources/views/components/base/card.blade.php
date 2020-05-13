@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "card-page">
     <h4>CARDS</h4>
-    <p class= "mb-1">Bootstrap cards component provide a flexible and extensible container for displaying content. Bootstrap cards are delivered with a bunch of variants and options.</p>
+    <p class= "mb-1">AGM cards component provide a flexible and extensible container for displaying content. AGM cards are delivered with a bunch of variants and options.</p>
     <hr>
     <p class= "mb-3">Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components. They have no <span class= "text-danger">margin</span> by default, so use <a href= "#">spacing utilities</a> as needed.</p>
     <p class= "mb-1">Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they’ll naturally fill the full width of its parent element. This is easily customized with our various <a href= "#">sizing options</a>.</p>

@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "layout-page">
     <h4>LAYOUT</h4>
-    <p class= "mb-1">Since Bootstrap applies <span class= "text-danger">display: block</span> and <span class= "text-danger">width: 100%</span> to almost all our form controls, forms will by default stack vertically. Additional classes can be used to vary this layout on a per-form basis.</p>
+    <p class= "mb-1">Since AGM applies <span class= "text-danger">display: block</span> and <span class= "text-danger">width: 100%</span> to almost all our form controls, forms will by default stack vertically. Additional classes can be used to vary this layout on a per-form basis.</p>
     <hr>
     <p class= "text-info mb-1 h5">FORM GROUPS</p>
     <p class= "mb-1">The <span class= "text-danger">.form-group</span> class is the easiest way to add some structure to forms. It provides a flexible class that encourages proper grouping of labels, controls, optional help text, and form validation messaging. By default it only applies <span class= "text-danger">margin-bottom</span>, but it picks up additional styles in <span class= "text-danger">.form-inline</span> as needed. Use it with < <span class= "text-danger">fieldset</span> >s, < <span class= "text-danger">div</span> >s, or nearly any other element.</p>

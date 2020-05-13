@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "progress-page">
     <h4>PROGRESS</h4>
-    <p class= "mb-1">Documentation and examples for using Bootstrap custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.</p>
+    <p class= "mb-1">Documentation and examples for using AGM custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.</p>
     <hr>
     <div class= "row my-3">
         <div class= "col-md-6 py-3 agm-bg-light rounded">

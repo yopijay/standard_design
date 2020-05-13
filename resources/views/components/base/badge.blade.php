@@ -1,6 +1,6 @@
 <div class= "p-4 mt-4 mr-4 content" id= "badge-page">
     <h4>BADGES</h4>
-    <p class= "mb-1">Bootstrap badges are small count and labeling components.</p>
+    <p class= "mb-1">AGM badges are small count and labeling components.</p>
     <hr>
     <p class= "mb-1">Badges scale to match the size of the immediate parent element by using relative font sizing and <span class= "text-danger">em</span> units.</p>
     <div class= "row mt-3 mb-3">
