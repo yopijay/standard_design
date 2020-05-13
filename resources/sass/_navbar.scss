@@ -105,9 +105,14 @@
                     }
                 }
             }
+            & ul li:hover>a p {
+                background-color: darken($background-color-highlight, 10%);
+                color: $color-highlight;
+                transition: all 0.3s ease-in-out;
+            }
             & ul li.active {
                 a p {
-                    background-color: $background-color-highlight;
+                    background-color: darken($background-color-highlight, 10%);
                     color: $color;
                     i {
                         transform: rotate(90deg);

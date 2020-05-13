@@ -60,7 +60,7 @@
                             <li class= "list">
                                 <a href= "#"><p>Forms <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "forms-page"><p>Forms</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "layout-page"><p>Layout</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "validation-page"><p>Form Validation</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "input-group-page"><p>Input Group</p></a></li>
@@ -116,6 +116,7 @@
                     @include('components.buttons.button-group')
                     @include('components.buttons.radio')
                     @include('components.buttons.toggle')
+                    @include('components.forms.form')
                     @include('components.forms.input')
                     @include('components.forms.validation')
                     @include('components.table.datatable')

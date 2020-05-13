@@ -11123,8 +11123,14 @@ body.agm-standard .navbar-side ul li.active > .items li {
   transition: all 0.3s ease-in-out;
 }
 
+body.agm-standard .navbar-side ul li ul li:hover > a p {
+  background-color: #c1c2c9;
+  color: #2f3640;
+  transition: all 0.3s ease-in-out;
+}
+
 body.agm-standard .navbar-side ul li ul li.active a p {
-  background-color: #dcdde1;
+  background-color: #c1c2c9;
   color: #353b48;
 }
 
@@ -11267,8 +11273,14 @@ body.agm-standard .navbar-side.navbar-side-light ul li.active > .items li {
   transition: all 0.3s ease-in-out;
 }
 
+body.agm-standard .navbar-side.navbar-side-light ul li ul li:hover > a p {
+  background-color: #c1c2c9;
+  color: #2f3640;
+  transition: all 0.3s ease-in-out;
+}
+
 body.agm-standard .navbar-side.navbar-side-light ul li ul li.active a p {
-  background-color: #dcdde1;
+  background-color: #c1c2c9;
   color: #353b48;
 }
 
@@ -11411,8 +11423,14 @@ body.agm-standard .navbar-side.navbar-side-dark ul li.active > .items li {
   transition: all 0.3s ease-in-out;
 }
 
+body.agm-standard .navbar-side.navbar-side-dark ul li ul li:hover > a p {
+  background-color: #191d23;
+  color: #dcdde1;
+  transition: all 0.3s ease-in-out;
+}
+
 body.agm-standard .navbar-side.navbar-side-dark ul li ul li.active a p {
-  background-color: #2f3640;
+  background-color: #191d23;
   color: #f5f6fa;
 }
 
@@ -12254,6 +12272,7 @@ body.agm-standard .card-header {
   font-size: 0.9rem;
   font-family: "Cocogoose";
   color: #353b48;
+  background-color: white;
 }
 
 body.agm-standard .card-body {
@@ -13587,6 +13606,42 @@ body.agm-standard .form-group .form-message {
   font-size: 0.6rem;
   float: right;
   font-weight: bold;
+}
+
+body.agm-standard .form-control {
+  font-size: 0.8rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px 10px;
+  color: #7f8fa6;
+}
+
+body.agm-standard .form-control:focus {
+  border: solid 1px #7f8fa6;
+  box-shadow: none;
+}
+
+body.agm-standard .form-control.form-success {
+  border: solid 1px #4cd137;
+}
+
+body.agm-standard .form-control.form-warning {
+  border: solid 1px #fbc531;
+}
+
+body.agm-standard .form-control.form-danger {
+  border: solid 1px #e84118;
+}
+
+body.agm-standard .form-control.form-info {
+  border: solid 1px #273c75;
+}
+
+body.agm-standard .form-control.form-square {
+  border-radius: 0px;
+}
+
+body.agm-standard .form-control.form-pills {
+  border-radius: 50px;
 }
 
 body.agm-standard .form-radio.radio-primary input:checked + span {

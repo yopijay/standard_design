@@ -28,6 +28,23 @@
             font-weight: bold;
         }
     }
+    .form-control {
+        font-size: .8rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        padding: 5px 10px;
+        color: $color-secondary;
+        &:focus {
+            border: solid 1px $color-secondary;
+            box-shadow: none;
+        }
+        @include input-theme(default);
+        &.form-square {
+            border-radius: 0px;
+        }
+        &.form-pills {
+            border-radius: 50px;
+        }
+    }
 }
 
 @mixin input-theme($type) {
