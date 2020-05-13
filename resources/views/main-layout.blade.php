@@ -120,6 +120,7 @@
                     @include('components.forms.input')
                     @include('components.forms.input-group')
                     @include('components.forms.validation')
+                    @include('components.nav.nav')
                     @include('components.table.datatable')
                     @include('components.table.standard')
                     @include('components.pages.login')
