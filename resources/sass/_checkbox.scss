@@ -1,5 +1,7 @@
 @mixin checkbox-default() {
     .form-checkbox {
+        margin-top: 5px;
+        margin-right: -5px;
         &.checkbox-default {
             @include checkbox-theme(square);
             input {

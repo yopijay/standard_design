@@ -45,6 +45,17 @@
             border-radius: 50px;
         }
     }
+    .input-group {
+        &-prepend,
+        &-append {
+            .input-group-text {
+                vertical-align: center;
+                padding: 0px 10px;
+                background-color: $color-light-highlight;
+                color: $color-dark;
+            }
+        }
+    }
 }
 
 @mixin input-theme($type) {
@@ -62,6 +73,4 @@
             border: solid 1px $color-info;
         }
     }
-    @else if $type=='square' {}
-    @else if $type=='pills' {}
 }

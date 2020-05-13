@@ -118,6 +118,7 @@
                     @include('components.buttons.toggle')
                     @include('components.forms.form')
                     @include('components.forms.input')
+                    @include('components.forms.input-group')
                     @include('components.forms.validation')
                     @include('components.table.datatable')
                     @include('components.table.standard')

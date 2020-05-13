@@ -12794,6 +12794,11 @@ body.agm-standard .agm-badge.badge-square {
   border-radius: 0px;
 }
 
+body.agm-standard .form-checkbox {
+  margin-top: 5px;
+  margin-right: -5px;
+}
+
 body.agm-standard .form-checkbox.checkbox-default.checkbox-primary input:checked + label i {
   color: #f5f6fa;
 }
@@ -13642,6 +13647,18 @@ body.agm-standard .form-control.form-square {
 
 body.agm-standard .form-control.form-pills {
   border-radius: 50px;
+}
+
+body.agm-standard .input-group-prepend .input-group-text,
+body.agm-standard .input-group-append .input-group-text {
+  vertical-align: center;
+  padding: 0px 10px;
+  background-color: #dcdde1;
+  color: #353b48;
+}
+
+body.agm-standard .form-radio {
+  margin-right: -10px;
 }
 
 body.agm-standard .form-radio.radio-primary input:checked + span {

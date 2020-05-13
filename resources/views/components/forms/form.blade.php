@@ -218,7 +218,7 @@
                 </div>
                 <div class= "form-group row">
                     <label for= "check" class= "col-md-2 col-form-label">Check</label>
-                    <div class= "col-md-10 mt-2">
+                    <div class= "col-md-10">
                         <div class= "form-checkbox checkbox-default">
                             <input type= "checkbox" id= "checkbox1">
                             <label for= "checkbox1">
@@ -399,12 +399,3 @@
         </div>
     </div>
 </div>
-    <!-- <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
-            <p class= "text-info mb-3 h5">Preview:</p>
-        </div>
-        <div class= "col-md-6 py-3">
-            <p class= "h5 text-info mb-3">Example Code:</p>
-            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
-        </div>
-    </div> -->

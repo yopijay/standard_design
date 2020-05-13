@@ -1,5 +1,6 @@
 @mixin radio-default() {
     .form-radio {
+        margin-right: -10px;
         @include radio-theme();
         label {
             position: relative;
