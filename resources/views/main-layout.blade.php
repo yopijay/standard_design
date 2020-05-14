@@ -13,11 +13,28 @@
     </head>
     <body class= "agm-standard">
         <div class= "container-fluid px-0">
-            <div class= "navbar navbar-light shadow-sm sticky-top px-5 w-100 mx-0">
+            <div class= "navbar navbar-expand-lg navbar-light shadow-sm sticky-top px-5 w-100 mx-0">
                 <div class= "navbar-brand">
                     <a href= "#">
                         <h1 class= "mt-1 mb-0"><span>A</span>GM</h1>
                     </a>
+                </div>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class= "navbar-nav">
+                        <li class= "nav-item"><a class= "nav-link" href= '#'><i class= "fas fa-bell"></i></a></li>
+                        <li class= "nav-item"><a class= "nav-link" href= '#'><i class= "fas fa-envelope"></i></a></li>
+                        <li class= "nav-item dropdown">
+                            <a class= "nav-link" href= "#" role= "button" id= "accountDropdown" data-toggle= "dropdown"><img src= "{{ asset('img/man.png') }}"><i class= "fas fa-caret-down"></i></a>
+                            <div class= "dropdown-menu dropdown-menu-right" aria-labelledby= "accountDropdown">
+                                <span class= "dropdown-item-text font-weight-bold">Paul John Judan</span>
+                                <div class= "dropdown-divider"></div>
+                                <a class= "dropdown-item" href= "#"><i class= "fas fa-user text-info"></i>&nbsp;&nbsp;&nbsp;Personal Information</a>
+                                <a class= "dropdown-item" href= "#"><i class= "fas fa-cogs text-info"></i>&nbsp;&nbsp;&nbsp;Account Settings</a>
+                                <div class= "dropdown-divider"></div>
+                                <a class= "dropdown-item" href= "#"><i class= "fas fa-sign-out-alt text-info"></i>&nbsp;&nbsp;&nbsp;Logout</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class= "row mx-0">

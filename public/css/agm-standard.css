@@ -11040,6 +11040,26 @@ body.agm-standard .navbar-brand img {
   margin-right: 1rem;
 }
 
+body.agm-standard .navbar-nav .nav-item {
+  margin: 0px 10px;
+}
+
+body.agm-standard .navbar-nav .nav-item .nav-link {
+  vertical-align: middle;
+}
+
+body.agm-standard .navbar-nav .nav-item .nav-link i {
+  font-size: 1.1rem;
+  margin-top: 0.7rem;
+}
+
+body.agm-standard .navbar-nav .nav-item .nav-link img {
+  float: left;
+  width: 40px;
+  height: 40px;
+  margin: 0px 10px;
+}
+
 body.agm-standard .navbar-side {
   background-color: #f5f6fa;
   overflow-y: scroll;
