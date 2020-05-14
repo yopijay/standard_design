@@ -1,10 +1,10 @@
-<div class= "p-4 mt-4 mr-4 content" id= "input-group-page">
+<div class= "px-5 mt-5 content" id= "input-group-page">
     <h4>INPUT GROUP</h4>
     <p class= "mb-1">Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.</p>
     <hr>
     <p class= "mb-1">Place one add-on or button on either side of an input. You may also place one on both sides of an input. Remember to place < <span class= "text-danger">label</span> >s outside the input group.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "input-group mb-2">
                 <div class= "input-group-prepend">
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group-prepend</span>" ></p>
@@ -39,7 +39,7 @@
     <p class= "text-info mb-1 h5">WRAPPING</p>
     <p class= "mb-1">Input groups wrap by default via <span class= "text-danger">flex-wrap: wrap</span> in order to accommodate custom form field validation within an input group. You may disable this with <span class= "text-danger">.flex-nowrap</span>.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "input-group flex-nowrap mb-2">
                 <div class= "input-group-prepend">
@@ -48,7 +48,7 @@
                 <input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1">
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group flex-nowrap</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group-prepend</span>" ></p>
@@ -63,7 +63,7 @@
     <p class= "mb-3">Add the relative form sizing classes to the <span class= "text-danger">.input-group</span> itself and contents within will automatically resize—no need for repeating the form control size classes on each element.</p>
     <p class= "mb-1"><b>Sizing on the individual input group elements isn’t supported.</b></p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "input-group input-group-sm mb-2">
                 <div class= "input-group-prepend">
@@ -84,7 +84,7 @@
                 <input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1">
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group input-group-sm</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group-prepend</span>" ></p>
@@ -110,7 +110,7 @@
     <p class= "text-info mb-1 h5">CHECKBOX AND RADIOS</p>
     <p class= "mb-1">Place any checkbox or radio option within an input group’s addon instead of text.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "input-group mb-2">
                 <div class= "input-group-prepend">
@@ -137,7 +137,7 @@
                 <input type= "text" class= "form-control">
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group-prepend</span>" ></p>
@@ -167,7 +167,7 @@
     <p class= "text-info mb-1 h5">MULTIPLE INPUTS</p>
     <p class= "mb-1">While multiple < <span class= "text-danger">input</span> >s are supported visually, validation styles are only available for input groups with a single < <span class= "text-danger">input</span> >.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "input-group mb-2">
                 <div class= "input-group-prepend">
@@ -177,7 +177,7 @@
                 <input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1">
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group-prepend</span>" ></p>
@@ -192,7 +192,7 @@
     <p class= "text-info mb-1 h5">MULTIPLE ADDONS</p>
     <p class= "mb-1">Multiple add-ons are supported and can be mixed with checkbox and radio input versions.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "input-group mb-2">
                 <div class= "input-group-prepend">
@@ -202,7 +202,7 @@
                 <input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1">
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group-prepend</span>" ></p>
@@ -216,7 +216,7 @@
     </div>
     <p class= "text-info mb-1 h5">BUTTON ADDONS</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "input-group mb-2">
                 <div class= "input-group-prepend">
@@ -225,7 +225,7 @@
                 <input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1">
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">input-group-prepend</span>" ></p>

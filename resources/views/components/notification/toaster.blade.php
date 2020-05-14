@@ -1,9 +1,9 @@
-<div class= "p-4 mt-4 mr-4 content" id= "toaster-page">
+<div class= "px-5 mt-5 content" id= "toaster-page">
     <h4>TOASTERS</h4>
     <p class= "mb-1">Toasts are lightweight notifications designed to mimic the push notifications that have been popularized by mobile and desktop operating systems. They’re built with flexbox, so they’re easy to align and position.</p>
     <hr>
-    <div class="row mt-5">
-        <div class="col-md-4">
+    <div class="row my-5">
+        <div class="col-lg-4 col-12">
             <p class= "font-weight-bold text-uppercase text-info mb-4">Toast Type</p>
             <div class= "form-radio radio radio-dark">
                 <input type= "radio" id= "toast_default" name= "toast_type" checked value= "">
@@ -36,7 +36,7 @@
                 <label for= "toast_outline_pills">Outline - Pills</label>
             </div>
         </div>
-        <div class= "col-md-3">
+        <div class= "col-lg-3 col-12">
             <p class= "font-weight-bold text-uppercase text-info mb-4">Toast Theme</p>
             <div class= "form-radio radio-dark">
                 <input type= "radio" id= "toast_success" name= "toast_theme" checked value= "toast-success">
@@ -59,7 +59,7 @@
                 <label for= "toast_info" class= "text-info">Info</label>
             </div>
         </div>
-        <div class="col-md-5">
+        <div class="col-lg-5 col-12">
             <p class= "font-weight-bold text-uppercase text-info mb-4">Other Content</p>
             <form action="" id= "toastContent">
                 <div class="form-group mb-2">
@@ -72,7 +72,7 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-12 mt-5">
+        <div class= "col-lg-12 mt-5 col-12">
             <div class= "row">
                 <div class= "col-md-6">
                     <p class= "align-middle" id= "toaster-code">toaster.success("", "").show(0);</p>

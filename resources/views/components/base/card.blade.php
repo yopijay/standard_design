@@ -1,11 +1,11 @@
-<div class= "p-4 mt-4 mr-4 content" id= "card-page">
+<div class= "px-5 mt-5 content" id= "card-page">
     <h4>CARDS</h4>
     <p class= "mb-1">AGM cards component provide a flexible and extensible container for displaying content. AGM cards are delivered with a bunch of variants and options.</p>
     <hr>
     <p class= "mb-3">Cards are built with as little markup and styles as possible, but still manage to deliver a ton of control and customization. Built with flexbox, they offer easy alignment and mix well with other Bootstrap components. They have no <span class= "text-danger">margin</span> by default, so use <a href= "#">spacing utilities</a> as needed.</p>
     <p class= "mb-1">Below is an example of a basic card with mixed content and a fixed width. Cards have no fixed width to start, so they’ll naturally fill the full width of its parent element. This is easily customized with our various <a href= "#">sizing options</a>.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="card">
                 <img src="{{ asset('img/dog.jpg') }}" class="card-img-top" alt="...">
@@ -16,7 +16,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">card-img-top</span>" alt= "<span class= "text-danger">...</span>" ></p>
@@ -34,7 +34,7 @@
     <p class= "text-info mb-1 h5">BODY</p>
     <p class= "mb-1">The building block of a card is the <span class= "text-danger">.card-body</span>. Use it whenever you need a padded section within a card.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "card">
                 <div class= "card-body">
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-body</span>" ></p>
@@ -56,7 +56,7 @@
     <p class= "mb-3">Card titles are used by adding <span class= "text-danger">.card-title</span> to a < <span class= "text-danger">h*</span> > tag. In the same way, links are added and placed next to each other by adding <span class= "text-danger">.card-link</span> to an < <span class= "text-danger">a</span> > tag.</p>
     <p class= "mb-1">Subtitles are used by adding a <span class= "text-danger">.card-subtitle</span> to a < <span class= "text-danger">h*</span> > tag. If the <span class= "text-danger">.card-title</span> and the <span class= "text-danger">.card-subtitle</span> items are placed in a <span class= "text-danger">.card-body</span> item, the card title and subtitle are aligned nicely.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "card">
                 <div class= "card-body">
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-body</span>"" ></p>
@@ -85,7 +85,7 @@
     <p class= "text-info mb-1 h5">IMAGES</p>
     <p class= "mb-1"><span class= "text-danger">.card-img-top</span> places an image to the top of the card. With <span class= "text-danger">.card-text</span>, text can be added to the card. Text within <span class= "text-danger">.card-text</span> can also be styled with the standard HTML tags.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="card">
                 <img src="{{ asset('img/dog.jpg') }}" class="card-img-top" alt="...">
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class="<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">img</span> src="<span class= "text-danger">...</span>" class="<span class= "text-danger">card-img-top</span>" alt="<span class= "text-danger">...</span>" ></p>
@@ -108,7 +108,7 @@
     <p class= "text-info mb-1 h5">LIST GROUPS</p>
     <p class= "mb-1">Create lists of content in a card with a flush list group.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="card mb-4">
                 <ul class="list-group list-group-flush">
@@ -126,7 +126,7 @@
                 </ul>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">ul</span> class= "<span class= "text-danger">list-group list-group-flush</span>" ></p>
@@ -149,7 +149,7 @@
     <p class= "text-info mb-1 h5">KITCHEN SINK</p>
     <p class= "mb-1">Mix and match multiple content types to create the card you need, or throw everything in there. Shown below are image styles, blocks, text styles, and a list group—all wrapped in a fixed-width card.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "card">
                 <img src= "{{ asset('img/dog.jpg') }}" class= "card-img-top" alt= "...">
@@ -168,7 +168,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">card-img-top</span>" alt= "<span class= "text-danger">...</span>" ></p>
@@ -192,7 +192,7 @@
     <p class= "text-info mb-1 h5">HEADER AND FOOTER</p>
     <p class= "mb-1">Add an optional header and/or footer within a card.</p>
     <div class= "row mt-3 mb-4">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="card">
                 <div class="card-header">Featured</div>
@@ -203,7 +203,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class="<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class=" <span class= "text-danger">card-header</span>" >Featured< <span class= "text-danger">/div</span> ></p>
@@ -218,7 +218,7 @@
     </div>
     <p class= "mb-1">Card headers can be styled by adding <span class= "text-danger">.card-header</span> to < <span class= "text-danger">h*</span> > elements.</p>
     <div class= "row mt-3 mb-4">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="card">
                 <h5 class="card-header">Featured</h5>
@@ -229,7 +229,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class="<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">h5</span> class=" <span class= "text-danger">card-header</span>" >Featured< <span class= "text-danger">/h5</span> ></p>
@@ -243,7 +243,7 @@
         </div>
     </div>
     <div class= "row mt-3 mb-4">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="card">
                 <div class="card-header">Quote</div>
@@ -255,7 +255,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class="<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class=" <span class= "text-danger">card-header</span>" >Quote< <span class= "text-danger">/div</span> ></p>
@@ -270,7 +270,7 @@
         </div>
     </div>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="card text-center">
                 <div class="card-header">Featured</div>
@@ -282,7 +282,7 @@
                 <div class="card-footer text-muted">2 days ago</div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card text-center</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-header</span>" >Featured< <span class= "text-danger">/div</span> ></p>
@@ -301,7 +301,7 @@
     <p class= "text-info mb-1 h5">USING GRID MARKUP</p>
     <p class= "mb-1">Using the grid, wrap cards in columns and rows as needed.</p>
     <div class= "row my-3">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "row">
                 <div class= "col-md-6">
@@ -324,7 +324,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">row</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">col-md-6</span>" ></p>
@@ -352,7 +352,7 @@
     <p class= "text-info mb-1 h5">USING UTILITIES</p>
     <p class= "mb-1">Use our handful of <a href= "#">available sizing utilities</a> to quickly set a card’s width.</p>
     <div class= "row my-3">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "card w-75 mb-3">
                 <div class= "card-body">
@@ -369,7 +369,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card w-75</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-body</span>" ></p>
@@ -391,7 +391,7 @@
     <p class= "text-info mb-1 h5">TEXT ALIGNMENT</p>
     <p class= "mb-1">You can quickly change the text alignment of any card—in its entirety or specific parts—with our <a href= "#">text align classes</a>.</p>
     <div class= "row my-3">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "row">
                 <div class= "col-md-4">
@@ -423,7 +423,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-body</span>" ></p>
@@ -454,7 +454,7 @@
     <p class= "text-info mb-1 h5">IMAGE CAPS</p>
     <p class= "mb-1">Similar to headers and footers, cards can include top and bottom “image caps”—images at the top or bottom of a card.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <div class= "card mb-3">
                 <img src= "{{ asset('img/dog.jpg') }}" class= "card-img-top" alt= "...">
@@ -473,7 +473,7 @@
                 <img src= "{{ asset('img/dog.jpg') }}" class= "card-img-top" alt= "...">
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">card-img-top</span>" alt= "<span class= "text-danger">...</span>" ></p>
@@ -497,7 +497,7 @@
     <p class= "text-info mb-1 h5">IMAGE OVERLAYS</p>
     <p class= "mb-1">Turn an image into a card background and overlay your card’s text. Depending on the image, you may or may not need additional styles or utilities.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "card">
                 <img src= "{{ asset('img/dog.jpg') }}" class= "card-img" alt= "...">
@@ -508,7 +508,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">img</span> src= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">card-img</span>" alt= "<span class= "text-danger">...</span>" ></p>
@@ -524,7 +524,7 @@
     <p class= "text-info mb-1 h5">HORIZONTAL</p>
     <p class= "mb-1">Using a combination of grid and utility classes, cards can be made horizontal in a mobile-friendly and responsive way. In the example below, we remove the grid gutters with <span class= "text-danger">.no-gutters</span> and use <span class= "text-danger">.col-md-*</span> classes to make the card horizontal at the <span class= "text-danger">md</span> breakpoint. Further adjustments may be needed depending on your card content.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "card">
                 <div class= "row no-gutters">
@@ -541,7 +541,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">row no-gutters</span>" ></p>
@@ -563,7 +563,7 @@
     <p class= "text-info mb-1 h5">Background and color</p>
     <p class= "mb-1">Use <span class= "text-danger">.card-* { primary, secondary, success, warning, danger, info, dark, light }</span> for your desired background-color.</p>
     <div class= "row my-3">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "row">
                 <div class= "col-md-4">
@@ -632,7 +632,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card card-primary</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-body</span>" ></p>
@@ -688,7 +688,7 @@
     <p class= "text-info mb-1 h5">OUTLINE CARD</p>
     <p class= "mb-1">Use <span class= "text-danger">.card-outline</span> and add <span class= "text-danger">.card-*{ primary, secondary, success, warning, danger, info, light, dark }</span> for your desired style. Note that you can put <span class= "text-danger">.text-{color}</span> classes on the parent <span class= "text-danger">.card</span> or a subset of the card’s contents as shown below.</p>
     <div class= "row my-3">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "row">
                 <div class= "col-md-4">
@@ -757,7 +757,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card card-outline card-primary</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-body</span>" ></p>
@@ -813,7 +813,7 @@
     <p class= "text-info mb-1 h5">ACCENT CARD</p>
     <p class= "mb-1">Use <span class= "text-danger">.card-accent</span> and add <span class= "text-danger">.card-*{ primary, secondary, success, warning, danger, info, light, dark }</span> for your desired style. Note that you can put <span class= "text-danger">.text-{color}</span> classes on the parent <span class= "text-danger">.card</span> or a subset of the card’s contents as shown below.</p>
     <div class= "row my-3">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "row">
                 <div class= "col-md-4">
@@ -882,7 +882,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "text-info mb-3 h5">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">card card-accent card-primary</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-body</span>" ></p>

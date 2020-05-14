@@ -1,10 +1,10 @@
-<div class= "p-4 mt-4 mr-4 content" id= "button-group-page">
+<div class= "px-5 mt-5 content" id= "button-group-page">
     <h4>BUTTON GROUP</h4>
     <p class= "mb-1">Group a series of buttons together on a single line with the button group, and super-power them with JavaScript.</p>
     <hr>
     <p class= "mb-1">Wrap a series of buttons with <span class= "text-danger">.btn</span> in <span class= "text-danger">.btn-group</span>. Add on optional JavaScript radio and checkbox style behavior with our buttons plugin.</p>
     <div class= "row mt-3 mb-5">
-        <div class="col-md-6 py-3 agm-bg-light rounded">
+        <div class="col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "btn-group" role= "group" aria-label= "Basic example">
                 <button type= "button" class= "btn btn-solid btn-secondary">Left</button>
@@ -12,7 +12,7 @@
                 <button type= "button" class= "btn btn-solid btn-secondary">Right</button>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">btn-group</span>" role= "<span class= "text-danger">group</span>" aria-label= "<span class= "text-danger">Basic example</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary</span>" >Left< <span class= "text-danger">/button</span> ></p>
@@ -25,7 +25,7 @@
     <p class= "text-info mb-1 h5">BUTTON TOOLBAR</p>
     <p class= "mb-1">Combine sets of button groups into button toolbars for more complex components. Use utility classes as needed to space out groups, buttons, and more.</p>
     <div class= "row mt-3 mb-5">
-        <div class="col-md-6 py-3 agm-bg-light rounded">
+        <div class="col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
                 <div class="btn-group mr-2" role="group" aria-label="First group">
@@ -44,7 +44,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">btn-toolbar</span>" role= "<span class= "text-danger">toolbar</span>" aria-label= "<span class= "text-danger">Toolbar with button groups</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">btn-group mr-2</span>" role= "<span class= "text-danger">group</span>" aria-label= "<span class= "text-danger">First group</span>" ></p>
@@ -68,7 +68,7 @@
     <p class= "text-info mb-1 h5">SIZING</p>
     <p class= "mb-1">Instead of applying button sizing classes to every button in a group, just add <span class= "text-danger">.btn-group-*</span> to each <span class= "text-danger">.btn-group</span>, including each one when nesting multiple groups.</p>
     <div class= "row mt-3 mb-5">
-        <div class="col-md-6 py-3 agm-bg-light rounded">
+        <div class="col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "row">
                 <div class= "col-md-12">
@@ -94,7 +94,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">btn-group btn-group-lg</span>" role= "<span class= "text-danger">group</span>" aria-label= "<span class= "text-danger">...</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">btn-group</span>" role= "<span class= "text-danger">group</span>" aria-label= "<span class= "text-danger">...</span>" >...< <span class= "text-danger">/div</span> ></p>
@@ -105,7 +105,7 @@
     <p class= "text-info mb-1 h5">NESTING</p>
     <p class= "mb-1">Place a <span class= "text-danger">.btn-group</span> within another <span class= "text-danger">.btn-group</span> when you want dropdown menus mixed with a series of buttons.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
                 <button type="button" class="btn btn-solid btn-secondary">1</button>
@@ -121,7 +121,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">btn-group</span>" role= "<span class= "text-danger">group</span>" aria-label= "<span class= "text-danger">Button group with nested dropdown</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary</span>" >1< <span class= "text-danger">/button</span> ></p>

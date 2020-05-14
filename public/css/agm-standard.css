@@ -11068,7 +11068,7 @@ body.agm-standard .navbar-side {
   background-color: #f5f6fa;
   overflow-y: scroll;
   padding: 0.5rem 0;
-  width: 280px;
+  height: 500px;
 }
 
 body.agm-standard .navbar-side::-webkit-scrollbar {
@@ -11086,7 +11086,7 @@ body.agm-standard .navbar-side ul li {
   position: relative;
 }
 
-body.agm-standard .navbar-side ul li.label {
+body.agm-standard .navbar-side ul li.navbar-label {
   background-color: #f5f6fa;
   margin: 15px 0px 10px 0px;
   color: #00cec9;
@@ -11218,7 +11218,7 @@ body.agm-standard .navbar-side.navbar-side-light {
   background-color: #f5f6fa;
   overflow-y: scroll;
   padding: 0.5rem 0;
-  width: 280px;
+  height: 500px;
 }
 
 body.agm-standard .navbar-side.navbar-side-light::-webkit-scrollbar {
@@ -11236,7 +11236,7 @@ body.agm-standard .navbar-side.navbar-side-light ul li {
   position: relative;
 }
 
-body.agm-standard .navbar-side.navbar-side-light ul li.label {
+body.agm-standard .navbar-side.navbar-side-light ul li.navbar-label {
   background-color: #f5f6fa;
   margin: 15px 0px 10px 0px;
   color: #00cec9;
@@ -11368,7 +11368,7 @@ body.agm-standard .navbar-side.navbar-side-dark {
   background-color: #353b48;
   overflow-y: scroll;
   padding: 0.5rem 0;
-  width: 280px;
+  height: 500px;
 }
 
 body.agm-standard .navbar-side.navbar-side-dark::-webkit-scrollbar {
@@ -11386,7 +11386,7 @@ body.agm-standard .navbar-side.navbar-side-dark ul li {
   position: relative;
 }
 
-body.agm-standard .navbar-side.navbar-side-dark ul li.label {
+body.agm-standard .navbar-side.navbar-side-dark ul li.navbar-label {
   background-color: #353b48;
   margin: 15px 0px 10px 0px;
   color: #00cec9;
@@ -15260,13 +15260,13 @@ body.agm-standard .modal-dialog .modal-content .modal-header button i {
 body.agm-standard .table thead th,
 body.agm-standard .table thead td {
   font-size: 0.8rem;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 body.agm-standard .table tbody th,
 body.agm-standard .table tbody td {
   font-size: 0.7rem;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 body.agm-standard .table.table-hover tbody tr:hover {

@@ -1,10 +1,10 @@
-<div class= "p-4 mt-4 mr-4 content" id= "checkbox-page">
+<div class= "px-5 mt-5 content" id= "checkbox-page">
     <h4>CHECKBOX</h4>
     <hr>
     <p class= "text-info mb-1 h5">NORMAL</p>
     <p class= "mb-4">Add <span class= "text-danger">.checkbox-* {primary , secondary, success, warning, danger, info, light, dark}</span> for your desired checkbox color.</p>
     <div class= "row mt-3 mb-5">
-        <div class="col-md-6 py-3 agm-bg-light rounded">
+        <div class="col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "form-checkbox checkbox-default">
                 <input type= "checkbox" id= "checkbox-default">
@@ -14,7 +14,7 @@
                 </label>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-checkbox checkbox-default</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">checkbox</span>" id= "<span class= "text-danger">checkbox-default</span>" ></p>
@@ -29,7 +29,7 @@
     <p class= "text-info mb-1 h5">ROUNDED</p>
     <p class= "mb-4">Add <span class= "text-danger">.checkbox-* {primary , secondary, success, warning, danger, info, light, dark}</span> for your desired checkbox color.</p>
     <div class= "row mt-3 mb-5">
-        <div class="col-md-6 py-3 agm-bg-light rounded">
+        <div class="col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "form-checkbox checkbox-rounded">
                 <input type= "checkbox" id= "checkbox-rounded">
@@ -39,7 +39,7 @@
                 </label>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-checkbox checkbox-rounded</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">input</span> type= "<span class= "text-danger">checkbox</span>" id= "<span class= "text-danger">checkbox-rounded</span>" ></p>
@@ -54,7 +54,7 @@
     <p class= "text-info mb-1 h5">ANIMATED</p>
     <p class= "mb-4">Add <span class= "text-danger">.checkbox-* {primary , secondary, success, warning, danger, info, light, dark}</span> for your desired checkbox color.</p>
     <div class= "row mt-3 mb-5">
-        <div class="col-md-6 py-3 agm-bg-light rounded">
+        <div class="col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "form-checkbox checkbox-animated">
                 <input type= "checkbox" id= "checkbox-animated">
@@ -67,7 +67,7 @@
                 </label>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">checkbox checkbox-animated</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">input</span> type= "<span class= "text-danger">checkbox</span>" id= "<span class= "text-danger">checkbox-animated</span>" ></p>

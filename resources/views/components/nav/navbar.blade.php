@@ -1,4 +1,4 @@
-<div class= "p-4 mt-4 mr-4 content" id= "navbar-page">
+<div class= "px-5 mt-5 content" id= "navbar-page">
     <h4>NAVBAR</h4>
     <p class= "mb-1">Documentation and examples for AGM’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.</p>
     <hr>
@@ -81,7 +81,7 @@
     <p class= "text-info mb-1 h5">BRAND</p>
     <p class= "mb-1">The <span class= "text-danger">.navbar-brand</span> can be applied to most elements, but an anchor works best as some elements might require utility classes or custom styles.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;">
                 <a class= "navbar-brand" href= "#">Navbar</a>
@@ -90,7 +90,7 @@
                 <span class= "navbar-brand h5">Navbar</span>
             </nav>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1"><span class= "text-secondary">< !-- As a link -- ></span></p>
             <p class= "mb-1">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-dark agm-bg-dark</span>" ></p>
@@ -105,13 +105,13 @@
     </div>
     <p class= "mb-1">Adding images to the <span class= "text-danger">.navbar-brand</span> will likely always require custom styles or utilities to properly size. Here are some examples to demonstrate.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;">
                 <a class= "navbar-brand" href= "#"><img src= "{{ asset('img/man.png') }}" width= "40" height= "40"></a>
             </nav>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1"><span class= "text-secondary">< !-- Just an image -- ></span></p>
             <p class= "mb-1">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-dark agm-bg-dark</span>" ></p>
@@ -121,13 +121,13 @@
         </div>
     </div>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;">
                 <a class= "navbar-brand h5" href= "#"><img src= "{{ asset('img/man.png') }}" width= "40" height= "40"> AGM</a>
             </nav>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1"><span class= "text-secondary">< !-- Image and text -- ></span></p>
             <p class= "mb-1">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-dark agm-bg-dark</span>" ></p>
@@ -140,7 +140,7 @@
     <p class= "mb-3">Navbar navigation links build on our <span class= "text-danger">.nav</span> options with their own modifier class and require the use of toggler classes for proper responsive styling. <b>Navigation in navbars will also grow to occupy as much horizontal space as possible</b> to keep your navbar contents securely aligned.</p>
     <p class= "mb-1">Active states—with <span class= "text-danger">.active</span>—to indicate the current page can be applied directly to <span class= "text-danger">.nav-link</span>s or their immediate parent <span class= "text-danger">.nav-item</span>s.</p>
     <div class= "row my-3">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -173,7 +173,7 @@
                 </div>
             </nav>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">nav</span> class="<span class= "text-danger">navbar navbar-expand-lg navbar-light agm-bg-light</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> class="<span class= "text-danger">navbar-brand</span>" href="<span class= "text-danger">#</span>" >Navbar< /a ></p>
@@ -208,7 +208,7 @@
     </div>
     <p class= "mb-1">And because we use classes for our navs, you can avoid the list-based approach entirely if you like.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -225,7 +225,7 @@
                 </div>
             </nav>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">nav</span> class="<span class= "text-danger">navbar navbar-expand-lg navbar-light agm-bg-light</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> class="<span class= "text-danger">navbar-brand</span>" href="<span class= "text-danger">#</span>" >Navbar< <span class= "text-danger">/a</span> ></p>
@@ -247,7 +247,7 @@
     <p class= "text-info mb-1 h5">COLOR SCHEME</p>
     <p class= "mb-1">Theming the navbar has never been easier thanks to the combination of theming classes and <span class= "text-danger">background-color</span> utilities. Choose from <span class= "text-danger">.navbar-light</span> for use with light background colors, or <span class= "text-danger">.navbar-dark</span> for dark background colors. Then, customize with <span class= "text-danger">.agm-bg-*</span> utilities.</p>
     <div class= "row my-3">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <nav class="navbar navbar-expand-lg navbar-light agm-bg-light mb-3" style= "z-index: 500;">
                 <a class="navbar-brand" href="#">Navbar</a>
@@ -352,7 +352,7 @@
                 </div>
             </nav>
         </div>
-        <div class= "col-md-12 py-3">
+        <div class= "col-lg-12 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-2">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-expand-lg navbar-light agm-bg-light</span>" > ... < <span class= "text-danger">/nav</span> ></p>
             <p class= "mb-2">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-expand-lg navbar-dark agm-bg-dark</span>" > ... < <span class= "text-danger">/nav</span> ></p>

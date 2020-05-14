@@ -1,4 +1,4 @@
-<div class= "p-4 mt-4 mr-4 content" id= "input-page">
+<div class= "px-5 mt-5 content" id= "input-page">
     <h4>INPUT FIELDS</h4>
     <p class= "mb-1">Be sure to use an appropriate <span class= "text-danger">type</span> attribute on all inputs (e.g., <span class= "text-danger">email</span> for email address or <span class= "text-danger">number</span> for numerical information) to take advantage of newer input controls like email verification, number selection, and more.</p>
     <p class= "mb-1">Here’s a quick example to demonstrate Bootstrap’s form styles. Keep reading for documentation on required classes, form layout, and more.</p>
@@ -6,7 +6,7 @@
     <p class= "text-info mb-1 h5">FORM CONTROLS</p>
     <p class= "mb-4">Textual form controls—like < <span class= "text-danger">input</span> >s, < <span class= "text-danger">select</span> >s, and < <span class= "text-danger">textarea</span> >s—are styled with the .form-control class. Included are styles for general appearance, focus state, sizing, and more.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="form-group mb-2">
@@ -44,7 +44,7 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
@@ -85,7 +85,7 @@
     <p class= "text-info mb-1 h5">SIZING</p>
     <p class= "mb-4">Set heights using classes like <span class= "text-danger">.form-control-lg</span> and <span class= "text-danger">.form-control-sm</span>.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="form-group mb-2">
@@ -98,7 +98,7 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
@@ -115,7 +115,7 @@
     </div>
     <p class= "text-info mb-1 h5">STYLES</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="form-group mb-2">
@@ -128,7 +128,7 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
@@ -145,7 +145,7 @@
     </div>
     <p class= "mb-1">Use <span class= "text-danger">.form-* {success, danger, warning, info}</span> for your desired input theme.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "form-group mb-2">
                 <label for= "field">Success:</label>
@@ -164,7 +164,7 @@
                 <input type= "text" class= "form-control form-info" id= "field"/>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>

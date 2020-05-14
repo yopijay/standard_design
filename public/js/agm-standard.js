@@ -1,7 +1,8 @@
 $(function() {
     // Brand buttons
     brandButtons();
-    $('.navbar-side > ul > .list').sidenav($('.navbar-side > ul').find('.navbar-link'));
+    $('.navbar-side').sidenav();
+    // $('.navbar-side > ul > .list').sidenav($('.navbar-side > ul').find('.navbar-link'));
     // Activate popover
     $('[data-toggle= "popover"]').popover();
     // Activate tooltip
@@ -175,19 +176,24 @@ var toaster = (function() {
 })();
 
 // Sidenav Function
-$.fn.sidenav = function(submenu) {
-    let _list = this;
-    let _links = submenu;
+$.fn.sidenav = function() {
 
-    $(_list).on('click', function() {
-        $(_list).removeClass('active');
-        $(this).addClass('active');
-    });
+    for (var count = 0; count < this.length; count++) {
+        let _id = this[count].id;
 
-    $(_links).on('click', function() {
-        $(_links).removeClass('active');
-        $(this).addClass('active');
-    });
+        let _list = $('#' + _id + ' > ul > .list');
+        let _links = $('#' + _id + ' > ul').find('.navbar-link');
+
+        $(_list).on('click', function() {
+            $(_list).removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $(_links).on('click', function() {
+            $(_links).removeClass('active');
+            $(this).addClass('active');
+        });
+    }
 
     return this;
 }

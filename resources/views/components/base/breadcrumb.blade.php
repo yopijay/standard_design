@@ -1,10 +1,10 @@
-<div class= "p-4 mt-4 mr-4 content" id= "breadcrumb-page">
+<div class= "px-5 mt-5 content" id= "breadcrumb-page">
     <h4>BREADCRUMB</h4>
     <p class= "mb-1">Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.</p>
     <hr>
     <p class= "mb-1">Use the <span class= "text-danger">.breadcrumb-square</span> modifier class to make the breadcrumb corners set to 0(Sets border-radius to 0). And <span class= "text-danger">.breadcrumb-pill</span> to make the breadcrumb corners more rounded</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb">
@@ -25,7 +25,7 @@
                 </ol>
             </nav>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">nav</span> aria-label= "<span class= "text-danger">breadcrumb</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">ol</span> class= "<span class= "text-danger">breadcrumb</span>" ></p>

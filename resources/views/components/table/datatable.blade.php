@@ -1,4 +1,4 @@
-<div class= "p-4 mt-4 mr-4 content" id= "datatable-page">
+<div class= "px-5 mt-5 content" id= "datatable-page">
     <h4>DATATABLES</h4>
     <hr>
     <table class= "table table-bordered" id= "sample">

@@ -1,4 +1,4 @@
-<div class= "p-4 mt-4 mr-4 content" id= "dashboard-page">
+<div class= "px-5 mt-5 content" id= "dashboard-page">
     <h4>DASHBOARD</h4>
     <hr>
 </div>

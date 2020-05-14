@@ -1,4 +1,4 @@
-<div class= "p-4 mt-4 mr-4 content" id= "dropdown-page">
+<div class= "px-5 mt-5 content" id= "dropdown-page">
     <h4>DROPDOWNS</h4>
     <p class= "mb-1">Toggle contextual overlays for displaying lists of links and more with the AGM dropdown plugin.</p>
     <hr>
@@ -6,7 +6,7 @@
     <p class= "text-info mb-1 h5">SIGLE BUTTON</p>
     <p class= "mb-1">Any single <span class= "text-danger">.btn</span> can be turned into a dropdown toggle with some markup changes. Here’s how you can put them to work with either < <span class= "text-danger">button</span> > elements:</p>
     <div class= "row my-3">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="dropdown">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">dropdown</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropdown button< <span class="text-danger">/button</span> ></p>
@@ -34,7 +34,7 @@
     </div>
     <p class= "mb-1">And with < <span class= "text-danger">a</span> > elements:</p>
     <div class= "row my-3">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="dropdown">
                 <a class="btn btn-solid btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -47,7 +47,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">dropdown</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">a</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" role= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuLink</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropdown link< <span class="text-danger">/a</span> ></p>
@@ -62,7 +62,7 @@
     </div>
     <p class= "mb-1">The best part is you can do this with any button variant, too:</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="btn-group mb-1">
                 <button class="btn btn-solid btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -161,7 +161,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">btn-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-primary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropdown link< <span class="text-danger">/button</span> ></p>
@@ -180,7 +180,7 @@
     <p class= "mb-3">Similarly, create split button dropdowns with virtually the same markup as single button dropdowns, but with the addition of <span class= "text-danger">.dropdown-toggle-split</span> for proper spacing around the dropdown caret.</p>
     <p class= "mb-1">We use this extra class to reduce the horizontal <span class= "text-danger">padding</span> on either side of the caret by 25% and remove the <span class= "text-danger">margin-left</span> that’s added for regular button dropdowns. Those extra changes keep the caret centered in the split button and provide a more appropriately sized hit area next to the main button.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class="btn-group mb-1">
                 <button type="button" class="btn btn-solid btn-primary">Primary</button>
@@ -287,7 +287,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">btn-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-primary</span>" >Primary< <span class= "text-danger">/button</span> ></p>
@@ -306,7 +306,7 @@
     <p class= "text-info mb-1 h5">SIZING</p>
     <p class= "mb-1">Button dropdowns work with buttons of all sizes, including default and split dropdown buttons.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "btn-group mb-1">
                 <button class="btn btn-solid btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Large button</button>
@@ -343,7 +343,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">btn-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-primary btn-lg dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropdown link< <span class="text-danger">/button</span> ></p>
@@ -373,7 +373,7 @@
     <p class= "text-info mb-1 h5">DROPUP</p>
     <p class= "mb-1">Trigger dropdown menus above elements by adding <span class= "text-danger">.dropup</span> to the parent element.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "btn-group dropup mb-1">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</button>
@@ -393,7 +393,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">btn-group dropup</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-primary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropup< <span class="text-danger">/button</span> ></p>
@@ -422,7 +422,7 @@
     <p class= "text-info mb-1 h5">DROPRIGHT</p>
     <p class= "mb-1">Trigger dropdown menus at the right of the elements by adding <span class= "text-danger">.dropright</span> to the parent element.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "btn-group dropright mb-1">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropright</button>
@@ -442,7 +442,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">btn-group dropright</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-primary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropright< <span class="text-danger">/button</span> ></p>
@@ -471,7 +471,7 @@
     <p class= "text-info mb-1 h5">DROPLEFT</p>
     <p class= "mb-1">Trigger dropdown menus at the left of the elements by adding <span class= "text-danger">.dropleft</span> to the parent element.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <div class= "btn-group dropleft mb-1">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropleft</button>
@@ -493,7 +493,7 @@
                 <button class= "btn btn-solid btn-secondary" type= "button">Dropleft</button>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">btn-group dropleft</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-primary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropleft< <span class="text-danger">/button</span> ></p>
@@ -524,7 +524,7 @@
     <p class= "text-info mb-1 h5">MENU ITEMS</p>
     <p class= "mb-1">Historically dropdown menu contents had to be links, but that’s no longer the case with v4. Now you can optionally use < <span class= "text-danger">button</span> > elements in your dropdowns instead of just < <span class= "text-danger">a</span> >s.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="dropdown">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -537,7 +537,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">dropdown</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropdown button< <span class="text-danger">/button</span> ></p>
@@ -552,7 +552,7 @@
     </div>
     <p class= "mb-1">You can also create non-interactive dropdown items with <span class= "text-danger">.dropdown-item-text</span>. Feel free to style further with custom CSS or text utilities.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="dropdown">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -566,7 +566,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">dropdown</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropdown button< <span class="text-danger">/button</span> ></p>
@@ -583,7 +583,7 @@
     <p class= "text-info mb-1 h5">ACTIVE</p>
     <p class= "mb-1">Add <span class= "text-danger">.active</span> to items in the dropdown to <b>.active</b>.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="dropdown">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -596,7 +596,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">dropdown</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropdown button< <span class="text-danger">/button</span> ></p>
@@ -612,7 +612,7 @@
     <p class= "text-info mb-1 h5">DISABLED</p>
     <p class= "mb-1">Add <span class= "text-danger">.disabled</span> to items in the dropdown to <b>style them as disabled</b>.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="dropdown">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -625,7 +625,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">dropdown</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Dropdown button< <span class="text-danger">/button</span> ></p>
@@ -641,7 +641,7 @@
     <p class= "text-info mb-1 h5">MENU ALIGNMENT</p>
     <p class= "mb-1">By default, a dropdown menu is automatically positioned 100% from the top and along the left side of its parent. Add <span class= "text-danger">.dropdown-menu-right</span> to a <span class= "text-danger">.dropdown-menu</span> to right align the dropdown menu.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="dropdown">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -654,7 +654,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">dropdown</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Right-aligned menu< <span class="text-danger">/button</span> ></p>
@@ -671,7 +671,7 @@
     <p class= "mb-3">If you want to use responsive alignment, disable dynamic positioning by adding the <span class= "text-danger">data-display="static"</span> attribute and use the responsive variation classes.</p>
     <p class= "mb-1">To align <b>right</b> the dropdown menu with the given breakpoint or larger, add <span class= "text-danger">.dropdown-menu{-sm|-md|-lg|-xl}-right</span>.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="btn-group">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-display= "static" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -684,7 +684,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">btn-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-display= "<span class= "text-danger">static</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Left-aligned but right aligned when large screen< <span class="text-danger">/button</span> ></p>
@@ -699,7 +699,7 @@
     </div>
     <p class= "mb-1">To align <b>left</b> the dropdown menu with the given breakpoint or larger, add <span class= "text-danger">.dropdown-menu-right</span> and <span class= "text-danger">.dropdown-menu{-sm|-md|-lg|-xl}-left</span>.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <div class="btn-group">
                 <button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-display= "static" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -712,7 +712,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class="text-danger">div</span> class= "<span class="text-danger">btn-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">button</span> class= "<span class="text-danger">btn btn-solid btn-secondary dropdown-toggle</span>" type= "<span class="text-danger">button</span>" id= "<span class="text-danger">dropdownMenuButton</span>" data-display= "<span class= "text-danger">static</span>" data-toggle= "<span class="text-danger">dropdown</span>" aria-haspopup= "<span class="text-danger">true</span>" aria-expanded= "<span class="text-danger">false</span>" >Right-aligned but left aligned when large screen< <span class="text-danger">/button</span> ></p>

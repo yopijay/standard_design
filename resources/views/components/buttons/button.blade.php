@@ -1,10 +1,10 @@
-<div class= "p-4 mt-4 mr-4 content" id= "button-page">
+<div class= "px-5 mt-5 content" id= "button-page">
     <h4>BUTTONS</h4>
     <p class= "mb-1">AGM buttons component for actions in tables, forms, cards, and more. AGM provides various styles, states, and size. Ready to use and easy to customize.</p>
     <hr>
     <p class= "mb-1">AGM includes a bunch of predefined Bootstrap buttons,each serving its own semantic purpose. AGM also offers some unique buttons styles.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <button class= "btn btn-solid btn-primary my-1">Primary</button>
             <button class= "btn btn-solid btn-secondary my-1">Secondary</button>
@@ -15,7 +15,7 @@
             <button class= "btn btn-solid btn-light my-1">Light</button>
             <button class= "btn btn-solid btn-dark my-1">Dark</button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary</span>" >Primary< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-secondary</span>" >Secondary< <span class= "text-danger">/button</span> ></p>
@@ -30,7 +30,7 @@
     </div>
     <p class= "mb-1">Just add <span class= "text-danger">.btn-square</span> to remove the radius of your button.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <button class= "btn btn-solid btn-square btn-primary my-1">Primary</button>
             <button class= "btn btn-solid btn-square btn-secondary my-1">Secondary</button>
@@ -41,7 +41,7 @@
             <button class= "btn btn-solid btn-square btn-light my-1">Light</button>
             <button class= "btn btn-solid btn-square btn-dark my-1">Dark</button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-square btn-primary</span>" >Primary< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-square btn-secondary</span>" >Secondary< <span class= "text-danger">/button</span> ></p>
@@ -56,7 +56,7 @@
     </div>
     <p class= "mb-1">Just replace the <span class= "text-danger">.btn-square</span> modifier class to <span class= "text-danger">.btn-pills</span> to make your button pill shape.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <button class= "btn btn-solid btn-pills btn-primary my-1">Primary</button>
             <button class= "btn btn-solid btn-pills btn-secondary my-1">Secondary</button>
@@ -67,7 +67,7 @@
             <button class= "btn btn-solid btn-pills btn-light my-1">Light</button>
             <button class= "btn btn-solid btn-pills btn-dark my-1">Dark</button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-square btn-primary</span>" >Primary< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-square btn-secondary</span>" >Secondary< <span class= "text-danger">/button</span> ></p>
@@ -84,7 +84,7 @@
     <p class= "mb-3">The <span class= "text-danger">.btn</span> classes are designed to be used with the < <span class= "text-danger">button</span> > element. However, you can also use these classes on < <span class= "text-danger">a</span> > or < <span class= "text-danger">input</span> > elements (though some browsers may apply a slightly different rendering).</p>
     <p class= "mb-1">When using button classes on < <span class= "text-danger">a</span> > elements that are used to trigger in-page functionality (like collapsing content), rather than linking to new pages or sections within the current page, these links should be given a <span class= "text-danger">role="button"</span> to appropriately convey their purpose to assistive technologies such as screen readers.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <a class= "btn btn-solid btn-primary" href= "#" role= "button">Link</a>
             <button class= "btn btn-solid btn-primary" type= "submit">Button</button>
@@ -92,7 +92,7 @@
             <input class= "btn btn-solid btn-primary" type= "submit" value= "Submit">
             <input class= "btn btn-solid btn-primary" type= "reset" value= "Reset">
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">a</span> class= "<span class= "text-danger">btn btn-solid btn-primary</span>" href= "<span class= "text-danger">#</span>" role= "<span class= "text-danger">button</span>" >Link< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary</span>" type= "<span class= "text-danger">submit</span>" >Button< <span class= "text-danger">/button</span> ></p>
@@ -105,7 +105,7 @@
     <p class= "text-info mb-1 h5">OUTLINED BUTTONS</p>
     <p class= "mb-1">In need of a button, but not the hefty background colors they bring? Replace the <span class= "text-danger">.btn-solid</span> modifier classes with <span class= "text-danger">.btn-outline</span> ones to remove all background images and colors on any button.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <button class= "btn btn-outline btn-primary my-1">Primary</button>
             <button class= "btn btn-outline btn-secondary my-1">Secondary</button>
@@ -116,7 +116,7 @@
             <button class= "btn btn-outline btn-light my-1">Light</button>
             <button class= "btn btn-outline btn-dark my-1">Dark</button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-primary</span>" >Primary< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-secondary</span>" >Secondary< <span class= "text-danger">/button</span> ></p>
@@ -131,7 +131,7 @@
     </div>
     <p class= "mb-1">Just add <span class= "text-danger">.btn-square</span> to remove the radius of your button.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <button class= "btn btn-outline btn-square btn-primary my-1">Primary</button>
             <button class= "btn btn-outline btn-square btn-secondary my-1">Secondary</button>
@@ -142,7 +142,7 @@
             <button class= "btn btn-outline btn-square btn-light my-1">Light</button>
             <button class= "btn btn-outline btn-square btn-dark my-1">Dark</button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-square btn-primary</span>" >Primary< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-square btn-secondary</span>" >Secondary< <span class= "text-danger">/button</span> ></p>
@@ -157,7 +157,7 @@
     </div>
     <p class= "mb-1">Just replace the <span class= "text-danger">.btn-square</span> modifier class to <span class= "text-danger">.btn-pills</span> to make your button pill shape.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <button class= "btn btn-outline btn-pills btn-primary my-1">Primary</button>
             <button class= "btn btn-outline btn-pills btn-secondary my-1">Secondary</button>
@@ -168,7 +168,7 @@
             <button class= "btn btn-outline btn-pills btn-light my-1">Light</button>
             <button class= "btn btn-outline btn-pills btn-dark my-1">Dark</button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-square btn-primary</span>" >Primary< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-square btn-secondary</span>" >Secondary< <span class= "text-danger">/button</span> ></p>
@@ -184,7 +184,7 @@
     <p class= "text-info mb-1 h5">SIZES</p>
     <p class= "mb-1">Fancy larger or smaller buttons? Add <span class= "text-danger">.btn-lg</span> or <span class= "text-danger">.btn-sm</span> for additional sizes.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <div class= "row">
                 <div class= "col-md-6">
@@ -195,7 +195,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary btn-lg</span>" >btn-lg< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-secondary btn-sm</span>" >btn-sm< <span class= "text-danger">/button</span> ></p>
@@ -204,12 +204,12 @@
     </div>
     <p class= "mb-1">Create block level buttons - those that span the full width of a parent - by adding <span class= "text-danger">.btn-block</span>.</p>
     <div class= "row  mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <button class= "btn btn-solid btn-primary btn-block my-2">btn-block</button>
             <button class= "btn btn-solid btn-secondary btn-block my-2">btn-block</button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary btn-block</span>" >btn-block< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-secondary btn-smblock</span>" >btn-block< <span class= "text-danger">/button</span> ></p>
@@ -219,7 +219,7 @@
     <p class= "text-info mb-1 h5">BUTTON BRANDS</p>
     <p class= "mb-1">You can also combine Bootstrap buttons with Brand Icons.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview</p>
             <button class= "btn facebook btn-brand mb-1"></button>
             <button class= "btn behance btn-brand mb-1"></button>
@@ -243,7 +243,7 @@
             <button class= "btn yahoo btn-brand mb-1"></button>
             <button class= "btn youtube btn-brand mb-1"></button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn facebook btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn behance btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>

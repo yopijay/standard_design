@@ -1,4 +1,4 @@
-<div class= "p-4 mt-4 mr-4 content" id= "validation-page">
+<div class= "px-5 mt-5 content" id= "validation-page">
     <h4>FORM VALIDATION</h4>
     <hr>
     <div class= "card">
@@ -6,7 +6,7 @@
             <h1 class= "card-title mb-5">FORM</h1>
             <form id= "sample-form-validation">
                 <div class= "row">
-                    <div class= "col-md-6">
+                    <div class= "col-lg-6 col-12">
                         <div class= "form-group">
                             <label for= "firstname" >First Name:</label>
                             <input type= "text" class= "form-control" id= "firstname" name= "firstname" input-label= "First Name" />
@@ -24,7 +24,7 @@
                             <textarea class= "form-control" id= "address20" name= "address20" rows= "3" input-label= "Address"></textarea>
                         </div>
                     </div>
-                    <div class= "col-md-6">
+                    <div class= "col-lg-6 col-12">
                         <div class= "form-group">
                             <label for= "status20">Status:</label>
                             <select class= "form-control" id= "status20" name= "status20" input-label= "Status">

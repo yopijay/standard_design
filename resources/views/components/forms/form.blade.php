@@ -1,11 +1,11 @@
-<div class= "p-4 mt-4 mr-4 content" id= "layout-page">
+<div class= "px-5 mt-5 content" id= "layout-page">
     <h4>LAYOUT</h4>
     <p class= "mb-1">Since AGM applies <span class= "text-danger">display: block</span> and <span class= "text-danger">width: 100%</span> to almost all our form controls, forms will by default stack vertically. Additional classes can be used to vary this layout on a per-form basis.</p>
     <hr>
     <p class= "text-info mb-1 h5">FORM GROUPS</p>
     <p class= "mb-1">The <span class= "text-danger">.form-group</span> class is the easiest way to add some structure to forms. It provides a flexible class that encourages proper grouping of labels, controls, optional help text, and form validation messaging. By default it only applies <span class= "text-danger">margin-bottom</span>, but it picks up additional styles in <span class= "text-danger">.form-inline</span> as needed. Use it with < <span class= "text-danger">fieldset</span> >s, < <span class= "text-danger">div</span> >s, or nearly any other element.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="form-group">
@@ -18,7 +18,7 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
@@ -32,7 +32,7 @@
     <p class= "text-info mb-1 h5">FORM GRID</p>
     <p class= "mb-1">More complex forms can be built using our grid classes. Use these for form layouts that require multiple columns, varied widths, and additional alignment options.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="row">
@@ -45,7 +45,7 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">row</span>" ></p>
@@ -63,7 +63,7 @@
     <p class= "text-info mb-1 h5">FORM ROW</p>
     <p class= "mb-1">You may also swap <span class= "text-danger">.row</span> for <span class= "text-danger">.form-row</span>, a variation of our standard grid row that overrides the default column gutters for tighter and more compact layouts.</p>
     <div class= "row my-3">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class="form-row">
@@ -76,7 +76,7 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-row</span>" ></p>
@@ -93,7 +93,7 @@
     </div>
     <p class= "mb-1">More complex layouts can also be created with the grid system.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-12 py-3 agm-bg-light rounded">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class= "form-row">
@@ -186,7 +186,7 @@
     <p class= "mb-3">Create horizontal forms with the grid by adding the <span class= "text-danger">.row</span> class to form groups and using the <span class= "text-danger">.col-*-*</span> classes to specify the width of your labels and controls. Be sure to add <span class= "text-danger">.col-form-label</span> to your < <span class= "text-danger">label</span> >s as well so they’re vertically centered with their associated form controls.</p>
     <p class= "mb-1">At times, you maybe need to use margin or padding utilities to create that perfect alignment you need. For example, we’ve removed the <span class= "text-danger">padding-top</span> on our stacked radio inputs label to better align the text baseline.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 py-3 agm-bg-light rounded">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
             <form>
                 <div class= "form-group row">
@@ -230,7 +230,7 @@
                 </div>
             </form>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">form</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group row</span>" ></p>
@@ -245,7 +245,7 @@
     </div>
     <p class= "text-info mb-1 h5">CUSTOM FORMS</p>
     <div class= "row my-3">
-        <div class= "col-md-6 mb-3">
+        <div class= "col-lg-6 mb-3 col-12">
             <div class= "card">
                 <div class= "card-header">Credit Card Form</div>
                 <div class= "card-body">
@@ -259,7 +259,7 @@
                             <input type= "text" class= "form-control" id= "creditcard" name= "creditcard" placeholder= "0000 0000 0000 0000">
                         </div>
                         <div class= "form-row">
-                            <div class= "form-group col-md-4">
+                            <div class= "form-group col-4">
                                 <label for= "ccmonth">Month:</label>
                                 <select class= "form-control" id= "ccmonth" name= "ccmonth">
                                     <option value= "1">Jan</option>
@@ -276,7 +276,7 @@
                                     <option value= "12">Dec</option>
                                 </select>
                             </div>
-                            <div class= "form-group col-md-4">
+                            <div class= "form-group col-4">
                                 <label for= "ccyear">Year:</label>
                                 <select class= "form-control" id= "ccyear" name= "ccyear">
                                     <option value= "2011">2011</option>
@@ -293,7 +293,7 @@
                                     <option value= "2022">2022</option>
                                 </select>
                             </div>
-                            <div class= "form-group col-md-4">
+                            <div class= "form-group col-4">
                                 <label for= "cvvcvc">CVV/CVC:</label>
                                 <input type= "text" class= "form-control" id= "cvvcvc" name= "cvvcvc" placeholder= "000">
                             </div>
@@ -302,7 +302,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-6 mb-3">
+        <div class= "col-lg-6 mb-3 col-12">
             <div class= "card">
                 <div class= "card-header">Company Form</div>
                 <div class= "card-body">
@@ -320,11 +320,11 @@
                             <input type= "text" class= "form-control" id= "street" name= "street">
                         </div>
                         <div class= "form-row">
-                            <div class= "form-group col-md-8">
+                            <div class= "form-group col-8">
                                 <label for= "city">City:</label>
                                 <input type= "text" class= "form-control" id= "city" name= "city">
                             </div>
-                            <div class= "form-group col-md-4">
+                            <div class= "form-group col-4">
                                 <label for= "postalcode">Postal code:</label>
                                 <input type= "text" class= "form-control" id= "postalcode" name= "postalcode">
                             </div>
@@ -337,7 +337,7 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-5 mb-3">
+        <div class= "col-lg-5 mb-3 col-12">
             <div class= "card">
                 <div class= "card-header">Login Form</div>
                 <div class= "card-body">
@@ -354,21 +354,21 @@
                 </div>
             </div>
         </div>
-        <div class= "col-md-7 mb-3">
+        <div class= "col-lg-7 mb-3 col-12">
             <div class= "card">
                 <div class= "card-header">Registration Form</div>
                 <div class= "card-body">
                     <h5 class= "card-title">Personal Information</h5>
                     <div class= "form-row">
-                        <div class= "form-group col-md-4">
+                        <div class= "form-group col-4">
                             <label for= "fname">First name:</label>
                             <input type= "text" class= "form-control" id= "fname" name= "fname">
                         </div>
-                        <div class= "form-group col-md-4">
+                        <div class= "form-group col-4">
                             <label for= "mname">Middle name:</label>
                             <input type= "text" class= "form-control" id= "mname" name= "mname">
                         </div>
-                        <div class= "form-group col-md-4">
+                        <div class= "form-group col-4">
                             <label for= "lname">Last name:</label>
                             <input type= "text" class= "form-control" id= "lname" name= "lname">
                         </div>

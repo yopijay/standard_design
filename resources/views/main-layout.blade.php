@@ -37,16 +37,16 @@
                     </ul>
                 </div>
             </div>
-            <div class= "row mx-0">
-                <div class= "col-md-3 vh-100 px-0">
-                    <div class= "navbar-side navbar-side-light h-75 border rounded my-5 mx-4 shadow-sm position-fixed">
+            <div class= "row">
+                <div class= "col-lg-3 d-none d-lg-block position-fixed">
+                    <div class= "navbar-side navbar-side-light border rounded shadow-sm my-3 mx-3" id= "main-side-nav">
                         <ul>
-                            <li class= "label"><p class= "mb-1">Menu</p></li>
+                            <li class= "navbar-label"><p class= "mb-1">Menu</p></li>
                             <li class= "navbar-link list active"><a href= "#" content= "dashboard-page"><p>Dashboard</p></a></li>
-                            <li class= "label"><p class= "mb-1">Themes</p></li>
+                            <li class= "navbar-label"><p class= "mb-1">Themes</p></li>
                             <li class= "navbar-link list"><a href= "#" content= "color-page"><p>Colors</p></a></li>
                             <li class= "navbar-link list"><a href= "#" content= "typography-page"><p>Typography</p></a></li>
-                            <li class= "label"><p class= "mb-1">Components</p></li>
+                            <li class= "navbar-label"><p class= "mb-1">Components</p></li>
                             <li class= "list">
                                 <a href= "#"><p>Base <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
@@ -103,13 +103,13 @@
                                     <li class= "navbar-link list"><a href= "#" content= "standard-tbl-page"><p>Standard Tables</p></a></li>
                                 </ul>
                             </li>
-                            <li class= "label"><p class= "mb-1">Pages</p></li>
+                            <li class= "navbar-label"><p class= "mb-1">Pages</p></li>
                             <li class= "navbar-link list"><a href= "#" content= "login-page"><p>Login Page</p></a></li>
                             <li class= "navbar-link list"><a href= "#" content= "404-page"><p>404 Page</p></a></li>
                         </ul>
                     </div>
                 </div>
-                <div class= "col-md-9">
+                <div class= "col-lg-9 offset-lg-3 col-md-12 px-0">
                     @include('components.dashboard')
                     @include('components.themes.color')
                     @include('components.themes.typography')
@@ -136,11 +136,13 @@
                     @include('components.forms.validation')
                     @include('components.nav.nav')
                     @include('components.nav.navbar')
+                    @include('components.nav.sidenav')
                     @include('components.table.datatable')
                     @include('components.table.standard')
                     @include('components.pages.login')
                     @include('components.pages.404')
                 </div>
+            </div>
             </div>
         </div>
     </body>

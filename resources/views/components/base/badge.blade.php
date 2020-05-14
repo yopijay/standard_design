@@ -1,10 +1,10 @@
-<div class= "p-4 mt-4 mr-4 content" id= "badge-page">
+<div class= "px-5 mt-5 content" id= "badge-page">
     <h4>BADGES</h4>
     <p class= "mb-1">AGM badges are small count and labeling components.</p>
     <hr>
     <p class= "mb-1">Badges scale to match the size of the immediate parent element by using relative font sizing and <span class= "text-danger">em</span> units.</p>
     <div class= "row mt-3 mb-3">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <h1>Example heading <span class="agm-badge badge-secondary">New</span></h1>
             <h2>Example heading <span class="agm-badge badge-secondary">New</span></h2>
@@ -12,7 +12,7 @@
             <h4>Example heading <span class="agm-badge badge-secondary">New</span></h4>
             <h5>Example heading <span class="agm-badge badge-secondary">New</span></h5>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">h1</span> >Example heading < <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-secondary</span>" >New< <span class= "text-danger">/span</span> >< <span class= "text-danger">/h1</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">h2</span> >Example heading < <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-secondary</span>" >New< <span class= "text-danger">/span</span> >< <span class= "text-danger">/h2</span> ></p>
@@ -24,11 +24,11 @@
     </div>
     <p class= "mb-1">Badges can be used as part of links or buttons to provide a counter.</p>
     <div class= "row mt-3 mb-3">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <button type= "button" class= "btn btn-solid btn-primary">Notification <span class= "agm-badge badge-light">4</span></button>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-primary</span>" >Notification < <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-light</span>" >4< <span class= "text-danger">/span</span> >< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
@@ -39,7 +39,7 @@
     <p class= "text-info mb-1 h5">CONTEXTUAL VARIATIONS</p>
     <p class= "mb-1">Add any of the below mentioned modifier classes to change the appearance of a badge. You can also add <span class= "text-danger">.badge-outline</span>.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <span class= "agm-badge badge-primary">Primary</span>
             <span class= "agm-badge badge-primary badge-outline">Primary</span>
@@ -58,7 +58,7 @@
             <span class= "agm-badge badge-dark mb-5">Dark</span>
             <span class= "agm-badge badge-dark badge-outline mb-5">Dark</span>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-primary</span>" >Primary< <span class= "text-danger">/span</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-secondary</span>" >Secondary< <span class= "text-danger">/span</span> ></p>
@@ -74,7 +74,7 @@
     <p class= "text-info mb-1 h5">PILL BADGES</p>
     <p class= "mb-1">Use the <span class= "text-danger">.badge-pill</span> modifier class to make badges more rounded (with a larger <span class= "text-danger">border-radius</span> and additional horizontal <span class= "text-danger">padding</span>). Useful if you miss the badges from v3.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <span class= "agm-badge badge-primary badge-pills">Primary</span>
             <span class= "agm-badge badge-primary badge-pills badge-outline">Primary</span>
@@ -93,7 +93,7 @@
             <span class= "agm-badge badge-dark badge-pills">Dark</span>
             <span class= "agm-badge badge-dark badge-pills badge-outline">Dark</span>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-primary badge-pills</span>" >Primary< <span class= "text-danger">/span</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-secondary badge-pills</span>" >Secondary< <span class= "text-danger">/span</span> ></p>
@@ -109,7 +109,7 @@
     <p class= "text-info mb-1 h5">SQUARE BADGES</p>
     <p class= "mb-1">Use the <span class= "text-danger">.badge-square</span> modifier class to make square badges (Sets border-radius to 0).</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <span class= "agm-badge badge-primary badge-square">Primary</span>
             <span class= "agm-badge badge-primary badge-square badge-outline">Primary</span>
@@ -128,7 +128,7 @@
             <span class= "agm-badge badge-dark badge-square">Dark</span>
             <span class= "agm-badge badge-dark badge-square badge-outline">Dark</span>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-primary badge-square</span>" >Primary< <span class= "text-danger">/span</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-secondary badge-square</span>" >Secondary< <span class= "text-danger">/span</span> ></p>
@@ -144,7 +144,7 @@
     <p class= "text-info mb-1 h5">LINKS</p>
     <p class= "mb-1">Using the contextual <span class= "text-danger">.badge-*</span> classes on an < <span class= "text-danger">a</span> > element quickly provide actionable badges with hover and focus states.</p>
     <div class= "row mt-3 mb-5">
-        <div class= "col-md-6 agm-bg-light py-3 rounded">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
             <a href= "#" class= "agm-badge badge-primary">Primary</a>
             <a href= "#" class= "agm-badge badge-secondary">Secondary</a>
@@ -155,7 +155,7 @@
             <a href= "#" class= "agm-badge badge-light">Light</a>
             <a href= "#" class= "agm-badge badge-dark">Dark</a>
         </div>
-        <div class= "col-md-6 py-3">
+        <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">agm-badge badge-primary</span>" >Primary< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">agm-badge badge-secondary</span>" >Secondary< <span class= "text-danger">/a</span> ></p>
