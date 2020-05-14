@@ -20,14 +20,14 @@
                             <input type= "text" class= "form-control" id= "lastname" name= "lastname" input-label= "Last Name" />
                         </div>
                         <div class= "form-group">
-                            <label for= "address">Address:</label>
-                            <textarea class= "form-control" id= "address" name= "address" rows= "3" input-label= "Address"></textarea>
+                            <label for= "address20">Address:</label>
+                            <textarea class= "form-control" id= "address20" name= "address20" rows= "3" input-label= "Address"></textarea>
                         </div>
                     </div>
                     <div class= "col-md-6">
                         <div class= "form-group">
-                            <label for= "status">Status:</label>
-                            <select class= "form-control" id= "status" name= "status" input-label= "Status">
+                            <label for= "status20">Status:</label>
+                            <select class= "form-control" id= "status20" name= "status20" input-label= "Status">
                                 <option value= "" disabled selected>-- Select Civil Status --</option>
                                 <option value= "single">Single</option>
                                 <option value= "married">Married</option>
@@ -35,12 +35,12 @@
                             </select>
                         </div>
                         <div class= "form-group">
-                            <label for= "email" >Email:</label>
-                            <input type= "email" class= "form-control" id= "email" name= "email" input-label= "Email" />
+                            <label for= "email20" >Email:</label>
+                            <input type= "email" class= "form-control" id= "email20" name= "email20" input-label= "Email" />
                         </div>
                         <div class= "form-group mb-5">
-                            <label for= "password" >Password:</label>
-                            <input type= "password" class= "form-control" id= "password" name= "password" input-label= "Password" />
+                            <label for= "password20" >Password:</label>
+                            <input type= "password" class= "form-control" id= "password20" name= "password20" input-label= "Password" />
                         </div>
                         <button type= "button" class= "btn btn-solid btn-success btn-block py-2" id= "validate">Validate without toast</button>
                         <button type= "button" class= "btn btn-solid btn-success btn-block py-2" id= "validate-toast">Validate with toast</button>

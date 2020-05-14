@@ -21,8 +21,8 @@
                 </div>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul class= "navbar-nav">
-                        <li class= "nav-item"><a class= "nav-link" href= '#'><i class= "fas fa-bell"></i></a></li>
-                        <li class= "nav-item"><a class= "nav-link" href= '#'><i class= "fas fa-envelope"></i></a></li>
+                        <li class= "nav-item"><a class= "nav-link" href= '#'><i class= "fas fa-bell text-secondary"></i>&nbsp;&nbsp;&nbsp;Notification</a></li>
+                        <li class= "nav-item"><a class= "nav-link" href= '#'><i class= "fas fa-envelope text-secondary"></i>&nbsp;&nbsp;&nbsp;Messages</a></li>
                         <li class= "nav-item dropdown">
                             <a class= "nav-link" href= "#" role= "button" id= "accountDropdown" data-toggle= "dropdown"><img src= "{{ asset('img/man.png') }}"><i class= "fas fa-caret-down"></i></a>
                             <div class= "dropdown-menu dropdown-menu-right" aria-labelledby= "accountDropdown">
@@ -74,10 +74,10 @@
                             <li class= "list">
                                 <a href= "#"><p>Forms <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "layout-page"><p>Layout</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "validation-page"><p>Form Validation</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "input-page"><p>Input Fields</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "input-group-page"><p>Input Group</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "layout-page"><p>Layout</p></a></li>
                                 </ul>
                             </li>
                             <li class= "list">
@@ -99,8 +99,8 @@
                             <li class= "list">
                                 <a href= "#"><p>Tables <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "standard-tbl-page"><p>Standard Tables</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "datatable-page"><p>Datatables</p></a></li>
+                                    <li class= "navbar-link list"><a href= "#" content= "standard-tbl-page"><p>Standard Tables</p></a></li>
                                 </ul>
                             </li>
                             <li class= "label"><p class= "mb-1">Pages</p></li>

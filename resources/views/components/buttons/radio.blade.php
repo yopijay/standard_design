@@ -17,7 +17,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-radio</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">radio</span>" id= "<span class= "text-danger">radio-default</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">span</span> >< <span class= "text-danger">/span</span> ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">radio-default</span>" >Normal checkbox< <span class= "text-danger">/labe</span>l ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">radio-default</span>" >Radio default< <span class= "text-danger">/labe</span>l ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
