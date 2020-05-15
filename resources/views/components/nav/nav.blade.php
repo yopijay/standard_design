@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "nav-page">
+<div class= "px-3 mt-5 content" id= "nav-page">
     <h4>NAVS</h4>
     <p class= "mb-1">Documentation and examples for how to use AGM’s included navigation components.</p>
     <hr>

@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "button-page">
+<div class= "px-3 mt-5 content" id= "button-page">
     <h4>BUTTONS</h4>
     <p class= "mb-1">AGM buttons component for actions in tables, forms, cards, and more. AGM provides various styles, states, and size. Ready to use and easy to customize.</p>
     <hr>

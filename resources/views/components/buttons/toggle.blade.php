@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "toggle-page">
+<div class= "px-3 mt-5 content" id= "toggle-page">
     <h4>TOGGLES</h4>
     <hr>
     <p class= "text-info mb-1 h5">NORMAL TOGGLE</p>

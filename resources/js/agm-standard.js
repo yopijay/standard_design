@@ -1,8 +1,8 @@
 $(function() {
     // Brand buttons
     brandButtons();
+    // Activate sidenav functionality
     $('.navbar-side').sidenav();
-    // $('.navbar-side > ul > .list').sidenav($('.navbar-side > ul').find('.navbar-link'));
     // Activate popover
     $('[data-toggle= "popover"]').popover();
     // Activate tooltip
@@ -60,13 +60,13 @@ var toaster = (function() {
     var success = function(_type, _message) {
         var _toast = '<div class= "toaster ' + _type + ' toast-success" id= "toaster">' +
             '<div class= "row mx-0">' +
-            '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+            '<div class= "col-2 toaster-icon px-0 text-center">' +
             '<i class= "fas fa-check"></i>' +
             '</div>' +
-            '<div class= "col-md-8 toaster-message px-0">' +
+            '<div class= "col-8 toaster-message px-0">' +
             '<p>' + _message + '</p>' +
             '</div>' +
-            '<div class= "col-md-2 toaster-close px-0 text-center">' +
+            '<div class= "col-2 toaster-close px-0 text-center">' +
             '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
             '</div>' +
             '</div>' +
@@ -82,13 +82,13 @@ var toaster = (function() {
     var error = function(_type, _message) {
         var _toast = '<div class= "toaster ' + _type + ' toast-danger" id= "toaster">' +
             '<div class= "row mx-0">' +
-            '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+            '<div class= "col-2 toaster-icon px-0 text-center">' +
             '<i class= "fas fa-exclamation-triangle"></i>' +
             '</div>' +
-            '<div class= "col-md-8 toaster-message px-0">' +
+            '<div class= "col-8 toaster-message px-0">' +
             '<p>' + _message + '</p>' +
             '</div>' +
-            '<div class= "col-md-2 toaster-close px-0 text-center">' +
+            '<div class= "col-2 toaster-close px-0 text-center">' +
             '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
             '</div>' +
             '</div>' +
@@ -104,13 +104,13 @@ var toaster = (function() {
     var warning = function(_type, _message) {
         var _toast = '<div class= "toaster ' + _type + ' toast-warning" id= "toaster">' +
             '<div class= "row mx-0">' +
-            '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+            '<div class= "col-2 toaster-icon px-0 text-center">' +
             '<i class= "fas fa-radiation"></i>' +
             '</div>' +
-            '<div class= "col-md-8 toaster-message px-0">' +
+            '<div class= "col-8 toaster-message px-0">' +
             '<p>' + _message + '</p>' +
             '</div>' +
-            '<div class= "col-md-2 toaster-close px-0 text-center">' +
+            '<div class= "col-2 toaster-close px-0 text-center">' +
             '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
             '</div>' +
             '</div>' +
@@ -126,13 +126,13 @@ var toaster = (function() {
     var info = function(_type, _message) {
         var _toast = '<div class= "toaster ' + _type + ' toast-info" id= "toaster">' +
             '<div class= "row mx-0">' +
-            '<div class= "col-md-2 toaster-icon px-0 text-center">' +
+            '<div class= "col-2 toaster-icon px-0 text-center">' +
             '<i class= "fas fa-info-circle"></i>' +
             '</div>' +
-            '<div class= "col-md-8 toaster-message px-0">' +
+            '<div class= "col-8 toaster-message px-0">' +
             '<p>' + _message + '</p>' +
             '</div>' +
-            '<div class= "col-md-2 toaster-close px-0 text-center">' +
+            '<div class= "col-2 toaster-close px-0 text-center">' +
             '<button type= "button" id= "close-btn"><i class= "fas fa-times"></i></button>' +
             '</div>' +
             '</div>' +
@@ -194,6 +194,24 @@ $.fn.sidenav = function() {
             $(this).addClass('active');
         });
     }
+
+    let __id = this[0].id;
+    let _floatingBtn = '<a class= "floating-btn shadow-sm d-lg-none d-block" id= "' + __id + 'FloatingBtn" data-display= "open"><i class= "fas fa-bars"></i></a>';
+
+    document.body.insertAdjacentHTML('beforeend', _floatingBtn);
+
+    $('#' + __id + 'FloatingBtn').click(function() {
+        let _dataDisplay = $(this).attr('data-display');
+
+        if (_dataDisplay == 'open') {
+            $(this).attr('data-display', 'close');
+            console.log($('#' + __id + ''));
+        }
+
+        if (_dataDisplay == 'close') {
+            $(this).attr('data-display', 'open');
+        }
+    });
 
     return this;
 }

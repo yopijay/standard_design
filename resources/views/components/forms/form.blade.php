@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "layout-page">
+<div class= "px-3 mt-5 content" id= "layout-page">
     <h4>LAYOUT</h4>
     <p class= "mb-1">Since AGM applies <span class= "text-danger">display: block</span> and <span class= "text-danger">width: 100%</span> to almost all our form controls, forms will by default stack vertically. Additional classes can be used to vary this layout on a per-form basis.</p>
     <hr>

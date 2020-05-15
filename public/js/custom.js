@@ -2,9 +2,12 @@ $(function() {
     let links = $('.navbar-side > ul').find('.navbar-link');
     let brandBtn = $('body').find('.btn-brand');
     let form = $('#sample-form-validation');
+    // $(window).resize(function() {
+    //     console.log(screen.width);
+    // })
 
     $('.content').css({ display: 'none' });
-    $('#dashboard-page').css({ display: 'block' });
+    $('#toaster-page').css({ display: 'block' });
 
     $(links).on('click', function() {
         let content = $(this).find('a').attr('content');

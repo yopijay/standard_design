@@ -9,7 +9,6 @@
             @include navbar-theme($color-dark, $color-light);
         }
         &-brand {
-            margin-left: 4rem;
             img {
                 margin-right: 1rem;
             }
@@ -19,9 +18,11 @@
         }
         &-nav {
             .nav-item {
-                margin: 0px 10px;
+                margin-right: 0px 10px;
                 .nav-link {
-                    vertical-align: middle;
+                    a {
+                        vertical-align: middle;
+                    }
                     i {
                         font-size: 1.1rem;
                         margin-top: .7rem;
@@ -30,10 +31,16 @@
                         float: left;
                         width: 40px;
                         height: 40px;
-                        margin: 0px 10px;
+                        margin-right: 10px;
                     }
                 }
             }
+        }
+        &-burger {
+            position: relative;
+            font-size: 1.2rem;
+            color: $color-dark-highlight;
+            cursor: pointer;
         }
     }
 }
@@ -48,6 +55,25 @@
             @include navbar-side-theme($color-dark, $color-dark-highlight, $color-light, $color-light-highlight, #00cec9);
         }
     }
+    .floating-btn {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 30px;
+        right: 30px;
+        background-color: $color-primary;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        i {
+            font-size: 1.5rem;
+            margin-top: 20px;
+        }
+        &:hover {
+            transition: all 0.3s ease-in-out;
+            background-color: darken($color-primary, 5%);
+        }
+    }
 }
 
 @mixin navbar-theme($background-color, $color) {
@@ -59,6 +85,11 @@
                 color: $color;
             }
         }
+    }
+    .navbar-custom {
+        float: right;
+        position: relative;
+        display: flex;
     }
 }
 

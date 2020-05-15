@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "listgroup-page">
+<div class= "px-3 mt-5 content" id= "listgroup-page">
     <h4>LIST GROUPS</h4>
     <p class= "mb-1">The most basic list group is an unordered list with list items and the proper classes. Build upon it with the options that follow, or with your own CSS as needed.</p>
     <hr>

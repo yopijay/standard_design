@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "button-group-page">
+<div class= "px-3 mt-5 content" id= "button-group-page">
     <h4>BUTTON GROUP</h4>
     <p class= "mb-1">Group a series of buttons together on a single line with the button group, and super-power them with JavaScript.</p>
     <hr>

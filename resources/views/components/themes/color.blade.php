@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "color-page">
+<div class= "px-3 mt-5 content" id= "color-page">
     <h4>COLORS</h4>
     <p class= "mb-1">We use a subset of all colors to create a smaller color palette for generating color schemes, also available as Sass variables and a Sass map in AGM’s <span class= "text-danger">scss/_colors.scss</span> file.</p>
     <hr>

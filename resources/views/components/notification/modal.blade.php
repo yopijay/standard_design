@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "modal-page">
+<div class= "px-3 mt-5 content" id= "modal-page">
     <h4>MODALS</h4>
     <p class= "mb-1">Use AGM’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.</p>
     <hr>

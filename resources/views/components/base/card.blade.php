@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "card-page">
+<div class= "px-3 mt-5 content" id= "card-page">
     <h4>CARDS</h4>
     <p class= "mb-1">AGM cards component provide a flexible and extensible container for displaying content. AGM cards are delivered with a bunch of variants and options.</p>
     <hr>

@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "breadcrumb-page">
+<div class= "px-3 mt-5 content" id= "breadcrumb-page">
     <h4>BREADCRUMB</h4>
     <p class= "mb-1">Indicate the current page’s location within a navigational hierarchy that automatically adds separators via CSS.</p>
     <hr>

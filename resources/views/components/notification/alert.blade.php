@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "alert-page">
+<div class= "px-3 mt-5 content" id= "alert-page">
     <h4>ALERTS</h4>
     <p class= "mb-1">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages.</p>
     <hr>

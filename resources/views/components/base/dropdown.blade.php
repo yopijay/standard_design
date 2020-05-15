@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "dropdown-page">
+<div class= "px-3 mt-5 content" id= "dropdown-page">
     <h4>DROPDOWNS</h4>
     <p class= "mb-1">Toggle contextual overlays for displaying lists of links and more with the AGM dropdown plugin.</p>
     <hr>

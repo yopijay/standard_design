@@ -1,4 +1,4 @@
-<div class= "p-4 mt-4 mr-4 content" id= "radio-page">
+<div class= "px-3 mt-5 content" id= "radio-page">
     <h4>RADIO BUTTON</h4>
     <hr>
     <p class= "text-info mb-1 h5">NORMAL</p>

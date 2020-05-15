@@ -13,33 +13,22 @@
     </head>
     <body class= "agm-standard">
         <div class= "container-fluid px-0">
-            <div class= "navbar navbar-expand-lg navbar-light shadow-sm sticky-top px-5 w-100 mx-0">
+            <div class= "navbar navbar-expand-lg navbar-light shadow-sm sticky-top px-3 w-100 mx-0">
                 <div class= "navbar-brand">
                     <a href= "#">
                         <h1 class= "mt-1 mb-0"><span>A</span>GM</h1>
                     </a>
                 </div>
-                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-                    <ul class= "navbar-nav">
-                        <li class= "nav-item"><a class= "nav-link" href= '#'><i class= "fas fa-bell text-secondary"></i>&nbsp;&nbsp;&nbsp;Notification</a></li>
-                        <li class= "nav-item"><a class= "nav-link" href= '#'><i class= "fas fa-envelope text-secondary"></i>&nbsp;&nbsp;&nbsp;Messages</a></li>
-                        <li class= "nav-item dropdown">
-                            <a class= "nav-link" href= "#" role= "button" id= "accountDropdown" data-toggle= "dropdown"><img src= "{{ asset('img/man.png') }}"><i class= "fas fa-caret-down"></i></a>
-                            <div class= "dropdown-menu dropdown-menu-right" aria-labelledby= "accountDropdown">
-                                <span class= "dropdown-item-text font-weight-bold">Paul John Judan</span>
-                                <div class= "dropdown-divider"></div>
-                                <a class= "dropdown-item" href= "#"><i class= "fas fa-user text-info"></i>&nbsp;&nbsp;&nbsp;Personal Information</a>
-                                <a class= "dropdown-item" href= "#"><i class= "fas fa-cogs text-info"></i>&nbsp;&nbsp;&nbsp;Account Settings</a>
-                                <div class= "dropdown-divider"></div>
-                                <a class= "dropdown-item" href= "#"><i class= "fas fa-sign-out-alt text-info"></i>&nbsp;&nbsp;&nbsp;Logout</a>
-                            </div>
-                        </li>
+                <div class= "navbar-custom">
+                    <ul class= "navbar-list">
+                        <li class= "navbar-item"><a class= "navbar-link"><i class= "fas fa-bell"></i>Notification</a></li>
+                        <li class= "navbar-item"><a class= "navbar-link"><i class= "fas fa-envelope"></i>Messages</a></li>
                     </ul>
                 </div>
             </div>
-            <div class= "row">
+            <div class= "row mx-auto">
                 <div class= "col-lg-3 d-none d-lg-block position-fixed">
-                    <div class= "navbar-side navbar-side-light border rounded shadow-sm my-3 mx-3" id= "main-side-nav">
+                    <div class= "navbar-side navbar-side-light border rounded shadow-sm mt-5 mx-3" id= "main-side-nav">
                         <ul>
                             <li class= "navbar-label"><p class= "mb-1">Menu</p></li>
                             <li class= "navbar-link list active"><a href= "#" content= "dashboard-page"><p>Dashboard</p></a></li>
@@ -50,7 +39,7 @@
                             <li class= "list">
                                 <a href= "#"><p>Base <i class="fas fa-caret-right"></i></p></a>
                                 <ul class= "items">
-                                    <li class= "navbar-link list"><a href= "#" content= "badge-page"><p>Badges</p></a></li>
+                                    <li class= "navbar-link list"><a href=  "#" content= "badge-page"><p>Badges</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "breadcrumb-page"><p>Breadcrumbs</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "card-page"><p>Cards</p></a></li>
                                     <li class= "navbar-link list"><a href= "#" content= "dropdown-page"><p>Dropdowns</p></a></li>
@@ -109,7 +98,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class= "col-lg-9 offset-lg-3 col-md-12 px-0">
+                <div class= "col-lg-9 offset-lg-3 col-md-12">
                     @include('components.dashboard')
                     @include('components.themes.color')
                     @include('components.themes.typography')
@@ -142,7 +131,6 @@
                     @include('components.pages.login')
                     @include('components.pages.404')
                 </div>
-            </div>
             </div>
         </div>
     </body>

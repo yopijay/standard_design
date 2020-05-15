@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "popover-page">
+<div class= "px-3 mt-5 content" id= "popover-page">
     <h4>POPOVER</h4>
     <p class= "mb-1">Documentation and examples for adding AGM popovers, like those found in iOS, to any element on your site.</p>
     <hr>

@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "standard-tbl-page">
+<div class= "px-3 mt-5 content" id= "standard-tbl-page">
     <h4>STANDARD TABLE</h4>
     <hr>
     <p class= "text-info mb-1 h5">SIMPLE TABLE</p>

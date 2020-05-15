@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "tooltip-page">
+<div class= "px-3 mt-5 content" id= "tooltip-page">
     <h4>TOOLTIPS</h4>
     <p class= "mb-1">Documentation and examples for adding custom AGM tooltips with CSS and JavaScript using CSS3 for animations and data-attributes for local title storage.</p>
     <hr>

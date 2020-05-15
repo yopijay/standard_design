@@ -101,6 +101,12 @@
             }
         }
     }
+    .navbar-toggler {
+        &:focus {
+            outline: none;
+            box-shadow: none;
+        }
+    }
 }
 
 @mixin button-type($type, $background-color, $background-color-highlight, $color) {

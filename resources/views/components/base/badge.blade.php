@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "badge-page">
+<div class= "px-4 mt-5 content" id= "badge-page">
     <h4>BADGES</h4>
     <p class= "mb-1">AGM badges are small count and labeling components.</p>
     <hr>

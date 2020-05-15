@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "validation-page">
+<div class= "px-3 mt-5 content" id= "validation-page">
     <h4>FORM VALIDATION</h4>
     <hr>
     <div class= "card">

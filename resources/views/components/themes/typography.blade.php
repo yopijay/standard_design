@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5  content" id= "typography-page">
+<div class= "px-3 mt-5  content" id= "typography-page">
     <h4>TYPOGRAPHY</h4>
     <p class= "mb-1">Documentation and examples for AGM typography, including headings, body text, lists, and more.</p>
     <hr>

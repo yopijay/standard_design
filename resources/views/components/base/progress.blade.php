@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "progress-page">
+<div class= "px-3 mt-5 content" id= "progress-page">
     <h4>PROGRESS</h4>
     <p class= "mb-1">Documentation and examples for using AGM custom progress bars featuring support for stacked bars, animated backgrounds, and text labels.</p>
     <hr>

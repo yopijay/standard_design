@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "input-group-page">
+<div class= "px-3 mt-5 content" id= "input-group-page">
     <h4>INPUT GROUP</h4>
     <p class= "mb-1">Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs.</p>
     <hr>

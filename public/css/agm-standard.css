@@ -11008,6 +11008,12 @@ body.agm-standard .navbar .navbar-header a h1 {
   color: #353b48;
 }
 
+body.agm-standard .navbar .navbar-custom {
+  float: right;
+  position: relative;
+  display: flex;
+}
+
 body.agm-standard .navbar.navbar-light {
   background-color: #f5f6fa;
 }
@@ -11018,6 +11024,12 @@ body.agm-standard .navbar.navbar-light .navbar-header a {
 
 body.agm-standard .navbar.navbar-light .navbar-header a h1 {
   color: #353b48;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom {
+  float: right;
+  position: relative;
+  display: flex;
 }
 
 body.agm-standard .navbar.navbar-dark {
@@ -11032,8 +11044,10 @@ body.agm-standard .navbar.navbar-dark .navbar-header a h1 {
   color: #f5f6fa;
 }
 
-body.agm-standard .navbar-brand {
-  margin-left: 4rem;
+body.agm-standard .navbar.navbar-dark .navbar-custom {
+  float: right;
+  position: relative;
+  display: flex;
 }
 
 body.agm-standard .navbar-brand img {
@@ -11045,10 +11059,10 @@ body.agm-standard .navbar-brand a {
 }
 
 body.agm-standard .navbar-nav .nav-item {
-  margin: 0px 10px;
+  margin-right: 0px 10px;
 }
 
-body.agm-standard .navbar-nav .nav-item .nav-link {
+body.agm-standard .navbar-nav .nav-item .nav-link a {
   vertical-align: middle;
 }
 
@@ -11061,7 +11075,14 @@ body.agm-standard .navbar-nav .nav-item .nav-link img {
   float: left;
   width: 40px;
   height: 40px;
-  margin: 0px 10px;
+  margin-right: 10px;
+}
+
+body.agm-standard .navbar-burger {
+  position: relative;
+  font-size: 1.2rem;
+  color: #2f3640;
+  cursor: pointer;
 }
 
 body.agm-standard .navbar-side {
@@ -11512,6 +11533,28 @@ body.agm-standard .navbar-side.navbar-side-dark ul li ul li ul {
 
 body.agm-standard .navbar-side.navbar-side-dark ul li ul li ul a p {
   padding-left: 5rem;
+}
+
+body.agm-standard .floating-btn {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 30px;
+  right: 30px;
+  background-color: #00a8ff;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+}
+
+body.agm-standard .floating-btn i {
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+
+body.agm-standard .floating-btn:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: #0097e6;
 }
 
 body.agm-standard .text-primary {
@@ -12288,6 +12331,11 @@ body.agm-standard .btn.btn-brand.youtube:hover {
 }
 
 body.agm-standard .btn.btn-brand.youtube:focus {
+  box-shadow: none;
+}
+
+body.agm-standard .navbar-toggler:focus {
+  outline: none;
   box-shadow: none;
 }
 
@@ -14907,6 +14955,7 @@ body.agm-standard .toaster-icon,
 body.agm-standard .toaster-message,
 body.agm-standard .toaster-close {
   padding: 10px 0px;
+  vertical-align: middle;
 }
 
 body.agm-standard .toaster-icon {

@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "toaster-page">
+<div class= "px-3 mt-5 content" id= "toaster-page">
     <h4>TOASTERS</h4>
     <p class= "mb-1">Toasts are lightweight notifications designed to mimic the push notifications that have been popularized by mobile and desktop operating systems. They’re built with flexbox, so they’re easy to align and position.</p>
     <hr>

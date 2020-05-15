@@ -1,4 +1,4 @@
-<div class= "px-5 mt-5 content" id= "pagination-page">
+<div class= "px-3 mt-5 content" id= "pagination-page">
     <h4>PAGINATION</h4>
     <p class= "mb-1">Documentation and examples for showing pagination to indicate a series of related content exists across multiple pages.</p>
     <hr>
