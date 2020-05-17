@@ -7,7 +7,7 @@ $(function() {
     // })
 
     $('.content').css({ display: 'none' });
-    $('#toaster-page').css({ display: 'block' });
+    $('#dashboard-page').css({ display: 'block' });
 
     $(links).on('click', function() {
         let content = $(this).find('a').attr('content');

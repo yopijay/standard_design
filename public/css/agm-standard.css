@@ -11000,54 +11000,501 @@ body.agm-standard .navbar {
   background-color: #f5f6fa;
 }
 
-body.agm-standard .navbar .navbar-header a {
+body.agm-standard .navbar .navbar-brand a {
   text-decoration: none;
 }
 
-body.agm-standard .navbar .navbar-header a h1 {
+body.agm-standard .navbar .navbar-brand a h1 {
   color: #353b48;
 }
 
 body.agm-standard .navbar .navbar-custom {
-  float: right;
   position: relative;
+}
+
+body.agm-standard .navbar .navbar-custom ul {
+  margin: 0;
+  padding: 0;
   display: flex;
+}
+
+body.agm-standard .navbar .navbar-custom ul li {
+  list-style: none;
+  position: relative;
+}
+
+body.agm-standard .navbar .navbar-custom ul li a {
+  line-height: 35px;
+  padding: 0px 20px;
+  color: #353b48;
+  text-decoration: none;
+  display: block;
+}
+
+body.agm-standard .navbar .navbar-custom ul li a i {
+  margin: 0px 10px;
+  font-size: 0.9rem;
+}
+
+body.agm-standard .navbar .navbar-custom ul li a:hover {
+  color: #606b83;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar .navbar-custom ul li.active {
+  transition: all 0.3s ease-in-out;
+  color: #1f232b;
+  border-bottom: solid 1px #353b48;
+}
+
+body.agm-standard .navbar .navbar-custom ul li.active a i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar .navbar-custom ul li.active > ul {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar .navbar-custom ul li ul li:hover > a {
+  background-color: #d3d7e9;
+  color: #353b48;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar .navbar-custom ul li ul {
+  position: absolute;
+  left: 0;
+  background-color: rgba(228, 231, 242, 0.9);
+  display: none;
+  padding: 10px 0px 0px 0px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+body.agm-standard .navbar .navbar-custom ul li ul li {
+  display: block;
+  width: 200px;
+}
+
+body.agm-standard .navbar .navbar-custom ul li ul li a {
+  font-size: 0.7rem;
+  padding: 0px 0px 0px 45px;
+}
+
+body.agm-standard .navbar .navbar-custom ul li ul li.active a {
+  background-color: #d3d7e9;
+  color: #353b48;
+}
+
+body.agm-standard .navbar .navbar-custom ul li ul li.active a i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar .menu-icon {
+  color: #353b48;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body.agm-standard .navbar .menu-icon {
+    display: block;
+  }
+
+  body.agm-standard .navbar .navbar-custom {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: -100%;
+    background-color: rgba(228, 231, 242, 0.9);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar .navbar-custom ul {
+    display: block;
+  }
+
+  body.agm-standard .navbar .navbar-custom ul li a {
+    padding: 5px 0px 5px 40px;
+  }
+
+  body.agm-standard .navbar .navbar-custom ul li a:hover {
+    background-color: rgba(211, 215, 233, 0.9);
+  }
+
+  body.agm-standard .navbar .navbar-custom ul li.active {
+    transition: all 0.3s ease-in-out;
+    color: #1f232b;
+    border-radius: 3px;
+  }
+
+  body.agm-standard .navbar .navbar-custom ul li.active a i {
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar .navbar-custom ul li.active ul {
+    position: relative;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  body.agm-standard .navbar .navbar-custom ul li.active ul li {
+    width: 100%;
+  }
+
+  body.agm-standard .navbar .navbar-custom ul li.active ul li.active a {
+    background-color: #d3d7e9;
+    color: #353b48;
+  }
+
+  body.agm-standard .navbar .navbar-custom ul li.active ul li.active a i {
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar .navbar-custom.open {
+    left: 0;
+  }
 }
 
 body.agm-standard .navbar.navbar-light {
   background-color: #f5f6fa;
 }
 
-body.agm-standard .navbar.navbar-light .navbar-header a {
+body.agm-standard .navbar.navbar-light .navbar-brand a {
   text-decoration: none;
 }
 
-body.agm-standard .navbar.navbar-light .navbar-header a h1 {
+body.agm-standard .navbar.navbar-light .navbar-brand a h1 {
   color: #353b48;
 }
 
 body.agm-standard .navbar.navbar-light .navbar-custom {
-  float: right;
   position: relative;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul {
+  margin: 0;
+  padding: 0;
   display: flex;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li {
+  list-style: none;
+  position: relative;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li a {
+  line-height: 35px;
+  padding: 0px 20px;
+  color: #353b48;
+  text-decoration: none;
+  display: block;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li a i {
+  margin: 0px 10px;
+  font-size: 0.9rem;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li a:hover {
+  color: #606b83;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li.active {
+  transition: all 0.3s ease-in-out;
+  color: #1f232b;
+  border-bottom: solid 1px #353b48;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li.active a i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li.active > ul {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li ul li:hover > a {
+  background-color: #d3d7e9;
+  color: #353b48;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li ul {
+  position: absolute;
+  left: 0;
+  background-color: rgba(228, 231, 242, 0.9);
+  display: none;
+  padding: 10px 0px 0px 0px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li ul li {
+  display: block;
+  width: 200px;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li ul li a {
+  font-size: 0.7rem;
+  padding: 0px 0px 0px 45px;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li ul li.active a {
+  background-color: #d3d7e9;
+  color: #353b48;
+}
+
+body.agm-standard .navbar.navbar-light .navbar-custom ul li ul li.active a i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-light .menu-icon {
+  color: #353b48;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body.agm-standard .navbar.navbar-light .menu-icon {
+    display: block;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: -100%;
+    background-color: rgba(228, 231, 242, 0.9);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul {
+    display: block;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul li a {
+    padding: 5px 0px 5px 40px;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul li a:hover {
+    background-color: rgba(211, 215, 233, 0.9);
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul li.active {
+    transition: all 0.3s ease-in-out;
+    color: #1f232b;
+    border-radius: 3px;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul li.active a i {
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul li.active ul {
+    position: relative;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul li.active ul li {
+    width: 100%;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul li.active ul li.active a {
+    background-color: #d3d7e9;
+    color: #353b48;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom ul li.active ul li.active a i {
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar.navbar-light .navbar-custom.open {
+    left: 0;
+  }
 }
 
 body.agm-standard .navbar.navbar-dark {
   background-color: #353b48;
 }
 
-body.agm-standard .navbar.navbar-dark .navbar-header a {
+body.agm-standard .navbar.navbar-dark .navbar-brand a {
   text-decoration: none;
 }
 
-body.agm-standard .navbar.navbar-dark .navbar-header a h1 {
+body.agm-standard .navbar.navbar-dark .navbar-brand a h1 {
   color: #f5f6fa;
 }
 
 body.agm-standard .navbar.navbar-dark .navbar-custom {
-  float: right;
   position: relative;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul {
+  margin: 0;
+  padding: 0;
   display: flex;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li {
+  list-style: none;
+  position: relative;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li a {
+  line-height: 35px;
+  padding: 0px 20px;
+  color: #f5f6fa;
+  text-decoration: none;
+  display: block;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li a i {
+  margin: 0px 10px;
+  font-size: 0.9rem;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li a:hover {
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active {
+  transition: all 0.3s ease-in-out;
+  color: #d3d7e9;
+  border-bottom: solid 1px #f5f6fa;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active a i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active > ul {
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li ul li:hover > a {
+  background-color: #1f232b;
+  color: #f5f6fa;
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li ul {
+  position: absolute;
+  left: 0;
+  background-color: rgba(42, 47, 57, 0.9);
+  display: none;
+  padding: 10px 0px 0px 0px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+  overflow: hidden;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li ul li {
+  display: block;
+  width: 200px;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li ul li a {
+  font-size: 0.7rem;
+  padding: 0px 0px 0px 45px;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li ul li.active a {
+  background-color: #1f232b;
+  color: #f5f6fa;
+}
+
+body.agm-standard .navbar.navbar-dark .navbar-custom ul li ul li.active a i {
+  transform: rotate(90deg);
+  transition: all 0.3s ease-in-out;
+}
+
+body.agm-standard .navbar.navbar-dark .menu-icon {
+  color: #f5f6fa;
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body.agm-standard .navbar.navbar-dark .menu-icon {
+    display: block;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom {
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    left: -100%;
+    background-color: rgba(42, 47, 57, 0.9);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul {
+    display: block;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul li a {
+    padding: 5px 0px 5px 40px;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul li a:hover {
+    background-color: rgba(31, 35, 43, 0.9);
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active {
+    transition: all 0.3s ease-in-out;
+    color: #d3d7e9;
+    border-radius: 3px;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active a i {
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active ul {
+    position: relative;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active ul li {
+    width: 100%;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active ul li.active a {
+    background-color: #1f232b;
+    color: #f5f6fa;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom ul li.active ul li.active a i {
+    transform: rotate(90deg);
+    transition: all 0.3s ease-in-out;
+  }
+
+  body.agm-standard .navbar.navbar-dark .navbar-custom.open {
+    left: 0;
+  }
 }
 
 body.agm-standard .navbar-brand img {
@@ -11666,7 +12113,7 @@ body.agm-standard .blockquote-footer {
 }
 
 body.agm-standard .btn {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   transition: all 0.3s ease-in-out;
 }
 

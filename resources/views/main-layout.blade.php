@@ -13,22 +13,38 @@
     </head>
     <body class= "agm-standard">
         <div class= "container-fluid px-0">
-            <div class= "navbar navbar-expand-lg navbar-light shadow-sm sticky-top px-3 w-100 mx-0">
+            <div class= "navbar navbar-expand-lg navbar-dark shadow-sm sticky-top px-3 w-100 mx-0" id= "main-navbar">
                 <div class= "navbar-brand">
                     <a href= "#">
-                        <h1 class= "mt-1 mb-0"><span>A</span>GM</h1>
+                        <h1 class= "mb-0"><span>A</span>GM</h1>
                     </a>
                 </div>
-                <div class= "navbar-custom">
-                    <ul class= "navbar-list">
-                        <li class= "navbar-item"><a class= "navbar-link"><i class= "fas fa-bell"></i>Notification</a></li>
-                        <li class= "navbar-item"><a class= "navbar-link"><i class= "fas fa-envelope"></i>Messages</a></li>
+                <div class= "navbar-custom ml-auto">
+                    <ul>
+                        <li class= "navbar-link list active"><a href= "#">Contact Us</a></li>
+                        <li class= "list">
+                            <a href= "#">Notification<i class="fas fa-caret-right ml-2"></i></a>
+                            <ul class= "items">
+                                <li class= "navbar-link list"><a href= "#">List 1</a></li>
+                                <li class= "navbar-link list"><a href= "#">List 2</a></li>
+                                <li class= "navbar-link list"><a href= "#">List 3</a></li>
+                                <li class= "navbar-link list"><a href= "#">List 4</a></li>
+                            </ul>
+                        </li>
+                        <li class= "list">
+                            <a href= "#">judan.pauljohn@gmail.com<i class="fas fa-caret-right ml-2"></i></a>
+                            <ul class= "items">
+                                <li class= "navbar-link list"><a href= "#">Personal Information</a></li>
+                                <li class= "navbar-link list"><a href= "#">Account Settings</a></li>
+                                <li class= "navbar-link list"><a href= "#">Sign out</a></li>
+                            </ul>
+                        </li>
                     </ul>
                 </div>
             </div>
             <div class= "row mx-auto">
                 <div class= "col-lg-3 d-none d-lg-block position-fixed">
-                    <div class= "navbar-side navbar-side-light border rounded shadow-sm mt-5 mx-3" id= "main-side-nav">
+                    <div class= "navbar-side navbar-side-dark rounded shadow-sm mt-5 mx-3" id= "main-side-nav">
                         <ul>
                             <li class= "navbar-label"><p class= "mb-1">Menu</p></li>
                             <li class= "navbar-link list active"><a href= "#" content= "dashboard-page"><p>Dashboard</p></a></li>

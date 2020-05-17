@@ -5,7 +5,7 @@
     <div class= "row my-3">
         <div class= "col-md-12 py-3 agm-bg-light rounded">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;">
+            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;" id= "demo-1">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo1" aria-controls="navbar-demo1" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -83,10 +83,10 @@
     <div class= "row my-3">
         <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;">
+            <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;" id= "demo2">
                 <a class= "navbar-brand" href= "#">Navbar</a>
             </nav>
-            <nav class= "navbar navbar-dark agm-bg-dark" style= "z-index: 500;">
+            <nav class= "navbar navbar-dark agm-bg-dark" style= "z-index: 500;" id= "demo3">
                 <span class= "navbar-brand h5">Navbar</span>
             </nav>
         </div>
@@ -107,7 +107,7 @@
     <div class= "row my-3">
         <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;">
+            <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;" id= "demo4">
                 <a class= "navbar-brand" href= "#"><img src= "{{ asset('img/man.png') }}" width= "40" height= "40"></a>
             </nav>
         </div>
@@ -123,7 +123,7 @@
     <div class= "row mt-3 mb-5">
         <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;">
+            <nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;" id= "demo5">
                 <a class= "navbar-brand h5" href= "#"><img src= "{{ asset('img/man.png') }}" width= "40" height= "40"> AGM</a>
             </nav>
         </div>
@@ -142,7 +142,7 @@
     <div class= "row my-3">
         <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;">
+            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;" id= "demo5">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo2" aria-controls="navbar-demo2" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -210,7 +210,7 @@
     <div class= "row mt-3 mb-5">
         <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;">
+            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;" id= "demo6">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo3" aria-controls="navbar-demo3" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -249,7 +249,7 @@
     <div class= "row my-3">
         <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light mb-3" style= "z-index: 500;">
+            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light mb-3" style= "z-index: 500;" id= "demo7">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo4" aria-controls="navbar-demo4" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -283,7 +283,7 @@
                     </form>
                 </div>
             </nav>
-            <nav class="navbar navbar-expand-lg navbar-dark agm-bg-dark mb-3" style= "z-index: 500;">
+            <nav class="navbar navbar-expand-lg navbar-dark agm-bg-dark mb-3" style= "z-index: 500;" id= "demo8">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo5" aria-controls="navbar-demo5" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -317,7 +317,7 @@
                     </form>
                 </div>
             </nav>
-            <nav class="navbar navbar-expand-lg navbar-dark agm-bg-primary mb-3" style= "z-index: 500;">
+            <nav class="navbar navbar-expand-lg navbar-dark agm-bg-primary mb-3" style= "z-index: 500;" id= "demo9">
                 <a class="navbar-brand" href="#">Navbar</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo6" aria-controls="navbar-demo6" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>

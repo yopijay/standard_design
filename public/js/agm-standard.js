@@ -7,6 +7,8 @@ $(function() {
     $('[data-toggle= "popover"]').popover();
     // Activate tooltip
     $('[data-toggle= "tooltip"]').tooltip();
+
+    $('.navbar').navbar();
 });
 
 // Branded Buttons
@@ -195,25 +197,54 @@ $.fn.sidenav = function() {
         });
     }
 
-    let __id = this[0].id;
-    let _floatingBtn = '<a class= "floating-btn shadow-sm d-lg-none d-block" id= "' + __id + 'FloatingBtn" data-display= "open"><i class= "fas fa-bars"></i></a>';
+    // let __id = this[0].id;
+    // let _floatingBtn = '<a class= "floating-btn shadow-sm d-lg-none d-block" id= "' + __id + 'FloatingBtn" data-display= "open"><i class= "fas fa-bars"></i></a>';
 
-    document.body.insertAdjacentHTML('beforeend', _floatingBtn);
+    // document.body.insertAdjacentHTML('beforeend', _floatingBtn);
 
-    $('#' + __id + 'FloatingBtn').click(function() {
-        let _dataDisplay = $(this).attr('data-display');
+    // $('#' + __id + 'FloatingBtn').click(function() {
+    //     let _dataDisplay = $(this).attr('data-display');
 
-        if (_dataDisplay == 'open') {
-            $(this).attr('data-display', 'close');
-            console.log($('#' + __id + ''));
-        }
+    //     if (_dataDisplay == 'open') {
+    //         $(this).attr('data-display', 'close');
+    //         console.log($('#' + __id + ''));
+    //     }
 
-        if (_dataDisplay == 'close') {
-            $(this).attr('data-display', 'open');
-        }
-    });
+    //     if (_dataDisplay == 'close') {
+    //         $(this).attr('data-display', 'open');
+    //     }
+    // });
 
     return this;
+}
+
+// Navbar Function
+$.fn.navbar = function() {
+    for (var count = 0; count < this.length; count++) {
+        let _id = this[count].id;
+        let _menuIcon = '<a class= "menu-icon ml-auto" id= "' + _id + 'MenuIcon"><i class= "fas fa-bars"></i></a>';
+
+        if ($('#' + _id + '').find('.navbar-custom').length !== 0) {
+            document.getElementById(_id).insertAdjacentHTML('beforeend', _menuIcon);
+        }
+
+        $('#' + _id + 'MenuIcon').click(function() {
+            $('#' + _id + '').find('.navbar-custom').toggleClass('open');
+        });
+
+        let _link = $('#' + _id + ' > .navbar-custom > ul > .list');
+        let _links = $('#' + _id + ' > .navbar-custom > ul').find('.navbar-link');
+
+        $(_link).on('click', function() {
+            $(_link).removeClass('active');
+            $(this).addClass('active');
+        });
+
+        $(_links).on('click', function() {
+            $(_links).removeClass('active');
+            $(this).addClass('active');
+        });
+    }
 }
 
 // Validations

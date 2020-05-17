@@ -78,7 +78,7 @@
 
 @mixin navbar-theme($background-color, $color) {
     background-color: $background-color;
-    .navbar-header {
+    .navbar-brand {
         a {
             text-decoration: none;
             h1 {
@@ -87,9 +87,137 @@
         }
     }
     .navbar-custom {
-        float: right;
         position: relative;
-        display: flex;
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            li {
+                list-style: none;
+                position: relative;
+                a {
+                    line-height: 35px;
+                    padding: 0px 20px;
+                    color: $color;
+                    text-decoration: none;
+                    display: block;
+                    i {
+                        margin: 0px 10px;
+                        font-size: .9rem;
+                    }
+                    &:hover {
+                        color: lighten($color, 20%);
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+                &.active {
+                    transition: all 0.3s ease-in-out;
+                    color: darken($color, 10%);
+                    border-bottom: solid 1px $color;
+                    a i {
+                        transform: rotate(90deg);
+                        transition: all 0.3s ease-in-out;
+                    }
+                    &>ul {
+                        display: block;
+                        transition: all 0.3s ease-in-out;
+                    }
+                }
+                & ul li:hover>a {
+                    background-color: darken($background-color, 10%);
+                    color: $color;
+                    transition: all 0.3s ease-in-out;
+                }
+                ul {
+                    position: absolute;
+                    left: 0;
+                    background-color: rgba(darken($background-color, 5%), .9);
+                    display: none;
+                    padding: 10px 0px 0px 0px;
+                    border-radius: 3px;
+                    transition: all 0.3s ease-in-out;
+                    overflow: hidden;
+                    li {
+                        display: block;
+                        width: 200px;
+                        a {
+                            font-size: .7rem;
+                            padding: 0px 0px 0px 45px;
+                        }
+                        &.active {
+                            a {
+                                background-color: darken($background-color, 10%);
+                                color: $color;
+                                i {
+                                    transform: rotate(90deg);
+                                    transition: all 0.3s ease-in-out;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .menu-icon {
+        color: $color;
+        font-size: .9rem;
+        cursor: pointer;
+        display: none;
+    }
+    @media(max-width: 768px) {
+        .menu-icon {
+            display: block;
+        }
+        .navbar-custom {
+            position: absolute;
+            width: 100%;
+            top: 60px;
+            left: -100%;
+            background-color: rgba(darken($background-color, 5%), .9);
+            transition: all 0.3s ease-in-out;
+            ul {
+                display: block;
+                li {
+                    a {
+                        padding: 5px 0px 5px 40px;
+                        &:hover {
+                            background-color: rgba(darken($background-color, 10%), .9);
+                        }
+                    }
+                    &.active {
+                        transition: all 0.3s ease-in-out;
+                        color: darken($color, 10%);
+                        border-radius: 3px;
+                        a i {
+                            transform: rotate(90deg);
+                            transition: all 0.3s ease-in-out;
+                        }
+                        & ul {
+                            position: relative;
+                            border-radius: 0;
+                            padding: 0;
+                            li {
+                                width: 100%;
+                                &.active {
+                                    a {
+                                        background-color: darken($background-color, 10%);
+                                        color: $color;
+                                        i {
+                                            transform: rotate(90deg);
+                                            transition: all 0.3s ease-in-out;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.open {
+                left: 0;
+            }
+        }
     }
 }
 
