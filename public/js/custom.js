@@ -1,5 +1,5 @@
 $(function() {
-    let links = $('.navbar-side > ul').find('.navbar-link');
+    let links = $('#main-header .agm-navbar-side > ul').find('.agm-side-link');
     let brandBtn = $('body').find('.btn-brand');
     let form = $('#sample-form-validation');
     // $(window).resize(function() {
@@ -61,7 +61,7 @@ $(function() {
                 _code.innerHTML = 'toaster.success("' + _type + '", "' + _message + '").show(' + _delay + ');';
             } else if (_theme == 'toast-danger') {
                 toaster.error(_type, _message).show(_delay);
-                _code.innerHTML = 'toaster.danger("' + _type + '", "' + _message + '").show(' + _delay + ');';
+                _code.innerHTML = 'toaster.error("' + _type + '", "' + _message + '").show(' + _delay + ');';
             } else if (_theme == 'toast-warning') {
                 toaster.warning(_type, _message).show(_delay);
                 _code.innerHTML = 'toaster.warning("' + _type + '", "' + _message + '").show(' + _delay + ');';

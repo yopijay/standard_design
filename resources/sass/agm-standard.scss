@@ -33,7 +33,7 @@ body.agm-standard {
     }
     @include background-theme;
     @include navbar;
-    @include navbar-side;
+    // @include navbar-side;
     @include text-default;
     @include button-default;
     @include card-default;
