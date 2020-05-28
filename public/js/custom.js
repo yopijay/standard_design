@@ -1,13 +1,10 @@
 $(function() {
     let links = $('#main-header .agm-navbar-side > ul').find('.agm-side-link');
     let brandBtn = $('body').find('.btn-brand');
-    let form = $('#sample-form-validation');
-    // $(window).resize(function() {
-    //     console.log(screen.width);
-    // })
+    let _validate = $('#input-validation');
 
     $('.content').css({ display: 'none' });
-    $('#dashboard-page').css({ display: 'block' });
+    $('#validation-page').css({ display: 'block' });
 
     $(links).on('click', function() {
         let content = $(this).find('a').attr('content');
@@ -21,13 +18,13 @@ $(function() {
     $('#sample').datatable();
 
     $('body')
-        .on('click', '#validate', function() {
-            if (form.validate()) {
+        .on('click', '#input-validate', function() {
+            if (_validate.validate()) {
                 toaster.success("", "Success!").show(2500);
             }
         })
-        .on('click', '#validate-toast', function() {
-            if (form.validate(true)) {
+        .on('click', '#toast-validate', function() {
+            if (_validate.validate(true)) {
                 toaster.success("", "Success!").show(2500);
             }
         })
