@@ -1,4 +1,4 @@
-<div class= "px-3 mt-5 content" id= "navbar-page">
+<div class= "px-3 mt-5 content py-5 mb-5" id= "navbar-page">
     <h4>NAVBAR</h4>
     <p class= "mb-1">Documentation and examples for AGM’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.</p>
     <hr>
@@ -357,6 +357,131 @@
             <p class= "mb-2">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-expand-lg navbar-light agm-bg-light</span>" > ... < <span class= "text-danger">/nav</span> ></p>
             <p class= "mb-2">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-expand-lg navbar-dark agm-bg-dark</span>" > ... < <span class= "text-danger">/nav</span> ></p>
             <p class= "mb-2">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-expand-lg navbar-dark agm-bg-primary</span>" > ... < <span class= "text-danger">/nav</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "text-info mb-1 h5">CUSTOM NAVBAR</p>
+    <p class= "mb-3">Navbar requires a wrapping <span class= "text-danger">.agm-navbar</span>. This navbar may contain the navigation menu and the sidebar navigation. The sidebar navigation is optional.</p>
+    <p class= "mb-1">The <span class= "text-danger">.agm-navbar-nav</span> is position on the left side by default but you can change it`s position using our default classes. And the navbar consist of classes: <span class= "text-danger">.agm-nav-form</span> (for inputs), <span class= "text-danger">.agm-nav-link</span> (for your links), <span class= "text-danger">.agm-nav-btn</span> (for buttons) and <span class= "text-danger">.agm-nav-list</span> (if you have sub-links). The <span class= "text-danger">.agm-nav-list</span> contains also classes: <span class= "text-danger">.agm-nav-items</span> (for the container of your sub-links). And the <span class= "text-danger">.nav-icon</span> is just an optional if you have an icon on your link and too lazy to manually put CSS on it, this class will give your icon a margin for both sides. and if you want to change its position just use <span class= "text-danger">.float-right</span> or <span class= "text-danger">.float-left</span> classess.</p>
+    <div class= "row my-3">
+        <div class= "col-lg-12 py-3 agm-bg-light rounded col-12">
+            <p class= "text-info mb-3 h5">Preview:</p>
+            <div class= "agm-navbar navbar-dark shadow-sm mb-3" id= "agm-navbar-1">
+                <div class= "agm-navbar-nav d-lg-block d-none">
+                    <ul>
+                        <li class= "agm-nav-form"><input type= "text" class= "form-control form-control-sm form-pills" placeholder= "Search..."></li>
+                        <li class= "agm-nav-link agm-nav-list"><a><i class= "fas fa-bell nav-icon"></i>Link</a></li>
+                        <li class= "agm-nav-link agm-nav-list"><a>Link</a></li>
+                        <li class= "agm-nav-list">
+                            <a><img src= "{{ asset('img/man.png') }}" class= "nav-img">Link<i class= "fas fa-caret-down nav-icon float-right"></i></a>
+                            <ul class= "agm-nav-items">
+                                <li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li>
+                                <li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li>
+                            </ul>
+                        </li>
+                        <li class= "agm-nav-btn"><button class= "btn btn-solid btn-primary btn-pills btn-block">Button</button></li>
+                    </ul>
+                </div>
+            </div>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Refer to the navbar on the very top of this page to see the responsive design for this navbar</p>
+        </div>
+        <div class= "col-lg-12 py-3">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-navbar navbar-dark shadow-sm</span>" id= "<span class= "text-danger">agm-navbar-1</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-navbar-nav</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">ul</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">agm-nav-form</span>" >< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control form-control-sm form-pills</span>" placeholder= "<span class= "text-danger">Search...</span>" >< <span class= "text-danger">/li</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">agm-nav-link agm-nav-list</span>" >< <span class= "text-danger">a</span> >< <span class= "text-danger">i</span> class= "<span class= "text-danger">fas fa-bell nav-icon</span>" >< <span class= "text-danger">/i </span>>Link< <span class= "text-danger">/a</span> >< <span class= "text-danger">/li</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">agm-nav-link agm-nav-list</span>" >< <span class= "text-danger">a</span> >Link< <span class= "text-danger">/a</span> >< <span class= "text-danger">/li</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">agm-nav-list</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> >< <span class= "text-danger">img</span> src= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">nav-img</span>" >Link< <span class= "text-danger">i</span> class= "<span class= "text-danger">fas fa-caret-down nav-icon float-right</span>" >< <span class= "text-danger">/i</span> >< <span class= "text-danger">/a</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">ul</span> class= "<span class= "text-danger">agm-nav-items</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">agm-nav-link</span>" >< <span class= "text-danger">a</span> >< <span class= "text-danger">i</span> class= "<span class= "text-danger">fas fa-user nav-icon</span>" ><<span class= "text-danger"> /i</span> >Sub-link< <span class= "text-danger">/a</span> >< <span class= "text-danger">/li </span>></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">agm-nav-link</span>" >< <span class= "text-danger">a</span> >< <span class= "text-danger">i</span> class= "<span class= "text-danger">fas fa-user nav-icon</span>" ><<span class= "text-danger"> /i</span> >Sub-link< <span class= "text-danger">/a</span> >< <span class= "text-danger">/li</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">agm-nav-btn</span>" >< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary btn-pills btn-block</span>" >Button< <span class= "text-danger">/button</span> >< <span class= "text-danger">/li</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "text-info mb-1 h5">CUSTOM NAVBAR ALIGNMENT</p>
+    <p class= "mb-1">You can use the <span class= "text-danger">.mx-auto</span> to set the position of your nav in the middle and <span class= "text-danger">.ml-auto</span> to set it on the right.</p>
+    <div class= "row my-3">
+        <div class= "col-lg-12 py3 agm-bg-light rounded col-12">
+            <p class= "text-info mb-3 h5">Preview:</p>
+            <div class= "agm-navbar navbar-dark shadow-sm mb-3" id= "agm-navbar-2">
+                <div class= "agm-navbar-nav d-lg-block d-none">
+                    <ul>
+                        <li class= "agm-nav-form"><input type= "text" class= "form-control form-control-sm form-pills" placeholder= "Search..."></li>
+                        <li class= "agm-nav-link agm-nav-list"><a><i class= "fas fa-bell nav-icon"></i>Link</a></li>
+                        <li class= "agm-nav-link agm-nav-list"><a>Link</a></li>
+                        <li class= "agm-nav-list">
+                            <a><img src= "{{ asset('img/man.png') }}" class= "nav-img">Link<i class= "fas fa-caret-down nav-icon float-right"></i></a>
+                            <ul class= "agm-nav-items">
+                                <li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li>
+                                <li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li>
+                            </ul>
+                        </li>
+                        <li class= "agm-nav-btn"><button class= "btn btn-solid btn-primary btn-pills btn-block">Button</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class= "agm-navbar navbar-dark shadow-sm mb-3" id= "agm-navbar-3">
+                <div class= "agm-navbar-nav d-lg-block d-none mx-auto">
+                    <ul>
+                        <li class= "agm-nav-form"><input type= "text" class= "form-control form-control-sm form-pills" placeholder= "Search..."></li>
+                        <li class= "agm-nav-link agm-nav-list"><a><i class= "fas fa-bell nav-icon"></i>Link</a></li>
+                        <li class= "agm-nav-link agm-nav-list"><a>Link</a></li>
+                        <li class= "agm-nav-list">
+                            <a><img src= "{{ asset('img/man.png') }}" class= "nav-img">Link<i class= "fas fa-caret-down nav-icon float-right"></i></a>
+                            <ul class= "agm-nav-items">
+                                <li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li>
+                                <li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li>
+                            </ul>
+                        </li>
+                        <li class= "agm-nav-btn"><button class= "btn btn-solid btn-primary btn-pills btn-block">Button</button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class= "agm-navbar navbar-dark shadow-sm mb-3" id= "agm-navbar-4">
+                <div class= "agm-navbar-nav d-lg-block d-none ml-auto">
+                    <ul>
+                        <li class= "agm-nav-form"><input type= "text" class= "form-control form-control-sm form-pills" placeholder= "Search..."></li>
+                        <li class= "agm-nav-link agm-nav-list"><a><i class= "fas fa-bell nav-icon"></i>Link</a></li>
+                        <li class= "agm-nav-link agm-nav-list"><a>Link</a></li>
+                        <li class= "agm-nav-list">
+                            <a><img src= "{{ asset('img/man.png') }}" class= "nav-img">Link<i class= "fas fa-caret-down nav-icon float-right"></i></a>
+                            <ul class= "agm-nav-items">
+                                <li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li>
+                                <li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li>
+                            </ul>
+                        </li>
+                        <li class= "agm-nav-btn"><button class= "btn btn-solid btn-primary btn-pills btn-block">Button</button></li>
+                    </ul>
+                </div>
+            </div>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Refer to the navbar on the very top of this page to see the responsive design for this navbar</p>
+        </div>
+        <div class= "col-lg-12 py-3">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-navbar navbar-dark shadow-sm</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-navbar-nav</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....</p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-navbar navbar-dark shadow-sm</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< div class= "<span class= "text-danger">agm-navbar-nav mx-auto</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....</p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-navbar navbar-dark shadow-sm</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-navbar-nav ml-auto</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;....</p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>

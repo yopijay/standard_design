@@ -183,77 +183,80 @@ var toaster = (function() {
 // Sidenav Function
 $.fn.sidenav = function() {
     for(var count = 0; count < this.length; count++) {
-        let _id = this[0].id; // Id of the navbar
+        let _id = this[count].id; // Id of the navbar
         let _headerHeight = this[count].offsetHeight; // Height of the header
-        let _sidenavWidth = $('#' + _id + ' .agm-navbar-side')[0].offsetWidth; // Width of the sidenav
+        
+        if($('#' + _id + '').find('.agm-navbar-side').length != 0) {
+            let _sidenavWidth = $('#' + _id + ' .agm-navbar-side')[0].offsetWidth; // Width of the sidenav
 
-        // Icons to be added
-        let _dropdownIcon = '<i class= "fas fa-caret-right side-icon"></i>'; // Icon for link that has sub-links
-        let _toggleIcon = '<div class= "agm-toggle-menu" id= "' + _id + '-toggle"><i class= "fas fa-chevron-right"></i></div>'; // Icon for toggle button for sidenav
+            // Icons to be added
+            let _dropdownIcon = '<i class= "fas fa-caret-right side-icon"></i>'; // Icon for link that has sub-links
+            let _toggleIcon = '<div class= "agm-toggle-menu" id= "' + _id + '-toggle"><i class= "fas fa-chevron-right"></i></div>'; // Icon for toggle button for sidenav
 
-        // Sidenav class functionality
-        let _link = $('#' + _id + ' .agm-navbar-side > ul > li');
-        let _subLink = $('#' + _id + ' .agm-navbar-side > ul').find('.agm-side-link');
+            // Sidenav class functionality
+            let _link = $('#' + _id + ' .agm-navbar-side > ul > li');
+            let _subLink = $('#' + _id + ' .agm-navbar-side > ul').find('.agm-side-link');
 
-        // Finding elements
-        let _dropdown = $('#' + _id + ' .agm-navbar-side').find('.agm-side-dropdown > a'); // Get all link that has a class agm-side-dropdown
-        let _toggle = $('#' + _id + ' .agm-navbar-side'); // Get all navbar that has sidenavs
+            // Finding elements
+            let _dropdown = $('#' + _id + ' .agm-navbar-side').find('.agm-side-dropdown > a'); // Get all link that has a class agm-side-dropdown
+            let _toggle = $('#' + _id + '').find('.agm-navbar-side'); // Get all navbar that has sidenavs
 
-        _toggle[0].insertAdjacentHTML('beforebegin', _toggleIcon);
-        $('#' + _id + '-toggle').css({ top: (_headerHeight + 5) + 'px', left: '0' });
-        $('#' + _id + '-toggle').on('click', function() {
-            if($(this).hasClass('active')) {
-                $(this).removeClass('active');
-                $('#' + _id + ' .agm-navbar-side').css({ left: '-' + _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
-                $(this).css({ left: '0', transition: 'all 0.2s ease-in-out' });
-            }
-            else {
-                $(this).addClass('active');
-                $('#' + _id + ' .agm-navbar-side').css({ left: '0', transition: 'all 0.2s ease-in-out' });
-                $(this).css({ left: _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
-            }
-        });
-
-        for(var index = 0; index < _dropdown.length; index++) {
-            _dropdown[index].insertAdjacentHTML('beforeend', _dropdownIcon);
-        }
-
-        $(_link).on('click', function() {
-            $(_link).removeClass('active');
-            $(this).addClass('active');
-        });
-      
-        $(_subLink).on('click', function() {
-            $(_subLink).removeClass('active');
-            $(this).addClass('active');
-        });
-
-        responsive();
-        $('#' + _id + ' .agm-navbar-side').css({ top: _headerHeight + 'px', height:  ($(window).height() - _headerHeight) + 'px' });
-
-        $(window).resize(function() {
-            responsive();
-            $('#' + _id + ' .agm-navbar-side').css({ top: _headerHeight + 'px', height:  ($(this).height() - _headerHeight) + 'px' });
-        });
-
-        function responsive() {
-            if(this.matchMedia('(max-width: 1024px)').matches) {
-                $('#' + _id + ' .agm-navbar-side').css({ left: '-' + _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
-                $('#' + _id + '-toggle').css({ display: 'block' });
-              
-                $(_subLink).on('click', function() {
-                    $('#' + _id + '-toggle').removeClass('active');
+            _toggle[0].insertAdjacentHTML('beforebegin', _toggleIcon);
+            $('#' + _id + '-toggle').css({ top: (_headerHeight + 5) + 'px', left: '0' });
+            $('#' + _id + '-toggle').on('click', function() {
+                if($(this).hasClass('active')) {
+                    $(this).removeClass('active');
                     $('#' + _id + ' .agm-navbar-side').css({ left: '-' + _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
-                    $('#' + _id + '-toggle').css({ left: '0', transition: 'all 0.2s ease-in-out' });
-                });
-            }
-            else {
-                $('#' + _id + ' .agm-navbar-side').css({ left: '0', transition: 'all 0.2s ease-in-out' });
-                $('#' + _id + '-toggle').css({ display: 'none' });
-              
-                $(_subLink).on('click', function() {
+                    $(this).css({ left: '0', transition: 'all 0.2s ease-in-out' });
+                }
+                else {
+                    $(this).addClass('active');
                     $('#' + _id + ' .agm-navbar-side').css({ left: '0', transition: 'all 0.2s ease-in-out' });
-                });
+                    $(this).css({ left: _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
+                }
+            });
+
+            for(var index = 0; index < _dropdown.length; index++) {
+                _dropdown[index].insertAdjacentHTML('beforeend', _dropdownIcon);
+            }
+
+            $(_link).on('click', function() {
+                $(_link).removeClass('active');
+                $(this).addClass('active');
+            });
+        
+            $(_subLink).on('click', function() {
+                $(_subLink).removeClass('active');
+                $(this).addClass('active');
+            });
+
+            responsive();
+            $('#' + _id + ' .agm-navbar-side').css({ top: _headerHeight + 'px', height:  ($(window).height() - _headerHeight) + 'px' });
+
+            $(window).resize(function() {
+                responsive();
+                $('#' + _id + ' .agm-navbar-side').css({ top: _headerHeight + 'px', height:  ($(this).height() - _headerHeight) + 'px' });
+            });
+
+            function responsive() {
+                if(this.matchMedia('(max-width: 1024px)').matches) {
+                    $('#' + _id + ' .agm-navbar-side').css({ left: '-' + _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
+                    $('#' + _id + '-toggle').css({ display: 'block' });
+                
+                    $(_subLink).on('click', function() {
+                        $('#' + _id + '-toggle').removeClass('active');
+                        $('#' + _id + ' .agm-navbar-side').css({ left: '-' + _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
+                        $('#' + _id + '-toggle').css({ left: '0', transition: 'all 0.2s ease-in-out' });
+                    });
+                }
+                else {
+                    $('#' + _id + ' .agm-navbar-side').css({ left: '0', transition: 'all 0.2s ease-in-out' });
+                    $('#' + _id + '-toggle').css({ display: 'none' });
+                
+                    $(_subLink).on('click', function() {
+                        $('#' + _id + ' .agm-navbar-side').css({ left: '0', transition: 'all 0.2s ease-in-out' });
+                    });
+                }
             }
         }
     }
@@ -264,67 +267,70 @@ $.fn.sidenav = function() {
 $.fn.navbar = function() {
     for(var count = 0; count < this.length; count++) {
         let _id = this[count].id;
-        let _link = $('#' + _id + ' .agm-navbar-nav > ul > li');
-        let _subLink = $('#' + _id + ' .agm-navbar-nav > ul').find('.agm-nav-link');
         let _headerHeight = this[count].offsetHeight; // Height of the header
-        var _navbarWidth = $('#' + _id + ' .agm-navbar-nav')[0].offsetWidth;
+        
+        if($('#' + _id + '').find('.agm-navbar-nav').length != 0) {
+            let _link = $('#' + _id + ' .agm-navbar-nav > ul > li');
+            let _subLink = $('#' + _id + ' .agm-navbar-nav > ul').find('.agm-nav-link');
+            var _navbarWidth = $('#' + _id + ' .agm-navbar-nav')[0].offsetWidth;
 
-        let _toggleIcon = '<div class= "agm-toggle-dots" id= "' + _id + '-nav-toggle"><i class= "fas fa-ellipsis-v"></i></div>';
+            let _toggleIcon = '<div class= "agm-toggle-dots" id= "' + _id + '-nav-toggle"><i class= "fas fa-ellipsis-v"></i></div>';
 
-        let _toggle = $('#' + _id + ' .agm-navbar-nav');
-        _toggle[0].insertAdjacentHTML('beforebegin', _toggleIcon);
+            let _toggle = $('#' + _id + '').find('.agm-navbar-nav');
+            _toggle[0].insertAdjacentHTML('beforebegin', _toggleIcon);
 
-        let _toggleHeight = $('#' + _id + '-nav-toggle')[0].offsetHeight;
+            let _toggleHeight = $('#' + _id + '-nav-toggle')[0].offsetHeight;
 
-        $('#' + _id + '-nav-toggle').css({ top: ((_headerHeight - _toggleHeight) / 2 ) + 'px' });
+            // $('#' + _id + '-nav-toggle').css({ top: ((_headerHeight - _toggleHeight) / 2 ) + 'px' });
 
-        $('#' + _id + ' .agm-navbar-nav').css({ top: _headerHeight + 'px' });
+            $('#' + _id + ' .agm-navbar-nav').css({ top: _headerHeight + 'px' });
 
-        $(_link).on('click', function() {
-            $(_link).removeClass('active');
-            $(this).addClass('active');
-        });
-        $(_subLink).on('click', function() {
-            $(_subLink).removeClass('active');
-            $(this).addClass('active');
-        });
-
-        $('#' + _id + '-nav-toggle').on('click', function() {
-            if($(this).hasClass('active')) {
-                $(this).removeClass('active');
-                $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + _navbarWidth + 'px', transition: 'all 0.2s ease-in-out' });
-            }
-            else {
+            $(_link).on('click', function() {
+                $(_link).removeClass('active');
                 $(this).addClass('active');
-                $('#' + _id + ' .agm-navbar-nav').css({ right: '0', transition: 'all 0.2s ease-in-out' });
-            }
-        });
+            });
+            $(_subLink).on('click', function() {
+                $(_subLink).removeClass('active');
+                $(this).addClass('active');
+            });
 
-        responsive();
-        $(window).resize(function() {
-            responsive();
-        });
-
-        function responsive() {
-            if(this.matchMedia('(max-width: 1024px)').matches) {
-                $('#' + _id + '-nav-toggle').css({ display: 'block' });
-                var _linkHeight = $('#' + _id + ' .agm-navbar-nav > ul').find('.agm-nav-link')[0].offsetHeight - 20;
-
-                $('#' + _id + ' .agm-navbar-nav > ul > li > ul').css({ padding: _linkHeight + 'px 0 0 0' });
-                $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + _navbarWidth + 'px', transition: 'all 0.2s ease-in-out' });
-
-                $(_subLink).on('click', function() {
-                    $('#' + _id + '-nav-toggle').removeClass('active');
+            $('#' + _id + '-nav-toggle').on('click', function() {
+                if($(this).hasClass('active')) {
+                    $(this).removeClass('active');
                     $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + _navbarWidth + 'px', transition: 'all 0.2s ease-in-out' });
-                });
-            }
-            else {
-                $('#' + _id + '-nav-toggle').css({ display: 'none' });
-                var _linkHeight = $('#' + _id + ' .agm-navbar-nav')[0].offsetHeight;
-                $('#' + _id + ' .agm-navbar-nav > ul > li > ul').css({ padding: _linkHeight + 'px 0 0 0' });
-                // $(_subLink).on('click', function() {
-                //     $('#' + _id + ' .agm-navbar-nav ul > li > ul').css({ display: 'none' });
-                // });
+                }
+                else {
+                    $(this).addClass('active');
+                    $('#' + _id + ' .agm-navbar-nav').css({ right: '0', transition: 'all 0.2s ease-in-out' });
+                }
+            });
+
+            responsive();
+            $(window).resize(function() {
+                responsive();
+            });
+
+            function responsive() {
+                if(this.matchMedia('(max-width: 1024px)').matches) {
+                    $('#' + _id + '-nav-toggle').css({ display: 'block' });
+                    var _linkHeight = $('#' + _id + ' .agm-navbar-nav > ul').find('.agm-nav-link')[0].offsetHeight - 20;
+
+                    $('#' + _id + ' .agm-navbar-nav > ul > li > ul').css({ padding: _linkHeight + 'px 0 0 0' });
+                    $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + _navbarWidth + 'px', transition: 'all 0.2s ease-in-out' });
+
+                    $(_subLink).on('click', function() {
+                        $('#' + _id + '-nav-toggle').removeClass('active');
+                        $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + _navbarWidth + 'px', transition: 'all 0.2s ease-in-out' });
+                    });
+                }
+                else {
+                    $('#' + _id + '-nav-toggle').css({ display: 'none' });
+                    var _linkHeight = $('#' + _id + ' .agm-navbar-nav')[0].offsetHeight;
+                    $('#' + _id + ' .agm-navbar-nav > ul > li > ul').css({ padding: _linkHeight + 'px 0 0 0' });
+                    // $(_subLink).on('click', function() {
+                    //     $('#' + _id + ' .agm-navbar-nav ul > li > ul').css({ display: 'none' });
+                    // });
+                }
             }
         }
     }

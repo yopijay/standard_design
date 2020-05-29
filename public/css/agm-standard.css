@@ -11269,9 +11269,9 @@ body.agm-standard .navbar .agm-toggle-menu {
 }
 
 body.agm-standard .navbar .agm-toggle-dots {
-  position: absolute;
-  right: 1.5rem;
+  position: relative;
   top: 0;
+  margin-left: auto;
   font-size: 1.2rem;
   color: #353b48;
   cursor: pointer;
@@ -11643,9 +11643,9 @@ body.agm-standard .navbar.navbar-light .agm-toggle-menu {
 }
 
 body.agm-standard .navbar.navbar-light .agm-toggle-dots {
-  position: absolute;
-  right: 1.5rem;
+  position: relative;
   top: 0;
+  margin-left: auto;
   font-size: 1.2rem;
   color: #353b48;
   cursor: pointer;
@@ -12017,9 +12017,9 @@ body.agm-standard .navbar.navbar-dark .agm-toggle-menu {
 }
 
 body.agm-standard .navbar.navbar-dark .agm-toggle-dots {
-  position: absolute;
-  right: 1.5rem;
+  position: relative;
   top: 0;
+  margin-left: auto;
   font-size: 1.2rem;
   color: #f5f6fa;
   cursor: pointer;
@@ -12435,9 +12435,9 @@ body.agm-standard .agm-navbar .agm-toggle-menu {
 }
 
 body.agm-standard .agm-navbar .agm-toggle-dots {
-  position: absolute;
-  right: 1.5rem;
+  position: relative;
   top: 0;
+  margin-left: auto;
   font-size: 1.2rem;
   color: #353b48;
   cursor: pointer;
@@ -12809,9 +12809,9 @@ body.agm-standard .agm-navbar.navbar-light .agm-toggle-menu {
 }
 
 body.agm-standard .agm-navbar.navbar-light .agm-toggle-dots {
-  position: absolute;
-  right: 1.5rem;
+  position: relative;
   top: 0;
+  margin-left: auto;
   font-size: 1.2rem;
   color: #353b48;
   cursor: pointer;
@@ -13183,9 +13183,9 @@ body.agm-standard .agm-navbar.navbar-dark .agm-toggle-menu {
 }
 
 body.agm-standard .agm-navbar.navbar-dark .agm-toggle-dots {
-  position: absolute;
-  right: 1.5rem;
+  position: relative;
   top: 0;
+  margin-left: auto;
   font-size: 1.2rem;
   color: #f5f6fa;
   cursor: pointer;

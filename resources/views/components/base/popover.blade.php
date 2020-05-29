@@ -25,7 +25,7 @@
     <div class= "row mt-3 mb-5">
         <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <button type= "button" class= "btn btn-solid btn-danger" data-toggle= "popover" title= "Popover Title" data-content= "And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+            <button type= "button" class= "btn btn-solid btn-danger" data-toggle= "popover" title= "Popover Title" data-content= "And here's some amazing content. It's very engaging. Right?" data-trigger= "focus">Click to toggle popover</button>
         </div>
         <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
@@ -38,10 +38,10 @@
     <div class= "row mt-3 mb-5">
         <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
             <p class= "text-info mb-3 h5">Preview:</p>
-            <button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "top" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on top</button>
-            <button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "right" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on right</button>
-            <button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "bottom" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on bottom</button>
-            <button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "left" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">Popover on left</button>
+            <button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "top" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-trigger= "focus">Popover on top</button>
+            <button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "right" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-trigger= "focus">Popover on right</button>
+            <button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "bottom" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-trigger= "focus">Popover on bottom</button>
+            <button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "left" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-trigger= "focus">Popover on left</button>
         </div>
         <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>

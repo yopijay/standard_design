@@ -288,9 +288,9 @@
         border-bottom-right-radius: 50px;
     }
     .agm-toggle-dots {
-        position: absolute;
-        right: 1.5rem;
+        position: relative;
         top: 0;
+        margin-left: auto;
         font-size: 1.2rem;
         color: $color;
         cursor: pointer;

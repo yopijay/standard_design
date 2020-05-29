@@ -19,7 +19,7 @@
                         <h1><span>A</span>GM</h1>
                     </a>
                 </div>
-                <div class= "agm-navbar-nav">
+                <div class= "agm-navbar-nav justify-content-end ml-auto">
                     <ul>
                         <li class= "agm-nav-form"><input type= "text" class= "form-control form-control-sm form-pills" placeholder= "Search..."></li>
                         <li class= "agm-nav-link agm-nav-list"><a><i class= "fas fa-bell nav-icon"></i></a></li>
