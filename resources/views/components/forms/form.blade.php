@@ -256,7 +256,7 @@
                         </div>
                         <div class= "form-group">
                             <label for= "creditcard">Credit card number:</label>
-                            <input type= "text" class= "form-control credit-card" id= "creditcard" name= "creditcard" placeholder= "0000 0000 0000 0000">
+                            <input type= "text" class= "form-control credit-card" id= "creditcard" name= "creditcard">
                         </div>
                         <div class= "form-row">
                             <div class= "form-group col-4">
@@ -295,7 +295,7 @@
                             </div>
                             <div class= "form-group col-4">
                                 <label for= "cvvcvc">CVV/CVC:</label>
-                                <input type= "text" class= "form-control cvv-cvc" id= "cvvcvc" name= "cvvcvc" placeholder= "000">
+                                <input type= "text" class= "form-control cvv-cvc" id= "cvvcvc" name= "cvvcvc">
                             </div>
                         </div>
                     </form>

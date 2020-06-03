@@ -246,7 +246,6 @@ $.fn.sidenav = function() {
                         $('#' + _id + ' .agm-navbar-side').css({ left: '-' + _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
                         $('#' + _id + '-toggle').css({ left: '0', transition: 'all 0.2s ease-in-out' });
                     });
-                    console.log($('#' + _id + ' .agm-navbar-side'));
                 }
                 else {
                     $('#' + _id + ' .agm-navbar-side').css({ left: '0', transition: 'all 0.2s ease-in-out' });
@@ -807,21 +806,38 @@ $.fn.datatable = function() {
 $.fn.mask = function() {
     for (var _count = 0; _count < this.length; _count++) {
         if(this[_count].classList.contains('credit-card')) {
+            $('' + this[_count].tagName.toLowerCase() + '.credit-card').attr('placeholder', ('0000000000000000').replace(/(\d{4})(\d{4})(\d{4})(\d{4})/,"$1 $2 $3 $4"));
             $('' + this[_count].tagName.toLowerCase() + '.credit-card').on('keyup', function() {
                 let _value = $(this).val();
                 this.value = (_value.replace(/\D/g, '').substring(0, 16)).replace(/(\d{4})(\d{4})(\d{4})(\d{4})/,"$1 $2 $3 $4");
             });
         }
         else if(this[_count].classList.contains('cvv-cvc')) {
+            $('' + this[_count].tagName.toLowerCase() + '.cvv-cvc').attr('placeholder', ('000').replace(/(\d{3})/,"$1"));
             $('' + this[_count].tagName.toLowerCase() + '.cvv-cvc').on('keyup', function() {
                 let _value = $(this).val();
                 this.value = (_value.replace(/\D/g, '').substring(0, 3)).replace(/(\d{3})/,"$1");
             });
         }
         else if(this[_count].classList.contains('postal-code')) {
+            $('' + this[_count].tagName.toLowerCase() + '.postal-code').attr('placeholder', ('0000').replace(/(\d{4})/,"$1"));
             $('' + this[_count].tagName.toLowerCase() + '.postal-code').on('keyup', function() {
                 let _value = $(this).val();
                 this.value = (_value.replace(/\D/g, '').substring(0, 4)).replace(/(\d{4})/,"$1");
+            });
+        }
+        else if(this[_count].classList.contains('mobile-no')) {
+            $('' + this[_count].tagName.toLowerCase() + '.mobile-no').attr('placeholder', ('630000000000').replace(/(\d{2})(\d{3})(\d{3})(\d{4})/,"+$1 $2 $3 $4"));
+            $('' + this[_count].tagName.toLowerCase() + '.mobile-no').on('keyup', function() {
+                let _value = $(this).val();
+                this.value = (_value.replace(/\D/g, '').substring(0, 12)).replace(/(\d{2})(\d{3})(\d{3})(\d{4})/,"+$1 $2 $3 $4");
+
+                if($(this).val().length === 0) {
+                    $(this).val('63');
+                }
+            });
+            $('' + this[_count].tagName.toLowerCase() + '.mobile-no').on('click', function() {
+                $(this).val('63');
             });
         }
     }
