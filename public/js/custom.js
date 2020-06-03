@@ -68,4 +68,12 @@ $(function() {
             }
             // }
         })
+        .on('keyup', '.mask-input', function() {
+            let _id = $(this)[0].id;
+
+            if(document.getElementById(_id)) {
+                document.getElementById(_id + '-masked').innerHTML = $('#' + _id + '').val();
+                document.getElementById(_id + '-unmasked').innerHTML = $('#' + _id + '').unmask();
+            }
+        })
 });

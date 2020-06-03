@@ -15456,6 +15456,21 @@ body.agm-standard .form-control.form-pills {
   border-radius: 50px;
 }
 
+body.agm-standard .bootstrap-select button {
+  border: solid 1px #cad1da;
+  font-size: 0.8rem;
+  color: #7f8fa6;
+}
+
+body.agm-standard .bootstrap-select button:hover,
+body.agm-standard .bootstrap-select button:focus,
+body.agm-standard .bootstrap-select button:active {
+  outline: none;
+  border: solid 1px #7f8fa6;
+  box-shadow: none;
+  background-color: #FFFFFF;
+}
+
 body.agm-standard .input-group-prepend .input-group-text,
 body.agm-standard .input-group-append .input-group-text {
   vertical-align: center;

@@ -1,8 +1,6 @@
 $(function() {
     // Brand buttons
     brandButtons();
-    // Activate sidenav functionality
-    // $('.navbar-side').sidenav();
     // Activate custom navbar
     $('.agm-navbar').navbar();
     $('.agm-navbar').sidenav();
@@ -10,8 +8,8 @@ $(function() {
     $('[data-toggle= "popover"]').popover();
     // Activate tooltip
     $('[data-toggle= "tooltip"]').tooltip();
-
-    // $('.navbar').navbar();
+    // Activate Mask input
+    $(document.getElementsByTagName('input')).mask();
 });
 
 // Branded Buttons
@@ -248,6 +246,7 @@ $.fn.sidenav = function() {
                         $('#' + _id + ' .agm-navbar-side').css({ left: '-' + _sidenavWidth + 'px', transition: 'all 0.2s ease-in-out' });
                         $('#' + _id + '-toggle').css({ left: '0', transition: 'all 0.2s ease-in-out' });
                     });
+                    console.log($('#' + _id + ' .agm-navbar-side'));
                 }
                 else {
                     $('#' + _id + ' .agm-navbar-side').css({ left: '0', transition: 'all 0.2s ease-in-out' });
@@ -272,7 +271,6 @@ $.fn.navbar = function() {
         if($('#' + _id + '').find('.agm-navbar-nav').length != 0) {
             let _link = $('#' + _id + ' .agm-navbar-nav > ul > li');
             let _subLink = $('#' + _id + ' .agm-navbar-nav > ul').find('.agm-nav-link');
-            var _navbarWidth = $('#' + _id + ' .agm-navbar-nav')[0].offsetWidth;
 
             let _toggleIcon = '<div class= "agm-toggle-dots" id= "' + _id + '-nav-toggle"><i class= "fas fa-ellipsis-v"></i></div>';
 
@@ -280,8 +278,6 @@ $.fn.navbar = function() {
             _toggle[0].insertAdjacentHTML('beforebegin', _toggleIcon);
 
             let _toggleHeight = $('#' + _id + '-nav-toggle')[0].offsetHeight;
-
-            // $('#' + _id + '-nav-toggle').css({ top: ((_headerHeight - _toggleHeight) / 2 ) + 'px' });
 
             $('#' + _id + ' .agm-navbar-nav').css({ top: _headerHeight + 'px' });
 
@@ -297,7 +293,7 @@ $.fn.navbar = function() {
             $('#' + _id + '-nav-toggle').on('click', function() {
                 if($(this).hasClass('active')) {
                     $(this).removeClass('active');
-                    $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + _navbarWidth + 'px', transition: 'all 0.2s ease-in-out' });
+                    $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + $('#' + _id + ' .agm-navbar-nav')[0].offsetWidth + 'px', transition: 'all 0.2s ease-in-out' });
                 }
                 else {
                     $(this).addClass('active');
@@ -316,11 +312,11 @@ $.fn.navbar = function() {
                     var _linkHeight = $('#' + _id + ' .agm-navbar-nav > ul').find('.agm-nav-link')[0].offsetHeight - 20;
 
                     $('#' + _id + ' .agm-navbar-nav > ul > li > ul').css({ padding: _linkHeight + 'px 0 0 0' });
-                    $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + _navbarWidth + 'px', transition: 'all 0.2s ease-in-out' });
+                    $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + $('#' + _id + ' .agm-navbar-nav')[0].offsetWidth + 'px', transition: 'all 0.2s ease-in-out' });
 
                     $(_subLink).on('click', function() {
                         $('#' + _id + '-nav-toggle').removeClass('active');
-                        $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + _navbarWidth + 'px', transition: 'all 0.2s ease-in-out' });
+                        $('#' + _id + ' .agm-navbar-nav').css({ right: '-' + $('#' + _id + ' .agm-navbar-nav')[0].offsetWidth + 'px', transition: 'all 0.2s ease-in-out' });
                     });
                 }
                 else {
@@ -805,4 +801,33 @@ $.fn.datatable = function() {
         $('#' + _id + '>tbody').html();
         $('#' + _id + '>tbody').append(_empty).show();
     }
+}
+
+// Input Masking
+$.fn.mask = function() {
+    for (var _count = 0; _count < this.length; _count++) {
+        if(this[_count].classList.contains('credit-card')) {
+            $('' + this[_count].tagName.toLowerCase() + '.credit-card').on('keyup', function() {
+                let _value = $(this).val();
+                this.value = (_value.replace(/\D/g, '').substring(0, 16)).replace(/(\d{4})(\d{4})(\d{4})(\d{4})/,"$1 $2 $3 $4");
+            });
+        }
+        else if(this[_count].classList.contains('cvv-cvc')) {
+            $('' + this[_count].tagName.toLowerCase() + '.cvv-cvc').on('keyup', function() {
+                let _value = $(this).val();
+                this.value = (_value.replace(/\D/g, '').substring(0, 3)).replace(/(\d{3})/,"$1");
+            });
+        }
+        else if(this[_count].classList.contains('postal-code')) {
+            $('' + this[_count].tagName.toLowerCase() + '.postal-code').on('keyup', function() {
+                let _value = $(this).val();
+                this.value = (_value.replace(/\D/g, '').substring(0, 4)).replace(/(\d{4})/,"$1");
+            });
+        }
+    }
+}
+
+// Input Unmasking
+$.fn.unmask = function() {
+    return (this[0].value).replace(/\D/g, '');
 }

@@ -35,7 +35,7 @@
                 </div>
                 <div class="form-group mb-2">
                     <label for= "field">Select:</label>
-                    <select class= "form-control">
+                    <select class= "selectpicker d-block w-100" id= "sampleselect">
                         <option value="1">Option 1</option>
                         <option value="2">Option 2</option>
                         <option value="3">Option 3</option>
@@ -73,12 +73,42 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Select:< <span class= "text-danger">/label</span> ></p>
-            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">select</span> class= "<span class= "text-danger">form-control</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">select</span> class= "<span class= "text-danger">selectpicker</span>" ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">option</span> value= "<span class= "text-danger">1</span>" >Option 1< <span class= "text-danger">/option</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">option</span> value= "<span class= "text-danger">2</span>" >Option 2< <span class= "text-danger">/option</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/select</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "text-info mb-1 h5">SELECT DROPDOWN WITH SEARCH</p>
+    <p class= "mb-1">Add <span class= "text-danger">data-live-search= "true"</span> attribute to your < <span class= "text-danger">select</span> > tag to enable the search function on your select tag.</p>
+    <div class= "row mt-3 mb-5">
+        <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
+            <p class= "text-info mb-3 h5">Preview:</p>
+            <form>
+                <div class="form-group mb-2">
+                    <label for= "field">Select:</label>
+                    <select class= "selectpicker d-block w-100" data-live-search= "true">
+                        <option disabled selected value= "">-- Select Option --</option>
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class= 'col-lg-6 py-3 col-12'>
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">form-group</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">field</span>" >Select:< <span class= "text-danger">/label</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">select</span> class= "<span class= "text-danger">selectpicker</span>" data-live-search= "<span class= "text-danger">true</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">option</span> value= "<span class= "text-danger">1</span>" >Option 1< <span class= "text-danger">/option</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">option</span> value= "<span class= "text-danger">2</span>" >Option 2< <span class= "text-danger">/option</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/select</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>

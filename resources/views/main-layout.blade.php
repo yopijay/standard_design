@@ -80,6 +80,7 @@
                                 <li class= "agm-side-link"><a content= "input-page">Input Fields</a></li>
                                 <li class= "agm-side-link"><a content= "input-group-page">Input Group</a></li>
                                 <li class= "agm-side-link"><a content= "layout-page">Layout</a></li>
+                                <li class= "agm-side-link"><a content= "mask-page">Mask Input</a></li>
                             </ul>
                         </li>
                         <li class= "agm-side-list agm-side-dropdown">
@@ -140,6 +141,7 @@
                     @include('components.forms.form')
                     @include('components.forms.input')
                     @include('components.forms.input-group')
+                    @include('components.forms.mask')
                     @include('components.forms.validation')
                     @include('components.nav.nav')
                     @include('components.nav.navbar')

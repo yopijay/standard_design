@@ -45,6 +45,19 @@
             border-radius: 50px;
         }
     }
+    .bootstrap-select {
+        button {
+            border: solid 1px lighten($color-secondary, 25%);
+            font-size: .8rem;
+            color: $color-secondary;
+            &:hover, &:focus, &:active {
+                outline: none;
+                border: solid 1px $color-secondary;
+                box-shadow: none;
+                background-color: #FFFFFF;
+            }
+        }
+    }
     .input-group {
         &-prepend,
         &-append {
