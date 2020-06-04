@@ -10996,7 +10996,7 @@ body.agm-standard .agm-bg-dark-light {
 }
 
 body.agm-standard .navbar {
-  z-index: 1000;
+  z-index: 5000;
   background-color: #f5f6fa;
 }
 

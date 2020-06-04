@@ -47,6 +47,13 @@
                                 <td id= "mobile-no-sample-masked"></td>
                                 <td id= "mobile-no-sample-unmasked"></td>
                             </tr>
+                            <tr>
+                                <td><span class= "text-danger">.currency</span></td>
+                                <td>Currency</td>
+                                <td><input type= "text" class= "form-control currency mask-input" id= "currency-sample" currency-symbol= "$"></td>
+                                <td id= "currency-sample-masked"></td>
+                                <td id= "currency-sample-unmasked"></td>
+                            </tr>
                         </tbody>
                     </table>
                 </div>

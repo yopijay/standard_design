@@ -840,6 +840,20 @@ $.fn.mask = function() {
                 $(this).val('63');
             });
         }
+        else if(this[_count].classList.contains('currency')) {
+            let _symbol = $('' + this[_count].tagName.toLowerCase() + '.currency').attr('currency-symbol');
+            $('' + this[_count].tagName.toLowerCase() + '.currency').attr('placeholder', '0');
+            $('' + this[_count].tagName.toLowerCase() + '.currency').on('keyup', function() {
+                let _value = $(this).val();
+                let _masked = parseFloat(_value.replace(/\D/g,''),10).toLocaleString();
+
+                this.value = _symbol + ' ' + _masked;
+
+                if($(this).val() === _symbol + ' NaN') {
+                    $(this).val('0');
+                }
+            });
+        }
     }
 }
 
