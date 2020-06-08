@@ -1,7 +1,7 @@
 <div class= "px-3 mt-5 content" id= "mask-page">
     <h4>MASK INPUTS</h4>
     <hr>
-    <p class= "mb-1">Masked inputs are use to set a specific format for your inputs. Here are some classes that you can use to put some format to your inputs depend on what data you want to get.</p>
+    <p class= "mb-1">Masked inputs are use to set a specific format for your inputs. Here are some classes that you can use to put some format to your inputs depend on what data you want to get. I suggest that if you are using format classes to your inputs, make sure that the type of your input is set to "<span class= "text-danger">text</span>" becase some of the formats has a string value which is not compatible to input type "<span class= "text-danger">number</span>".</p>
     <p class= "mb-1">Also, remember that the default value of your masked input is the formatted one. To remove the format of the value of your input, use this javascript line of code: <b>$("<span class= "text-danger">id</span>").<span class= "text-primary">unmask</span>();</b>.</p>
     <div class= "row mt-3 mb-5">
         <div class= "col-lg-6 py-3 agm-bg-light rounded col-12">
@@ -65,6 +65,7 @@
             <p class= "mb-1">< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control cvv-cvc</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control postal-code</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control mobile-no</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control currency</span>" currency-symbol= "<span class= "text-danger">$</span>"</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
