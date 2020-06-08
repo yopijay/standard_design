@@ -181,7 +181,7 @@
         left: 0;
         top: 0;
         padding-top: 2rem;
-        background-color: lighten($background-color, 5%);
+        background-color: $background-color;
         overflow-y: scroll;
         &::-webkit-scrollbar {
             display: none;
@@ -190,7 +190,7 @@
             list-style: none;
             padding: 0;
             margin: 0;
-            background-color: lighten($background-color, 5%);
+            background-color: $background-color;
             li {
                 // position: relative;
                 &.agm-side-label {

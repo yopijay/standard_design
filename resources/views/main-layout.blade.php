@@ -13,7 +13,7 @@
     </head>
     <body class= "agm-standard">
         <div class= "container-fluid px-0">
-            <div class= "agm-navbar navbar-dark shadow-sm fixed-top" id= "main-header">
+            <div class= "agm-navbar navbar-light shadow-sm fixed-top" id= "main-header">
                 <div class= "agm-navbar-brand">
                     <a href= "">
                         <h1><span>A</span>GM</h1>
@@ -106,6 +106,13 @@
                                 <li class= "agm-side-link"><a content= "standard-tbl-page">Standard Tables</a></li>
                             </ul>
                         </li>
+                        <li class= "agm-side-label">Utilities</li>
+                        <li class= "agm-side-list agm-side-dropdown">
+                            <a>Utilities</a>
+                            <ul class= "agm-nav-items">
+                                <li class= "agm-side-link"><a content= "border-page">Borders</a></li>
+                            </ul>
+                        </li>
                         <li class= "agm-side-label">Pages</li>
                         <li class= "agm-side-link"><a content= "login-page">Login Page</a></li>
                         <li class= "agm-side-link"><a content= "404-page">404 Page</a></li>
@@ -150,6 +157,7 @@
                     @include('components.table.standard')
                     @include('components.pages.login')
                     @include('components.pages.404')
+                    @include('utilities.border')
                 </div>
             </div>
         </div>  

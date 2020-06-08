@@ -530,4 +530,4 @@
             <p class= "mb-1">< <span class= "text-danger">/table</span> ></p>
         </div>
     </div>
-</table>
+</div>

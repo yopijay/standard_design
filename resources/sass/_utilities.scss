@@ -1,0 +1,66 @@
+@mixin border() {
+  .agm-border {
+    &-none {
+      border: none;
+      &-top {
+        border: solid 1px $color-secondary;
+        border-top: none;
+      }
+      &-right {
+        border: solid 1px $color-secondary;
+        border-right: none;
+      }
+      &-bottom {
+        border: solid 1px $color-secondary;
+        border-bottom: none;
+      }
+      &-left {
+        border: solid 1px $color-secondary;
+        border-left: none;
+      }
+    }
+    &-top {
+      border-top: solid 1px $color-secondary;
+    }
+    &-right {
+      border-right: solid 1px $color-secondary;
+    }
+    &-bottom {
+      border-bottom: solid 1px $color-secondary;
+    }
+    &-left {
+      border-left: solid 1px $color-secondary;
+    }
+    @include border-theme();
+  }
+}
+
+@mixin border-theme() {
+  & {
+    border: solid 1px $color-secondary;
+  }
+  &.agm-border-primary {
+    border: solid 1px $color-primary;
+  }
+  &.agm-border-secondary {
+    border: solid 1px $color-secondary;
+  }
+  &.agm-border-success {
+    border: solid 1px $color-success;
+  }
+  &.agm-border-warning {
+    border: solid 1px $color-warning;
+  }
+  &.agm-border-danger {
+    border: solid 1px $color-danger;
+  }
+  &.agm-border-info {
+    border: solid 1px $color-info;
+  }
+  &.agm-border-light {
+    border: solid 1px $color-light;
+  }
+  &.agm-border-dark {
+    border: solid 1px $color-dark;
+  }
+}
