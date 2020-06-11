@@ -114,6 +114,7 @@
                                 <li class= "agm-side-link"><a content= "clearfix-page">Clearfix</a></li>
                                 <li class= "agm-side-link"><a content= "color-utility-page">Colors</a></li>
                                 <li class= "agm-side-link"><a content= "display-page">Display</a></li>
+                                <li class= "agm-side-link"><a content= "embed-page">Embeds</a></li>
                             </ul>
                         </li>
                         <li class= "agm-side-label">Pages</li>
@@ -164,6 +165,7 @@
                     @include('utilities.clearfix')
                     @include('utilities.color')
                     @include('utilities.display')
+                    @include('utilities.embed')
                 </div>
             </div>
         </div>  
