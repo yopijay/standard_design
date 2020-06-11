@@ -198,6 +198,7 @@
                 <div class= "col-3 mb-4">
                     <div class= "agm-bg-secondary agm-rounded-sm" style= "width: 100px; height: 100px;"></div>
                 </div>
+            </div>
         </div>
         <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>

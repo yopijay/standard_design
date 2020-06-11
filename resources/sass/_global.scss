@@ -24,6 +24,9 @@
     .text-dark {
         color: $color-dark;
     }
+    .text-white {
+        color: #FFFFFF;
+    }
 }
 
 // Text Display
@@ -97,5 +100,8 @@
     }
     .agm-bg-white {
         background-color: #FFFFFF;
+    }
+    .agm-bg-transparent {
+        background-color: rgba(0, 0, 0, 0.0);
     }
 }
