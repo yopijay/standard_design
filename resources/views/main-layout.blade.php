@@ -113,6 +113,7 @@
                                 <li class= "agm-side-link"><a content= "border-page">Borders</a></li>
                                 <li class= "agm-side-link"><a content= "clearfix-page">Clearfix</a></li>
                                 <li class= "agm-side-link"><a content= "color-utility-page">Colors</a></li>
+                                <li class= "agm-side-link"><a content= "display-page">Display</a></li>
                             </ul>
                         </li>
                         <li class= "agm-side-label">Pages</li>
@@ -162,6 +163,7 @@
                     @include('utilities.border')
                     @include('utilities.clearfix')
                     @include('utilities.color')
+                    @include('utilities.display')
                 </div>
             </div>
         </div>  
