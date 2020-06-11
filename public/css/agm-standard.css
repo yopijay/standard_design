@@ -17495,3 +17495,75 @@ body.agm-standard .agm-border.agm-border-dark {
   border: solid 1px #353b48;
 }
 
+body.agm-standard .agm-rounded {
+  border-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-top-left {
+  border-top-left-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-top-right {
+  border-top-right-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-right {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-right-top {
+  border-top-right-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-right-bottom {
+  border-bottom-right-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-bottom {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-bottom-left {
+  border-bottom-left-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-bottom-right {
+  border-bottom-right-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-left {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-left-top {
+  border-top-left-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-left-bottom {
+  border-bottom-left-radius: 5px;
+}
+
+body.agm-standard .agm-rounded-none {
+  border-radius: 0px;
+}
+
+body.agm-standard .agm-rounded-circle {
+  border-radius: 50px;
+}
+
+body.agm-standard .agm-rounded-sm {
+  border-radius: 3px;
+}
+
+body.agm-standard .agm-rounded-lg {
+  border-radius: 10px;
+}
+

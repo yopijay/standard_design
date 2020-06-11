@@ -113,4 +113,97 @@
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
         </div>
     </div>
+    <p class= "text-info mb-1 h5">BORDER RADIUS</p>
+    <p class= "mb-1">Add classes to an element to easily round its corners.</p>
+    <div class= "row mt-3 mb-5">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "row">
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-top" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-top-left" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-top-right" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-right" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-right-top" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-right-bottom" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-bottom" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-bottom-left" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-bottom-right" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-left" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-left-top" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-left-bottom" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-none" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-circle" style= "width: 100px; height: 100px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-top</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-top-right</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-top-left</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-right</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-right-top</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-right-bottom</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-bottom</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-bottom-right</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-bottom-left</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-left</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-left-top</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-left-bottom</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-none</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-circle</span>" ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "text-info mb-1 h5">SIZES</p>
+    <p class= "mb-1">Use <span class= "text-danger">.agm-rounded-lg</span> or <span class= "text-danger">.agm-rounded-sm</span> for larger or smaller border-radius.</p>
+    <div class= "row mt-3 mb-5">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "row">
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-lg" style= "width: 100px; height: 100px;"></div>
+                </div>
+                <div class= "col-3 mb-4">
+                    <div class= "agm-bg-secondary agm-rounded-sm" style= "width: 100px; height: 100px;"></div>
+                </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-lg</span>" ></p>
+            <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-sm</span>" ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
 </div>

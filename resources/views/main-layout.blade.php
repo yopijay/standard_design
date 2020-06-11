@@ -13,7 +13,7 @@
     </head>
     <body class= "agm-standard">
         <div class= "container-fluid px-0">
-            <div class= "agm-navbar navbar-light shadow-sm fixed-top" id= "main-header">
+            <div class= "agm-navbar navbar-dark shadow-sm fixed-top" id= "main-header">
                 <div class= "agm-navbar-brand">
                     <a href= "">
                         <h1><span>A</span>GM</h1>

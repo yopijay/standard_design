@@ -33,6 +33,61 @@
     }
     @include border-theme();
   }
+  .agm-rounded {
+    border-radius: 5px;
+    &-top {
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+      &-left {
+        border-top-left-radius: 5px;
+      }
+      &-right {
+        border-top-right-radius: 5px;
+      }
+    }
+    &-right {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      &-top {
+        border-top-right-radius: 5px;
+      }
+      &-bottom {
+        border-bottom-right-radius: 5px;
+      }
+    }
+    &-bottom {
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+      &-left {
+        border-bottom-left-radius: 5px;
+      }
+      &-right {
+        border-bottom-right-radius: 5px;
+      }
+    }
+    &-left {
+      border-top-left-radius: 5px;
+      border-bottom-left-radius: 5px;
+      &-top {
+        border-top-left-radius: 5px;
+      }
+      &-bottom {
+        border-bottom-left-radius: 5px;
+      }
+    }
+    &-none {
+      border-radius: 0px;
+    }
+    &-circle {
+      border-radius: 50px;
+    }
+    &-sm {
+      border-radius: 3px;
+    }
+    &-lg {
+      border-radius: 10px;
+    }
+  }
 }
 
 @mixin border-theme() {
