@@ -111,6 +111,7 @@
                             <a>Utilities</a>
                             <ul class= "agm-nav-items">
                                 <li class= "agm-side-link"><a content= "border-page">Borders</a></li>
+                                <li class= "agm-side-link"><a content= "clearfix-page">Clearfix</a></li>
                                 <li class= "agm-side-link"><a content= "color-utility-page">Colors</a></li>
                             </ul>
                         </li>
@@ -159,6 +160,7 @@
                     @include('components.pages.login')
                     @include('components.pages.404')
                     @include('utilities.border')
+                    @include('utilities.clearfix')
                     @include('utilities.color')
                 </div>
             </div>
