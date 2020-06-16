@@ -121,6 +121,7 @@
                                 <li class= "agm-side-link"><a content= "position-page">Position</a></li>
                                 <li class= "agm-side-link"><a content= "shadow-page">Shadow</a></li>
                                 <li class= "agm-side-link"><a content= "sizing-page">Sizing</a></li>
+                                <li class= "agm-side-link"><a content= "visibility-page">Visibility</a></li>
                             </ul>
                         </li>
                         <li class= "agm-side-label">Pages</li>
@@ -178,6 +179,7 @@
                     @include('utilities.position')
                     @include('utilities.shadow')
                     @include('utilities.sizing')
+                    @include('utilities.visibility')
                 </div>
             </div>
         </div>  
