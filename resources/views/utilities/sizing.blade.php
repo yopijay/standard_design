@@ -81,7 +81,7 @@
     </div>
     <p class= "mb-1 text-info h5">RELATIVE TO THE VIEWPORT</p>
     <p class= "mb-1">You can also use utilities to set the width and height relative to the viewport.</p>
-    <div class= 'row'>
+    <div class= 'row my-3'>
         <div class= "agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">min-vw-100</span>" >Min width 100vw< <span class= "text-danger">/div</span> ></p>
