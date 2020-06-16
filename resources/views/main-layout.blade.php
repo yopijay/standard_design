@@ -118,6 +118,7 @@
                                 <li class= "agm-side-link"><a content= "flex-page">Flex</a></li>
                                 <li class= "agm-side-link"><a content= "float-page">Float</a></li>
                                 <li class= "agm-side-link"><a content= "overflow-page">Overflow</a></li>
+                                <li class= "agm-side-link"><a content= "position-page">Position</a></li>
                             </ul>
                         </li>
                         <li class= "agm-side-label">Pages</li>
@@ -172,6 +173,7 @@
                     @include('utilities.flex')
                     @include('utilities.float')
                     @include('utilities.overflow')
+                    @include('utilities.position')
                 </div>
             </div>
         </div>  
