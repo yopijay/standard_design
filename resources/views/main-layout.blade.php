@@ -120,6 +120,7 @@
                                 <li class= "agm-side-link"><a content= "overflow-page">Overflow</a></li>
                                 <li class= "agm-side-link"><a content= "position-page">Position</a></li>
                                 <li class= "agm-side-link"><a content= "shadow-page">Shadow</a></li>
+                                <li class= "agm-side-link"><a content= "sizing-page">Sizing</a></li>
                             </ul>
                         </li>
                         <li class= "agm-side-label">Pages</li>
@@ -176,6 +177,7 @@
                     @include('utilities.overflow')
                     @include('utilities.position')
                     @include('utilities.shadow')
+                    @include('utilities.sizing')
                 </div>
             </div>
         </div>  
