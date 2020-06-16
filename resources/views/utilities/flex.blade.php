@@ -565,4 +565,289 @@
         <li><span class= "text-danger">.flex-xl-wrap</span></li>
         <li><span class= "text-danger">.flex-xl-wrap-reverse</span></li>
     </ul>
+    <p class= "mb-1 text-info h5">ORDER</p>
+    <p class= "mb-1">Change the visual order of specific flex items with a handful of <span class= "text-danger">order</span> utilities. We only provide options for making an item first or last, as well as a reset to use the DOM order. As <span class= "text-danger">order</span> takes any integer value (e.g., 5), add custom CSS for any additional values needed.</p>
+    <div class= "row my-3">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "d-flex flex-nowrap agm-bg-secondary mb-2">
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light order-3">First flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light order-2">Second flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light order-1">Third flex item</div>
+            </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-nowrap</span>" ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">order-3 p-2</span>" >First flex item< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">order-2 p-2</span>" >Second flex item< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">order-1 p-2</span>" >Third flex item< <span class= "text-danger">/div</span> ></p>
+            <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">order</span>.</p>
+    <ul class= "mb-5">
+        <li><span class= "text-danger">.order-0</span></li>
+        <li><span class= "text-danger">.order-1</span></li>
+        <li><span class= "text-danger">.order-2</span></li>
+        <li><span class= "text-danger">.order-3</span></li>
+        <li><span class= "text-danger">.order-4</span></li>
+        <li><span class= "text-danger">.order-5</span></li>
+        <li><span class= "text-danger">.order-6</span></li>
+        <li><span class= "text-danger">.order-7</span></li>
+        <li><span class= "text-danger">.order-8</span></li>
+        <li><span class= "text-danger">.order-9</span></li>
+        <li><span class= "text-danger">.order-10</span></li>
+        <li><span class= "text-danger">.order-11</span></li>
+        <li><span class= "text-danger">.order-12</span></li>
+        <li><span class= "text-danger">.order-sm-0</span></li>
+        <li><span class= "text-danger">.order-sm-1</span></li>
+        <li><span class= "text-danger">.order-sm-2</span></li>
+        <li><span class= "text-danger">.order-sm-3</span></li>
+        <li><span class= "text-danger">.order-sm-4</span></li>
+        <li><span class= "text-danger">.order-sm-5</span></li>
+        <li><span class= "text-danger">.order-sm-6</span></li>
+        <li><span class= "text-danger">.order-sm-7</span></li>
+        <li><span class= "text-danger">.order-sm-8</span></li>
+        <li><span class= "text-danger">.order-sm-9</span></li>
+        <li><span class= "text-danger">.order-sm-10</span></li>
+        <li><span class= "text-danger">.order-sm-11</span></li>
+        <li><span class= "text-danger">.order-sm-12</span></li>
+        <li><span class= "text-danger">.order-md-0</span></li>
+        <li><span class= "text-danger">.order-md-1</span></li>
+        <li><span class= "text-danger">.order-md-2</span></li>
+        <li><span class= "text-danger">.order-md-3</span></li>
+        <li><span class= "text-danger">.order-md-4</span></li>
+        <li><span class= "text-danger">.order-md-5</span></li>
+        <li><span class= "text-danger">.order-md-6</span></li>
+        <li><span class= "text-danger">.order-md-7</span></li>
+        <li><span class= "text-danger">.order-md-8</span></li>
+        <li><span class= "text-danger">.order-md-9</span></li>
+        <li><span class= "text-danger">.order-md-10</span></li>
+        <li><span class= "text-danger">.order-md-11</span></li>
+        <li><span class= "text-danger">.order-md-12</span></li>
+        <li><span class= "text-danger">.order-lg-0</span></li>
+        <li><span class= "text-danger">.order-lg-1</span></li>
+        <li><span class= "text-danger">.order-lg-2</span></li>
+        <li><span class= "text-danger">.order-lg-3</span></li>
+        <li><span class= "text-danger">.order-lg-4</span></li>
+        <li><span class= "text-danger">.order-lg-5</span></li>
+        <li><span class= "text-danger">.order-lg-6</span></li>
+        <li><span class= "text-danger">.order-lg-7</span></li>
+        <li><span class= "text-danger">.order-lg-8</span></li>
+        <li><span class= "text-danger">.order-lg-9</span></li>
+        <li><span class= "text-danger">.order-lg-10</span></li>
+        <li><span class= "text-danger">.order-lg-11</span></li>
+        <li><span class= "text-danger">.order-lg-12</span></li>
+        <li><span class= "text-danger">.order-xl-0</span></li>
+        <li><span class= "text-danger">.order-xl-1</span></li>
+        <li><span class= "text-danger">.order-xl-2</span></li>
+        <li><span class= "text-danger">.order-xl-3</span></li>
+        <li><span class= "text-danger">.order-xl-4</span></li>
+        <li><span class= "text-danger">.order-xl-5</span></li>
+        <li><span class= "text-danger">.order-xl-6</span></li>
+        <li><span class= "text-danger">.order-xl-7</span></li>
+        <li><span class= "text-danger">.order-xl-8</span></li>
+        <li><span class= "text-danger">.order-xl-9</span></li>
+        <li><span class= "text-danger">.order-xl-10</span></li>
+        <li><span class= "text-danger">.order-xl-11</span></li>
+        <li><span class= "text-danger">.order-xl-12</span></li>
+    </ul>
+    <p class= "mb-1 text-info h5">ALIGN CONTENT</p>
+    <p class= "mb-1">Use <span class= "text-danger">align-content</span> utilities on flexbox containers to align flex items together on the cross axis. Choose from <span class= "text-danger">start</span> (browser default), <span class= "text-danger">end</span>, <span class= "text-danger">center</span>, <span class= "text-danger">between</span>, <span class= "text-danger">around</span>, or <span class= "text-danger">stretch</span>. To demonstrate these utilities, we’ve enforced <span class= "text-danger">flex-wrap: wrap</span> and increased the number of flex items.</p>
+    <div class= "row my-3">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "d-flex flex-wrap align-content-start agm-bg-secondary mb-2" style= "height: 200px;">
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+            </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-start</span>" >...< <span class= "text-danger">/div</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <div class= "row my-3">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "d-flex flex-wrap align-content-end agm-bg-secondary mb-2" style= "height: 200px;">
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+            </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-end</span>" >...< <span class= "text-danger">/div</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <div class= "row my-3">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "d-flex flex-wrap align-content-center agm-bg-secondary mb-2" style= "height: 200px;">
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+            </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-center</span>" >...< <span class= "text-danger">/div</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <div class= "row my-3">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "d-flex flex-wrap align-content-between agm-bg-secondary mb-2" style= "height: 200px;">
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+            </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-between</span>" >...< <span class= "text-danger">/div</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <div class= "row my-3">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "d-flex flex-wrap align-content-around agm-bg-secondary mb-2" style= "height: 200px;">
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+            </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-around</span>" >...< <span class= "text-danger">/div</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <div class= "row my-3">
+        <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
+            <p class= "h5 text-info mb-3">Preview:</p>
+            <div class= "d-flex flex-wrap align-content-stretch agm-bg-secondary mb-2" style= "height: 200px;">
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+                <div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div>
+            </div>
+        </div>
+        <div class= "col-lg-6 py-3 col-12">
+            <p class= "h5 text-info mb-3">Example Code:</p>
+            <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-stretch</span>" >...< <span class= "text-danger">/div</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+        </div>
+    </div>
+    <ul class= "mb-5">
+        <li><span class= "text-danger">.align-content-start</span></li>
+        <li><span class= "text-danger">.align-content-end</span></li>
+        <li><span class= "text-danger">.align-content-center</span></li>
+        <li><span class= "text-danger">.align-content-between</span></li>
+        <li><span class= "text-danger">.align-content-around</span></li>
+        <li><span class= "text-danger">.align-content-stretch</span></li>
+        <li><span class= "text-danger">.align-content-sm-start</span></li>
+        <li><span class= "text-danger">.align-content-sm-end</span></li>
+        <li><span class= "text-danger">.align-content-sm-center</span></li>
+        <li><span class= "text-danger">.align-content-sm-between</span></li>
+        <li><span class= "text-danger">.align-content-sm-around</span></li>
+        <li><span class= "text-danger">.align-content-sm-stretch</span></li>
+        <li><span class= "text-danger">.align-content-md-start</span></li>
+        <li><span class= "text-danger">.align-content-md-end</span></li>
+        <li><span class= "text-danger">.align-content-md-center</span></li>
+        <li><span class= "text-danger">.align-content-md-between</span></li>
+        <li><span class= "text-danger">.align-content-md-around</span></li>
+        <li><span class= "text-danger">.align-content-md-stretch</span></li>
+        <li><span class= "text-danger">.align-content-lg-start</span></li>
+        <li><span class= "text-danger">.align-content-lg-end</span></li>
+        <li><span class= "text-danger">.align-content-lg-center</span></li>
+        <li><span class= "text-danger">.align-content-lg-between</span></li>
+        <li><span class= "text-danger">.align-content-lg-around</span></li>
+        <li><span class= "text-danger">.align-content-lg-stretch</span></li>
+        <li><span class= "text-danger">.align-content-xl-start</span></li>
+        <li><span class= "text-danger">.align-content-xl-end</span></li>
+        <li><span class= "text-danger">.align-content-xl-center</span></li>
+        <li><span class= "text-danger">.align-content-xl-between</span></li>
+        <li><span class= "text-danger">.align-content-xl-around</span></li>
+        <li><span class= "text-danger">.align-content-xl-stretch</span></li>
+    </ul>
 </div>
