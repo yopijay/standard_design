@@ -116,6 +116,7 @@
                                 <li class= "agm-side-link"><a content= "display-page">Display</a></li>
                                 <li class= "agm-side-link"><a content= "embed-page">Embeds</a></li>
                                 <li class= "agm-side-link"><a content= "flex-page">Flex</a></li>
+                                <li class= "agm-side-link"><a content= "float-page">Float</a></li>
                             </ul>
                         </li>
                         <li class= "agm-side-label">Pages</li>
@@ -168,6 +169,7 @@
                     @include('utilities.display')
                     @include('utilities.embed')
                     @include('utilities.flex')
+                    @include('utilities.float')
                 </div>
             </div>
         </div>  
