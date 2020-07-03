@@ -9,7 +9,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">visible</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">invisible</span>" >...< <span class= "text-danger">/div</span> ></p>
-            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-visibility" copy-data= '<div class= "visible">...</div>'>COPY</button>
         </div>
     </div>
 </div>

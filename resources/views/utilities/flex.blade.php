@@ -15,6 +15,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex p-2 agm-bg-secondary text-white</span>" >I`m a flexbox container!< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-inline-flex p-2 agm-bg-secondary text-white</span>" >I`m an inline flexbox container!< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-1" copy-data= '<div class= "d-flex p-2 agm-bg-secondary text-white mb-2">I`m a flexbox container!</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">.d-flex</span> and <span class= "text-danger">.d-infline-flex</span>.</p>
@@ -60,6 +61,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">p-2 agm-bg-info agm-border agm-border-light text-white</span>" >Flext item 3< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-2" copy-data= '<div class= "d-flex flex-row agm-bg-secondary mb-2"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item 1</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item 2</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item 3</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Use <span class= "text-danger">.flex-column</span> to set a vertical direction, or <span class= "text-danger">.flex-column-reverse</span> to start the vertical direction from the opposite side.</p>
@@ -90,6 +92,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">p-2 agm-bg-info agm-border agm-border-light text-white</span>" >Flext item 3< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-3" copy-data= '<div class= "d-flex flex-column agm-bg-secondary mb-2"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item 1</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item 2</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item 3</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">flex-direction</span>.</p>
@@ -154,6 +157,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex justify-content-between</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex justify-content-arround</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-4" copy-data= '<div class= "d-flex justify-content-start agm-bg-secondary mb-2"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">justify-content</span>.</p>
@@ -223,6 +227,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex align-items-between</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex align-items-arround</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-5" copy-data= '<div class= "d-flex align-items-start agm-bg-secondary mb-2" style= "height: 100px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">align-items</span>.</p>
@@ -292,6 +297,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">align-self-baseline</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">align-self-stretch</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-6" copy-data= '<div class= "d-flex agm-bg-secondary mb-2" style= "height: 100px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "align-self-start p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">align-self</span>.</p>
@@ -341,6 +347,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">p-2 flex-fill</span>" >Flex item< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-7" copy-data= '<div class= "d-flex agm-bg-secondar"><div class= "p-2 flex-fill agm-bg-info agm-border agm-border-light text-white">Flex item with a lot of content</div><div class= "p-2 flex-fill agm-bg-info agm-border agm-border-light text-white">Flex item</div><div class= "p-2 flex-fill agm-bg-info agm-border agm-border-light text-white">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variation also exist for <span class= "text-danger">flex-fill</span>.</p>
@@ -370,6 +377,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">p-2</span>" >Third flex item< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-8" copy-data= '<div class= "d-flex agm-bg-secondar"><div class= "p-2 flex-grow-1 agm-bg-info agm-border agm-border-light text-white">Flex item</div><div class= "p-2 agm-bg-info agm-border agm-border-light text-white">Flex item</div><div class= "p-2 agm-bg-info agm-border agm-border-light text-white">Third flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Use <span class= "text-danger">.flex-shrink-*</span> utilities to toggle a flex item`s ability to shrink if necessary. In the example, the second flex item with <span class= "text-danger">.flex-shrink-1</span> is forced to wrap its content to a new line, "shrinking" to allow more space for the previous flex item with <span class= "text-danger">.w-100</span>.</p>
@@ -388,6 +396,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">flex-shrink-1 p-2</span>" >Flex item< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-9" copy-data= '<div class= "d-flex agm-bg-secondar"><div class= "w-100 p-2 agm-bg-info agm-border agm-border-light text-white">Flex item</div><div class= "flex-shrink-1 p-2 agm-bg-info agm-border agm-border-light text-white">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">flex-grow</span> and <span class= "text-danger">flex-shrink</span>.</p>
@@ -443,6 +452,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">p-2 agm-bg-info agm-border agm-border-light text-white ml-auto</span>" >Flext item< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-10" copy-data= '<div class= "d-flex agm-bg-secondary mb-2"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light mr-auto">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">WITH ALIGN-ITEMS</p>
@@ -474,6 +484,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">p-2 agm-bg-info agm-border agm-border-light text-white mt-auto</span>" >Flext item< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-11" copy-data= '<div class= "d-flex agm-bg-secondary mb-2 align-items-start flex-column" style= "height: 150px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light mb-auto">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">WRAP</p>
@@ -491,6 +502,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-nowrap</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-12" copy-data= '<div class= "d-flex flex-nowrap agm-bg-secondary mb-2" style= "width: 200px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -518,6 +530,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-13" copy-data= '<div class= "d-flex flex-wrap agm-bg-secondary mb-2"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -545,6 +558,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap-reverse</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-14" copy-data= '<div class= "d-flex flex-wrap-reverse agm-bg-secondary mb-2"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">flex-wrap</span>.</p>
@@ -584,6 +598,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">order-1 p-2</span>" >Third flex item< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-15" copy-data= '<div class= "d-flex flex-nowrap agm-bg-secondary mb-2"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light order-3">First flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light order-2">Second flex item</div><div class= "p-2 agm-bg-info text-white agm-border agm-border-light order-1">Third flex item</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Responsive variations also exist for <span class= "text-danger">order</span>.</p>
@@ -681,6 +696,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-start</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-16" copy-data= '<div class= "d-flex flex-wrap align-content-start agm-bg-secondary mb-2" style= "height: 200px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -708,6 +724,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-end</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-17" copy-data= '<div class= "d-flex flex-wrap align-content-end agm-bg-secondary mb-2" style= "height: 200px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -735,6 +752,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-center</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-18" copy-data= '<div class= "d-flex flex-wrap align-content-center agm-bg-secondary mb-2" style= "height: 200px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -762,6 +780,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-between</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-19" copy-data= '<div class= "d-flex flex-wrap align-content-between agm-bg-secondary mb-2" style= "height: 200px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -789,6 +808,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-around</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-20" copy-data= '<div class= "d-flex flex-wrap align-content-around agm-bg-secondary mb-2" style= "height: 200px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -816,6 +836,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-flex flex-wrap align-content-stretch</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-flex-21" copy-data= '<div class= "d-flex flex-wrap align-content-stretch agm-bg-secondary mb-2" style= "height: 200px;"><div class= "p-2 agm-bg-info text-white agm-border agm-border-light">Flex item</div></div>'>COPY</button>
         </div>
     </div>
     <ul class= "mb-5">

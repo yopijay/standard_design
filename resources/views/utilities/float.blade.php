@@ -17,6 +17,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">float-right</span>">Float right on all viewport sizes< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">float-none</span>">Don`t float on all viewport sizes< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-float-1" copy-data= '<div class= "float-right">Float right on all viewport sizes</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">RESPONSIVE</p>
@@ -36,6 +37,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">float-lg-left</span>">Float left on viewports sized LG (large) or wider< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">float-xl-left</span>">Float left on viewports sized XL (extra-large) or wider< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-float-2" copy-data= '<div class= "float-sm-left w-100">Float left on viewports sized SM (small) or wider</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Here are all the support classes;</p>

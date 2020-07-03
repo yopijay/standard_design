@@ -13,6 +13,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">position-fixed</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">position-sticky</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-position-1" copy-data= '<div class= "position-static">...</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">FIXED TOP</p>
@@ -22,6 +23,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">fixed-top</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-position-2" copy-data= '<div class= "fixed-top">...</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">FIXED BOTTOM</p>
@@ -31,6 +33,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">fixed-bottom</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-position-3" copy-data= '<div class= "fixed-bottom">...</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">STICKY TOP</p>
@@ -41,6 +44,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">sticky-top</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-position-4" copy-data= '<div class= "sticky-top">...</div>'>COPY</button>
         </div>
     </div>
 </div>

@@ -81,15 +81,6 @@ $(function() {
         })
 });
 
-// function copyText(id) {
-//     let text = $('#' + id + '').attr('copy-data');
-//     var element = '<input id= "' + id + '-text" class= "d-none">';
-//     document.getElementById(id).insertAdjacentHTML('afterend', element);
-//     $('#' + id + '-text').val(text).select();
-//     document.execCommand('copy');
-//     $('#' + id + '-text').remove();
-// }
-
 $.fn.copyText = function() {
     let _id = this[0].id;
     let _text = $('#' + _id + '').attr('copy-data');

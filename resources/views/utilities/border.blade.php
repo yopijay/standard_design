@@ -34,6 +34,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-border-bototm</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-border-left</span>" >< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-border-1" copy-data= '<div class= "agm-bg-white agm-border" style= "width: 100px; height: 100px;"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SUBTRACTIVE</p>
@@ -66,6 +67,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-border-none-bototm</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-border-none-left</span>" >< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-border-2" copy-data= '<div class= "agm-bg-white agm-border-none" style= "width: 100px; height: 100px;"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BORDER COLOR</p>
@@ -111,6 +113,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-border agm-border-light</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-border agm-border-dark</span>" >< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-border-3" copy-data= '<div class= "agm-bg-white agm-border agm-border-primary" style= "width: 100px; height: 100px;"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BORDER RADIUS</p>
@@ -184,6 +187,7 @@
             <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-none</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-circle</span>" ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-border-4" copy-data= '<div class= "agm-bg-secondary agm-rounded" style= "width: 100px; height: 100px;"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZES</p>
@@ -205,6 +209,7 @@
             <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-lg</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">agm-rounded-sm</span>" ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-border-5" copy-data= '<div class= "agm-bg-secondary agm-rounded-lg" style= "width: 100px; height: 100px;"></div>'>COPY</button>
         </div>
     </div>
 </div>

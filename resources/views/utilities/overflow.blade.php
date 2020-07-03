@@ -26,7 +26,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">overflow-auto</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">overflow-hidden</span>" >...< <span class= "text-danger">/div</span> ></p>
-            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-overflow" copy-data= '<div class= "overflow-auto d-block" style= "height: 100px;"><p class= "py-1">This is an example of using <span class= "text-danger">.overflow-auto</span> on an element with set width and height dimensions. By design, this content will vertically scroll.</p><p class= "py-1">This is an example of using <span class= "text-danger">.overflow-auto</span> on an element with set width and height dimensions. By design, this content will vertically scroll.</p><p class= "py-1">This is an example of using <span class= "text-danger">.overflow-auto</span> on an element with set width and height dimensions. By design, this content will vertically scroll.</p></div></div>'>COPY</button>
         </div>
     </div>
 </div>

@@ -19,6 +19,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">w-100 p-3 agm-bg-primary</span>" >Width 100%< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">w-auto p-3 agm-bg-primary</span>" >Width auto< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-size-1" copy-data= '<div class= "w-25 p-3 agm-bg-primary text-white">Width 25%</div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -50,6 +51,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">h-100 agm-bg-primary</span>" >Height 100%< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">h-auto agm-bg-primary</span>" >Height auto< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-size-2" copy-data= '<div class= "h-25 agm-bg-primary text-white" style= "width: 120px;">Height 25%</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">You can also use <span class= "text-danger">max-width: 100%</span>; and <span class= "text-danger">max-height: 100%;</span> utilities as needed.</p>
@@ -62,6 +64,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">mw-100</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-size-3" copy-data= '<div class= "mw-100 p-5 agm-bg-secondary text-white text-center">Max-width 100%</div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -77,6 +80,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">mh-100</span>" style= "<span class= "text-danger">width: 100px; height: 500px;</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-size-4" copy-data= '<div class= "mh-100 agm-bg-secondary" style= "width: 100px; height: 500px;">Max height 100%</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">RELATIVE TO THE VIEWPORT</p>
@@ -89,6 +93,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">vw-100</span>" >Width 100vw< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">vh-100</span>" >Height 100vh< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-size-5" copy-data= '<div class= "min-vw-100">Min width 100vw</div>'>COPY</button>
         </div>
     </div>
 </div>

@@ -88,6 +88,8 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tr</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tbody</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/table</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-tbl-1" copy-data= '<table class= "table"><thead><tr><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th></tr></thead><tbody><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr></tbody></table>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">TABLE HEAD OPTIONS</p>
@@ -176,6 +178,8 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tr</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tbody</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/table</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-tbl-2" copy-data= '<table class= "table"><thead class= "thead-light"><tr><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th></tr></thead><tbody><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr></tbody></table>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">STRIPPED TABLE</p>
@@ -264,6 +268,8 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tr</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tbody</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/table</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-tbl-3" copy-data= '<table class= "table table-striped"><thead><tr><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th></tr></thead><tbody><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr></tbody></table>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BORDERED TABLE</p>
@@ -352,6 +358,8 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tr</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tbody</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/table</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-tbl-4" copy-data= '<table class= "table table-bordered"><thead><tr><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th></tr></thead><tbody><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr></tbody></table>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BORDERLESS TABLE</p>
@@ -440,6 +448,8 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tr</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tbody</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/table</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-tbl-5" copy-data= '<table class= "table table-borderless"><thead><tr><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th></tr></thead><tbody><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr></tbody></table>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">HOVERABLE ROWS</p>
@@ -528,6 +538,8 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tr</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/tbody</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/table</span> ></p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-tbl-6" copy-data= '<table class= "table table-hover"><thead><tr><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th><th scope= "col">..</th></tr></thead><tbody><tr><td>...</td><td>...</td><td>...</td><td>...</td></tr></tbody></table>'>COPY</button>
         </div>
     </div>
 </div>

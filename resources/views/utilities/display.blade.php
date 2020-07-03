@@ -34,6 +34,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-bg-primary d-inline p-2 text-white</span>" >d-inline< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-bg-dark d-inline p-2 text-white</span>" >d-inline< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-display-1" copy-data= '<div class= "agm-bg-primary d-inline p-2 text-white">d-inline</div>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -47,6 +48,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-bg-primary d-block p-2 text-white</span>" >d-block< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-bg-dark d-block p-2 text-white</span>" >d-block< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-display-2" copy-data= '<div class= "agm-bg-primary d-block p-2 text-white">d-block</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">HIDING ELEMENTS</p>
@@ -126,6 +128,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-lg-none</span>" >hide on lg and wider screens< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-none d-lg-block</span>" >hide on screens smaller than lg< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-display-3" copy-data= '<div class= "d-lg-none">hide on lg and wider screens</div><div class= "d-none d-lg-block">hide on screens smaller than lg</div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">DISPLAY IN PRINT</p>
@@ -217,6 +220,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-none d-print-block</span>" >Print Only (Hide on print only)< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">d-none d-lg-block d-print-block</span>" >Hide up to large screen, but always show on print< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-display-4" copy-data= '<div class= "d-print-none">Screen Only (Hide on print only)</div><div class= "d-none d-print-block">Print Only (Hide on screen only)</div><div class= "d-none d-lg-block d-print-block">Hide up to large on screen, but always show on print</div>'>COPY</button>
         </div>
     </div>
 </div>

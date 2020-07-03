@@ -17,6 +17,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">shadow agm-bg-white rounded p-3</span>">Regular shadow< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">shadow-lg agm-bg-white rounded p-3</span>">Large shadow< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-shadow" copy-data= '<div class= "shadow-lg p-3 agm-bg-white rounded mb-3">Large shadow</div>'>COPY</button>
         </div>
     </div>
 </div>

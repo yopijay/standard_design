@@ -36,7 +36,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary float-left</span>" >Example button floated left< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary float-right</span>" >Example button floated right< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-clearfix" copy-data= '<div class= "agm-bg-info clearfix"><button type= "button" class= "btn btn-solid btn-secondary float-left">Example button floated left</button><button type= "button" class= "btn btn-solid btn-secondary float-right">Example button floated right</button></div>'>COPY</button>
         </div>
     </div>
 </div>

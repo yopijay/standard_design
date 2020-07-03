@@ -25,6 +25,7 @@
             <p class= "mb-1">< <span class= "text-danger">p</span> class= "<span class= "text-danger">mb-1 text-light</span>" >.text-light< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">p</span> class= "<span class= "text-danger">mb-1 text-dark</span>" >.text-dark< <span class= "text-danger">/p</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-color-1" copy-data= '<p class= "mb-1 text-primary">.text-primary</p>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Contextual text classes also work well on anchors with the provided hover and focus states. <b>Note that the <span class= "text-danger">.text-white</span> and <span class= "text-danger">.text-muted</span> class has no additional link styling beyond underline.</b></p>
@@ -51,6 +52,7 @@
             <p class= "mb-1">< <span class= "text-danger">p</span> >< <span class= "text-danger">a</span> class= "<span class= "text-danger">mb-1 text-light</span>" >Light Link< <span class= "text-danger">/a</span> >< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">p</span> >< <span class= "text-danger">a</span> class= "<span class= "text-danger">mb-1 text-dark</span>" >Dark Link< <span class= "text-danger">/a</span> >< <span class= "text-danger">/p</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-color-2" copy-data= '<p><a class= "mb-1 text-primary">Primary Link</a></p>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">BACKGROUND COLOR</p>
@@ -82,6 +84,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-bg-white</span>" >.agm-bg-white< <span class= "text-danger">/div </span>></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">agm-bg-transparent</span>" >.agm-bg-transparent< <span class= "text-danger">/div </span>></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-color-3" copy-data= '<div class= "d-block agm-bg-primary py-2 px-3 agm-rounded-sm mb-1 text-white">.agm-bg-primary</div>'>COPY</button>
         </div>
     </div>
 </div>

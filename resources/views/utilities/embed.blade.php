@@ -16,6 +16,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">iframe</span> class= "<span class= "text-danger">embed-responsive-item</span>" src= "<span class= "text-danger">...</span>" <span class= "text-danger">allowfullscreen</span> >< <span class= "text-danger">/iframe</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-embed-1" copy-data= '<div class= "embed-responsive embed-responsive-16by9"><iframe class= "embed-responsive-item agm-rounded" src= "https://www.youtube.com/embed/zp0ULjyy-n8?rel=0" allowfullscreen></iframe></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">ASPECT RATIO</p>

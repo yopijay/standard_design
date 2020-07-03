@@ -21,6 +21,7 @@
             <p class= "mb-1">< <span class= "text-danger">h4</span> >h4 - Bootstrap heading< /<span class= "text-danger">h4</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">h5</span> >h5 - Bootstrap heading< /<span class= "text-danger">h5</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-1" copy-data= '<h1 class= "d-block mb-3">h1 - Bootstrap heading</h1>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1"><span class= "text-danger">.h1</span> through <span class= "text-danger">.h5</span> classes are also available, for when you want to match the font styling of a heading but cannot use the associated HTML element.</p>
@@ -41,6 +42,7 @@
             <p class= "mb-1">< <span class= "text-danger">p</span> class= "<span class= "text-danger">.h4 </span>" >.h4  - Bootstrap heading< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">p</span> class= "<span class= "text-danger">.h5 </span>" >.h5  - Bootstrap heading< <span class= "text-danger">/p</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-2" copy-data= '<p class= "d-block mb-3 h1">.h1 - Bootstrap heading</p>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">CUSTOMIZING HEADINGS</p>
@@ -54,6 +56,7 @@
             <p class= "h5 mb-3 text-info">Example code:</p>
             <p class= "mb-1">< <span class= "text-danger">h3</span> >Fancy display heading < small class= "<span class= "text-danger">text-muted</span>" >with faded text.< <span class= "text-danger">/small</span> >< <span class= "text-danger">/h3</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-3" copy-data= '<h3>Fancy display heading <small class= "text-muted">with faded text.</small></h3>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">DISPLAY HEADINGS</p>
@@ -73,6 +76,7 @@
             <p class= "mb-1">< <span class= "text-danger">h1</span> class= "<span class= "text-danger">display-3</span>" >Display 3< <span class= "text-danger">/h1</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">h1</span> class= "<span class= "text-danger">display-4</span>" >Display 4< <span class= "text-danger">/h1</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-4" copy-data= '<h1 class= "d-block mb-3 display-1">Display 1</h1>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">LEAD</p>
@@ -86,6 +90,7 @@
             <p class= "h5 mb-3 text-info">Example code:</p>
             <p class= "mb-1">< <span class= "text-danger">p</span> class= "<span class= "text-danger">lead</span>" >Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.< <span class= "text-danger">/p</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-5" copy-data= '<p class= "lead">Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.</p>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1 text-info h5">INLINE TEXT ELEMENTS</p>
@@ -113,6 +118,7 @@
             <p class= "mb-1">< <span class= "text-danger">p</span> >< <span class= "text-danger">strong</span> >This line rendered as bold text.< <span class= "text-danger">/strong</span> >< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">p</span> >< <span class= "text-danger">em</span> >This line rendered as italicized text.< <span class= "text-danger">/em</span> >< <span class= "text-danger">/p</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-6" copy-data= '<p><del>This line of text is meant to be treated as deleted text.</del></p>'>COPY</button>
         </div>
     </div>
     <p class= "mb-3"><span class= "text-danger">.mark</span> and <span class= "text-danger">.small</span> classes are also available to apply the same styles as < <span class= "text-danger">mark</span> > and < <span class= "text-danger">small</span> > while avoiding any unwanted semantic implications that the tags would bring.</p>
@@ -133,6 +139,7 @@
             <p class= "mb-1">< <span class= "text-danger">p</span> >< <span class= "text-danger">abbr</span> title= "<span class= "text-danger">attribute</span>" >attr< <span class= "text-danger">/abbr</span> >< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">p</span> >< <span class= "text-danger">abbr</span> title= "<span class= "text-danger">Hypertext Markup Language</span>" >HTML< <span class= "text-danger">/abbr </span>>< <span class= "text-danger">/p</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-7" copy-data= '<p class= "mb-1"><abbr title= "Hypertext Markup Language">HTML</abbr></p>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BLOCKQUOTES</p>
@@ -150,6 +157,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">p</span> >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/blockquote</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-8" copy-data= '<blockquote class="blockquote"><p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p></blockquote>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">NAMING A SOURCE</p>
@@ -169,6 +177,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">footer</span> class= "<span class= "text-danger">blockquote-footer</span>" >Someone famous in < <span class= "text-danger">cite</span> title= "<span class= "text-danger">Source Title</span>" >Source Title< <span class= "text-danger">/cite</span> >< <span class= "text-danger">/footer</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/blockquote</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-9" copy-data= '<blockquote class="blockquote"><p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p><footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer></blockquote>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">ALIGNMENT</p>
@@ -196,6 +205,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">footer</span> class= "<span class= "text-danger">blockquote-footer</span>" >Someone famous in < <span class= "text-danger">cite</span> title= "<span class= "text-danger">Source Title</span>" >Source Title< <span class= "text-danger">/cite</span> >< <span class= "text-danger">/footer</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/blockquote</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-10" copy-data= '<blockquote class="blockquote text-center mb-5"><p class="mb-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p><footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer></blockquote>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-3 h5">LISTS</p>
@@ -231,6 +241,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-11" copy-data= '<ul class="list-unstyled"><li>Lorem ipsum dolor sit amet</li><li>Consectetur adipiscing elit</li><li>Integer molestie lorem at massa</li><li>Facilisis in pretium nisl aliquet</li><li>Nulla volutpat aliquam velit<ul><li>Phasellus iaculis neque</li><li>Purus sodales ultricies</li><li>Vestibulum laoreet porttitor sem</li><li>Ac tristique libero volutpat at</li></ul></li><li>Faucibus porta lacus fringilla vel</li><li>Aenean sit amet erat nunc</li><li>Eget porttitor lorem</li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-3 h5">INLINE</p>
@@ -252,6 +263,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> >Nulla volutpat< <span class= "text-danger"> /li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-12" copy-data= '<ul class="list-inline"><li class="list-inline-item">Lorem ipsum</li><li class="list-inline-item">Phasellus iaculis</li><li class="list-inline-item">Nulla volutpat</li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-3 h5">DESCRIPTION LIST ALIGNMENT</p>
@@ -301,6 +313,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/dd</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">/row</span>" ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-typo-13" copy-data= '<dl class="row"><dt class="col-sm-3">Description lists</dt><dd class="col-sm-9">A description list is perfect for defining terms.</dd><dt class="col-sm-3">Euismod</dt><dd class="col-sm-9"><p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p><p>Donec id elit non mi porta gravida at eget metus.</p></dd><dt class="col-sm-3">Malesuada porta</dt><dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd><dt class="col-sm-3 text-truncate">Truncated term is truncated</dt><dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd><dt class="col-sm-3">Nesting</dt><dd class="col-sm-9"><dl class="row"><dt class="col-sm-4">Nested definition list</dt><dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd></dl></dd></dl>'>COPY</button>
         </div>
     </div>
 </div>
