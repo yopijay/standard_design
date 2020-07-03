@@ -33,6 +33,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-sidenav" copy-data= '<div class= "agm-navbar navbar-dark shadow-sm"><div class= "agm-navbar-brand">....</div><div class= "agm-navbar-side"><ul><li class= "agm-side-label">Label</li><li class= "agm-side-link active"><a>Link</a></li><li class= "agm-side-label">Label</li><li class= "agm-side-link"><a>Link</a></li><li class= "agm-side-link"><a>Link</a></li><li class= "agm-side-label">Label</li><li class= "agm-side-list agm-side-dropdown"><a>Dropdown</a><ul class= "agm-nav-items"><li class= "agm-side-link"><a>Sub Link</a></li><li class= "agm-side-link"><a>Sub Link</a></li></ul></li></ul></div></div>'>COPY</button>
         </div>
     </div>    
 </div>

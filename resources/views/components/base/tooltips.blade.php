@@ -35,6 +35,7 @@
             <p class= "mb-3">< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary</span>" data-toggle= "<span class= "text-danger">tooltip</span>" data-placement= "<span class= "text-danger">bottom</span>" title= "<span class= "text-danger">Tooltip on bottom</span>">Tooltip on bottom< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary</span>" data-toggle= "<span class= "text-danger">tooltip</span>" data-placement= "<span class= "text-danger">left</span>" title= "<span class= "text-danger">Tooltip on left</span>">Tooltip on left< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-tooltip" copy-data= '<button type= "button" class= "btn btn-solid btn-secondary mb-1" data-toggle= "tooltip" data-placement= "top" title= "Tooltip on top">Tooltip on top</button>'>COPY</button>
         </div>
     </div>
 </div>

@@ -80,6 +80,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-1" copy-data= '<div class="form-group mb-2"><label for= "field">Text:</label><input type= "text" class= "form-control"/></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SELECT DROPDOWN WITH SEARCH</p>
@@ -110,6 +111,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/select</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-2" copy-data= '<select class= "selectpicker d-block w-100" data-live-search= "true"><option disabled selected value= "">-- Select Option --</option><option value="1">Option 1</option><option value="2">Option 2</option><option value="3">Option 3</option><option value="4">Option 4</option></select>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZING</p>
@@ -141,6 +143,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-3" copy-data= '<div class="form-group mb-2"><label for= "field">Small Inputs:</label><input type= "text" class= "form-control form-control-sm"/></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">STYLES</p>
@@ -171,6 +174,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-4" copy-data= '<div class="form-group mb-2"><label for= "field">Square:</label><input type= "text" class= "form-control form-square"/></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Use <span class= "text-danger">.form-* {success, danger, warning, info}</span> for your desired input theme.</p>
@@ -215,6 +219,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/form</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-5" copy-data= '<div class= "form-group mb-2"><label for= "field">Success:</label><input type= "text" class= "form-control form-success" id= "field"/></div>'>COPY</button>
         </div>
     </div>
 </div>

@@ -20,6 +20,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">label</span> for= "<span class= "text-danger">radio-default</span>" >Radio default< <span class= "text-danger">/labe</span>l ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-radio" copy-data= '<div class= "form-radio"><input type= "radio" id= "radio-default"><span></span><label for= "radio-default">Radio default</label></div>'>COPY</button>
         </div>
     </div>
 </div>

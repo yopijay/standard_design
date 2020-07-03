@@ -39,6 +39,8 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">progress-bar</span>" role= "<span class= "text-danger">progressbar</span>" style="<span class= "text-danger">width: 100%</span>" aria-valuenow= "<span class= "text-danger">100</span>" aria-valuemin= "<span class= "text-danger">0</span>" aria-valuemax= "<span class= "text-danger">100</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-progress-1" copy-data= '
+            <div class= "progress mb-2"><div class= "progress-bar" role= "progressbar" style="width: 50%" aria-valuenow= "50" aria-valuemin= "0" aria-valuemax= "100"></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Bootstrap provides a handful of utilities for setting width. Depending on your needs, these may help with quickly configuring progress.</p>
@@ -55,6 +57,7 @@
             <p class= "mb-1">&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">progress-bar w-75</span>" role= "<span class= "text-danger">progressbar</span>" aria-valuenow= "<span class= "text-danger">75</span>" aria-valuemin= "<span class= "text-danger">0</span>" aria-valuemax= "<span class= "text-danger">100</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-progress-2" copy-data= '<div class= "progress"><div class= "progress-bar w-75" role= "progressbar" aria-valuenow= "75" aria-valuemin= "0" aria-valuemax= "100"></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">LABELS</p>
@@ -72,6 +75,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">progress-bar</span>" role= "<span class= "text-danger">progressbar</span>" style= "<span class= "text-danger">width: 25%;</span>" aria-valuenow= "<span class= "text-danger">25</span>" aria-valuemin= "<span class= "text-danger">0</span>" aria-valuemax= "<span class= "text-danger">100</span>" >25%< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-progress-3" copy-data= '<div class= "progress"><div class= "progress-bar" role= "progressbar" style= "width: 25%;" aria-valuenow= "25" aria-valuemin= "0" aria-valuemax= "100">25%</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">HEIGHT</p>
@@ -95,6 +99,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">progress-bar</span>" role= "<span class= "text-danger">progressbar</span>" style= "<span class= "text-danger">width: 25%;</span>" aria-valuenow= "<span class= "text-danger">25</span>" aria-valuemin= "<span class= "text-danger">0</span>" aria-valuemax= "<span class= "text-danger">100</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-progress-4" copy-data= '<div class="progress mb-2" style="height: 20px;"><div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">STYLES</p>
@@ -118,6 +123,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">progress-bar</span>" role= "<span class= "text-danger">progressbar</span>" style= "<span class= "text-danger">width: 25%</span>" aria-valuenow= "<span class= "text-danger">25</span>" aria-valuemin= "<span class= "text-danger">0</span>" aria-valuemax= "<span class= "text-danger">100</span>" ><<span class= "text-danger"> /div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-progress-5" copy-data= '<div class= "progress progressbar-pill mb-2"><div class= "progress-bar" role= "progressbar" style="width: 25%" aria-valuenow= "25" aria-valuemin= "0" aria-valuemax= "100"></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BACKGROUND</p>
@@ -153,6 +159,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">progress-bar progressbar-primary</span>" role= "<span class= "text-danger">progressbar</span>" style= "<span class= "text-danger">width: 25%</span>" aria-valuenow= "<span class= "text-danger">25</span>" aria-valuemin= "<span class= "text-danger">0</span>" aria-valuemax= "<span class= "text-danger">100</span>" ><<span class= "text-danger"> /div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-progress-6" copy-data= '<div class= "progress mb-2"><div class= "progress-bar progressbar-primary" role= "progressbar" style="width: 25%" aria-valuenow= "25" aria-valuemin= "0" aria-valuemax= "100"></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">MULTIPLE BARS</p>
@@ -178,6 +185,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">progress-bar progressbar-info</span>" role= "<span class= "text-danger">progressbar</span>" style= "<span class= "text-danger">width: 20%;</span>" aria-valuenow= "<span class= "text-danger">20</span>" aria-valuemin= "<span class= "text-danger">0</span>" aria-valuemax= "<span class= "text-danger">100</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-progress-7" copy-data= '<div class= "progress"><div class="progress-bar" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div><div class="progress-bar progressbar-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div><div class="progress-bar progressbar-info" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">STRIPED</p>
@@ -213,6 +221,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">progress-bar progress-bar-striped progressbar-primary</span>" role= "<span class= "text-danger">progressbar</span>" style= "<span class= "text-danger">width: 25%</span>" aria-valuenow= "<span class= "text-danger">25</span>" aria-valuemin= "<span class= "text-danger">0</span>" aria-valuemax= "<span class= "text-danger">100</span>" ><<span class= "text-danger"> /div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-progress-8" copy-data= '<div class= "progress mb-2"><div class= "progress-bar progress-bar-striped progressbar-primary" role= "progressbar" style="width: 25%" aria-valuenow= "25" aria-valuemin= "0" aria-valuemax= "100"></div></div>'>COPY</button>
         </div>
     </div>
 </div>

@@ -21,6 +21,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">list-group-item</span>" >Item 4< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-listgroup-1" copy-data= '<ul class= "list-group"><li class= "list-group-item">Item 1</li><li class= "list-group-item">Item 2</li><li class= "list-group-item">Item 3</li><li class= "list-group-item">Item 4</li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">ACTIVE ITEMS</p>
@@ -44,6 +45,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">list-group-item</span>" >Item 4< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-listgroup-2" copy-data= '<ul class= "list-group"><li class= "list-group-item active">Item 1</li><li class= "list-group-item">Item 2</li><li class= "list-group-item">Item 3</li><li class= "list-group-item">Item 4</li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">LINKS AND BUTTONS</p>
@@ -80,6 +82,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> class= "<span class= "text-danger">list-group-item list-group-hover</span>" >Item 4< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-listgroup-3" copy-data= '<ul class= "list-group mb-5"><a class= "list-group-item list-group-hover">Item 1</a><a class= "list-group-item list-group-hover">Item 2</a><a class= "list-group-item list-group-hover">Item 3</a><a class= "list-group-item list-group-hover">Item 4</a></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">FLUSH</p>
@@ -103,6 +106,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">list-group-item</span>" >Item 4< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-listgroup-4" copy-data= '<ul class= "list-group list-group-flush"><li class= "list-group-item">Item 1</li><li class= "list-group-item">Item 2</li><li class= "list-group-item">Item 3</li><li class= "list-group-item">Item 4</li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">HORIZONTAL</p>
@@ -127,6 +131,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">list-group-item</span>" >Item 4< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-listgroup-5" copy-data= '<ul class= "list-group list-group-horizontal"><li class= "list-group-item">Item 1</li><li class= "list-group-item">Item 2</li><li class= "list-group-item">Item 3</li><li class= "list-group-item">Item 4</li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">CONTEXTUAL CLASSES</p>
@@ -158,6 +163,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">list-group-item list-group-item-dark</span>" >Dark< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-listgroup-6" copy-data= '<ul class= "list-group"><li class= "list-group-item list-group-item-primary">Primary</li><li class= "list-group-item list-group-item-secondary">Secondary</li><li class= "list-group-item list-group-item-success">Success</li><li class= "list-group-item list-group-item-warning">Warning</li><li class= "list-group-item list-group-item-danger">Danger</li><li class= "list-group-item list-group-item-info">Info</li><li class= "list-group-item list-group-item-light">Light</li><li class= "list-group-item list-group-item-dark">Dark</li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Contextual classes also work with <span class= "text-danger">.list-group-item-action</span>. Note the addition of the hover styles here not present in the previous example. Also supported is the <span class= "text-danger">.active</span> state; apply it to indicate an active selection on a contextual list group item.</p>
@@ -188,6 +194,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <Span class= "text-danger">a</span> class= "<span class= "text-danger">list-group-item list-group-item-dark</span>" >Dark< <Span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <Span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-listgroup-7" copy-data= '<ul class= "list-group"><a class= "list-group-item list-group-hover list-group-item-primary">Primary</a><a class= "list-group-item list-group-hover list-group-item-secondary">Secondary</a><a class= "list-group-item list-group-hover list-group-item-success">Success</a><a class= "list-group-item list-group-hover list-group-item-warning">Warning</a><a class= "list-group-item list-group-hover list-group-item-danger">Danger</a><a class= "list-group-item list-group-hover list-group-item-info">Info</a><a class= "list-group-item list-group-hover list-group-item-light">Light</a><a class= "list-group-item list-group-hover list-group-item-dark">Dark</a></ul>'>COPY</button>
         </div>
     </div>
 </div>

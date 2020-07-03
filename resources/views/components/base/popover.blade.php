@@ -31,6 +31,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-danger</span>" data-toggle= "<span class= "text-danger">popover</span>" title= "<span class= "text-danger">Popover Title</span>" data-content= "<span class= "text-danger">And here's some amazing content. It's very engaging. Right?</span>" >Click to toggle popover< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-popover-1" copy-data= '<button type= "button" class= "btn btn-solid btn-danger" data-toggle= "popover" title= "Popover Title" data-content= "And heres some amazing content. Its very engaging. Right?" data-trigger= "focus">Click to toggle popover</button>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">FOUR DIRECTIONS</p>
@@ -50,6 +51,7 @@
             <p class= "mb-3">< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary mb-1</span>" data-container= "<span class= "text-danger">body</span>" data-toggle= "<span class= "text-danger">popover</span>" data-placement= "<span class= "text-danger">bottom</span>" data-content= "<span class= "text-danger">Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</span>">Popover on bottom<<span class= "text-danger"> /button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary mb-1</span>" data-container= "<span class= "text-danger">body</span>" data-toggle= "<span class= "text-danger">popover</span>" data-placement= "<span class= "text-danger">left</span>" data-content= "<span class= "text-danger">Vivamus sagittis lacus vel augue laoreet rutrum faucibus.</span>">Popover on left<<span class= "text-danger"> /button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-popover-2" copy-data= '<button type= "button" class= "btn btn-solid btn-secondary mb-1" data-container= "body" data-toggle= "popover" data-placement= "top" data-content= "Vivamus sagittis lacus vel augue laoreet rutrum faucibus." data-trigger= "focus">Popover on top</button>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">DISMISS ON NEXT CLICK</p>
@@ -63,6 +65,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">a</span> tabindex= "<span class= "text-danger">0</span>" role= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-danger</span>" data-toggle= "<span class= "text-danger">popover</span>" title= "<span class= "text-danger">Popover Title</span>" data-content= "<span class= "text-danger">And here's some amazing content. It's very engaging. Right?</span>" data-trigger= "<span class= "text-danger">focus</span>" >Dismissible popover< <span class= "text-danger">/a</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-popover-3" copy-data= '<a tabindex= "0" role= "button" class= "btn btn-solid btn-danger" data-toggle= "popover" title= "Popover Title" data-content= "And heres some amazing content. Its very engaging. Right?" data-trigger= "focus">Dismissible popover</a>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">DISABLED ELEMENTS</p>
@@ -81,6 +84,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-primary</span>" style= "<span class= "text-danger">pointer-events: none;</span>" <span class= "text-danger">disabled</span> >DIsabled button< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/span</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-popover-4" copy-data= '<span class= "d-inline-block" data-toggle= "popover" data-content= "Disabled popover"><button type= "button" class= "btn btn-solid btn-primary" style= "pointer-events: none;" disabled>Disabled button</button></span>'>COPY</button>
         </div>
     </div>
 </div>

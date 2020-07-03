@@ -76,4 +76,29 @@ $(function() {
                 document.getElementById(_id + '-unmasked').innerHTML = $('#' + _id + '').unmask();
             }
         })
+        .on('click', '.btn-copy', function() {
+            $(this).copyText();
+        })
 });
+
+// function copyText(id) {
+//     let text = $('#' + id + '').attr('copy-data');
+//     var element = '<input id= "' + id + '-text" class= "d-none">';
+//     document.getElementById(id).insertAdjacentHTML('afterend', element);
+//     $('#' + id + '-text').val(text).select();
+//     document.execCommand('copy');
+//     $('#' + id + '-text').remove();
+// }
+
+$.fn.copyText = function() {
+    let _id = this[0].id;
+    let _text = $('#' + _id + '').attr('copy-data');
+
+    let _element = '<input id= "' + _id + '-text">';
+    document.getElementById(_id).insertAdjacentHTML('afterend', _element);
+    $('#' + _id + '-text').val(_text).select();
+    document.execCommand('copy');
+    $('#' + _id + '-text').remove();
+
+    toaster.success('', 'Copied to clipboard!').show(2500);
+}

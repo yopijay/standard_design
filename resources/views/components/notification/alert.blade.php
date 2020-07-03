@@ -26,6 +26,7 @@
             <p class= "mb-3">< <span class= "text-danger">div</span> class= "<span class= "text-danger">alert alert-light</span>" role= "<span class= "text-danger">alert</span>" >A simple light alert-check it out!< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">div</span> class= "<span class= "text-danger">alert alert-dark</span>" role= "<span class= "text-danger">alert</span>" >A simple dark alert-check it out!< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-alert-1" copy-data= ''>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">LINK COLOR</p>
@@ -53,6 +54,7 @@
             <p class= "mb-3">< <span class= "text-danger">div</span> class= "<span class= "text-danger">alert alert-light</span>" role= "<span class= "text-danger">alert</span>" >A simple primary alert with < <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">alert-link</span>">an example link< <span class= "text-danger">/a</span> >. Give it a click if you like.< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">div</span> class= "<span class= "text-danger">alert alert-dark</span>" role= "<span class= "text-danger">alert</span>" >A simple primary alert with < <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">alert-link</span>">an example link< <span class= "text-danger">/a</span> >. Give it a click if you like.< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-alert-2" copy-data= ''>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">ADDITIONAL CONTENT</p>
@@ -76,6 +78,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">p</span> class= "<span class= "text-danger">mb-0</span>" > .... < <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-alert-3" copy-data= ''>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">DISMISSING</p>
@@ -99,6 +102,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-alert-4" copy-data= ''>COPY</button>
         </div>
     </div>
 </div>

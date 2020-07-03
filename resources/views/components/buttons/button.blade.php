@@ -26,6 +26,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-light</span>" >Light< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-dark</span>" >Dark< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-1" copy-data= '<button class= "btn btn-solid btn-primary my-1">Primary</button>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Just add <span class= "text-danger">.btn-square</span> to remove the radius of your button.</p>
@@ -52,6 +53,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-square btn-light</span>" >Light< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-square btn-dark</span>" >Dark< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-2" copy-data= '<button class= "btn btn-solid btn-square btn-primary my-1">Primary</button>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Just replace the <span class= "text-danger">.btn-square</span> modifier class to <span class= "text-danger">.btn-pills</span> to make your button pill shape.</p>
@@ -78,6 +80,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-square btn-light</span>" >Light< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-square btn-dark</span>" >Dark< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-3" copy-data= '<button class= "btn btn-solid btn-pills btn-primary my-1">Primary</button>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BUTTON TAGS</p>
@@ -100,6 +103,7 @@
             <p class= "mb-1">< <span class= "text-danger">input</span> class= "<span class= "text-danger">btn btn-solid btn-primary</span>" type= "<span class= "text-danger">submit</span>" value= "<span class= "text-danger">Submit</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">input</span> class= "<span class= "text-danger">btn btn-solid btn-primary</span>" type= "<span class= "text-danger">reset</span>" value= "<span class= "text-danger">Reset</span>" ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-4" copy-data= '<input class= "btn btn-solid btn-primary" type= "button" value= "Input">'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">OUTLINED BUTTONS</p>
@@ -127,6 +131,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-light</span>" >Light< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-dark</span>" >Dark< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-5" copy-data= '<button class= "btn btn-outline btn-primary my-1">Primary</button>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Just add <span class= "text-danger">.btn-square</span> to remove the radius of your button.</p>
@@ -153,6 +158,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-square btn-light</span>" >Light< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-square btn-dark</span>" >Dark< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-6" copy-data= '<button class= "btn btn-outline btn-square btn-primary my-1">Primary</button>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Just replace the <span class= "text-danger">.btn-square</span> modifier class to <span class= "text-danger">.btn-pills</span> to make your button pill shape.</p>
@@ -179,6 +185,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-square btn-light</span>" >Light< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-outline btn-square btn-dark</span>" >Dark< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-7" copy-data= '<button class= "btn btn-outline btn-pills btn-primary my-1">Primary</button>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZES</p>
@@ -200,6 +207,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary btn-lg</span>" >btn-lg< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-secondary btn-sm</span>" >btn-sm< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-8" copy-data= '<button class= "btn btn-solid btn-primary btn-lg btn-block my-2">btn-lg</button>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Create block level buttons - those that span the full width of a parent - by adding <span class= "text-danger">.btn-block</span>.</p>
@@ -214,6 +222,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-primary btn-block</span>" >btn-block< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn btn-solid btn-secondary btn-smblock</span>" >btn-block< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-9" copy-data= '<button class= "btn btn-solid btn-primary btn-block my-2">btn-block</button>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BUTTON BRANDS</p>
@@ -267,6 +276,7 @@
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn yahoo btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">button</span> class= "<span class= "text-danger">btn youtube btn-brand</span>" >< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-10" copy-data= '<button class= "btn facebook btn-brand mb-1"></button>'>COPY</button>
         </div>
     </div>
 </div>

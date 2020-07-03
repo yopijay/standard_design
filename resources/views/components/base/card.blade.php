@@ -27,6 +27,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-1" copy-data= '<div class="card"><img src="#" class="card-img-top" alt="..."><div class="card-body"><h5 class="card-title">Card title</h5><p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p><a href="#" class="btn btn-solid btn-primary">Go somewhere</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">CONTENT TYPES</p>
@@ -49,7 +50,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is some text within a card body.</p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-2" copy-data= '<div class= "card"><div class= "card-body">This is some text within a card body.</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">TITLES, TEXT AND LINKS</p>
@@ -79,7 +80,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">card-link</span>" >Another link< <span class= "text-danger">/a</span> ></p>
             <div class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></div>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-3" copy-data= '<div class= "card"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-subtitle mb-2 text-muted">Card subtitle</p><p class= "card-text">Some quick example text to build on the card title and make up the bulk of the card`s content.</p><a href= "#" class= "card-link">Card link</a><a href= "#" class= "card-link">Another link</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">IMAGES</p>
@@ -102,7 +103,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">p</span> class="<span class= "text-danger">card-text</span>">Some quick example text to build on the card title and make up the bulk of the card's content.< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-4" copy-data= '<div class="card"><img src="#" class="card-img-top" alt="..."><div class="card-body"><p class="card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">LIST GROUPS</p>
@@ -143,7 +144,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">li</span> class= "<span class= "text-danger">list-group-item</span>" >Vestibulum at eros< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-5" copy-data= '<div class="card"><div class= "card-header">Featured</div><ul class="list-group list-group-flush"><li class="list-group-item">Cras justo odio</li><li class="list-group-item">Dapibus ac facilisis in</li><li class="list-group-item">Vestibulum at eros</li></ul></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">KITCHEN SINK</p>
@@ -186,7 +187,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">card-link</span>">Another link< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-6" copy-data= '<div class= "card"><img src= "#" class= "card-img-top" alt= "..."><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">Some quick example text to build on the card title and make up the bulk of the cards content.</p></div><ul class= "list-group list-group-flush"><li class="list-group-item">Cras justo odio</li><li class="list-group-item">Dapibus ac facilisis in</li><li class="list-group-item">Vestibulum at eros</li></ul><div class= "card-body"><a href= "#" class= "card-link">Card link</a><a href= "#" class= "card-link">Another link</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">HEADER AND FOOTER</p>
@@ -213,7 +214,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> href="<span class= "text-danger">#</span>" class=" <span class= "text-danger">btn btn-solid btn-primary</span>">Go somewhere< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-7" copy-data= '<div class="card"><div class="card-header">Featured</div><div class="card-body"><h5 class="card-title">Special title treatment</h5><p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a href="#" class="btn btn-solid btn-primary">Go somewhere</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Card headers can be styled by adding <span class= "text-danger">.card-header</span> to < <span class= "text-danger">h*</span> > elements.</p>
@@ -239,7 +240,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> href="<span class= "text-danger">#</span>" class=" <span class= "text-danger">btn btn-solid btn-primary</span>">Go somewhere< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-8" copy-data= '<div class="card"><h5 class="card-header">Featured</h5><div class="card-body"><h5 class="card-title">Special title treatment</h5><p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a href="#" class="btn btn-solid btn-primary">Go somewhere</a></div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row mt-3 mb-4">
@@ -266,7 +267,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/blockquote</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-9" copy-data= '<div class="card"><div class="card-header">Quote</div><div class="card-body"><blockquote class="blockquote mb-0"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p><footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer></blockquote></div></div>'>COPY</button>
         </div>
     </div>
     <div class= "row mt-3 mb-5">
@@ -293,7 +294,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">card-footer text-muted</span>" >2 days ago< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-10" copy-data= '<div class="card text-center"><div class="card-header">Featured</div><div class="card-body"><h5 class="card-title">Special title treatment</h5><p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a href="#" class="btn btn-solid btn-primary">Go somewhere</a></div><div class="card-footer text-muted">2 days ago</div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZING</p>
@@ -346,7 +347,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-11" copy-data= '<div class= "row"><div class= "col-md-6"><div class="card"><div class="card-body"><h5 class="card-title">Special title treatment</h5><p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a href="#" class="btn btn-solid btn-primary">Go somewhere</a></div></div></div><div class= "col-md-6"><div class="card"><div class="card-body"><h5 class="card-title">Special title treatment</h5><p class="card-text">With supporting text below as a natural lead-in to additional content.</p><a href="#" class="btn btn-solid btn-primary">Go somewhere</a></div></div></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">USING UTILITIES</p>
@@ -385,7 +386,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">btn btn-solid btn-primary</span>" >Button< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-12" copy-data= '<div class= "card w-75 mb-3"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">With supporting text below as a natural lead-in to additional content.</p><a href= "#" class= "btn btn-solid btn-primary">Button</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">TEXT ALIGNMENT</p>
@@ -446,7 +447,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< a href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">btn btn-solid btn-primary</span>" >Button< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-13" copy-data= '<div class= "row"><div class= "col-md-4"><div class= "card"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">With supporting text below as a natural lead-in to additional content.</p><a href= "#" class= "btn btn-solid btn-primary">Button</a></div></div></div><div class= "col-md-4"><div class= "card text-center"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">With supporting text below as a natural lead-in to additional content.</p><a href= "#" class= "btn btn-solid btn-primary">Button</a></div></div></div><div class= "col-md-4"><div class= "card text-right"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">With supporting text below as a natural lead-in to additional content.</p><a href= "#" class= "btn btn-solid btn-primary">Button</a></div></div></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">IMAGES</p>
@@ -491,7 +492,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">img</span> src= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">card-img-top</span>" alt= "<span class= "text-danger">...</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you use it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you use it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-14" copy-data= '<div class= "card mb-3"><img src= "#" class= "card-img-top" alt= "..."><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p class= "card-text"><small class= "text-muted">Last updated 3 mins ago</small></p></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">IMAGE OVERLAYS</p>
@@ -518,7 +519,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">p</span> class= "<span class= "text-danger">card-text</span>" >Last updated 3 mins ago< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-15" copy-data= '<div class= "card"><img src= "#" class= "card-img" alt= "..."><div class= "card-img-overlay"><h5 class= "card-title">Card title</h5><p class= "card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p class= "card-text">Last updated 3 mins ago</p></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">HORIZONTAL</p>
@@ -555,7 +556,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-16" copy-data= '<div class= "card"><div class= "row no-gutters"><div class= "col-md-4"><img src= "#" class= "card-img h-100" alt= "..."></div><div class= "col-md-8"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p><p class= "card-text"><small class= "text-muted">Last updated 3 mins ago</small></p></div></div></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">CARD STYLES</p>
@@ -682,7 +683,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">p</span> class= "<span class= "text-danger">card-text</span>" >With supporting text below as a natural lead-in to additional content.< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;<<span class= "text-danger"> /div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-17" copy-data= '<div class= "card card-primary mb-2"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">With supporting text below as a natural lead-in to additional content.</p></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">OUTLINE CARD</p>
@@ -807,7 +808,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">p</span> class= "<span class= "text-danger">card-text</span>" >With supporting text below as a natural lead-in to additional content.< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;<<span class= "text-danger"> /div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-18" copy-data= '<div class= "card card-outline card-primary mb-2"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">With supporting text below as a natural lead-in to additional content.</p></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">ACCENT CARD</p>
@@ -932,7 +933,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;< <span class= "text-danger">p</span> class= "<span class= "text-danger">card-text</span>" >With supporting text below as a natural lead-in to additional content.< <span class= "text-danger">/p</span> ></p>
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;<<span class= "text-danger"> /div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
-            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <p class= "text-warning" id= "note"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p><button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-card-19" copy-data= '<div class= "card card-accent card-primary mb-2"><div class= "card-body"><h5 class= "card-title">Card title</h5><p class= "card-text">With supporting text below as a natural lead-in to additional content.</p></div></div>'>COPY</button>
         </div>
     </div>
 </div>

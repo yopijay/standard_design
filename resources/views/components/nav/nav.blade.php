@@ -31,6 +31,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-1" copy-data= '<ul class= "nav"><li class= "nav-item"><a class= "nav-link" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Classes are used throughout, so your markup can be super flexible. Use < <span class= "text-danger">ul</span> >s like above, < <span class= "text-danger">ol</span> > if the order of your items is important, or roll your own with a < <span class= "text-danger">nav</span> > element. Because the <span class= "text-danger">.nav</span> uses <span class= "text-danger">display: flex</span>, the nav links behave the same as nav items would, but without the extra markup.</p>
@@ -60,6 +61,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-2" copy-data= '<ul class= "nav"><li class= "nav-item"><a class= "nav-link" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">AVAILABLE STYLES</p>
@@ -93,6 +95,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-3" copy-data= '<ul class= "nav justify-content-center"><li class= "nav-item"><a class= "nav-link" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Right-aligned with <span class= "text-danger">.justify-content-end</span>:</p>
@@ -122,6 +125,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-4" copy-data= '<ul class= "nav justify-content-end"><li class= "nav-item"><a class= "nav-link" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">VERTICAL</p>
@@ -152,6 +156,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-5" copy-data= '<ul class= "nav flex-column"><li class= "nav-item"><a class= "nav-link" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">As always, vertical navigation is possible without < <span class= "text-danger">ul</span> >s, too.</p>
@@ -171,6 +176,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> href= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">nav-link</span>" >...< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-6" copy-data= '<nav class= "nav flex-column"><a class= "nav-link" href= "#">Active</a><a class= "nav-link" href= "#">Link</a><a class= "nav-link" href= "#">Link</a><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">TABS</p>
@@ -201,6 +207,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-7" copy-data= '<ul class= "nav nav-tabs"><li class= "nav-item"><a class= "nav-link active" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">PILLS</p>
@@ -231,6 +238,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-8" copy-data= '<ul class= "nav nav-pills"><li class= "nav-item"><a class= "nav-link active" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">FILL AND JUSTIFY</p>
@@ -261,6 +269,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-9" copy-data= '<ul class= "nav nav-pills nav-fill"><li class= "nav-item"><a class= "nav-link active" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">When using a < <span class= "text-danger">nav</span> >-based navigation, be sure to include <span class= "text-danger">.nav-item</span> on the anchors.</p>
@@ -280,6 +289,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> href= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">nav-item nav-link</span>" >...< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-10" copy-data= '<nav class= "nav nav-pills nav-fill"><a class= "nav-item nav-link active" href= "#">Active</a><a class= "nav-item nav-link" href= "#">Link</a><a class= "nav-item nav-link" href= "#">Link</a><a class= "nav-item nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></nav>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">For equal-width elements, use <span class= "text-danger">.nav-justified</span>. All horizontal space will be occupied by nav links, but unlike the <span class= "text-danger">.nav-fill</span> above, every nav item will be the same width.</p>
@@ -309,6 +319,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-11" copy-data= '<ul class= "nav nav-pills nav-justified"><li class= "nav-item"><a class= "nav-link active" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Similar to the <span class= "text-danger">.nav-fill</span> example using a < <span class= "text-danger">nav</span> >-based navigation, be sure to include <span class= "text-danger">.nav-item</span> on the anchors.</p>
@@ -328,6 +339,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> href= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">nav-item nav-link</span>" >...< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-12" copy-data= '<nav class= "nav nav-pills nav-justified"><a class= "nav-item nav-link active" href= "#">Active</a><a class= "nav-item nav-link" href= "#">Link</a><a class= "nav-item nav-link" href= "#">Link</a><a class= "nav-item nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-2 h5">USING DROPDOWNS</p>
@@ -369,6 +381,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-13" copy-data= '<ul class= "nav nav-tabs"><li class= "nav-item"><a class= "nav-link active" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link dropdown-toggle" href= "#" data-toggle= "dropdown" role= "button" aria-haspopup= "true" aria-expanded= "false">Dropdown</a><div class="dropdown-menu"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a><div class="dropdown-divider"></div><a class="dropdown-item" href="#">Separated link</a></div></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">PILLS WITH DROPDOWNS</p>
@@ -409,6 +422,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/li</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/ul</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-14" copy-data= '<ul class= "nav nav-pills"><li class= "nav-item"><a class= "nav-link active" href= "#">Active</a></li><li class= "nav-item"><a class= "nav-link dropdown-toggle" href= "#" data-toggle= "dropdown" role= "button" aria-haspopup= "true" aria-expanded= "false">Dropdown</a><div class="dropdown-menu"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a><div class="dropdown-divider"></div><a class="dropdown-item" href="#">Separated link</a></div></li><li class= "nav-item"><a class= "nav-link" href= "#">Link</a></li><li class= "nav-item"><a class= "nav-link disabled" href= "#" tabindex= "-1" aria-disabled= "true">Disabled</a></li></ul>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">DYNAMIC TABS</p>
@@ -445,6 +459,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">tab-pane fade</span>" id= "<span class= "text-danger">...</span>" role= "<span class= "text-danger">tabpanel</span>" aria-labelledby= "<span class= "text-danger">...</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-15" copy-data= '<ul class="nav nav-tabs" id="myTab" role="tablist"><li class="nav-item"><a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Home</a></li><li class="nav-item"><a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a></li><li class="nav-item"><a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a></li></ul><div class="tab-content" id="myTabContent"><div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"><p class= "mt-3">Raw denim you probably havent heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p></div><div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"><p class= "mt-3">Food truck fixie locavore, accusamus mcsweeneys marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p></div><div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"><p class= "mt-3">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeneys organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably havent heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">To help fit your needs, this works with < <span class= "text-danger">ul</span> >-based markup, as shown above, or with any arbitrary “roll your own” markup. Note that if you’re using < <span class= "text-danger">nav</span> >, you shouldn’t add <span class= "text-danger">role="tablist"</span> directly to it, as this would override the element’s native role as a navigation landmark. Instead, switch to an alternative element (in the example below, a simple < <span class= "text-danger">div</span> >) and wrap the < <span class= "text-danger">nav</span> > around it.</p>
@@ -475,6 +490,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">tab-pane fade</span>" id= "<span class= "text-danger">...</span>" role= "<span class= "text-danger">tabpanel</span>" aria-labelledby= "<span class= "text-danger">...</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-16" copy-data= '<nav><div class="nav nav-tabs" id="myTab" role="tablist"><a class="nav-link nav-item active" id="home-tab" data-toggle="tab" href="#home1" role="tab" aria-controls="home" aria-selected="true">Home</a><a class="nav-link nav-item" id="profile-tab" data-toggle="tab" href="#profile1" role="tab" aria-controls="profile" aria-selected="false">Profile</a><a class="nav-link nav-item" id="contact-tab" data-toggle="tab" href="#contact1" role="tab" aria-controls="contact" aria-selected="false">Contact</a></div></nav><div class="tab-content" id="myTabContent"><div class="tab-pane fade show active" id="home1" role="tabpanel" aria-labelledby="home-tab"><p class= "mt-3">Raw denim you probably havent heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p></div><div class="tab-pane fade" id="profile1" role="tabpanel" aria-labelledby="profile-tab"><p class= "mt-3">Food truck fixie locavore, accusamus mcsweeneys marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p></div><div class="tab-pane fade" id="contact1" role="tabpanel" aria-labelledby="contact-tab"><p class= "mt-3">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeneys organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably havent heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">The tabs plugin also works with pills.</p>
@@ -509,6 +525,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">div</span> class= "<span class= "text-danger">tab-pane fade</span>" id= "<span class= "text-danger">...</span>" role= "<span class= "text-danger">tabpanel</span>" aria-labelledby= "<span class= "text-danger">...</span>" >< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-nav-17" copy-data= '<ul class="nav nav-pills" id="myTab" role="tablist"><li class="nav-item"><a class="nav-link active" id="home-tab" data-toggle="tab" href="#home2" role="tab" aria-controls="home" aria-selected="true">Home</a></li><li class="nav-item"><a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile2" role="tab" aria-controls="profile" aria-selected="false">Profile</a></li><li class="nav-item"><a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact3" role="tab" aria-controls="contact" aria-selected="false">Contact</a></li></ul><div class="tab-content" id="myTabContent"><div class="tab-pane fade show active" id="home2" role="tabpanel" aria-labelledby="home-tab"><p class= "mt-3">Raw denim you probably havent heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p></div><div class="tab-pane fade" id="profile2" role="tabpanel" aria-labelledby="profile-tab"><p class= "mt-3">Food truck fixie locavore, accusamus mcsweeneys marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p></div><div class="tab-pane fade" id="contact3" role="tabpanel" aria-labelledby="contact-tab"><p class= "mt-3">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeneys organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork. Williamsburg banh mi whatever gluten-free, carles pitchfork biodiesel fixie etsy retro mlkshk vice blog. Scenester cred you probably havent heard of them, vinyl craft beer blog stumptown. Pitchfork sustainable tofu synth chambray yr.</p></div></div>'>COPY</button>
         </div>
     </div>
 </div>

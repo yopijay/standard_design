@@ -75,6 +75,8 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-1" copy-data= '
+            <nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;" id= "demo-1"><a class="navbar-brand" href="#">Navbar</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo1" aria-controls="navbar-demo1" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbar-demo1"><ul class="navbar-nav mr-auto"><li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li><li class="nav-item"><a class="nav-link" href="#">Link</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><div class="dropdown-divider"></div><a class="dropdown-item" href="#">Something else here</a></div></li><li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li></ul><form class="form-inline my-2 my-lg-0"><input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline btn-success my-2 my-sm-0" type="submit">Search</button></form></div></nav>'>COPY</button>
         </div>
     </div>
     <p class= "mb-3">This example uses <span class= "text-primary">color</span> (<span class= "text-danger">bg-light</span>) and <span class= "text-primary">spacing</span> (<span class= "text-danger">my-2, my-lg-0, mr-sm-0, my-sm-0</span>) utility classes.</p>
@@ -101,6 +103,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">span</span> class= "<span class= "text-danger">navbar-brand h5</span>" >Navbar< <span class= "text-danger">/span</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-2" copy-data= '<nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;" id= "demo2"><a class= "navbar-brand" href= "#">Navbar</a></nav>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Adding images to the <span class= "text-danger">.navbar-brand</span> will likely always require custom styles or utilities to properly size. Here are some examples to demonstrate.</p>
@@ -118,6 +121,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> class= "<span class= "text-danger">navbar-brand</span>" href= "<span class= "text-danger">#</span>" >< <span class= "text-danger">img</span> src= "<span class= "text-danger">#</span>" width= "<span class= "text-danger">40</span>" height= "<span class= "text-danger">40</span>" >< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-3" copy-data= '<nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;" id= "demo4"><a class= "navbar-brand" href= "#"><img src= "#" width= "40" height= "40"></a></nav>'>COPY</button>
         </div>
     </div>
     <div class= "row mt-3 mb-5">
@@ -134,6 +138,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">a</span> class= "<span class= "text-danger">navbar-brand h5</span>" href= "<span class= "text-danger">#</span>" >< <span class= "text-danger">img</span> src= "<span class= "text-danger">#</span>" width= "<span class= "text-danger">40</span>" height= "<span class= "text-danger">40</span>" > AGM< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-4" copy-data= '<nav class= "navbar navbar-dark agm-bg-dark mb-2" style= "z-index: 500;" id= "demo5"><a class= "navbar-brand h5" href= "#"><img src= "#" width= "40" height= "40"> AGM</a></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">NAV</p>
@@ -204,6 +209,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-5" copy-data= '<nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;" id= "demo5"><a class="navbar-brand" href="#">Navbar</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo2" aria-controls="navbar-demo2" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbar-demo2"><ul class="navbar-nav mr-auto"><li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li><li class="nav-item"><a class="nav-link" href="#">Link</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><div class="dropdown-divider"></div><a class="dropdown-item" href="#">Something else here</a></div></li><li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li></ul></div></nav>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">And because we use classes for our navs, you can avoid the list-based approach entirely if you like.</p>
@@ -242,6 +248,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-6" copy-data= '<nav class="navbar navbar-expand-lg navbar-light agm-bg-light" style= "z-index: 500;" id= "demo6"><a class="navbar-brand" href="#">Navbar</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo3" aria-controls="navbar-demo3" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbar-demo3"><div class="navbar-nav"><a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a><a class="nav-item nav-link" href="#">Features</a><a class="nav-item nav-link" href="#">Pricing</a><a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></div></div></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">COLOR SCHEME</p>
@@ -358,6 +365,7 @@
             <p class= "mb-2">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-expand-lg navbar-dark agm-bg-dark</span>" > ... < <span class= "text-danger">/nav</span> ></p>
             <p class= "mb-2">< <span class= "text-danger">nav</span> class= "<span class= "text-danger">navbar navbar-expand-lg navbar-dark agm-bg-primary</span>" > ... < <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-7" copy-data= '<nav class="navbar navbar-expand-lg navbar-light agm-bg-light mb-3" style= "z-index: 500;" id= "demo7"><a class="navbar-brand" href="#">Navbar</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-demo4" aria-controls="navbar-demo4" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbar-demo4"><ul class="navbar-nav mr-auto"><li class="nav-item active"><a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a></li><li class="nav-item"><a class="nav-link" href="#">Link</a></li><li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><div class="dropdown-divider"></div><a class="dropdown-item" href="#">Something else here</a></div></li><li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a></li></ul><form class="form-inline my-2 my-lg-0"><input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"><button class="btn btn-outline btn-success my-2 my-sm-0" type="submit">Search</button></form></div></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">CUSTOM NAVBAR</p>
@@ -405,6 +413,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-8" copy-data= '<div class= "agm-navbar navbar-dark shadow-sm mb-3" id= "agm-navbar-1"><div class= "agm-navbar-nav d-lg-block d-none"><ul><li class= "agm-nav-form"><input type= "text" class= "form-control form-control-sm form-pills" placeholder= "Search..."></li><li class= "agm-nav-link agm-nav-list"><a><i class= "fas fa-bell nav-icon"></i>Link</a></li><li class= "agm-nav-link agm-nav-list"><a>Link</a></li><li class= "agm-nav-list"><a><img src= "#" class= "nav-img">Link<i class= "fas fa-caret-down nav-icon float-right"></i></a><ul class= "agm-nav-items"><li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li><li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li></ul></li><li class= "agm-nav-btn"><button class= "btn btn-solid btn-primary btn-pills btn-block">Button</button></li></ul></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">CUSTOM NAVBAR ALIGNMENT</p>
@@ -483,6 +492,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-navbar-9" copy-data= '<div class= "agm-navbar navbar-dark shadow-sm mb-3" id= "agm-navbar-2"><div class= "agm-navbar-nav d-lg-block d-none"><ul><li class= "agm-nav-form"><input type= "text" class= "form-control form-control-sm form-pills" placeholder= "Search..."></li><li class= "agm-nav-link agm-nav-list"><a><i class= "fas fa-bell nav-icon"></i>Link</a></li><li class= "agm-nav-link agm-nav-list"><a>Link</a></li><li class= "agm-nav-list"><a><img src= "#" class= "nav-img">Link<i class= "fas fa-caret-down nav-icon float-right"></i></a><ul class= "agm-nav-items"><li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li><li class= "agm-nav-link"><a><i class= "fas fa-user nav-icon"></i>Sub-link</a></li></ul></li><li class= "agm-nav-btn"><button class= "btn btn-solid btn-primary btn-pills btn-block">Button</button></li></ul></div></div>'>COPY</button>
         </div>
     </div>
 </div>

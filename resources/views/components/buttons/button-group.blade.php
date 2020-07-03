@@ -20,6 +20,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-secondary</span>" >Right< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-group-1" copy-data= '<div class= "btn-group" role= "group" aria-label= "Basic example"><button type= "button" class= "btn btn-solid btn-secondary">Left</button><button type= "button" class= "btn btn-solid btn-secondary">Middle</button><button type= "button" class= "btn btn-solid btn-secondary">Right</button></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BUTTON TOOLBAR</p>
@@ -63,6 +64,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-group-2" copy-data= '<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups"><div class="btn-group mr-2" role="group" aria-label="First group"><button type="button" class="btn btn-solid btn-secondary">1</button><button type="button" class="btn btn-solid btn-secondary">2</button><button type="button" class="btn btn-solid btn-secondary">3</button><button type="button" class="btn btn-solid btn-secondary">4</button></div><div class="btn-group mr-2" role="group" aria-label="Second group"><button type="button" class="btn btn-solid btn-secondary">5</button><button type="button" class="btn btn-solid btn-secondary">6</button><button type="button" class="btn btn-solid btn-secondary">7</button></div><div class="btn-group" role="group" aria-label="Third group"><button type="button" class="btn btn-solid btn-secondary">8</button></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZING</p>
@@ -100,6 +102,7 @@
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">btn-group</span>" role= "<span class= "text-danger">group</span>" aria-label= "<span class= "text-danger">...</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">div</span> class= "<span class= "text-danger">btn-group btn-group-sm</span>" role= "<span class= "text-danger">group</span>" aria-label= "<span class= "text-danger">...</span>" >...< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-group-3" copy-data= '<div class= "btn-group mb-2 btn-group-lg" role= "group" aria-label= "Basic example"><button type= "button" class= "btn btn-solid btn-secondary">Left</button><button type= "button" class= "btn btn-solid btn-secondary">Middle</button><button type= "button" class= "btn btn-solid btn-secondary">Right</button></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">NESTING</p>
@@ -135,6 +138,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-btn-group-4" copy-data= '<div class="btn-group" role="group" aria-label="Button group with nested dropdown"><button type="button" class="btn btn-solid btn-secondary">1</button><button type="button" class="btn btn-solid btn-secondary">2</button><div class="btn-group" role="group"><button id="btnGroupDrop1" type="button" class="btn btn-solid btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button><div class="dropdown-menu" aria-labelledby="btnGroupDrop1"><a class="dropdown-item" href="#">Dropdown link</a><a class="dropdown-item" href="#">Dropdown link</a></div></div></div>'>COPY</button>
         </div>
     </div>
 </div>

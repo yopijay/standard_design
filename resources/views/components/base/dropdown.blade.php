@@ -30,6 +30,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-1" copy-data= '<div class="dropdown"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown button</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">And with < <span class= "text-danger">a</span> > elements:</p>
@@ -58,6 +59,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-2" copy-data= '<div class="dropdown"><a class="btn btn-solid btn-secondary dropdown-toggle" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown button</a><div class="dropdown-menu" aria-labelledby="dropdownMenuLink"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">The best part is you can do this with any button variant, too:</p>
@@ -174,6 +176,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-3" copy-data= '<div class="btn-group mb-1"><button class="btn btn-solid btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Primary</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a><div class= "dropdown-divider"></div><a class= "dropdown-item" href= "#">Separated link</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SPLIT BUTTON</p>
@@ -301,6 +304,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-4" copy-data= '<div class="btn-group mb-1"><button type="button" class="btn btn-solid btn-primary">Primary</button><button type="button" class="btn btn-solid btn-primary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr-only">Toggle Dropdown</span></button><div class="dropdown-menu"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a><div class="dropdown-divider"></div><a class="dropdown-item" href="#">Separated link</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZING</p>
@@ -367,6 +371,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-5" copy-data= '<div class= "btn-group mb-1"><button class="btn btn-solid btn-secondary btn-lg dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Large button</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-3 h5">DIRECTIONS</p>
@@ -417,6 +422,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-6" copy-data= '<div class= "btn-group dropup mb-1"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">DROPRIGHT</p>
@@ -466,6 +472,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-7" copy-data= '<div class= "btn-group dropright mb-1"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropright</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">DROPLEFT</p>
@@ -519,6 +526,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-primary</span>" >Dropleft< <span class= "text-danger">/button</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-8" copy-data= '<div class= "btn-group dropleft mb-1"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropleft</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">MENU ITEMS</p>
@@ -548,6 +556,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-9" copy-data= '<div class="dropdown"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown button</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><button class="dropdown-item" type="button">Action</button><button class="dropdown-item" type="button">Another action</button><button class="dropdown-item" type="button">Something else here</button></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">You can also create non-interactive dropdown items with <span class= "text-danger">.dropdown-item-text</span>. Feel free to style further with custom CSS or text utilities.</p>
@@ -578,6 +587,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-10" copy-data= '<div class="dropdown"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown button</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><span class="dropdown-item-text">Dropdown item text</span><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">ACTIVE</p>
@@ -607,6 +617,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-11" copy-data= '<div class="dropdown"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown button</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">Action</a><a class="dropdown-item active" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">DISABLED</p>
@@ -636,6 +647,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-12" copy-data= '<div class="dropdown"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown button</button><div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item disabled" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">MENU ALIGNMENT</p>
@@ -665,6 +677,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-13" copy-data= '<div class="dropdown"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Right-aligned menu</button><div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">RESPONSIVE ALIGNMENT</p>
@@ -695,6 +708,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-14" copy-data= '<div class="btn-group"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-display= "static" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Left-aligned but right aligned when large screen</button><div class="dropdown-menu dropdown-menu-lg-right" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">To align <b>left</b> the dropdown menu with the given breakpoint or larger, add <span class= "text-danger">.dropdown-menu-right</span> and <span class= "text-danger">.dropdown-menu{-sm|-md|-lg|-xl}-left</span>.</p>
@@ -723,6 +737,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class="text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class="text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-dropdown-15" copy-data= '<div class="btn-group"><button class="btn btn-solid btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-display= "static" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Right-aligned but left aligned when large screen</button><div class="dropdown-menu dropdown-menu-right dropdown-menu-lg-left" aria-labelledby="dropdownMenuButton"> <a class="dropdown-item" href="#">Action</a><a class="dropdown-item" href="#">Another action</a><a class="dropdown-item" href="#">Something else here</a></div></div>'>COPY</button>
         </div>
     </div>
 </div>

@@ -29,6 +29,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-pagination-1" copy-data= '<nav aria-label="Page navigation example"><ul class="pagination"><li class="page-item"><a class="page-link" href="#">Previous</a></li><li class="page-item"><a class="page-link" href="#">1</a></li><li class="page-item"><a class="page-link" href="#">2</a></li><li class="page-item"><a class="page-link" href="#">3</a></li><li class="page-item"><a class="page-link" href="#">Next</a></li></ul></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">WORING WITH ICONS</p>
@@ -58,6 +59,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-pagination-2" copy-data= '<nav aria-label="Page navigation example"><ul class="pagination"><li class="page-item"><a class="page-link" href="#" aria-label= "Previous"><span aria-hidden= "true">&laquo;</span></a></li><li class="page-item"><a class="page-link" href="#">1</a></li><li class="page-item"><a class="page-link" href="#">2</a></li><li class="page-item"><a class="page-link" href="#">3</a></li><li class="page-item"><a class="page-link" href="#" aria-label= "Next"><span aria-hidden= "true">&raquo;</span></a></li></ul></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">DISABLED AND ACTIVE STATES</p>
@@ -88,6 +90,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-pagination-3" copy-data= '<nav aria-label="Page navigation example"><ul class="pagination"><li class="page-item disabled"><a class="page-link" href="#" tabindex= "-1" aria-disabled= "true">Previous</a></li><li class="page-item"><a class="page-link" href="#">1</a></li><li class="page-item active" aria-current= "page"><a class="page-link" href="#">2 <span class= "sr-only">(current)</span></a></li><li class="page-item"><a class="page-link" href="#">3</a></li><li class="page-item"><a class="page-link" href="#">Next</a></li></ul></nav>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">You can optionally swap out active or disabled anchors for <span>, or omit the anchor in the case of the prev/next arrows, to remove click functionality and prevent keyboard focus while retaining intended styles.</p>
@@ -116,6 +119,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-pagination-4" copy-data= '<nav aria-label="Page navigation example"><ul class="pagination"><li class="page-item disabled"><a class="page-link" href="#" tabindex= "-1" aria-disabled= "true">Previous</a></li><li class="page-item"><a class="page-link" href="#">1</a></li><li class="page-item active" aria-current= "page"><a class="page-link" href="#">2 <span class= "sr-only">(current)</span></a></li><li class="page-item"><a class="page-link" href="#">3</a></li><li class="page-item"><a class="page-link" href="#">Next</a></li></ul></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZING</p>
@@ -141,6 +145,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-pagination-5" copy-data= '<nav aria-label="Page navigation example"><ul class="pagination pagination-lg"><li class="page-item"><a class="page-link" href="#">1</a></li><li class="page-item"><a class="page-link" href="#">2</a></li><li class="page-item"><a class="page-link" href="#">3</a></li></ul></nav>'>COPY</button>
         </div>
     </div>
     <div class= "row mt-3 mb-5">
@@ -164,6 +169,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-pagination-6" copy-data= '<nav aria-label="Page navigation example"><ul class="pagination pagination-sm"><li class="page-item"><a class="page-link" href="#">1</a></li><li class="page-item"><a class="page-link" href="#">2</a></li><li class="page-item"><a class="page-link" href="#">3</a></li></ul></nav>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">ALIGNMENT</p>
@@ -193,6 +199,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-pagination-7" copy-data= '<nav aria-label="Page navigation example"><ul class="pagination justify-content-center"><li class="page-item"><a class="page-link" href="#">Previous</a></li><li class="page-item"><a class="page-link" href="#">1</a></li><li class="page-item"><a class="page-link" href="#">2</a></li><li class="page-item"><a class="page-link" href="#">3</a></li><li class="page-item"><a class="page-link" href="#">Next</a></li></ul></nav>'>COPY</button>
         </div>
     </div>
     <div class= "row my-3">
@@ -220,6 +227,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/ul</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/nav</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-pagination-8" copy-data= '<nav aria-label="Page navigation example"><ul class="pagination justify-content-end"><li class="page-item"><a class="page-link" href="#">Previous</a></li><li class="page-item"><a class="page-link" href="#">1</a></li><li class="page-item"><a class="page-link" href="#">2</a></li><li class="page-item"><a class="page-link" href="#">3</a></li><li class="page-item"><a class="page-link" href="#">Next</a></li></ul></nav>'>COPY</button>
         </div>
     </div>
 </div>

@@ -20,6 +20,7 @@
             <p class= "mb-1">< <span class= "text-danger">h4</span> >Example heading < <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-secondary</span>" >New< <span class= "text-danger">/span</span> >< <span class= "text-danger">/h4</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">h5</span> >Example heading < <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-secondary</span>" >New< <span class= "text-danger">/span</span> >< <span class= "text-danger">/h5</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-badge-1" copy-data= '<h1>Example heading <span class="agm-badge badge-secondary">New</span></h1>'>COPY</button>
         </div>
     </div>
     <p class= "mb-1">Badges can be used as part of links or buttons to provide a counter.</p>
@@ -32,6 +33,7 @@
             <p class= "h5 text-info mb-3">Example Code:</p>
             <p class= "mb-1">< <span class= "text-danger">button</span> type= "<span class= "text-danger">button</span>" class= "<span class= "text-danger">btn btn-solid btn-primary</span>" >Notification < <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-light</span>" >4< <span class= "text-danger">/span</span> >< <span class= "text-danger">/button</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-badge-2" copy-data= '<button type= "button" class= "btn btn-solid btn-primary">Notification <span class= "agm-badge badge-light">4</span></button>'>COPY</button>
         </div>
     </div>
     <p class= "mb-3">Note that depending on how they are used, badges may be confusing for users of screen readers and similar assistive technologies. While the styling of badges provides a visual cue as to their purpose, these users will simply be presented with the content of the badge. Depending on the specific situation, these badges may seem like random additional words or numbers at the end of a sentence, link, or button.</p>
@@ -69,6 +71,7 @@
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-light</span>" >Light< <span class= "text-danger">/span</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-dark</span>" >Dark< <span class= "text-danger">/span</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-badge-3" copy-data= '<span class= "agm-badge badge-primary">Primary</span>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">PILL BADGES</p>
@@ -104,6 +107,7 @@
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-light badge-pills</span>" >Light< <span class= "text-danger">/span</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-dark badge-pills</span>" >Dark< <span class= "text-danger">/span</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-badge-4" copy-data= '<span class= "agm-badge badge-primary badge-pills">Primary</span>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SQUARE BADGES</p>
@@ -139,6 +143,7 @@
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-light badge-square</span>" >Light< <span class= "text-danger">/span</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">span</span> class= "<span class= "text-danger">agm-badge badge-dark badge-square</span>" >Dark< <span class= "text-danger">/span</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-badge-5" copy-data= '<span class= "agm-badge badge-primary badge-square">Primary</span>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">LINKS</p>
@@ -166,6 +171,7 @@
             <p class= "mb-1">< <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">agm-badge badge-light</span>" >Light< <span class= "text-danger">/a</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">a</span> href= "<span class= "text-danger">#</span>" class= "<span class= "text-danger">agm-badge badge-dark</span>" >Dark< <span class= "text-danger">/a</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-badge-6" copy-data= '<a href= "#" class= "agm-badge badge-primary">Primary</a>'>COPY</button>
         </div>
     </div>
 </div>

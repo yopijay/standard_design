@@ -34,6 +34,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/div</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-group-1" copy-data= '<div class= "input-group mb-2"><div class= "input-group-prepend"><span class= "input-group-text" id= "basic-addon1">@</span></div><input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">WRAPPING</p>
@@ -57,6 +58,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">form-control</span>" ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-group-2" copy-data= '<div class= "input-group flex-nowrap mb-2"><div class= "input-group-prepend"><span class= "input-group-text" id= "basic-addon1">@</span></div><input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZING</p>
@@ -105,6 +107,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">form-control</span>" ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-group-3" copy-data= '<div class= "input-group input-group-sm mb-2"><div class= "input-group-prepend"><span class= "input-group-text" id= "basic-addon1">Small</span></div><input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">CHECKBOX AND RADIOS</p>
@@ -162,6 +165,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">form-control</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-group-4" copy-data= '<div class= "input-group mb-2"><div class= "input-group-prepend"><div class= "input-group-text"><div class= "form-checkbox checkbox-default"><input type= "checkbox" id= "checkbox-prepend"><label for= "checkbox-prepend"><i class= "fas fa-check align-middle"></i></label></div></div></div><input type= "text" class= "form-control"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">MULTIPLE INPUTS</p>
@@ -187,6 +191,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">form-control</span>" ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-group-5" copy-data= '<div class= "input-group mb-2"><div class= "input-group-prepend"><span class= "input-group-text" id= "basic-addon1">@</span></div><input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1"><input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">MULTIPLE ADDONS</p>
@@ -212,6 +217,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">form-control</span>" ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-group-6" copy-data= '<div class= "input-group mb-2"><div class= "input-group-prepend"><span class= "input-group-text" id= "basic-addon1">@</span><span class= "input-group-text" id= "basic-addon1">@</span></div><input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1"></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">BUTTON ADDONS</p>
@@ -234,6 +240,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">input</span> type= "<span class= "text-danger">...</span>" class= "<span class= "text-danger">form-control</span>" ></p>
             <p class= "mb-3">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-input-group-7" copy-data= '<div class= "input-group mb-2"><div class= "input-group-prepend"><button type= "button" class= "btn btn-solid btn-secondary">Button</button></div><input type= "text" class= "form-control" aria-label= "Username" aria-describedby= "basic-addon1"></div>'>COPY</button>
         </div>
     </div>
 </div>

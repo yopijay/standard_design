@@ -67,6 +67,7 @@
             <p class= "mb-1">< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control mobile-no</span>" ></p>
             <p class= "mb-1">< <span class= "text-danger">input</span> type= "<span class= "text-danger">text</span>" class= "<span class= "text-danger">form-control currency</span>" currency-symbol= "<span class= "text-danger">$</span>"</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-mask" copy-data= '<input type= "text" class= "form-control currency mask-input" id= "currency-sample" currency-symbol= "$">'>COPY</button>
         </div>
     </div>
 </div>

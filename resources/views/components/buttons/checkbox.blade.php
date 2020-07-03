@@ -24,6 +24,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/label</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-chck-1" copy-data= '<div class= "form-checkbox checkbox-default"><input type= "checkbox" id= "checkbox-default"><label for= "checkbox-default"><i class= "fas fa-check align-middle"></i><p>Normal Checkbox</p></label></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">ROUNDED</p>
@@ -49,6 +50,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/label</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-chck-2" copy-data= '<div class= "form-checkbox checkbox-rounded"><input type= "checkbox" id= "checkbox-rounded"><label for="checkbox-rounded"><span></span><p>Rounded checkbox</p></label></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">ANIMATED</p>
@@ -77,6 +79,7 @@
             <p class= "mb-1">&nbsp;&nbsp;&nbsp;< <span class= "text-danger">/label</span> ></p>
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-chck-3" copy-data= '<div class= "form-checkbox checkbox-animated"><input type= "checkbox" id= "checkbox-animated"><label for= "checkbox-animated"><svg viewBox= "0 0 18 18"><path d= "M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z"></path><polyline points= "1 9 7 14 15 4"></polyline></svg><p>Animated checkbox</p></label></div>'>COPY</button>
         </div>
     </div>
 </div>

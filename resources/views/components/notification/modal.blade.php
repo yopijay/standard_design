@@ -30,6 +30,7 @@
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning mb-1"><i class= "fas fa-info-circle"></i>Make sure that <b>data-target</b> and <b>id</b> of the modal are the same!</p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-modal-1" copy-data= '<button class= "btn btn-solid btn-primary" data-toggle= "modal" data-target= "#normalModal">Show Modal</button><div class="modal fade" id= "normalModal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Modal title</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class= "fas fa-times align-middle"></i></button></div><div class="modal-body"><p class= "mb-1">Modal body text goes here.</p></div><div class="modal-footer"><button type="button" class="btn btn-solid btn-secondary" data-dismiss="modal">Close</button><button type="button" class="btn btn-solid btn-primary">Save changes</button></div></div></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">SIZES</p>
@@ -62,6 +63,7 @@
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning mb-1"><i class= "fas fa-info-circle"></i>Make sure that <b>data-target</b> and <b>id</b> of the modal are the same!</p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-modal-2" copy-data= '<button class= "btn btn-solid btn-primary mb-2" data-toggle= "modal" data-target= "#smallModal">Small Modal</button><div class="modal fade" id= "smallModal" tabindex="-1" role="dialog"><div class="modal-dialog modal-sm" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Modal title</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class= "fas fa-times align-middle"></i></button></div><div class="modal-body"><p class= "mb-1">Modal body text goes here.</p></div><div class="modal-footer"><button type="button" class="btn btn-solid btn-secondary" data-dismiss="modal">Close</button><button type="button" class="btn btn-solid btn-primary">Save changes</button></div></div></div></div>'>COPY</button>
         </div>
     </div>
     <p class= "text-info mb-1 h5">STYLES</p>
@@ -95,6 +97,7 @@
             <p class= "mb-1">< <span class= "text-danger">/div</span> ></p>
             <p id= "note" class= "text-warning mb-1"><i class= "fas fa-info-circle"></i>Make sure that <b>data-target</b> and <b>id</b> of the modal are the same!</p>
             <p id= "note" class= "text-warning"><i class= "fas fa-info-circle"></i>Just remove the spaces when you copy it!</p>
+            <button type= "button" class= "btn btn-solid btn-primary float-right mt-5 btn-copy" id= "copy-modal-3" copy-data= '<button class= "btn btn-solid btn-success mb-2" data-toggle= "modal" data-target= "#successModal">Success Modal</button><div class="modal fade modal-success" id= "successModal" tabindex="-1" role="dialog"><div class="modal-dialog" role="document"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Modal title</h5><button type="button" class="close" data-dismiss="modal" aria-label="Close"><i class= "fas fa-times align-middle"></i></button></div><div class="modal-body"><p class= "mb-1">Modal body text goes here.</p></div><div class="modal-footer"><button type="button" class="btn btn-solid btn-secondary" data-dismiss="modal">Close</button><button type="button" class="btn btn-solid btn-success">Save changes</button></div></div></div></div>'>COPY</button>
         </div>
     </div>
 </div>
