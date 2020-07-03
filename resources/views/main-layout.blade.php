@@ -167,8 +167,6 @@
                     @include('components.nav.sidenav')
                     @include('components.table.datatable')
                     @include('components.table.standard')
-                    @include('components.pages.login')
-                    @include('components.pages.404')
                     @include('utilities.border')
                     @include('utilities.clearfix')
                     @include('utilities.color')
@@ -181,6 +179,8 @@
                     @include('utilities.shadow')
                     @include('utilities.sizing')
                     @include('utilities.visibility')
+                    @include('components.pages.login')
+                    @include('components.pages.404')
                 </div>
             </div>
         </div>  

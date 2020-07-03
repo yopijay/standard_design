@@ -1,30 +1,30 @@
 // Text Themes
 @mixin text-theme() {
-    .text-primary {
+    .agm-text-primary {
         color: $color-primary;
     }
-    .text-secondary {
+    .agm-text-secondary {
         color: $color-secondary;
     }
-    .text-success {
+    .agm-text-success {
         color: $color-success;
     }
-    .text-warning {
+    .agm-text-warning {
         color: $color-warning;
     }
-    .text-danger {
+    .agm-text-danger {
         color: $color-danger;
     }
-    .text-info {
+    .agm-text-info {
         color: $color-info;
     }
-    .text-light {
+    .agm-text-light {
         color: $color-light;
     }
-    .text-dark {
+    .agm-text-dark {
         color: $color-dark;
     }
-    .text-white {
+    .agm-text-white {
         color: #FFFFFF;
     }
 }

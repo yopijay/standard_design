@@ -13292,39 +13292,39 @@ body.agm-standard .agm-navbar.navbar-dark .agm-toggle-dots {
   }
 }
 
-body.agm-standard .text-primary {
+body.agm-standard .agm-text-primary {
   color: #00a8ff;
 }
 
-body.agm-standard .text-secondary {
+body.agm-standard .agm-text-secondary {
   color: #7f8fa6;
 }
 
-body.agm-standard .text-success {
+body.agm-standard .agm-text-success {
   color: #4cd137;
 }
 
-body.agm-standard .text-warning {
+body.agm-standard .agm-text-warning {
   color: #fbc531;
 }
 
-body.agm-standard .text-danger {
+body.agm-standard .agm-text-danger {
   color: #e84118;
 }
 
-body.agm-standard .text-info {
+body.agm-standard .agm-text-info {
   color: #273c75;
 }
 
-body.agm-standard .text-light {
+body.agm-standard .agm-text-light {
   color: #f5f6fa;
 }
 
-body.agm-standard .text-dark {
+body.agm-standard .agm-text-dark {
   color: #353b48;
 }
 
-body.agm-standard .text-white {
+body.agm-standard .agm-text-white {
   color: #FFFFFF;
 }
 

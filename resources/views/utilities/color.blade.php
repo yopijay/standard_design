@@ -4,15 +4,15 @@
     <hr>
     <div class= "row my-3">
         <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
-            <p class= "h5 text-info mb-3">Preview:</p>
-            <p class= "mb-1 text-primary">.text-primary</p>
-            <p class= "mb-1 text-secondary">.text-secondary</p>
-            <p class= "mb-1 text-success">.text-success</p>
-            <p class= "mb-1 text-warning">.text-warning</p>
-            <p class= "mb-1 text-danger">.text-danger</p>
-            <p class= "mb-1 text-info">.text-info</p>
-            <p class= "mb-1 text-light agm-bg-secondary">.text-light</p>
-            <p class= "mb-1 text-dark">.text-dark</p>
+            <p class= "h5 agm-text-info mb-3">Preview:</p>
+            <p class= "mb-1 agm-text-primary">.text-primary</p>
+            <p class= "mb-1 agm-text-secondary">.text-secondary</p>
+            <p class= "mb-1 agm-text-success">.text-success</p>
+            <p class= "mb-1 agm-text-warning">.text-warning</p>
+            <p class= "mb-1 agm-text-danger">.text-danger</p>
+            <p class= "mb-1 agm-text-info">.text-info</p>
+            <p class= "mb-1 agm-text-light agm-bg-secondary">.text-light</p>
+            <p class= "mb-1 agm-text-dark">.text-dark</p>
         </div>
         <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
@@ -31,15 +31,15 @@
     <p class= "mb-1">Contextual text classes also work well on anchors with the provided hover and focus states. <b>Note that the <span class= "text-danger">.text-white</span> and <span class= "text-danger">.text-muted</span> class has no additional link styling beyond underline.</b></p>
     <div class= "row mt-3 mb-5">
         <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
-            <p class= "h5 text-info mb-3">Preview:</p>
-            <p><a class= "mb-1 text-primary">Primary Link</a></p>
-            <p><a class= "mb-1 text-secondary">Secondary Link</a></p>
-            <p><a class= "mb-1 text-success">Success Link</a></p>
-            <p><a class= "mb-1 text-warning">Warning Link</a></p>
-            <p><a class= "mb-1 text-danger">Danger Link</a></p>
-            <p><a class= "mb-1 text-info">Info Link</a></p>
-            <p><a class= "mb-1 text-light agm-bg-secondary">Light Link</a></p>
-            <p><a class= "mb-1 text-dark">Dark Link</a></p>
+            <p class= "h5 agm-text-info mb-3">Preview:</p>
+            <p><a class= "mb-1 agm-text-primary">Primary Link</a></p>
+            <p><a class= "mb-1 agm-text-secondary">Secondary Link</a></p>
+            <p><a class= "mb-1 agm-text-success">Success Link</a></p>
+            <p><a class= "mb-1 agm-text-warning">Warning Link</a></p>
+            <p><a class= "mb-1 agm-text-danger">Danger Link</a></p>
+            <p><a class= "mb-1 agm-text-info">Info Link</a></p>
+            <p><a class= "mb-1 agm-text-light agm-bg-secondary">Light Link</a></p>
+            <p><a class= "mb-1 agm-text-dark">Dark Link</a></p>
         </div>
         <div class= "col-lg-6 py-3 col-12">
             <p class= "h5 text-info mb-3">Example Code:</p>
@@ -60,14 +60,14 @@
     <div class= "row mt-3 mb-5">
         <div class= "col-lg-6 agm-bg-light py-3 rounded col-12">
             <p class= "h5 text-info mb-3">Preview:</p>
-            <div class= "d-block agm-bg-primary py-2 px-3 agm-rounded-sm mb-1 text-white">.agm-bg-primary</div>
-            <div class= "d-block agm-bg-secondary py-2 px-3 agm-rounded-sm mb-1 text-white">.agm-bg-secondary</div>
-            <div class= "d-block agm-bg-success py-2 px-3 agm-rounded-sm mb-1 text-white">.agm-bg-success</div>
-            <div class= "d-block agm-bg-warning py-2 px-3 agm-rounded-sm mb-1 text-white">.agm-bg-warning</div>
-            <div class= "d-block agm-bg-danger py-2 px-3 agm-rounded-sm mb-1 text-white">.agm-bg-danger</div>
-            <div class= "d-block agm-bg-info py-2 px-3 agm-rounded-sm mb-1 text-white">.agm-bg-info</div>
+            <div class= "d-block agm-bg-primary py-2 px-3 agm-rounded-sm mb-1 agm-text-white">.agm-bg-primary</div>
+            <div class= "d-block agm-bg-secondary py-2 px-3 agm-rounded-sm mb-1 agm-text-white">.agm-bg-secondary</div>
+            <div class= "d-block agm-bg-success py-2 px-3 agm-rounded-sm mb-1 agm-text-white">.agm-bg-success</div>
+            <div class= "d-block agm-bg-warning py-2 px-3 agm-rounded-sm mb-1 agm-text-white">.agm-bg-warning</div>
+            <div class= "d-block agm-bg-danger py-2 px-3 agm-rounded-sm mb-1 agm-text-white">.agm-bg-danger</div>
+            <div class= "d-block agm-bg-info py-2 px-3 agm-rounded-sm mb-1 agm-text-white">.agm-bg-info</div>
             <div class= "d-block agm-bg-light py-2 px-3 agm-rounded-sm mb-1">.agm-bg-light</div>
-            <div class= "d-block agm-bg-dark py-2 px-3 agm-rounded-sm mb-1 text-white">.agm-bg-dark</div>
+            <div class= "d-block agm-bg-dark py-2 px-3 agm-rounded-sm mb-1 agm-text-white">.agm-bg-dark</div>
             <div class= "d-block agm-bg-white py-2 px-3 agm-rounded-sm mb-1">.agm-bg-white</div>
             <div class= "d-block agm-bg-transparent py-2 px-3 agm-rounded-sm mb-1">.agm-bg-transparent</div>
         </div>
