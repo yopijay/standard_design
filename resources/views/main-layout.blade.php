@@ -183,6 +183,6 @@
                     @include('components.pages.404')
                 </div>
             </div>
-        </div>  
+        </div>
     </body>
 </html>

@@ -13603,7 +13603,7 @@ body.agm-standard .btn.btn-solid.btn-dark:focus {
 
 body.agm-standard .btn.btn-outline {
   border: solid 1px #dcdde1;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #353b48;
 }
 
@@ -13630,7 +13630,7 @@ body.agm-standard .btn.btn-outline:focus {
 
 body.agm-standard .btn.btn-outline.btn-primary {
   border: solid 1px #0097e6;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #00a8ff;
 }
 
@@ -13649,7 +13649,7 @@ body.agm-standard .btn.btn-outline.btn-primary:focus {
 
 body.agm-standard .btn.btn-outline.btn-secondary {
   border: solid 1px #718093;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #7f8fa6;
 }
 
@@ -13668,7 +13668,7 @@ body.agm-standard .btn.btn-outline.btn-secondary:focus {
 
 body.agm-standard .btn.btn-outline.btn-success {
   border: solid 1px #44bd32;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #4cd137;
 }
 
@@ -13687,7 +13687,7 @@ body.agm-standard .btn.btn-outline.btn-success:focus {
 
 body.agm-standard .btn.btn-outline.btn-warning {
   border: solid 1px #e1b12c;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #fbc531;
 }
 
@@ -13706,7 +13706,7 @@ body.agm-standard .btn.btn-outline.btn-warning:focus {
 
 body.agm-standard .btn.btn-outline.btn-danger {
   border: solid 1px #c23616;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #e84118;
 }
 
@@ -13725,7 +13725,7 @@ body.agm-standard .btn.btn-outline.btn-danger:focus {
 
 body.agm-standard .btn.btn-outline.btn-info {
   border: solid 1px #192a56;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #273c75;
 }
 
@@ -13744,7 +13744,7 @@ body.agm-standard .btn.btn-outline.btn-info:focus {
 
 body.agm-standard .btn.btn-outline.btn-light {
   border: solid 1px #dcdde1;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #dcdde1;
 }
 
@@ -13763,7 +13763,7 @@ body.agm-standard .btn.btn-outline.btn-light:focus {
 
 body.agm-standard .btn.btn-outline.btn-dark {
   border: solid 1px #2f3640;
-  background-color: #FFFFFF;
+  background-color: #ffffff00;
   color: #353b48;
 }
 

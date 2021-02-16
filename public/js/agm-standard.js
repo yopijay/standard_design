@@ -345,7 +345,7 @@ $.fn.validate = function(hasToast) {
 
             let _value = inputs[count].value;
             let _type = inputs[count].type;
-            let _label = $('#' + _id + '').attr('input-label');
+            // let _label = $('#' + _id + '').attr('input-label');
 
             if (!($('#' + _id + '').hasClass('except'))) {
                 if (_value == '') {
@@ -353,7 +353,7 @@ $.fn.validate = function(hasToast) {
                     if (document.body.contains(document.getElementById(_id + '-form-message'))) {
                         document.getElementById(_id + '-form-message').remove();
                     }
-                    let _message = '<p class= "form-message text-danger" id= "' + _id + '-form-message">This must not be empty.</p>';
+                    let _message = '<p class= "form-message text-danger" id= "' + _id + '-form-message">This field is required.</p>';
                     document.getElementById(_id).insertAdjacentHTML('afterend', _message);
                     result = false;
                 } else if (_type == 'email' && !validEmail.test(_value)) {
@@ -387,7 +387,7 @@ $.fn.validate = function(hasToast) {
 
             _value = inputs[count].value;
             _type = inputs[count].type;
-            _label = $('#' + _id + '').attr('input-label');
+            // _label = $('#' + _id + '').attr('input-label');
 
             if (!($('#' + _id + '').hasClass('except'))) {
                 if (_value == '') {
@@ -411,7 +411,7 @@ $.fn.validate = function(hasToast) {
 
             _value = inputs[count].value;
             _type = inputs[count].type;
-            _label = $('#' + _id + '').attr('input-label');
+            // _label = $('#' + _id + '').attr('input-label');
 
             if (!($('#' + _id + '').hasClass('except'))) {
                 if (_value == '') {

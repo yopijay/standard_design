@@ -15,7 +15,7 @@
             @include button-type(solid, $color-light, $color-light-highlight, $color-dark);
         }
         &.btn-outline {
-            @include button-type(outline, #FFFFFF, $color-light-highlight, $color-dark);
+            @include button-type(outline, #ffffff00, $color-light-highlight, $color-dark);
         }
         &.btn-square {
             @include button-type(square, #FFFFFF, $color-light-highlight, $color-dark);
@@ -292,7 +292,7 @@
     @else if $type=='outline' {
         &.btn-primary {
             border: solid 1px $color-primary-highlight;
-            background-color: #FFFFFF;
+            background-color: #ffffff00;
             color: $color-primary;
             &:hover {
                 background-color: $color-primary-highlight;
@@ -308,7 +308,7 @@
         }
         &.btn-secondary {
             border: solid 1px $color-secondary-highlight;
-            background-color: #FFFFFF;
+            background-color: #ffffff00;
             color: $color-secondary;
             &:hover {
                 background-color: $color-secondary-highlight;
@@ -324,7 +324,7 @@
         }
         &.btn-success {
             border: solid 1px $color-success-highlight;
-            background-color: #FFFFFF;
+            background-color: #ffffff00;
             color: $color-success;
             &:hover {
                 background-color: $color-success-highlight;
@@ -340,7 +340,7 @@
         }
         &.btn-warning {
             border: solid 1px $color-warning-highlight;
-            background-color: #FFFFFF;
+            background-color: #ffffff00;
             color: $color-warning;
             &:hover {
                 background-color: $color-warning-highlight;
@@ -356,7 +356,7 @@
         }
         &.btn-danger {
             border: solid 1px $color-danger-highlight;
-            background-color: #FFFFFF;
+            background-color: #ffffff00;
             color: $color-danger;
             &:hover {
                 background-color: $color-danger-highlight;
@@ -372,7 +372,7 @@
         }
         &.btn-info {
             border: solid 1px $color-info-highlight;
-            background-color: #FFFFFF;
+            background-color: #ffffff00;
             color: $color-info;
             &:hover {
                 background-color: $color-info-highlight;
@@ -388,7 +388,7 @@
         }
         &.btn-light {
             border: solid 1px $color-light-highlight;
-            background-color: #FFFFFF;
+            background-color: #ffffff00;
             color: $color-light-highlight;
             &:hover {
                 background-color: $color-light-highlight;
@@ -404,7 +404,7 @@
         }
         &.btn-dark {
             border: solid 1px $color-dark-highlight;
-            background-color: #FFFFFF;
+            background-color: #ffffff00;
             color: $color-dark;
             &:hover {
                 background-color: $color-dark-highlight;

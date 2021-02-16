@@ -4,7 +4,7 @@ $(function() {
     let _validate = $('#input-validation');
 
     $('.content').css({ display: 'none' });
-    $('#login-page').css({ display: 'block' });
+    $('#dashboard-page').css({ display: 'block' });
 
     $(links).on('click', function() {
         let content = $(this).find('a').attr('content');
